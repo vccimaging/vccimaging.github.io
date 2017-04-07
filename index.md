@@ -14,7 +14,12 @@ a| b | c
 d | e | f
 
 
-------- | --------
-![wh](Images/heidrich.jpg) | this is a test
-![wh](Images/heidrich.jpg) | this is another test
-![wh](Images/heidrich.jpg) | this is a final test
+## Publication format tests
+
+ | 
+ ------- | -------
+![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3: **Title**<br>Venue<br>Year<br>Link to project page
+![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3: **Title**<br>Venue<br>Year<br>Link to project page
+![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3: **Title**<br>Venue<br>Year<br>Link to project page
+
+
