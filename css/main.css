@@ -52,8 +52,8 @@ footer {
 tbody tr:nth-child(odd) {
   background: #eee;
 }
-th.first-col > div,
-td.first-col > div {
+th.first-col,
+td.first-col {
     overflow:hidden;
     white-space:nowrap;
     width:120px
