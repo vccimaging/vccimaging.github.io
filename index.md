@@ -16,10 +16,10 @@ d | e | f
 
 ## Publication format tests
 
-2016 | dummaaaansakdlfnklasdflasdkflsdkfslkdfmkmsdfmlksdmflmsldmflmsdlkfmlksdmfmlsmdlfmksmdflsmmlkmnalsfdklsdmflsdkfmlsdmflkdsmdfmlkmsfld
- ------- | ------------------------------------------------------------------------------------------------------------------------------
-![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3: **Title**<br>Venue<br>Year<br>Link to project page
-![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3: **Title**<br>Venue<br>Year<br>Link to project page
-![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3: **Title**<br>Venue<br>Year<br>Link to project page
+2016 | 
+------- | ------------------------------------------------------------------------------------------------------------------------------
+![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
+![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
+![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
 
 
