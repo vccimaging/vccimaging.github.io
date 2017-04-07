@@ -52,3 +52,6 @@ footer {
 tbody tr:nth-child(odd) {
   background: #eee;
 }
+table {
+    border: 1px solid #ccc;
+}
