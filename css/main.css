@@ -52,7 +52,7 @@ footer {
 tbody tr:nth-child(odd) {
   background: #eee;
 }
-tbody tr td:nth-child(0) {
+tbody tr td:nth-child(1) {
     width: 120px;
 }
 table {
