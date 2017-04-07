@@ -52,6 +52,10 @@ footer {
 tbody tr:nth-child(odd) {
   background: #eee;
 }
+tbody td:nth-child(0) {
+    width: 120px;
+}
 table {
     border: 1px solid #ccc;
+    width: 100%;
 }
