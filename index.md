@@ -19,7 +19,7 @@ d | e | f
 2016 | 
 ------- | ------------------------------------------------------------------------------------------------------------------------------
 ![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
-![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
+![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**naskdfn adfklsajdklfjskdjfkjsdkfjklsdf ksjd fsdf lksjdfksd**<br>Venue, Year<br>Link to project page
 ![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
 
 
