@@ -52,12 +52,6 @@ footer {
 tbody tr:nth-child(odd) {
   background: #eee;
 }
-th.first-col,
-td.first-col {
-    overflow:hidden;
-    white-space:nowrap;
-    width:120px
-}
 table {
     border: 1px solid #ccc;
     table-layout: fixed;
