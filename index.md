@@ -16,7 +16,7 @@ d | e | f
 
 #### Publication format tests
 
-2016 | 
+<style "width=120px">2016</style> | 
 ------- | ------------------------------------------------------------------------------------------------------------------------------
 ![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
 ![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**naskdfn ksjd aaafsdf lksjdfksd**<br>Venue, Year<br>Link to project page
