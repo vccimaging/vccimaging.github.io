@@ -1,7 +1,10 @@
 ---
 - Pub1:
   title: Title of the first paper
-  authors: Author 1, Author 2, Another Author
+  authors:
+    - Author 1
+    - Author 2
+    - Another Author
   venue: Publication venue
   year: 2016
   pdf: http://vcc.kaust.edu.sa
@@ -9,7 +12,9 @@
   
 - Pub2:
   title: Title of another paper
-  authors: First Author, Second Author
+  authors:
+    - First Author
+    - Second Author
   venue: Another Venue
   year: 2015
   pdf: http://www.kaust.edu.sa
@@ -17,7 +22,8 @@
   
 - Pub3:
   title: Just a title
-  authors: Sole Author
+  authors:
+    - Sole Author
   venue: Somewhere
   year: 2017
   note: to appear
