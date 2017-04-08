@@ -18,4 +18,8 @@
 - Pub3:
   title: Just a title
   authors: Sole Author
+  venue: Somewhere
+  year: 2017
+  note: to appear
+  project: http://www.cs.ubc.ca/~heidrich/Papers
 ...
