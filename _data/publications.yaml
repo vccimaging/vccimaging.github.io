@@ -1,21 +1,21 @@
 ---
 - Pub1:
-  Title: Title of the first paper
-  Authors: Author 1, Author 2, Another Author
-  Venue: Publication venue
-  Year: 2016
-  PDF: http://vcc.kaust.edu.sa
-  Image: Images/heidrich.jpg
+  title: Title of the first paper
+  authors: Author 1, Author 2, Another Author
+  venue: Publication venue
+  year: 2016
+  pdf: http://vcc.kaust.edu.sa
+  image: Images/heidrich.jpg
   
 - Pub2:
-  Title: Title of another paper
-  Authors: First Author, Second Author
-  Venue: Another Venue
-  Year: 2015
-  PDF: http://www.kaust.edu.sa
-  Image: Images/heidrich.jpg
+  title: Title of another paper
+  authors: First Author, Second Author
+  venue: Another Venue
+  year: 2015
+  pdf: http://www.kaust.edu.sa
+  image: Images/heidrich.jpg
   
 - Pub3:
-  Title: Just a title
-  Authors: Sole Author
+  title: Just a title
+  authors: Sole Author
 ...
