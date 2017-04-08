@@ -63,7 +63,7 @@ p {
 footer {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     border-top: 1px solid #d5d5d5;
-    font-size:50%;
+    font-size:x-small;
 }
 tbody tr:nth-child(odd) {
   background: #eee;
@@ -72,5 +72,5 @@ table {
     border: 1px solid #ccc;
     table-layout: fixed;
     width: 100%;
-    font-size:75%;
+    font-size:small;
 }
