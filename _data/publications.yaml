@@ -1,3 +1,4 @@
+---
 - Pub1:
   Title: Title of the first paper
   Authors: Author 1, Author 2, Another Author
@@ -17,3 +18,4 @@
 - Pub3:
   Title: Just a title
   Authors: Sole Author
+...
