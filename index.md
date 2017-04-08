@@ -1,9 +1,9 @@
 ---
 layout: default
-title: VCC Imaging Group
+title: Computational Imaging Group
 ---
 
-# VCC Imaging Group
+# Computational Imaging Group
 
 Todo: some image
 
