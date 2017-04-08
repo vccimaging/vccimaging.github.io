@@ -12,29 +12,4 @@
   pages: 10 pages
   number: 33543
   month: September
-- Peng2016TDA:
-  authors:
-    - Y. Peng
-    - Q. Fu
-    - W. Heidrich
-  title: The Diffractive Achromat: Full Spectrum Computational Imaging with Diffractive Optics
-  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
-  year: 2016
-  volume: 35
-  number: 4
-  month: July
-  pages: 311--3111
-- Shrestha2016CIP:
-  authors:
-    - S. Shrestha
-    - F. Heide
-    - W. Heidrich
-    - G. Wetzstein
-  title: Computational Imaging with Phased Time-of-Flight Camera Arrays
-  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
-  year: 2016
-  volume: 35
-  number: 4
-  month: July
-  pages: 331--3312
 ...
