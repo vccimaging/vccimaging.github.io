@@ -1,0 +1,17 @@
+- Pub1:
+  Title: Title of the first paper
+  Authors: Author 1, Author 2, Another Author
+  Venue: Publication venue
+  Year: 2016
+  PDF: http://vcc.kaust.edu.sa
+  Image: Images/heidrich.jpg
+  
+- Pub2:
+  Title: Title of another paper
+  Authors: First Author, Second Author
+  Venue: Another Venue
+  Year: 2015
+  PDF: http://www.kaust.edu.sa
+  Image: Images/heidrich.jpg
+  
+  
