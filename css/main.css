@@ -1,6 +1,5 @@
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size:large;
     margin: 60px auto;
     width: 85%;
 }
@@ -41,6 +40,9 @@ p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     line-height: 1;
     color: #333;
+}
+h1 {
+    font-size:3.5em;
 }
 footer {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
