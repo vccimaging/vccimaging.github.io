@@ -175,4 +175,430 @@
   number: 8
   pages: 10224--10232
 
+
+
+- Heide2014FFC:
+  authors:
+    - F. Heide
+    - M. Steinberger
+    - YT. Tsai
+    - M. Rouf
+    - D. Pająk
+    - D. Reddy
+    - O. Gallo
+    - J. Liu
+    - W. Heidrich
+    - K. Egiazarian
+    - J. Kautz
+    - K. Pulli
+  title: "FlexISP: A Flexible Camera Image Processing Framework"
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
+  year: 2014
+  volume: 33
+  number: 6
+  pages: 2311--23112
+  month: December
+
+- Wetzstein2014CSP:
+  authors:
+    - G. Wetzstein
+    - W. Heidrich
+    - R. Raskar
+  title: Computational Schlieren Photography with Light Field Probes
+  venue: IJCV
+  year: 2014
+  volume: 110
+  number: 2
+  pages: 113--127
+  month: November
+
+- Heide2014ISM:
+  authors:
+    - F. Heide
+    - L. Xiao
+    - A. Kolb
+    - M. Hullin
+    - W. Heidrich
+  title: Imaging in scattering media using correlation image sensors and sparse convolutional coding
+  venue: Optics Express
+  year: 2014
+  volume: 22
+  number: 21
+  pages: 26338--26350
+
+- Gregson2014FCS:
+  authors:
+    - J. Gregson
+    - I. Ihrke
+    - N. Thuerey
+    - W. Heidrich
+  title: From Capture to Simulation  -- Connecting Forward and Inverse Problems in Fluids
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2014
+  volume: 33
+  number: 3
+  pages: 1391--13910
+  month: August
+
+- OToole2014TFP:
+  authors:
+    - M. O'Toole
+    - F. Heide
+    - L. Xiao
+    - M. Hullin
+    - W. Heidrich
+    - K. Kutulakos
+  title: Temporal Frequency Probing for 5D Transient Analysis of Global Light Transport
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2014
+  volume: 33
+  number: 3
+  pages: 871--8711
+  month: August
+
+- Heide2014ACS:
+  authors:
+    - F. Heide
+    - J. Gregson
+    - G. Wetzstein
+    - R. Raskar
+    - W. Heidrich
+  title: A Compressive Superresolution Display
+  venue: Computational Optical Sensing and Imaging COSI
+  year: 2014
+
+- Heide2014DM3:
+  authors:
+    - F. Heide
+    - L. Xiao
+    - W. Heidrich
+    - M. Hullin
+  title: "Diffuse Mirrors: 3D Reconstruction from Diffuse Indirect Illumination Using Inexpensive Time-of-Flight Sensors"
+  venue: CVPR
+  year: 2014
+  pages: 8 pages
+  month: June
+  note: oral paper
+
+- Heide2014CMM:
+  authors:
+    - F. Heide
+    - J. Gregson
+    - G. Wetzstein
+    - R. Raskar
+    - W. Heidrich
+  title: Compressive multi-mode superresolution display
+  venue: Optics Express
+  year: 2014
+  volume: 22
+  number: 12
+  pages: 14981-14992
+
+- Heide2014CMA:
+  authors:
+    - F. Heide
+    - M. Hullin
+    - M. Rouf
+    - B. Labitzke
+    - A. Kolb
+    - W. Heidrich
+  title: Computational Methods for Aberration Correction in Simple Lens Imaging
+  venue: SPIE Newsroom
+  year: 2014
+
+
+
+- Heide2013LTI:
+  authors:
+    - F. Heide
+    - M. Hullin
+    - J. Gregson
+    - W. Heidrich
+  title: Low-budget Transient Imaging using Photonic Mixer Devices
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2013
+  volume: 32
+  number: 3
+  pages: 451--459
+  month: July
+
+- Heide2013AIS:
+  authors:
+    - F. Heide
+    - G. Wetzstein
+    - W. Heidrich
+    - R. Raskar
+  title: Adaptive Image Synthesis for Compressive Displays
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2013
+  volume: 32
+  number: 3
+  pages: 1321--13211
+  month: July
+
+- Gregson2013SD:
+  Authors:
+    - J. Gregson
+    - F. Heide
+    - M. Hullin
+    - W. Heidrich
+  title: Stochastic Deconvolution
+  venue: CVPR
+  year: 2013
+  pages: 8 pages
+
+- Iffa2013WFD:
+  authors:
+    - E. Iffa
+    - W. Heidrich
+  title: Wave front distortion based fluid flow imaging
+  venue: IS&T/SPIE Electronic Imaging
+  year: 2013
+  pages: 86610L--86610L
+
+- Heide2013HQC:
+  authors:
+    - F. Heide
+    - M. Rouf
+    - M. Hullin
+    - B. Labitzke
+    - W. Heidrich
+    - A. Kolb
+  title: High-Quality Computational Imaging Through Simple Lenses
+  venue: ACM Transactions on Graphics
+  year: 2013
+  volume: 32
+  number: 5
+  pages: 1491--14910
+  month: September
+
+- Wetzstein2013OPM:
+  authors:
+    - G. Wetzstein
+    - I. Ihrke
+    - W. Heidrich
+  title: On Plenoptic Multiplexing and Reconstruction
+  venue: IJCV
+  year: 2013
+  volume: 101
+  number: 2
+  pages: 384--400
+  month: January
+
+
+
+
+- Gregson2012ST:
+  authors:
+    - J. Gregson
+    - M. Krimerman
+    - M. Hullin
+    - W. Heidrich
+  title: Stochastic Tomography and its Applications in 3D Imaging of Mixing Fluids
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2012
+  volume: 31
+  number: 3
+  pages: 521--5210
+  month: August
+
+- Iffa2012LFO:
+  authors:
+    - E. Iffa
+    - G. Wetzstein
+    - W. Heidrich
+  title: Light field optical flow for refractive surface reconstruction
+  venue: SPIE Optical Engineering and Applications
+  year: 2012
+  pages: 84992H--84992H
+
+- Rouf2012GDC:
+  authors:
+    - M. Rouf
+    - C. Lau
+    - W. Heidrich
+  title: Gradient Domain Color Restoration of Clipped Highlights
+  venue: ProCams
+  pages: 7--14
+  year: 2012
+
+- Hullin2012PO:
+  authors:
+    - M. Hullin
+    - J. Hanika
+    - W. Heidrich
+  title: "Polynomial Optics: A Construction Kit for Efficient Ray-Tracing of Lens Systems"
+  venue: EGSR
+  year: 2012
+  pages: 1375--1383
+
+- Trentacoste2012SPC:
+  authors:
+    - M. Trentacoste
+    - W. Heidrich
+    - R. Mantiuk
+    - F. Dufrot
+  title: Unsharp Masking Countershading and Halos: Enhancement or Artifact?
+  venue: Eurographics
+  pages: 555-564
+  year: 2012
+
+- Atcheson2012NPA:
+  authors:
+    - B. Atcheson
+    - W. Heidrich
+  title: Non-Parametric Acquisition of Near-Dirac Pixel Correspondences
+  venue: VISAPP
+  year: 2012
+  pages: 247-254
+
+- Lanman2012BPB:
+  authors:
+    - D. Lanman
+    - G. Wetzstein
+    - M. Hirsch
+    - W. Heidrich
+    - R. Raskar
+  title: "Beyond Parallax Barriers: Applying Formal Optimization Methods to Multi-Layer Automultiscopic Displays"
+  venue: SPIE Stereoscopic Displays and Applications XXIII
+  pages: 82880A-82880A
+  year: 2012
+
+
+
+- Bonneel2011DIU:
+  authors:
+    - N. Bonneel
+    - M. van de Panne
+    - S. Paris
+    - W. Heidrich
+  title: Displacement Interpolation Using Lagrangian Mass Transport
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
+  year: 2011
+  volume: 30
+  number: 5
+  pages: 1581--15812
+  month: December
+
+- Lanman2011PFD:
+  authors:
+    - D. Lanman
+    - G. Wetzstein
+    - M. Hirsch
+    - W. Heidrich
+    - R Raskar
+  title: "Polarization Fields: Dynamic Light Field Display using Multi-Layer LCDs"
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
+  year: 2011
+  volume: 30
+  number: 5
+  pages: 1861--18610
+  month: December
+
+- Mai2011OTM-TIP:
+  authors:
+    - Z. Mai
+    - H. Mansour
+    - R. Mantiuk
+    - P. Nasiopoulos
+    - R. Ward
+    - W. Heidrich
+  title: Optimizing a tone curve for backward-compatible high dynamic range image and video compression
+  venue: IEEE Trans. Image Processing
+  volume: 20
+  number: 6
+  pages: 1558-1571
+  year: 2011
+
+- Wetzstein2011TIG:
+  authors:
+    - G. Wetzstein
+    - D. Lanman
+    - W. Heidrich
+    - R. Raskar
+  title: "Layered 3D: Tomographic Image Synthesis for Attenuation-based Light Field and High Dynamic Range Displays"
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2011
+  volume: 30
+  number: 3
+  pages: 951--9512
+  month: August
+
+- Mantiuk2011CVM:
+  authors:
+    - R. Mantiuk
+    - K. Kim
+    - A. Rempel
+    - W. Heidrich
+  title: HDR-VDP-2 A calibrated visual metric for visibility and quality predictions in all luminance conditions
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2011
+  volume: 30
+  number: 3
+  pages: 401--4014
+  month: August
+
+- Lau2011CCS:
+  authors:
+    - C. Lau
+    - R. Mantiuk
+    - W. Heidrich
+  title: Cluster-based Color Space Optimizations
+  venue: ICCV
+  year: 2011
+  pages: 1172-1179
+
+- Wetzstein2011RSL:
+  authors:
+    - G. Wetzstein
+    - W. Heidrich
+    - R. Raskar
+  title: Refractive Shape from Light Field Distortion
+  venue: ICCV
+  year: 2011
+  pages: 1180-1186
+
+- Cecchetto2011PID:
+  authors:
+    - B. Cecchetto
+    - W. Heidrich
+  title: Probabilistic Inverse Dynamics for Nonlinear Blood Pattern Reconstruction
+  venue: Vision Modeling and Visualization
+  pages: 8 pages
+  year: 2011
+
+- Rouf2011GEH:
+  authors:
+    - M. Rouf
+    - R. Mantiuk
+    - W. Heidrich
+    - M. Trentacoste
+    - C. Lau
+  title: Glare Encoding of High Dynamic Range Images
+  venue: CVPR
+  year: 2011
+  pages: 289--296
+  note: Oral paper
+
+- Trentacoste2011BAI:
+  authors:
+    - M. Trentacoste
+    - R. Mantiuk
+    - W. Heidrich
+  title: Blur-Aware Image Downsampling
+  venue: Eurographics
+  pages: 573--582
+  year: 2011
+
+- Wetzstein2011HHS:
+  authors:
+    - G. Wetzstein
+    - R. Raskar
+    - W. Heidrich
+  title: Hand-Held Schlieren Photography with Light Field Probes
+  venue: Int. Conf. on Computational Photography
+  year: 2011
+  pages: 1--8
+  note: Best Paper Award
+
 ...
