@@ -29,15 +29,18 @@ content {
 pub-authors {
     font-family:'Helvetica Italic', 'Arial Italic', 'Sans-Serif Italic';
     font-style: italic;
+    font-size: small;
     line-height:1.25em;
 }    
 pub-title {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
+    font-size: small;
     line-height:1.25em;
 }    
 pub-normal {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: small;
     line-height:1.25em;
 }    
 p {
