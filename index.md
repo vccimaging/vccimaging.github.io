@@ -5,11 +5,8 @@ title: VCC Imaging Group
 
 # VCC Imaging Group
 
+Todo: some image
+
 ### Overview
 
 TBC
-
-### Links
-
-- [Publications](publications.html)
-- ...
