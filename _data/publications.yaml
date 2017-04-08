@@ -12,4 +12,18 @@
   pages: 10 pages
   number: 33543
   month: September
+
+- Peng2016TDA:
+  authors:
+    - Y. Peng
+    - Q. Fu
+    - W. Heidrich
+  title: The Diffractive Achromat: Full Spectrum Computational Imaging with Diffractive Optics
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2016
+  volume: 35
+  number: 4
+  month: July
+  pages: 311--3111
+
 ...
