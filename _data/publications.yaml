@@ -85,4 +85,95 @@
   year: 2016
   pages: 241--2411
 
+
+- Peng2015CIU:
+  authors:
+    - Y. Peng
+    - Q. Fu
+    - H. Amata
+    - S. Su
+    - F. Heide
+    - W Heidrich
+  title: Computational imaging using lightweight diffractive-refractive optics
+  venue: Optics Express
+  year: 2015
+  volume: 23
+  number: 24
+  pages: 31393--31407
+
+- Heide2015DTOF:
+  authors:
+    - F. Heide
+    - M. Hullin
+    - G. Wetzstein
+    - W. Heidrich
+  title: Doppler Time-of-Flight Imaging
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2015
+  volume: 34
+  number: 3
+  month: August
+ note 91--911
+
+- Heide2015FFC:
+  authors:
+    - F. Heide
+    - G. Wetzstein
+    - W. Heidrich
+  title: Fast and Flexible Convolutional Sparse Coding
+  venue: CVPR
+  year: 2015
+  pages: 9 pages
+  note: oral paper
+  month: June
+
+- Su2015RSMD:
+  authors:
+    - S. Su
+    - W. Heidrich
+  title: Rolling Shutter Motion Deblurring
+  venue: CVPR
+  year: 2015
+  pages: 9 pages
+  month: June
+
+- Xiao2015DDS:
+  authors:
+    - L. Xiao
+    - F. Heide
+    - M. O'Toole
+    - A. Kolb
+    - M. Hullin
+    - K. Kutulakos
+    - W. Heidrich
+  title: Defocus Deblurring and Superresolution for Time-of-Flight Depth Cameras
+  venue: CVPR
+  year: 2015
+  pages: 9 pages
+  month: June
+
+- Xiao2015SBMD:
+  authors:
+    - L. Xiao
+    - J. Gregson
+    - F. Heide
+    - W. Heidrich
+  title: Stochastic Blind Motion Deblurring
+  venue: IEEE Transactions on Image Processing
+  year: 2015
+  volume: 24
+  number: 10
+  pages: 3071--3085
+
+- Damberg2015EFL:
+  authors:
+    - G. Damberg
+    - W. Heidrich
+  title: Efficient freeform lens optimization for computational caustic displays
+  venue: Optics Express
+  year: 2015
+  volume: 23
+  number: 8
+  pages: 10224--10232
+
 ...
