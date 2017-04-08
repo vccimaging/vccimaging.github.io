@@ -6,7 +6,6 @@ body {
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size:100%;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -24,27 +23,22 @@ a:hover {
 }
 content {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size:100%;
     line-height: 1;
     color: #333;
 }
 pub-authors {
     font-family:'Helvetica Italic', 'Arial Italic', 'Sans-Serif Italic';
     font-style: italic;
-    font-size:75%;
 }    
 pub-title {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size:75%;
     font-weight: bold;
 }    
 pub-normal {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size:75%;
 }    
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size:100%;
     line-height: 1;
     color: #333;
 }
@@ -60,5 +54,4 @@ table {
     border: 1px solid #ccc;
     table-layout: fixed;
     width: 100%;
-    font-size:small;
 }
