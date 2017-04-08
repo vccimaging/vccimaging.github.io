@@ -1,10 +1,12 @@
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size:100%;
     margin: 60px auto;
     width: 85%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size:100%;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,47 +23,47 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 2em;
+    font-size:300%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
-    font-size: 1.5em;
+    font-size:200%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
-    font-size: 1em;
+    font-size:150%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 content {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: .75em;
+    font-size:100%;
     line-height: 1;
     color: #333;
 }
 pub-authors {
     font-family:'Helvetica Italic', 'Arial Italic', 'Sans-Serif Italic';
     font-style: italic;
-    font-size: 0.5em;
+    font-size:75%;
 }    
 pub-title {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 0.5em;
+    font-size:75%;
     font-weight: bold;
 }    
 pub-normal {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: 0.5em;
+    font-size:75%;
 }    
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    font-size: .75em;
+    font-size:100%;
     line-height: 1;
     color: #333;
 }
 footer {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size:50%;
 }
 tbody tr:nth-child(odd) {
   background: #eee;
@@ -70,5 +72,5 @@ table {
     border: 1px solid #ccc;
     table-layout: fixed;
     width: 100%;
-    font-size: 1em;
+    font-size:75%;
 }
