@@ -1,5 +1,6 @@
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size:20px;
     margin: 60px auto;
     width: 85%;
 }
@@ -42,7 +43,13 @@ p {
     color: #333;
 }
 h1 {
-    font-size:3.5em;
+    font-size:50px;
+}
+h2 {
+    font-size:40px;
+}
+h3 {
+    font-size:30px;
 }
 footer {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
