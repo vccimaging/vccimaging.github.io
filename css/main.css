@@ -38,6 +38,21 @@ content {
     line-height: 1.4em;
     color: #333;
 }
+pub-authors {
+    font-family:'Helvetica Italic', 'Arial Italic', 'Sans-Serif Italic';
+    font-size: 0.75em;
+    line-height: 1.4em;
+}    
+pub-title {
+    font-family:'Helvetica Bold', 'Arial Bold', 'Sans-Serif Bold';
+    font-size: 0.75em;
+    line-height: 1.4em;
+}    
+pub-normal {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 0.75em;
+    line-height: 1.4em;
+}    
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
