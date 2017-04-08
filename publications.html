@@ -13,7 +13,7 @@ title: VCC Imaging Group
   <tbody>
 {% for pub in site.data.publications %}
     <tr>
-      <td> {{ pub.Image }} </td>
+      <td> <img src="{{pub.Image}}" width=100 height=100>
       <td> {{ pub.Title | link pub.PDF }} </td>
     </tr>
 {% endfor %}    
