@@ -1061,4 +1061,655 @@
   number: 3
   pages: 9--12
 
+
+
+- Seetzen2004HDR:
+  authors:
+    - H. Seetzen
+    - W. Heidrich
+    - W. Stuerzlinger
+    - G. Ward
+    - L. Whitehead
+    - M. Trentacoste
+    - A. Ghosh
+    - A. Vorozcovs
+  title: High Dynamic Range Display Systems
+  venue: ACM Trans. Graphics (Proc. SIGGRAPH)
+  year: 2004
+  month: August
+  pages: 760--768 
+
+- Wang2004DIV:
+  authors:
+    - S. Wang
+    - W. Heidrich
+  title: The Design of an Inexpensive Very High Resolution Scan Camera System
+  venue: Computer Graphics Forum (Proc. of Eurographics)
+  year: 2004
+  month: September
+  pages: 441--450
+
+- Kueck2004SCM:
+  authors:
+    - H. Kuck
+    - W. Heidrich
+  title: Shape from Contours and Multiple Stereo
+  venue: Canadian Conference on Computer and Robot Vision
+  year: 2004
+  month: May
+  pages: 76--83
+
+- Tam2004CPS:
+  authors:
+    - R. Tam
+    - W. Heidrich
+  title: Computing Polygonal Surfaces From Unions of Balls
+  venue: Computer Graphics International
+  year: 2004
+  month: June
+  pages: 86--92
+
+- Wang2004USA:
+  authors:
+    - S. Wang
+    - W. Heidrich
+  title: "UBC ScanCam: An Inexpensive 122 Million Pixel Scan Camera"
+  venue: "IS&T/SPIE Symposium on Electronic Imaging"
+  year: 2004
+  month: January
+  pages: 421--430
+
+
+
+
+- Granier2003IVC:
+  authors:
+    - X. Granier
+    - M. Goesele
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Interactive Visualization of Complex Real-World Light Sources
+  venue: Pacific Graphics
+  year: 2003
+  month: October
+  pages: 59--66
+
+- Liu2003I3M:
+  authors:
+    - Y. Liu
+    - W. Heidrich
+  title: Interactive 3D Model Acquisition and Registration
+  venue: Pacific Graphics
+  year: 2003
+  month: October
+  pages: 115--122
+
+- Tam2003SSB:
+  authors:
+    - R. Tam
+    - W. Heidrich
+  title: Shape Simplification Based on the Medial Axis Transform
+  venue: IEEE Visualization
+  year: 2003
+  month: October
+  pages: 481--488
+
+- Pritchard2003CMC:
+  authors:
+    - D. Pritchard
+    - W. Heidrich
+  title: Cloth Motion Capture
+  venue: Computer Graphics Forum (Proc. Eurographics)
+  year: 2003
+  month: September
+  pages: 263--271
+
+- Vazquez2003AVS:
+  authors:
+    - P.-P. Vazquez
+    - M. Feixas
+    - M. Sbert
+    - W. Heidrich
+  title: Automatic View Selection Using Viewpoint Entropy and its Application to Image-Based Modelling
+  venue: Computer Graphics Forum
+  year: 2003
+  volume: 22
+  number: 4
+  pages: 689--700
+  month: November
+
+- Granier2003ASL:
+  authors:
+    - X. Granier
+    - W. Heidrich
+  title: A Simple Layered RGB BRDF Model
+  venue: Graphical Models
+  year: 2003
+  volume: 65
+  number: 4
+  pages: 171--184
+  month: July
+
+- Goesele2003ALS:
+  authors:
+    - M. Goesele
+    - X. Granier
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Accurate Light Source Acquisition and Rendering
+  venue: ACM Trans. Graphics (Proc. SIGGRAPH)
+  year: 2003
+  month: July
+  pages: 621--630
+
+- Daubert2003ELT:
+  authors:
+    - K. Daubert
+    - W. Heidrich
+    - J. Kautz
+    - J.-M. Dischler
+    - H.-P. Seidel
+  title: Efficient Light Transport Using Precomputed Visibility
+  venue: IEEE Computer Graphics and Applications
+  volume: 23
+  number: 3
+  month: May/June
+  year: 2003
+  pages: 28--37
+
+- Lensch2003IBR:
+  authors:
+    - H. Lensch
+    - J. Kautz
+    - M. Goesele
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Image-Based Reconstruction of Spatial Appearance and Geometric Detail
+  venue: ACM Transactions on Graphics
+  volume: 22
+  number: 2
+  month: April
+  year: 2003
+  pages: 234--257
+
+
+
+- Granier2002SLR:
+  authors:
+    - X. Granier
+    - W. Heidrich
+  title: A Simple Layered RGB BRDF Model
+  venue: Pacific Graphics 2002
+  year: 2002
+  month: November
+  pages: 30--37
+
+- Streit2002BPF:
+  authors:
+    - L. Streit
+    - W. Heidrich
+  title: A Biologically-Parameterized Feather Model
+  venue: Computer Graphics Forum (Proc. Eurographics)
+  year: 2002
+  month: September
+  pages: 565--574
+
+- McAllister2002ERS:
+  authors:
+    - D. McAllister
+    - A. Lastra
+    - W. Heidrich
+  title: Efficient Rendering of Spatial Bi-directional Reflectance Distribution Functions
+  venue: Graphics Hardware 2002
+  year: 2002
+  month: September
+  pages: 79--88
+
+- Vazquez2002IBM:
+  authors:
+    - P.-P. Vazquez
+    - M. Feixas
+    - M. Sbert
+    - W. Heidrich
+  title: Image-Based Modeling Using Viewpoint Entropy
+  venue: Computer Graphics International
+  year: 2002
+  month: July
+  pages: 267--278
+
+- Secord2002FPD:
+  authors:
+    - A Secord
+    - W Heidrich
+    - L. Streit
+  title: Fast Primitive Distribution for Illustration
+  venue: Eurographics Workshop on Rendering
+  year: 2002
+  month: June
+  pages: 215--226
+
+- Tam2002FPM:
+  authors:
+    - R. Tam
+    - W. Heidrich
+  title: Feature-Preserving Medial Axis Noise Removal
+  venue: ECCV
+  year: 2002
+  month: May
+  pages: 672--687
+
+- Lensch2001SAT:
+  authors:
+    - H. Lensch
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Silhouette-based Algorithm for Texture Registration and Stitching
+  venue: Graphical Models
+  volume: 63
+  number: 4
+  pages: 245--262
+  month: July
+  year: 2001
+
+
+
+- Vazquez2001VSU:
+  authors:
+    - P.-P. Vazquez
+    - M. Feixas
+    - M. Sbert
+    - W. Heidrich
+  title: Viewpoint Selection Using Viewpoint Entropy
+  venue: Vision Modeling and Visualization VMV
+  year: 2001
+  month: November
+  pages: 273--280
+
+- Goesele2001CCH:
+  authors:
+    - M. Goesele
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Color Calibrated High Dynamic Range Imaging with ICC Profiles
+  venue: 9th Color Imaging Conference
+  month: November
+  year: 2001
+  pages: 286--290
+
+- Kautz2001RBS:
+  authors:
+    - J. Kautz
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Realtime Bumpmap Synthesis
+  venue: Graphics Hardware
+  year: 2001
+  month: August
+  pages: 109--114
+
+- Daubert2001ECM:
+  authors:
+    - K. Daubert
+    - H. Lensch
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Efficient Cloth Modeling and Rendering
+  venue: Rendering Techniques '01
+  month: June
+  year: 2001
+  pages: 63--70
+
+- Lensch2001IBR:
+  authors:
+    - H. Lensch
+    - J. Kautz
+    - M. Goesele
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Image-Based Reconstruction of Spatially Varying Materials
+  venue: Rendering Techniques '01
+  month: June
+  year: 2001
+  pages: 103--114
+
+- Keller2001IS:
+  authors:
+    - A. Keller
+    - W. Heidrich
+  title: Interleaved Sampling
+  venue: Rendering Techniques '01
+  month: June
+  year: 2001
+  pages: 269--276
+
+- Goesele2001EBD:
+  authors:
+    - M. Goesele
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Entropy Based Dark Frame Subtraction
+  venue: Image Processing Image Quality Image Capture Systems Conference (PICS)
+  year: 2001
+  month: April
+  pages: 293--298
+
+
+
+- Lensch2000ATR:
+  authors:
+    - H. Lensch
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Automated Texture Registration and Stitching for Real World Models
+  venue: Pacific Graphics
+  year: 2000
+  month: October
+
+- Goesele2000BPS:
+  authors:
+    - M. Goesele
+    - W. Heidrich
+    - H. Lensch
+    - H.-P. Seidel
+  title: Building a Photo Studio for Measurement Purposes
+  venue: VMV
+  year: 2000
+  pages: 231--238
+  month: November
+
+- Heidrich2000IMG:
+  authors:
+    - W. Heidrich
+    - K. Daubert
+    - J. Kautz
+    - H.-P. Seidel
+  title: Illuminating Micro Geometry Based on Precomputed Visibility
+  venue: SIGGRAPH
+  year: 2000
+  month: July
+  pages: 455--464
+
+- Heidrich2000SSM:
+  authors:
+    - W. Heidrich
+    - S. Brabec
+    - H.-P. Seidel
+  title: Soft Shadow Maps for Linear Lights
+  venue: Rendering Techniques '00
+  month: June
+  year: 2000
+  pages: 269--280
+
+- Kautz2000UAP:
+  authors:
+    - J. Kautz
+    - P.-P. Vazquez
+    - W. Heidrich
+    - H.-P. Seidel
+  title: A Unified Approach to Prefiltered Environment Maps
+  venue: Rendering Techniques
+  month: June
+  year: 2000
+  pages: 185--196
+
+- Schirmacher2000HQI:
+  authors:
+    - H. Schirmacher
+    - W. Heidrich
+    - H.-P. Seidel
+  title: High-Quality Interactive Lumigraph Rendering Through Warping
+  venue: Proc. Graphics Interface
+  month: May
+  year: 2000
+  pages: 87--94
+
+
+
+- Heidrich1999RHA:
+  authors:
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Realistic Hardware-accelerated Shading and Lighting
+  venue: SIGGRAPH
+  year: 1999
+  pages: 171--178
+  month: August
+
+- Schirmacher1999IBB:
+  authors:
+    - H. Schirmacher
+    - W. Heidrich
+    - M. Rubick
+    - D. Schiron
+    - H.-P. Seidel
+  title: Image-Based BRDF Reconstruction
+  venue: Vision Modelling and Visualization
+  month: November
+  pages: 285--292
+  year: 1999
+
+- Schirmacher1999AAL:
+  authors:
+    - H. Schirmacher
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Adaptive Acquisition of Lumigraphs from Synthetic Scenes
+  venue: Computer Graphics Forum (Proc. Eurographics)
+  month: September
+  pages: 151--160
+  year: 1999
+
+- McCool1999TS:
+  authors:
+    - M. McCool
+    - W. Heidrich
+  title: Texture Shaders
+  venue: Eurographics/SIGGRAPH Workshop on Graphics Hardware
+  month: August
+  pages: 117--126
+  year: 1999
+
+- Heidrich1999LFR:
+  authors:
+    - W. Heidrich
+    - H. Lensch
+    - M. Cohen
+    - H.-P. Seidel
+  title: Light Field Techniques for Reflections and Refractions
+  venue: Rendering Techniques '99
+  month: July
+  pages: 187--196
+  year: 1999
+
+- Heidrich1999APT:
+  authors:
+    - W. Heidrich
+    - R. Westermann
+    - H.-P. Seidel
+    - T. Ertl
+  title: Applications of Pixel Textures in Visualization and Realistic Image Synthesis
+  venue: Symposium on Interactive 3D Graphics
+  year: 1999
+  pages: 127--134
+  month: April
+
+- Heidrich1999WRL:
+  authors:
+    - W. Heidrich
+    - H. Kuck
+    - H. Schirmacher
+    - H.-P. Seidel
+  title: A Warping-based Refinement of Lumigraphs
+  venue: Winter School in Computer Graphics WSCG
+  year: 1999
+  pages: 102--109
+  month: February
+
+
+
+- Heidrich1998SPS:
+  authors:
+    - W. Heidrich
+    - Ph. Slusallek
+    - H.-P. Seidel
+  title: Sampling Procedural Shaders Using Affine Arithmetic
+  venue: ACM Transactions on Graphics
+  volume: 17
+  number: 3
+  year: 1998
+  pages: 158--176
+
+- Slusallek1998CLS:
+  authors:
+    - Ph. Slusallek
+    - M. Stamminger
+    - W. Heidrich
+    - J.-C. Popp
+    - H.-P. Seidel
+  title: Composite Lighting Simulations with Lighting Networks
+  venue: IEEE Computer Graphics and Applications
+  year: 1998
+  volume: 18
+  number: 2
+  month: March
+  pages: 22--31
+
+- Heidrich1998VEM:
+  authors:
+    - W. Heidrich
+    - H.-P. Seidel
+  title: View-independent Environment Maps
+  venue: Eurographics/SIGGRAPH Workshop on Graphics Hardware
+  year: 1998
+  pages: 39--45
+  month: October
+
+- Heidrich1998ERA:
+  authors:
+    - W. Heidrich
+    - H.-P. Seidel
+  title: Efficient Rendering of Anisotropic Surfaces Using Computer Graphics Hardware
+  venue: Image and Multi-dimensional Digital Signal Processing Workshop IMDSP
+  month: July
+  pages: 315--318
+  year: 1998
+
+- Heidrich1998CL:
+  authors:
+    - W. Heidrich
+    - J. Kautz
+    - Ph. Slusallek
+    - H.-P. Seidel
+  title: Canned Lightsources
+  venue: Rendering Techniques
+  month: June
+  pages: 293--300
+  year: 1998
+
+- Heidrich1998RPD:
+  authors:
+    - W. Heidrich
+    - Ph. Slusallek
+    - H.-P. Seidel
+  title: Ray-tracing Procedural Displacement Shaders
+  venue: Graphics Interface
+  pages: 8--16
+  month: May
+  year: 1998
+
+- Roettger1998RTG:
+  authors:
+    - S. Rottger
+    - W. Heidrich
+    - Ph. Slusallek
+    - H.-P. Seidel
+  title: Real-Time Generation of Continuous Levels of Detail for Height Fields
+  venue: Winter School in Computer Graphics WSCG
+  month: February
+  pages: 315--322
+  year: 1998
+
+
+
+- Heidrich1997IMR:
+  authors:
+    - W. Heidrich
+    - Ph. Slusallek
+    - H.-P. Seidel
+  title: An Image-based Model for Realistic Lens Systems in Interactive Computer Graphics
+  venue: Graphics Interface
+  year: 1997
+  month: April
+  pages: 68--75
+
+- Heidrich1997FUD:
+  authors:
+    - W. Heidrich
+    - R. Bartels
+    - G. Labahn
+  title: Fitting Uncertain Data with NURBS
+  venue: Curves and Surfaces with Applications in CAGD
+  year: 1997
+
+
+
+- Heidrich1996HAR:
+  authors:
+    - W. Heidrich
+  title: Hardware Accelerated Rendering of Emissive Volumes
+  venue: 3D Image Analysis and Synthesis
+  month: November
+  pages: 191--198
+  year: 1996
+
+
+
+- Heidrich1995IMP:
+  authors:
+    - W. Heidrich
+    - M. McCool
+    - J. Stevens
+  title: Interactive Maximum Projection Volume Rendering
+  venue: IEEE Visualization
+  month: November
+  pages: 11--18
+  year: 1995
+
+- Heidrich1995AGT:
+  authors:
+    - W. Heidrich
+    - Ph. Slusallek
+  title: Automatic Generation of Tcl Bindings for C and C++ Libraries
+  venue: Tcl/Tk Workshop
+  year: 1995
+  month: July
+  pages: 85--93
+
+
+
+- Heidrich1994UCC:
+  authors:
+    - W. Heidrich
+    - Ph. Slusallek
+    - H.-P. Seidel
+  title: Using C++ Class Libraries from an Interpreted Language
+  venue: TOOLS USA
+  year: 1994
+  month: August
+  pages: 397--408
+
+
+
+
+- Greiner1993BWR:
+  authors:
+    - G. Greiner
+    - W. Heidrich
+    - Ph. Slusallek
+  title: Blockwise Refinement  -- A New Method for Solving the Radiosity Problem
+  venue: Eurographics Workshop on Rendering
+  month: May
+  pages: 233--246
+  year: 1993
+
 ...
