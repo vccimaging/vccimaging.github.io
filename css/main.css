@@ -42,18 +42,15 @@ pub-authors {
     font-family:'Helvetica Italic', 'Arial Italic', 'Sans-Serif Italic';
     font-style: italic;
     font-size: 0.75em;
-    line-height: 1.4em;
 }    
 pub-title {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 0.75em;
     font-weight: bold;
-    line-height: 1.4em;
 }    
 pub-normal {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 0.75em;
-    line-height: 1.4em;
 }    
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
