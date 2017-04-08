@@ -21,7 +21,7 @@ title: VCC Imaging Group
 {% if pub.title and pub.authors and pub.venue and pub.year %}
     <tr>
       <td style="vertical-align:middle;text-align:center;"> <img src="{{pub.image}}" width=100 height=100>
-      <td style="vertical-align:top;text-align:left;padding=4px;">
+      <td style="vertical-align:top;text-align:left;line-height:1;">
         <pub-authors> {{ pub.authors | join: ', ' }}: </pub-authors><br>
         {% if pub.pdf %}
           <pub-title> <a href="{{ pub.pdf }}">{{ pub.title }}</a></pub-title><br>
