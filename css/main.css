@@ -23,7 +23,6 @@ a:hover {
 }
 content {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    line-height: 1.2em;
     color: #333;
 }
 pub-authors {
@@ -39,7 +38,6 @@ pub-normal {
 }    
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    line-height: 1.2em;
     color: #333;
 }
 h1 {
