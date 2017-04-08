@@ -17,9 +17,9 @@
 
 - Peng2016TDA:
   authors:
-  Y. Peng
-  Q. Fu
-  W. Heidrich
+    - Y. Peng
+    - Q. Fu
+    - W. Heidrich
   title: The Diffractive Achromat: Full Spectrum Computational Imaging with Diffractive Optics
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2016
@@ -1040,7 +1040,7 @@
   venue: Computer Graphics Forum (Proc. Eurographics)
   year: 2006
   pages: 399--406
- - note: G\unter Enderle Award and Best Student Paper Award
+  note: G\unter Enderle Award and Best Student Paper Award
 
 
 - Ghosh2006UCV:
