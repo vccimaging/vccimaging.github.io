@@ -17,14 +17,14 @@ title: VCC Imaging Group
       <td style="vertical-align:top;text-align:left;">
         <pub-authors> {{ pub.authors }}: </pub-authors><br>
         <pub-title>
-        {% if pub.pdf == true %}
+        {% if pub.pdf %}
           <a href="{{ pub.pdf }}">{{ pub.title }}</a>
         {% else %}
           {{ pub.title }}
         {% endif %}
         </pub-title><br>
         <pub-normal> {{ pub.venue }}, {{ pub.year }} </pub-normal><br>
-        <pub-normal> {{ pub.pdf }} </pub-normal><br>
+        <pub-title> <a href="{{ pub.pdf }}">{{ pub.title }}</a> </pub-title><br>
       </td>
     </tr>
 {% endfor %}    
