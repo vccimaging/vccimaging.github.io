@@ -3,30 +3,13 @@ layout: default
 title: VCC Imaging Group
 ---
 
-#### Test
-- first line
-- second line
+# VCC Imaging Group
 
-column 1 | column 2 | column 3
--------- | :--------: | --------:
-test | test 2 | test 3
-a| b | c
-d | e | f
+### Overview
 
+TBC
 
-#### Publication format tests
+### Links
 
-2016 | 
-------- | ------------------------------------------------------------------------------------------------------------------------------
-![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
-![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**naskdfn ksjd aaafsdf lksjdfksd**<br>Venue, Year<br>Link to project page
-![wh](Images/heidrich.jpg) |  Author 1, Author 2, Author 3:<br>**Title**<br>Venue, Year<br>Link to project page
-
-
-![wh](Images/heidrich.jpg)
-<div>
-Author 1, Author 2, Author 3:<br>
-**Title**<br>
-Venue, Year<br>
-Link to project page
-</div>
+- [Publications](publications.html)
+- ...
