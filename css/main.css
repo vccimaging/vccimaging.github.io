@@ -1,6 +1,7 @@
 body {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size:20px;
+    line-height:1.5em;
     margin: 60px auto;
     width: 85%;
 }
@@ -28,13 +29,16 @@ content {
 pub-authors {
     font-family:'Helvetica Italic', 'Arial Italic', 'Sans-Serif Italic';
     font-style: italic;
+    line-height:1.5em;
 }    
 pub-title {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
+    line-height:1.5em;
 }    
 pub-normal {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    line-height:1.5em;
 }    
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
