@@ -3,10 +3,20 @@ layout: default
 title: VCC Imaging Group
 ---
 
-<ul>
-
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th style="width:110px">2016</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
 {% for pub in site.data.publications %}
-  <li> {{ pub.Title }} </li>
-{% endfor %}
+    <tr>
+      <td> {{ pub.Image }} </td>
+      <td> {{ pub.Title | link pub.PDF }} </td>
+    </tr>
+{% endfor %}    
+  </tbody>
+</table>
 
-</ul>
