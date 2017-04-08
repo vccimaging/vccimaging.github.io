@@ -601,4 +601,464 @@
   pages: 1--8
   note: Best Paper Award
 
+
+- Hoskinson2010LRH:
+  authors:
+    - R. Hoskinson
+    - B. Stoeber
+    - W. Heidrich
+    - S. Fels
+  title: Light Reallocation for High Contrast Projection Using an Analog Micromirror Array
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
+  year: 2010
+  volume: 29
+  number: 4
+  pages: 1651--16510
+  month: December
+
+- Bradley2010HRP:
+  authors:
+    - D. Bradley
+    - W. Heidrich
+    - T. Popa
+    - A. Sheffer
+  title: High Resolution Passive Facial Performance Capture
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2010
+  volume: 29
+  number: 3
+  pages: 411--4110
+  month: July
+
+- Atcheson2010CHP:
+  authors:
+    - B. Atcheson
+    - F. Heide
+    - W. Heidrich
+  title: "CALTag: High Precision Fiducial Markers for Camera Calibration"
+  venue: Vision Modeling and Visualization
+  pages: 8 pages
+  year: 2010
+
+- Ihrke2010TPM:
+  authors:
+    - I. Ihrke
+    - G. Wetzstein
+    - W. Heidrich
+  title: A Theory of Plenoptic Multiplexing
+  venue: CVPR
+  year: 2010
+  pages: 483--490
+  note: oral paper
+
+- Wetzstein2010SSF:
+  authors:
+    - G. Wetzstein
+    - I. Ihrke
+    - W. Heidrich 
+  title: Sensor Saturation in Fourier Multiplexed Imaging
+  venue: CVPR
+  year: 2010
+  pages: 545--552
+
+- Popa2010GCS:
+  authors:
+    - T. Popa
+    - I. South-Dickinson
+    - D. Bradley
+    - A. Sheffer
+    - W. Heidrich 
+  title: Globally Consistent Space-Time Reconstruction
+  venue: Symposium on Geometry Processing
+  year: 2010
+  pages: 1633--1642
+
+- Mai2010OTM:
+  authors:
+    - Z. Mai
+    - H. Mansour
+    - R. Mantiuk
+    - P. Nasiopoulos
+    - R. Ward
+    - W. Heidrich
+  title: On-the-Fly Tone Mapping for Backward-Compatible High Dynamic Range Image/Video Compression
+  venue: Intern. Symp. on Circuits and Systems ISCAS
+  year: 2010
+  pages: 1831--1834
+
+- Bradley2010BCC:
+  authors:
+    - D. Bradley
+    - W. Heidrich
+  title: Binocular Camera Calibration Using Rectification Error
+  venue: Computer and Robot Vision CRV
+  year: 2010
+  pages: 183--190
+
+- Trentacoste2010DTC:
+  authors:
+    - M. Trentacoste
+    - C. Lau
+    - M. Rouf
+    - R. Mantiuk
+    - W. Heidrich
+  title: Defocus techniques for camera dynamic range expansion
+  venue: Electronic Imaging  Human Vision and Electronic Imaging XXI
+  pages: 16--26
+  year: 2010
+
+- Kim2010CVD:
+  authors:
+    - K. J. Kim
+    - R. Mantiuk
+    - H. Leea
+    - W. Heidrich
+  title: Calibration of the visual difference predictor for estimating visibility of JPEG2K compression artifacts in medical CT images
+  venue: Electronic Imaging
+  pages: 10--19
+  year: 2010
+
+- Wetzstein2010OIP:
+  authors:
+    - G. Wetzstein
+    - W. Heidrich
+    - D. Luebke
+  title: Optical Image Processing Using Light Modulation Displays
+  venue: Computer Graphics Forum
+  year: 2009
+  volume: 29
+  number: 6
+  pages: 1934-1944
+
+- Ghosh2010BIA:
+  authors:
+    - A. Ghosh
+    - W. Heidrich
+    - S. Achutha
+    - M. O'Toole
+  title: A Basis Illumination Approach to BRDF Measurement
+  venue: International  Venue: on Computer Vision
+  year: 2009
+  volume: 90
+  number: 2
+  pages: 183--197
+
+
+
+- Berger2009T4R:
+  authors:
+    - K. Berger
+    - B. Atcheson
+    - I. Ihrke
+    - W. Heidrich
+    - M. Magnor
+  title: Tomographic 4D Reconstruction of Gas Flows in the Presence of Occluders
+  venue: Vision Modeling and Visualization VMV
+  pages: 1--8
+  year: 2009
+
+- Rempel2009VVW:
+  authors:
+    - A. Rempel
+    - R. Mantiuk
+    - W. Heidrich
+    - H. Li
+  title: Video Viewing Preferences for HDR Displays Under Varying Ambient Illumination
+  venue: Applied Perception in Graphics and Visualization APGV
+  year: 2009
+  pages: 45--52
+
+- Mantiuk2009DCN:
+  authors:
+    - R. Mantiuk
+    - A. Rempel
+    - W. Heidrich
+  title: Display Considerations for Night and Low-Illumination Viewing
+  venue: Applied Perception in Graphics and Visualization APGV
+  year: 2009
+  pages: 53--58
+
+- Bradley2009SRS:
+  authors:
+    - D. Bradley
+    - B. Atcheson
+    - I. Ihrke
+    - W. Heidrich
+  title: Synchronization and Rolling Shutter Compensation for Consumer Video Camera Arrays
+  venue: ProCams
+  pages: 1--8
+  year: 2009
+  note: Best Paper Award second prize
+
+- Mantiuk2009CCT:
+  authors:
+    - R. Mantiuk
+    - R. Mantiuk
+    - A. Tomaszewska
+    - W. Heidrich
+  title: Color Correction for Tone Mapping
+  venue: Computer Graphics Forum (Proc. Eurographics)
+  pages: 193--202
+  year: 2009
+
+- Popa2009WCG:
+  authors:
+    - T. Popa
+    - Q. Zhou
+    - D. Bradley
+    - V. Kraevoy
+    - H. Fu
+    - A. Sheffer
+    - W. Heidrich
+  title: Wrinkling Captured Garments Using Space-Time Data-Driven Deformation
+  venue: Computer Graphics Forum (Proc. Eurographics)
+  pages: 427--435
+  year: 2009
+
+- Mantiuk2009VHD:
+  authors:
+    - R. Mantiuk
+    - W. Heidrich
+  title: Visualizing High Dynamic Range Images in a Web Browser
+  venue: Journal of Graphics GPU & Game Tools
+  year: 2009
+  volume: 14
+  number: 1
+  pages: 43--53
+  month: June
+
+- Atcheson2009EOF:
+  authors:
+    - B. Atcheson
+    - W. Heidrich
+    - I. Ihrke
+  title: An Evaluation of Optical Flow Algorithms for Background Oriented Schlieren Imaging
+  venue: Experiments in Fluids
+  year: 2009
+  volume: 46
+  number: 3
+  pages: 467--476
+  month: March
+
+
+
+- Atcheson2008TRC:
+  authors:
+    - B. Atcheson
+    - I. Ihrke
+    - W. Heidrich
+    - A. Tevs
+    - D. Bradley
+    - M. Magnor
+    - H.-P. Seidel
+  title: Time-resolved 3D Capture of Non-Stationary Gas Flows
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH ASIA)
+  year: 2008
+  volume: 27
+  number: 4
+  pages: 1321--1329
+  month: December
+
+- Bradley2008MGC:
+  authors:
+    - D. Bradley
+    - T. Popa
+    - A. Sheffer
+    - W. Heidrich
+    - T. Boubekeur
+  title: Markerless Garment Capture
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2008
+  volume: 27
+  number: 3
+  pages: 991--999
+  month: July
+
+- Bradley2008AMV:
+  authors:
+    - D. Bradley
+    - T. Boubekeur
+    - W. Heidrich
+  title: Accurate Multi-View Reconstruction Using Robust Binocular Stereo and Surface Meshing
+  venue: CVPR
+  pages: 8 pages
+  year: 2008
+
+
+
+- Trentacoste2007PIP:
+  authors:
+    - M. Trentacoste
+    - H. Seetzen
+    - W. Heidrich
+    - L. Whitehead
+    - G. Ward
+  title: Photometric Image Processing for High Dynamic Range Displays
+  venue: Journal of Visual Communication and Image Representation
+  year: 2007
+  pages: 439--451
+  volume: 18
+  number: 5
+  month: October
+
+- Rempel2007L2H:
+  authors:
+    - A. Rempel
+    - M. Trentacoste
+    - H. Seetzen
+    - D. Young
+    - W. Heidrich
+    - L. Whitehead
+    - G. Ward
+  title: "Ldr2Hdr: On-the-fly Reverse Tone Mapping of Legacy Video and Photographs"
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2007
+  volume: 26
+  number: 3
+  pages: 391--396
+  month: July
+
+- Ghosh2007BAB:
+  authors:
+    - A. Ghosh
+    - S. Achutha
+    - W. Heidrich
+    - M. O'Toole
+  title: BRDF Acquisition with Basis Illumination
+  venue: ICCV
+  pages: 8 pages
+  year: 2007
+  note: Marr Prize Honorable Mention
+
+- Seetzen2007SCH:
+  authors:
+    - H. Seetzen
+    - S. Makki
+    - H. Ip
+    - T. Wan
+    - V. Kwong
+    - G. Ward
+    - W. Heidrich
+    - L. Whitehead
+  title: Self-Calibrating Wide Color Gamut High Dynamic Range Display
+  venue: Electronic Imaging
+  pages: 361--369
+  year: 2007
+
+- Corbett2007TF:
+  authors:
+    - R. Corbett
+    - K. van den Doel
+    - J. Lloyd
+    - W. Heidrich
+  title: TimbreFields -- 3D Interactive Sound Models for Real-Time Audio
+  venue: Presence -- Teleoperators and Virtual Environments
+  volume: 16
+  number: 6
+  year: 2007
+  month: December
+  pages: 643--654
+
+
+
+- Boubekeur2006SCS:
+  authors:
+    - T. Boubekeur
+    - W. Heidrich
+    - X. Granier
+    - C. Schlick
+  title: Volume-Surface Trees
+  venue: Computer Graphics Forum (Proc. Eurographics)
+  year: 2006
+  pages: 399--406
+  note: Gunter Enderle Award and Best Student Paper Award
+
+- Ghosh2006UCV:
+  authors:
+    - A. Ghosh
+    - W. Heidrich
+  title: Correlated Visibilty Sampling for Direct Illumination
+  venue: Pacific Graphics
+  year: 2006
+  pages: 693--701
+
+- Ghosh2006SSE:
+  authors:
+    - A. Ghosh
+    - A. Doucet
+    - W. Heidrich
+  title: Sequential Sampling of Environment Maps
+  venue: EGSR
+  year: 2006
+  pages: 115--126
+
+- Trifonov2006TRT:
+  authors:
+    - B. Trifonov
+    - D. Bradley
+    - W. Heidrich
+  title: Tomographic Reconstruction of Transparent Objects
+  venue: EGSR
+  year: 2006
+  pages: 51--60
+
+- Seetzen2006GCB:
+  authors:
+    - H. Seetzen
+    - H. Li
+    - L. Ye 
+    - W. Heidrich
+    - L. Whitehead
+    - G. Ward
+  title: Observations of Luminance Contrast and Amplitude Resolution of Displays
+  venue: Society for Information Display SID Digest
+  year: 2006
+  pages: 1229--1233
+
+
+
+- Ghosh2005RIV:
+  authors:
+    - A. Ghosh
+    - M. Trentacoste
+    - H. Seetzen
+    - W. Heidrich
+  title: Real Illumination from Virtual Environments
+  venue: EGSR
+  year: 2005
+  month: June
+  pages: 243--252
+
+- Burke2005BIS:
+  authors:
+    - D. Burke
+    - A. Ghosh
+    - W. Heidrich
+  title: Bidirectional Importance Sampling for Direct Illumination
+  venue: EGSR
+  year: 2005
+  month: June
+  pages: 147--156
+
+- Ghosh2005VRH:
+  authors:
+    - A. Ghosh
+    - M. Trentacoste
+    - W. Heidrich
+  title: Volume Rendering for High Dynamic Range Displays
+  venue: Volume Graphics
+  year: 2005
+  month: June
+  pages: 91--98
+
+- Heidrich2005CBP:
+  authors:
+    - W. Heidrich
+  title: Computing the Barycentric Coordinates of a Projected Point
+  venue: Journal of Graphics Tools
+  year: 2005
+  volume: 10
+  number: 3
+  pages: 9--12
+
 ...
