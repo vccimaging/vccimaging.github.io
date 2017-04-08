@@ -7,7 +7,7 @@ title: VCC Imaging Group
   <thead>
     <tr>
       <th style="width:110px;">2016</th>
-      <th style="line-height:1.0;"></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -15,7 +15,7 @@ title: VCC Imaging Group
 {% if pub.title and pub.authors and pub.venue and pub.year %}
     <tr>
       <td style="vertical-align:middle;text-align:center;"> <img src="{{pub.image}}" width=100 height=100>
-      <td style="vertical-align:top;text-align:left;">
+      <td style="vertical-align:top;text-align:left;line-height:1.0;">
         <pub-authors> {{ pub.authors }}: </pub-authors><br>
         {% if pub.pdf %}
           <pub-title> <a href="{{ pub.pdf }}">{{ pub.title }}</a></pub-title><br>
