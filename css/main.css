@@ -23,15 +23,15 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size:300%;
+    font-size:xx-large;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h2 {
-    font-size:200%;
+    font-size:x-large;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 h3 {
-    font-size:150%;
+    font-size:large;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 content {
