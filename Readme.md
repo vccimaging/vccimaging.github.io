@@ -9,7 +9,7 @@ The structure is to use Jekyll to create static web pages for people, publicatio
 Publications are kept in a YAML database in ```_data/publications.yaml```. This file consists of entries of the following format:
 
 ```
-- PublicationHandle:
+- id: UniqueID
   authors:
     - First Author
     - Second Author
@@ -24,7 +24,7 @@ Publications are kept in a YAML database in ```_data/publications.yaml```. This 
 
 At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list.
 
-The ```PublicationHandle``` is a unique identifier for each paper (Something like ```<Author><year><project acronym>```). Each publication may have additional fields (e.g. ```volume```, ```number``` etc.). These are currently ignored but may be used in the future for purposes like automatic generation of BibTeX entries. 
+The ```UniqueID``` is a unique identifier for each paper (Something like ```<Author><year><project acronym>```) that will later be used for automatically creating links to images and PDFs etc. Each publication may have additional fields (e.g. ```volume```, ```number``` etc.). These are currently ignored but may be used in the future for purposes like automatic generation of BibTeX entries. 
 
 
 ### To Do:
@@ -36,7 +36,6 @@ The ```PublicationHandle``` is a unique identifier for each paper (Something lik
   - automatic bibtex generation?
 - Publications:
   - implicitly use thumbnails, pdfs from project directories
-  - modularize the list generation into an include
 - People:
   - directory structure for home pages
   - YAML file for people
