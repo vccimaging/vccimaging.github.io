@@ -11,8 +11,7 @@ title: VCC Imaging Group
 
 {% assign years = (1996..2017) | reverse %}
 {% for year in years %}
-<h5>{{year}}</h5>
-{% include publicationlist.html minYear=year maxYear=year %}
+{% include publicationlist.html minYear=year maxYear=year+1 %}
 {% endfor %}
 
 
