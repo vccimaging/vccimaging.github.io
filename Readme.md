@@ -22,7 +22,7 @@ Publications are kept in a YAML database in ```_data/publications.yaml```. This 
   project: <URL for a project directory>
 ```
 
-Additional fields (e.g. ```volume```, ```number``` etc.) are currently ignored. At least ```authors```, ```title```, ```venue```, and year must be present for a publication to show up in a publication list.
+Additional fields (e.g. ```volume```, ```number``` etc.) are currently ignored. At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list.
 
 
 ### To Do:
