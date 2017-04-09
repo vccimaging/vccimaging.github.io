@@ -66,7 +66,7 @@ tbody tr:nth-child(odd) {
 }
 table {
     border-collapse: collapse;
-    border: 1px solid #333;
+    border: 10px solid #333;
     padding: 0;
     table-layout: fixed;
     width: 100%;
