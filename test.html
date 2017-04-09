@@ -5,14 +5,16 @@ title: Computational Imaging Group
 
 <h1> Some test code</h1>
 
+{% assign years (1996..2017) | reverse %}
+{{ years }}
+
   <!--
 <ul>
 {% for pub in site.data.publications %}
 <li> {{ pub }}</li>
 {% endfor %}
 </ul>
-  -->
 
   {% include publicationlist.html minYear=2014 maxYear=2015 %}
+-->
 
-  
