@@ -3,7 +3,7 @@
 {% if include.minYear==include.maxYear %}
   {% assign yearText = include.minYear %}
 {% else %}
-  {% capture yearText %} {{include.minYear}}-{{include.maxYear}} {% endcapture %}
+  {% capture yearText %}{{include.minYear}}-{{include.maxYear}}{% endcapture %}
 {% endif %}
 
 <table style="border:1px solid #d5d5d5;" id="{{yearText}}">
