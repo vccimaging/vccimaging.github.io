@@ -15,14 +15,16 @@ Publications are kept in a YAML database in ```_data/publications.yaml```. This 
     - Second Author
     - etc.
   title: My Title
-  venue: Som ejournal or conference
+  venue: Some journal or conference
   year: 2016
   image: <URL for a 100x100 thumbnail>
   pdf: <URL for a PDF of the publication>
   project: <URL for a project directory>
 ```
 
-Additional fields (e.g. ```volume```, ```number``` etc.) are currently ignored. At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list.
+At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list.
+
+The ```PublicationHandle``` is a unique identifier for each paper (Something like ```<Author><year><project acronym>```). Each publication may have additional fields (e.g. ```volume```, ```number``` etc.). These are currently ignored but may be used in the future for purposes like automatic generation of BibTeX entries. 
 
 
 ### To Do:
@@ -31,6 +33,7 @@ Additional fields (e.g. ```volume```, ```number``` etc.) are currently ignored. 
   - directory structure for projects
   - naming convention for thumbnails, pdfs
   - template for projects
+  - automatic bibtex generation?
 - Publications:
   - implicitly use thumbnails, pdfs from project directories
   - modularize the list generation into an include
