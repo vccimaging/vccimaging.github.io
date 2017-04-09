@@ -9,6 +9,13 @@ title: VCC Imaging Group
 <br>
 <br>
 
+{% for year= 1996..2016 %}
+<h3>{{year}}</h3>
+{% include publicationlist.html minYear=year maxYear=year %}
+{% endfor %}
+
+
+<!--
 <table style="width:100%">
   <thead>
     <tr>
@@ -41,15 +48,4 @@ title: VCC Imaging Group
 {% endfor %}    
   </tbody>
 </table>
-
-
-<h3>Tests:</h3>
-Publications co-authored by "D. Bradley":
-
-<ul>
-{% for pub in site.data.publications %}
-{% if pub.authors contains "D. Bradley" %}
-  <li> {{ pub.title }} </li>
-{% endif %}
-{% endfor %}  
-</ul>
+-->
