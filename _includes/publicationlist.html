@@ -1,9 +1,9 @@
 <!-- publication list module  -->
 
-<table style="width:100%;border=1px">
+<table style="width:100%;border:1px">
   <thead>
     <tr>
-      <th style="width:110px;"></th>
+      <th style="width:110px;">{% if include.minYear==include.maxYear %} {{ include.minYear }} {% else %} {{include.minYear}}-{{include.maxYear}} {% endif %}</th>
       <th></th>
     </tr>
   </thead>
