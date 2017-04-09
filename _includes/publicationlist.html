@@ -1,9 +1,15 @@
 <!-- publication list module  -->
 
-<table style="border:1px solid #d5d5d5;">
+{% if include.minYear==include.maxYear %}
+  {% assign yearText = include.minYear %}
+{% else %}
+  {% capture yearText %} {{include.minYear}}-{{include.maxYear}} {% endcapture %}
+{% endif %}
+
+<table style="border:1px solid #d5d5d5;" id="{{yearText}}">
   <thead>
     <tr>
-      <th style="width:110px;">{% if include.minYear==include.maxYear %} {{ include.minYear }} {% else %} {{include.minYear}}-{{include.maxYear}} {% endif %}</th>
+      <th style="width:110px;">{{yearText}}</th>
       <th></th>
     </tr>
   </thead>
