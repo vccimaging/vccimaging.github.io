@@ -11,6 +11,8 @@
 {% for pub in site.data.publications %}
 {% if pub.title and pub.authors and pub.venue and pub.year %}
 {% if include.name== null or pub.authors contains include.name %}
+{% if include.minYear== null or pub.year >= include.minYear %}
+{% if include.maxYear== null or pub.year <= include.maxYear %}
     <tr>
       <td style="vertical-align:middle;text-align:center;"> <img src="{{pub.image}}" width=100 height=100>
       <td style="vertical-align:top;text-align:left;line-height:1;">
@@ -29,6 +31,8 @@
         {% endif %}
       </td>
     </tr>
+{% endif %}
+{% endif %}
 {% endif %}
 {% endif %}
 {% endfor %}    
