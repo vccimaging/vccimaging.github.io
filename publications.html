@@ -9,7 +9,7 @@ title: VCC Imaging Group
 <br>
 <br>
 
-{% for year= 1996..2016 %}
+{% for year in (1996..2017) %}
 <h3>{{year}}</h3>
 {% include publicationlist.html minYear=year maxYear=year %}
 {% endfor %}
