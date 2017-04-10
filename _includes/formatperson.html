@@ -3,9 +3,9 @@
 <li>{{ include.person.title }} {{ include.person.name }},
   {{ include.person.position }}.
   {% if include.person.end %}
-  ({{ include.person.start }} - {{ include.person.end }}, now at {{ include.person.nowat }})
+  ({{ include.person.start }} - {{ include.person.end }}, now at {{ include.person.nowat }}).
   {% else %}
-  (since {{ include.person.start }})
+  , since {{ include.person.start }}.
   {% endif %}
   </li>
 
