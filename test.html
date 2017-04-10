@@ -11,10 +11,10 @@ title: Computational Imaging Group
 {% endfor %}
 </ul>
 
-{% assign file=file.static.files | where:"name.path","/Images/kaust.png" %}
+{% assign file=file.static.files | where:"path","/Images/kaust.png" %}
 A: {{file.name}}
 
-{% assign file=file.static.files | where:"name.path","main" %}
+{% assign file=file.static.files | where:"path","main" %}
 A: {{file.name}}
 
 {% include publicationlist.html minYear=2014 %}
