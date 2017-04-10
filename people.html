@@ -11,13 +11,14 @@ title: VCC Imaging Group
 
 <h5>Group Leader and Principal Investigator</h5>
 <ul>
-  <li>{{ leader}}</li>
+  <li>{{ leader }}</li>
+  <li>{{ team }}</li>
   {% include formatperson.html person=leader %}
 </ul>
 
 <h5>Active Members</h5>
 <ul>
-  {% for person in team %}{% unless person.end %}
+  {% for person in site.data.people %}{% unless person.end %}
   {% include formatperson.html person=person %}
   {% endunless %}{% endfor %}
 </ul>
