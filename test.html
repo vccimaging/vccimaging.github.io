@@ -11,11 +11,11 @@ title: Computational Imaging Group
 {% endfor %}
 </ul>
 
-{% assign name1= "/Images/kaust.png" %}
-A: {% if site.static_files contains name1 %} Good News! {% endif %}
+{% assign file=file.static.files | where:"name.path","/Images/kaust.png" %}
+A: {{file.name}}
 
-{% assign name2= "main" %}
-B: {% if site.static_files contains name2 %} Meh... {% endif %}
+{% assign file=file.static.files | where:"name.path","main" %}
+A: {{file.name}}
 
 {% include publicationlist.html minYear=2014 %}
 
