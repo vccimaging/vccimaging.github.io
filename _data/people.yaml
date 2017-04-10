@@ -1,1 +1,13 @@
 
+# database of people in the VCC imaging group
+# (please manually sort by second name within each group)
+
+
+# group leader (always first!)
+
+- name: Wolfgang Heidrich
+  pubname: W. Heidrich
+  title: Prof. Dr.
+  position: Professor, Director
+  start: 2014
+
