@@ -11,7 +11,9 @@ title: Computational Imaging Group
 {% endfor %}
 </ul>
 
-Specific file: {{ site.static_files['/Images/kaust.png'] }}
+{% if site.static_files contains '/Images/kaust.png' %} Good News! {% endif %}
+
+{% if site.static_files contains 'main' %} Meh... {% endif %}
 
 {% include publicationlist.html minYear=2014 %}
 
