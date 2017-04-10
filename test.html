@@ -7,7 +7,9 @@ title: Computational Imaging Group
 
 <ul>
 {% for file in site.static_files %}
-  <li>{{file.path}}</li>
+{% if file.path == "/Images/kaust.png" %}
+  <li>{{file.name}}</li>
+{% endif %}
 {% endfor %}
 </ul>
 
