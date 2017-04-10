@@ -6,13 +6,11 @@ title: VCC Imaging Group
 <h1>People</h1>
 <h3>Computational Imaging Group @ KAUST VCC</h3>
 
-{% capture leader %}{{site.data.people | first}}{% endcapture %}
-{% capture team %}{{site.data.people | removefirst leader}}{% endcapture %}
+{% capture leader %}{{site.data.people|first}}{% endcapture %}
 
 <h5>Group Leader and Principal Investigator</h5>
 <ul>
   <li>{{ leader }}</li>
-  <li>{{ team }}</li>
   {% include formatperson.html person=leader %}
 </ul>
 
