@@ -10,7 +10,6 @@ title: VCC Imaging Group
 <h5>Active Members</h5>
 <ul>
   {% for person in site.people %}{% if person.end== null %}
-  {% include formatperson.html person=person %}
   {% endif %}{% endfor %}
 </ul>
 
@@ -18,7 +17,6 @@ title: VCC Imaging Group
 <h5>Alumni</h5>
 <ul>
   {% for person in site.people %}{% if person.end!= null %}
-  {% include formatperson.html person=person %}
   {% endif %}{% endfor %}
 </ul>
   
