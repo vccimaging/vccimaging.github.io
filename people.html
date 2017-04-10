@@ -6,14 +6,14 @@ title: VCC Imaging Group -- People
 <h1>People</h1>
 <h3>Computational Imaging Group</h3>
 
-<h5>Group Leader and Principal Investigator</h5>
+<h4>Group Leader and Principal Investigator</h4>
 <ul>
   {% for person in site.data.people %}{% if forloop.first %}
   {% include formatperson.html person=person %}{% break %}
   {% endif %}{% endfor %}
 </ul>
 
-<h5>Active Members</h5>
+<h4>Active Members</h4>
 <ul>
   {% for person in site.data.people %}{% unless forloop.first or person.end %}
   {% include formatperson.html person=person %}
@@ -21,7 +21,7 @@ title: VCC Imaging Group -- People
 </ul>
 
 
-<h5>Alumni</h5>
+<h4>Alumni</h4>
 <ul>
   {% for person in site.data.people %}{% if person.end %}
   {% include formatperson.html person=person %}
