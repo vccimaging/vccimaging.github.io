@@ -1,0 +1,11 @@
+<!-- format an entry for a single lab member -->
+
+<li>{{include.person.title}}{{include.person.name}},
+  {{include.person.position}}.
+  {% if include.person.end== null %}
+  (since {{include.person.start}})
+  {% else %}
+  ({{include.person.start}} - {{include.person.end}}, now at {{include.person.nowat}})
+  {% endif %}
+  </li>
+

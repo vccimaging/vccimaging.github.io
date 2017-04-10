@@ -1,0 +1,24 @@
+---
+layout: default
+title: VCC Imaging Group
+---
+
+<h1>People</h1>
+<h3>Computational Imaging Group @ KAUST VCC</h3>
+
+
+<h5>Active Members</h5>
+<ul>
+  {% for person in site.people %}{% if person.end== null %}
+  {% include formatperson person=person %}
+  {% endif %}{% endfor %}
+</ul>
+
+
+<h5>Alumni</h5>
+<ul>
+  {% for person in site.people %}{% if person.end!= null %}
+  {% include formatperson person=person %}
+  {% endif %}{% endfor %}
+</ul>
+  
