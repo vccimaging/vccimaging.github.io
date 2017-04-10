@@ -10,7 +10,7 @@ title: VCC Imaging Group
 <h5>Active Members</h5>
 <ul>
   {% for person in site.people %}{% unless person.end %}
-  {% include formatperson.html person=person %}
+  <li>{{ person.name }}</li>
   {% endunless %}{% endfor %}
 </ul>
 
