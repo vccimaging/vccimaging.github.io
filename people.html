@@ -9,7 +9,7 @@ title: VCC Imaging Group
 
 <h5>Active Members</h5>
 <ul>
-  {% for person in site.people %}
+  {% for person in site.data.people %}
   <li>{{ person.name }}</li>
   {% endfor %}
 </ul>
@@ -17,7 +17,7 @@ title: VCC Imaging Group
 
 <h5>Alumni</h5>
 <ul>
-  {% for person in site.people %}{% if person.end %}
+  {% for person in site.data.people %}{% if person.end %}
   {% include formatperson.html person=person %}
   {% endif %}{% endfor %}
 </ul>
