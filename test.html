@@ -12,10 +12,10 @@ title: Computational Imaging Group
 </ul>
 
 {% assign name1= "/Images/kaust.png" %}
-{% if site.static_files contains '/Images/kaust.png' %} Good News! {% endif %}
+A: {% if site.static_files contains '/Images/kaust.png' %} Good News! {% endif %}
 
 {% assign name2= "main" %}
-{% if site.static_files contains name2 %} Meh... {% endif %}
+B: {% if site.static_files contains name2 %} Meh... {% endif %}
 
 {% include publicationlist.html minYear=2014 %}
 
