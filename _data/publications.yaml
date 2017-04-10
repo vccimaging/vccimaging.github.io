@@ -14,7 +14,7 @@
   number: 33543
   month: September
 
-- Peng2016TDA:
+- id: Peng2016TDA
   authors:
     - Y. Peng
     - Q. Fu
@@ -27,7 +27,7 @@
   month: July
   pages: 311--3111
 
-- Shrestha2016CIP:
+- id: Shrestha2016CIP
   authors:
     - S. Shrestha
     - F. Heide
@@ -41,7 +41,7 @@
   month: July
   pages: 331--3312
 
-- Heide2016PEI:
+- id: Heide2016PEI
   authors:
     - F. Heide
     - S. Diamond
@@ -57,7 +57,7 @@
   month: July
   pages: 841--8415
 
-- Su2016MCU:
+- id: Su2016MCU
   authors:
     - S. Su
     - F. Heide
@@ -72,7 +72,7 @@
   pages: 9 pages
   month: June
 
-- Damberg2016HBH:
+- id: Damberg2016HBH
   authors:
     - G. Damberg
     - J. Gregson
@@ -86,7 +86,7 @@
   pages: 241--2411
 
 
-- Peng2015CIU:
+- id: Peng2015CIU
   authors:
     - Y. Peng
     - Q. Fu
@@ -101,7 +101,7 @@
   number: 24
   pages: 31393--31407
 
-- Heide2015DTOF:
+- id: Heide2015DTOF
   authors:
     - F. Heide
     - M. Hullin
@@ -114,7 +114,7 @@
   number: 3
   month: August
 
-- Heide2015FFC:
+- id: Heide2015FFC
   authors:
     - F. Heide
     - G. Wetzstein
@@ -126,7 +126,7 @@
   note: oral paper
   month: June
 
-- Su2015RSMD:
+- id: Su2015RSMD
   authors:
     - S. Su
     - W. Heidrich
@@ -136,7 +136,7 @@
   pages: 9 pages
   month: June
 
-- Xiao2015DDS:
+- id: Xiao2015DDS
   authors:
     - L. Xiao
     - F. Heide
@@ -151,7 +151,7 @@
   pages: 9 pages
   month: June
 
-- Xiao2015SBMD:
+- id: Xiao2015SBMD
   authors:
     - L. Xiao
     - J. Gregson
@@ -164,7 +164,7 @@
   number: 10
   pages: 3071--3085
 
-- Damberg2015EFL:
+- id: Damberg2015EFL
   authors:
     - G. Damberg
     - W. Heidrich
@@ -177,7 +177,7 @@
 
 
 
-- Heide2014FFC:
+- id: Heide2014FFC
   authors:
     - F. Heide
     - M. Steinberger
@@ -199,7 +199,7 @@
   pages: 2311--23112
   month: December
 
-- Wetzstein2014CSP:
+- id: Wetzstein2014CSP
   authors:
     - G. Wetzstein
     - W. Heidrich
@@ -212,7 +212,7 @@
   pages: 113--127
   month: November
 
-- Heide2014ISM:
+- id: Heide2014ISM
   authors:
     - F. Heide
     - L. Xiao
@@ -226,7 +226,7 @@
   number: 21
   pages: 26338--26350
 
-- Gregson2014FCS:
+- id: Gregson2014FCS
   authors:
     - J. Gregson
     - I. Ihrke
@@ -240,7 +240,7 @@
   pages: 1391--13910
   month: August
 
-- OToole2014TFP:
+- id: OToole2014TFP
   authors:
     - M. O'Toole
     - F. Heide
@@ -256,7 +256,7 @@
   pages: 871--8711
   month: August
 
-- Heide2014ACS:
+- id: Heide2014ACS
   authors:
     - F. Heide
     - J. Gregson
@@ -267,7 +267,7 @@
   venue: Computational Optical Sensing and Imaging COSI
   year: 2014
 
-- Heide2014DM3:
+- id: Heide2014DM3
   authors:
     - F. Heide
     - L. Xiao
@@ -280,7 +280,7 @@
   month: June
   note: oral paper
 
-- Heide2014CMM:
+- id: Heide2014CMM
   authors:
     - F. Heide
     - J. Gregson
@@ -294,7 +294,7 @@
   number: 12
   pages: 14981-14992
 
-- Heide2014CMA:
+- id: Heide2014CMA
   authors:
     - F. Heide
     - M. Hullin
@@ -308,7 +308,7 @@
 
 
 
-- Heide2013LTI:
+- id: Heide2013LTI
   authors:
     - F. Heide
     - M. Hullin
@@ -322,7 +322,7 @@
   pages: 451--459
   month: July
 
-- Heide2013AIS:
+- id: Heide2013AIS
   authors:
     - F. Heide
     - G. Wetzstein
@@ -336,8 +336,8 @@
   pages: 1321--13211
   month: July
 
-- Gregson2013SD:
-  Authors:
+- id: Gregson2013SD
+  Authors
     - J. Gregson
     - F. Heide
     - M. Hullin
@@ -347,7 +347,7 @@
   year: 2013
   pages: 8 pages
 
-- Iffa2013WFD:
+- id: Iffa2013WFD
   authors:
     - E. Iffa
     - W. Heidrich
@@ -356,7 +356,7 @@
   year: 2013
   pages: 86610L--86610L
 
-- Heide2013HQC:
+- id: Heide2013HQC
   authors:
     - F. Heide
     - M. Rouf
@@ -372,7 +372,7 @@
   pages: 1491--14910
   month: September
 
-- Wetzstein2013OPM:
+- id: Wetzstein2013OPM
   authors:
     - G. Wetzstein
     - I. Ihrke
@@ -388,7 +388,7 @@
 
 
 
-- Gregson2012ST:
+- id: Gregson2012ST
   authors:
     - J. Gregson
     - M. Krimerman
@@ -402,7 +402,7 @@
   pages: 521--5210
   month: August
 
-- Iffa2012LFO:
+- id: Iffa2012LFO
   authors:
     - E. Iffa
     - G. Wetzstein
@@ -412,7 +412,7 @@
   year: 2012
   pages: 84992H--84992H
 
-- Rouf2012GDC:
+- id: Rouf2012GDC
   authors:
     - M. Rouf
     - C. Lau
@@ -422,7 +422,7 @@
   pages: 7--14
   year: 2012
 
-- Hullin2012PO:
+- id: Hullin2012PO
   authors:
     - M. Hullin
     - J. Hanika
@@ -432,7 +432,7 @@
   year: 2012
   pages: 1375--1383
 
-- Trentacoste2012SPC:
+- id: Trentacoste2012SPC
   authors:
     - M. Trentacoste
     - W. Heidrich
@@ -443,7 +443,7 @@
   pages: 555-564
   year: 2012
 
-- Atcheson2012NPA:
+- id: Atcheson2012NPA
   authors:
     - B. Atcheson
     - W. Heidrich
@@ -452,7 +452,7 @@
   year: 2012
   pages: 247-254
 
-- Lanman2012BPB:
+- id: Lanman2012BPB
   authors:
     - D. Lanman
     - G. Wetzstein
@@ -466,7 +466,7 @@
 
 
 
-- Bonneel2011DIU:
+- id: Bonneel2011DIU
   authors:
     - N. Bonneel
     - M. van de Panne
@@ -480,7 +480,7 @@
   pages: 1581--15812
   month: December
 
-- Lanman2011PFD:
+- id: Lanman2011PFD
   authors:
     - D. Lanman
     - G. Wetzstein
@@ -495,7 +495,7 @@
   pages: 1861--18610
   month: December
 
-- Mai2011OTM-TIP:
+- id: Mai2011OTM-TIP
   authors:
     - Z. Mai
     - H. Mansour
@@ -510,7 +510,7 @@
   pages: 1558-1571
   year: 2011
 
-- Wetzstein2011TIG:
+- id: Wetzstein2011TIG
   authors:
     - G. Wetzstein
     - D. Lanman
@@ -524,7 +524,7 @@
   pages: 951--9512
   month: August
 
-- Mantiuk2011CVM:
+- id: Mantiuk2011CVM
   authors:
     - R. Mantiuk
     - K. Kim
@@ -538,7 +538,7 @@
   pages: 401--4014
   month: August
 
-- Lau2011CCS:
+- id: Lau2011CCS
   authors:
     - C. Lau
     - R. Mantiuk
@@ -548,7 +548,7 @@
   year: 2011
   pages: 1172-1179
 
-- Wetzstein2011RSL:
+- id: Wetzstein2011RSL
   authors:
     - G. Wetzstein
     - W. Heidrich
@@ -558,7 +558,7 @@
   year: 2011
   pages: 1180-1186
 
-- Cecchetto2011PID:
+- id: Cecchetto2011PID
   authors:
     - B. Cecchetto
     - W. Heidrich
@@ -567,7 +567,7 @@
   pages: 8 pages
   year: 2011
 
-- Rouf2011GEH:
+- id: Rouf2011GEH
   authors:
     - M. Rouf
     - R. Mantiuk
@@ -580,7 +580,7 @@
   pages: 289--296
   note: Oral paper
 
-- Trentacoste2011BAI:
+- id: Trentacoste2011BAI
   authors:
     - M. Trentacoste
     - R. Mantiuk
@@ -590,7 +590,7 @@
   pages: 573--582
   year: 2011
 
-- Wetzstein2011HHS:
+- id: Wetzstein2011HHS
   authors:
     - G. Wetzstein
     - R. Raskar
@@ -602,7 +602,7 @@
   note: Best Paper Award
 
 
-- Hoskinson2010LRH:
+- id: Hoskinson2010LRH
   authors:
     - R. Hoskinson
     - B. Stoeber
@@ -616,7 +616,7 @@
   pages: 1651--16510
   month: December
 
-- Bradley2010HRP:
+- id: Bradley2010HRP
   authors:
     - D. Bradley
     - W. Heidrich
@@ -630,7 +630,7 @@
   pages: 411--4110
   month: July
 
-- Atcheson2010CHP:
+- id: Atcheson2010CHP
   authors:
     - B. Atcheson
     - F. Heide
@@ -640,7 +640,7 @@
   pages: 8 pages
   year: 2010
 
-- Ihrke2010TPM:
+- id: Ihrke2010TPM
   authors:
     - I. Ihrke
     - G. Wetzstein
@@ -651,7 +651,7 @@
   pages: 483--490
   note: oral paper
 
-- Wetzstein2010SSF:
+- id: Wetzstein2010SSF
   authors:
     - G. Wetzstein
     - I. Ihrke
@@ -661,7 +661,7 @@
   year: 2010
   pages: 545--552
 
-- Popa2010GCS:
+- id: Popa2010GCS
   authors:
     - T. Popa
     - I. South-Dickinson
@@ -673,7 +673,7 @@
   year: 2010
   pages: 1633--1642
 
-- Mai2010OTM:
+- id: Mai2010OTM
   authors:
     - Z. Mai
     - H. Mansour
@@ -686,7 +686,7 @@
   year: 2010
   pages: 1831--1834
 
-- Bradley2010BCC:
+- id: Bradley2010BCC
   authors:
     - D. Bradley
     - W. Heidrich
@@ -695,7 +695,7 @@
   year: 2010
   pages: 183--190
 
-- Trentacoste2010DTC:
+- id: Trentacoste2010DTC
   authors:
     - M. Trentacoste
     - C. Lau
@@ -707,7 +707,7 @@
   pages: 16--26
   year: 2010
 
-- Kim2010CVD:
+- id: Kim2010CVD
   authors:
     - K. J. Kim
     - R. Mantiuk
@@ -718,7 +718,7 @@
   pages: 10--19
   year: 2010
 
-- Wetzstein2010OIP:
+- id: Wetzstein2010OIP
   authors:
     - G. Wetzstein
     - W. Heidrich
@@ -730,7 +730,7 @@
   number: 6
   pages: 1934-1944
 
-- Ghosh2010BIA:
+- id: Ghosh2010BIA
   authors:
     - A. Ghosh
     - W. Heidrich
@@ -745,7 +745,7 @@
 
 
 
-- Berger2009T4R:
+- id: Berger2009T4R
   authors:
     - K. Berger
     - B. Atcheson
@@ -757,7 +757,7 @@
   pages: 1--8
   year: 2009
 
-- Rempel2009VVW:
+- id: Rempel2009VVW
   authors:
     - A. Rempel
     - R. Mantiuk
@@ -768,7 +768,7 @@
   year: 2009
   pages: 45--52
 
-- Mantiuk2009DCN:
+- id: Mantiuk2009DCN
   authors:
     - R. Mantiuk
     - A. Rempel
@@ -778,7 +778,7 @@
   year: 2009
   pages: 53--58
 
-- Bradley2009SRS:
+- id: Bradley2009SRS
   authors:
     - D. Bradley
     - B. Atcheson
@@ -790,7 +790,7 @@
   year: 2009
   note: Best Paper Award second prize
 
-- Mantiuk2009CCT:
+- id: Mantiuk2009CCT
   authors:
     - R. Mantiuk
     - R. Mantiuk
@@ -801,7 +801,7 @@
   pages: 193--202
   year: 2009
 
-- Popa2009WCG:
+- id: Popa2009WCG
   authors:
     - T. Popa
     - Q. Zhou
@@ -815,7 +815,7 @@
   pages: 427--435
   year: 2009
 
-- Mantiuk2009VHD:
+- id: Mantiuk2009VHD
   authors:
     - R. Mantiuk
     - W. Heidrich
@@ -827,7 +827,7 @@
   pages: 43--53
   month: June
 
-- Atcheson2009EOF:
+- id: Atcheson2009EOF
   authors:
     - B. Atcheson
     - W. Heidrich
@@ -842,7 +842,7 @@
 
 
 
-- Atcheson2008TRC:
+- id: Atcheson2008TRC
   authors:
     - B. Atcheson
     - I. Ihrke
@@ -859,7 +859,7 @@
   pages: 1321--1329
   month: December
 
-- Bradley2008MGC:
+- id: Bradley2008MGC
   authors:
     - D. Bradley
     - T. Popa
@@ -874,7 +874,7 @@
   pages: 991--999
   month: July
 
-- Bradley2008AMV:
+- id: Bradley2008AMV
   authors:
     - D. Bradley
     - T. Boubekeur
@@ -886,7 +886,7 @@
 
 
 
-- Trentacoste2007PIP:
+- id: Trentacoste2007PIP
   authors:
     - M. Trentacoste
     - H. Seetzen
@@ -901,7 +901,7 @@
   number: 5
   month: October
 
-- Rempel2007L2H:
+- id: Rempel2007L2H
   authors:
     - A. Rempel
     - M. Trentacoste
@@ -918,7 +918,7 @@
   pages: 391--396
   month: July
 
-- Ghosh2007BAB:
+- id: Ghosh2007BAB
   authors:
     - A. Ghosh
     - S. Achutha
@@ -930,7 +930,7 @@
   year: 2007
   note: Marr Prize Honorable Mention
 
-- Seetzen2007SCH:
+- id: Seetzen2007SCH
   authors:
     - H. Seetzen
     - S. Makki
@@ -945,7 +945,7 @@
   pages: 361--369
   year: 2007
 
-- Corbett2007TF:
+- id: Corbett2007TF
   authors:
     - R. Corbett
     - K. van den Doel
@@ -961,7 +961,7 @@
 
 
 
-- Boubekeur2006SCS:
+- id: Boubekeur2006SCS
   authors:
     - T. Boubekeur
     - W. Heidrich
@@ -973,7 +973,7 @@
   pages: 399--406
   note: Gunter Enderle Award and Best Student Paper Award
 
-- Ghosh2006UCV:
+- id: Ghosh2006UCV
   authors:
     - A. Ghosh
     - W. Heidrich
@@ -982,7 +982,7 @@
   year: 2006
   pages: 693--701
 
-- Ghosh2006SSE:
+- id: Ghosh2006SSE
   authors:
     - A. Ghosh
     - A. Doucet
@@ -992,7 +992,7 @@
   year: 2006
   pages: 115--126
 
-- Trifonov2006TRT:
+- id: Trifonov2006TRT
   authors:
     - B. Trifonov
     - D. Bradley
@@ -1002,7 +1002,7 @@
   year: 2006
   pages: 51--60
 
-- Seetzen2006GCB:
+- id: Seetzen2006GCB
   authors:
     - H. Seetzen
     - H. Li
@@ -1017,7 +1017,7 @@
 
 
 
-- Ghosh2005RIV:
+- id: Ghosh2005RIV
   authors:
     - A. Ghosh
     - M. Trentacoste
@@ -1029,7 +1029,7 @@
   month: June
   pages: 243--252
 
-- Burke2005BIS:
+- id: Burke2005BIS
   authors:
     - D. Burke
     - A. Ghosh
@@ -1040,7 +1040,7 @@
   month: June
   pages: 147--156
 
-- Ghosh2005VRH:
+- id: Ghosh2005VRH
   authors:
     - A. Ghosh
     - M. Trentacoste
@@ -1051,7 +1051,7 @@
   month: June
   pages: 91--98
 
-- Heidrich2005CBP:
+- id: Heidrich2005CBP
   authors:
     - W. Heidrich
   title: Computing the Barycentric Coordinates of a Projected Point
@@ -1063,7 +1063,7 @@
 
 
 
-- Seetzen2004HDR:
+- id: Seetzen2004HDR
   authors:
     - H. Seetzen
     - W. Heidrich
@@ -1079,7 +1079,7 @@
   month: August
   pages: 760--768 
 
-- Wang2004DIV:
+- id: Wang2004DIV
   authors:
     - S. Wang
     - W. Heidrich
@@ -1089,7 +1089,7 @@
   month: September
   pages: 441--450
 
-- Kueck2004SCM:
+- id: Kueck2004SCM
   authors:
     - H. Kuck
     - W. Heidrich
@@ -1099,7 +1099,7 @@
   month: May
   pages: 76--83
 
-- Tam2004CPS:
+- id: Tam2004CPS
   authors:
     - R. Tam
     - W. Heidrich
@@ -1109,7 +1109,7 @@
   month: June
   pages: 86--92
 
-- Wang2004USA:
+- id: Wang2004USA
   authors:
     - S. Wang
     - W. Heidrich
@@ -1122,7 +1122,7 @@
 
 
 
-- Granier2003IVC:
+- id: Granier2003IVC
   authors:
     - X. Granier
     - M. Goesele
@@ -1134,7 +1134,7 @@
   month: October
   pages: 59--66
 
-- Liu2003I3M:
+- id: Liu2003I3M
   authors:
     - Y. Liu
     - W. Heidrich
@@ -1144,7 +1144,7 @@
   month: October
   pages: 115--122
 
-- Tam2003SSB:
+- id: Tam2003SSB
   authors:
     - R. Tam
     - W. Heidrich
@@ -1154,7 +1154,7 @@
   month: October
   pages: 481--488
 
-- Pritchard2003CMC:
+- id: Pritchard2003CMC
   authors:
     - D. Pritchard
     - W. Heidrich
@@ -1164,7 +1164,7 @@
   month: September
   pages: 263--271
 
-- Vazquez2003AVS:
+- id: Vazquez2003AVS
   authors:
     - P.-P. Vazquez
     - M. Feixas
@@ -1178,7 +1178,7 @@
   pages: 689--700
   month: November
 
-- Granier2003ASL:
+- id: Granier2003ASL
   authors:
     - X. Granier
     - W. Heidrich
@@ -1190,7 +1190,7 @@
   pages: 171--184
   month: July
 
-- Goesele2003ALS:
+- id: Goesele2003ALS
   authors:
     - M. Goesele
     - X. Granier
@@ -1202,7 +1202,7 @@
   month: July
   pages: 621--630
 
-- Daubert2003ELT:
+- id: Daubert2003ELT
   authors:
     - K. Daubert
     - W. Heidrich
@@ -1217,7 +1217,7 @@
   year: 2003
   pages: 28--37
 
-- Lensch2003IBR:
+- id: Lensch2003IBR
   authors:
     - H. Lensch
     - J. Kautz
@@ -1234,7 +1234,7 @@
 
 
 
-- Granier2002SLR:
+- id: Granier2002SLR
   authors:
     - X. Granier
     - W. Heidrich
@@ -1244,7 +1244,7 @@
   month: November
   pages: 30--37
 
-- Streit2002BPF:
+- id: Streit2002BPF
   authors:
     - L. Streit
     - W. Heidrich
@@ -1254,7 +1254,7 @@
   month: September
   pages: 565--574
 
-- McAllister2002ERS:
+- id: McAllister2002ERS
   authors:
     - D. McAllister
     - A. Lastra
@@ -1265,7 +1265,7 @@
   month: September
   pages: 79--88
 
-- Vazquez2002IBM:
+- id: Vazquez2002IBM
   authors:
     - P.-P. Vazquez
     - M. Feixas
@@ -1277,7 +1277,7 @@
   month: July
   pages: 267--278
 
-- Secord2002FPD:
+- id: Secord2002FPD
   authors:
     - A Secord
     - W Heidrich
@@ -1288,7 +1288,7 @@
   month: June
   pages: 215--226
 
-- Tam2002FPM:
+- id: Tam2002FPM
   authors:
     - R. Tam
     - W. Heidrich
@@ -1298,7 +1298,7 @@
   month: May
   pages: 672--687
 
-- Lensch2001SAT:
+- id: Lensch2001SAT
   authors:
     - H. Lensch
     - W. Heidrich
@@ -1313,7 +1313,7 @@
 
 
 
-- Vazquez2001VSU:
+- id: Vazquez2001VSU
   authors:
     - P.-P. Vazquez
     - M. Feixas
@@ -1325,7 +1325,7 @@
   month: November
   pages: 273--280
 
-- Goesele2001CCH:
+- id: Goesele2001CCH
   authors:
     - M. Goesele
     - W. Heidrich
@@ -1336,7 +1336,7 @@
   year: 2001
   pages: 286--290
 
-- Kautz2001RBS:
+- id: Kautz2001RBS
   authors:
     - J. Kautz
     - W. Heidrich
@@ -1347,7 +1347,7 @@
   month: August
   pages: 109--114
 
-- Daubert2001ECM:
+- id: Daubert2001ECM
   authors:
     - K. Daubert
     - H. Lensch
@@ -1359,7 +1359,7 @@
   year: 2001
   pages: 63--70
 
-- Lensch2001IBR:
+- id: Lensch2001IBR
   authors:
     - H. Lensch
     - J. Kautz
@@ -1372,7 +1372,7 @@
   year: 2001
   pages: 103--114
 
-- Keller2001IS:
+- id: Keller2001IS
   authors:
     - A. Keller
     - W. Heidrich
@@ -1382,7 +1382,7 @@
   year: 2001
   pages: 269--276
 
-- Goesele2001EBD:
+- id: Goesele2001EBD
   authors:
     - M. Goesele
     - W. Heidrich
@@ -1395,7 +1395,7 @@
 
 
 
-- Lensch2000ATR:
+- id: Lensch2000ATR
   authors:
     - H. Lensch
     - W. Heidrich
@@ -1405,7 +1405,7 @@
   year: 2000
   month: October
 
-- Goesele2000BPS:
+- id: Goesele2000BPS
   authors:
     - M. Goesele
     - W. Heidrich
@@ -1417,7 +1417,7 @@
   pages: 231--238
   month: November
 
-- Heidrich2000IMG:
+- id: Heidrich2000IMG
   authors:
     - W. Heidrich
     - K. Daubert
@@ -1429,7 +1429,7 @@
   month: July
   pages: 455--464
 
-- Heidrich2000SSM:
+- id: Heidrich2000SSM
   authors:
     - W. Heidrich
     - S. Brabec
@@ -1440,7 +1440,7 @@
   year: 2000
   pages: 269--280
 
-- Kautz2000UAP:
+- id: Kautz2000UAP
   authors:
     - J. Kautz
     - P.-P. Vazquez
@@ -1452,7 +1452,7 @@
   year: 2000
   pages: 185--196
 
-- Schirmacher2000HQI:
+- id: Schirmacher2000HQI
   authors:
     - H. Schirmacher
     - W. Heidrich
@@ -1465,7 +1465,7 @@
 
 
 
-- Heidrich1999RHA:
+- id: Heidrich1999RHA
   authors:
     - W. Heidrich
     - H.-P. Seidel
@@ -1475,7 +1475,7 @@
   pages: 171--178
   month: August
 
-- Schirmacher1999IBB:
+- id: Schirmacher1999IBB
   authors:
     - H. Schirmacher
     - W. Heidrich
@@ -1488,7 +1488,7 @@
   pages: 285--292
   year: 1999
 
-- Schirmacher1999AAL:
+- id: Schirmacher1999AAL
   authors:
     - H. Schirmacher
     - W. Heidrich
@@ -1499,7 +1499,7 @@
   pages: 151--160
   year: 1999
 
-- McCool1999TS:
+- id: McCool1999TS
   authors:
     - M. McCool
     - W. Heidrich
@@ -1509,7 +1509,7 @@
   pages: 117--126
   year: 1999
 
-- Heidrich1999LFR:
+- id: Heidrich1999LFR
   authors:
     - W. Heidrich
     - H. Lensch
@@ -1521,7 +1521,7 @@
   pages: 187--196
   year: 1999
 
-- Heidrich1999APT:
+- id: Heidrich1999APT
   authors:
     - W. Heidrich
     - R. Westermann
@@ -1533,7 +1533,7 @@
   pages: 127--134
   month: April
 
-- Heidrich1999WRL:
+- id: Heidrich1999WRL
   authors:
     - W. Heidrich
     - H. Kuck
@@ -1547,7 +1547,7 @@
 
 
 
-- Heidrich1998SPS:
+- id: Heidrich1998SPS
   authors:
     - W. Heidrich
     - Ph. Slusallek
@@ -1559,7 +1559,7 @@
   year: 1998
   pages: 158--176
 
-- Slusallek1998CLS:
+- id: Slusallek1998CLS
   authors:
     - Ph. Slusallek
     - M. Stamminger
@@ -1574,7 +1574,7 @@
   month: March
   pages: 22--31
 
-- Heidrich1998VEM:
+- id: Heidrich1998VEM
   authors:
     - W. Heidrich
     - H.-P. Seidel
@@ -1584,7 +1584,7 @@
   pages: 39--45
   month: October
 
-- Heidrich1998ERA:
+- id: Heidrich1998ERA
   authors:
     - W. Heidrich
     - H.-P. Seidel
@@ -1594,7 +1594,7 @@
   pages: 315--318
   year: 1998
 
-- Heidrich1998CL:
+- id: Heidrich1998CL
   authors:
     - W. Heidrich
     - J. Kautz
@@ -1606,7 +1606,7 @@
   pages: 293--300
   year: 1998
 
-- Heidrich1998RPD:
+- id: Heidrich1998RPD
   authors:
     - W. Heidrich
     - Ph. Slusallek
@@ -1617,7 +1617,7 @@
   month: May
   year: 1998
 
-- Roettger1998RTG:
+- id: Roettger1998RTG
   authors:
     - S. Rottger
     - W. Heidrich
@@ -1631,7 +1631,7 @@
 
 
 
-- Heidrich1997IMR:
+- id: Heidrich1997IMR
   authors:
     - W. Heidrich
     - Ph. Slusallek
@@ -1642,7 +1642,7 @@
   month: April
   pages: 68--75
 
-- Heidrich1997FUD:
+- id: Heidrich1997FUD
   authors:
     - W. Heidrich
     - R. Bartels
@@ -1653,7 +1653,7 @@
 
 
 
-- Heidrich1996HAR:
+- id: Heidrich1996HAR
   authors:
     - W. Heidrich
   title: Hardware Accelerated Rendering of Emissive Volumes
@@ -1664,7 +1664,7 @@
 
 
 
-- Heidrich1995IMP:
+- id: Heidrich1995IMP
   authors:
     - W. Heidrich
     - M. McCool
@@ -1675,7 +1675,7 @@
   pages: 11--18
   year: 1995
 
-- Heidrich1995AGT:
+- id: Heidrich1995AGT
   authors:
     - W. Heidrich
     - Ph. Slusallek
@@ -1687,7 +1687,7 @@
 
 
 
-- Heidrich1994UCC:
+- id: Heidrich1994UCC
   authors:
     - W. Heidrich
     - Ph. Slusallek
@@ -1701,7 +1701,7 @@
 
 
 
-- Greiner1993BWR:
+- id: Greiner1993BWR
   authors:
     - G. Greiner
     - W. Heidrich
