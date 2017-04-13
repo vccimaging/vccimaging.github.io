@@ -1,19 +1,18 @@
 <!-- format an entry for a single lab member -->
 
-{% capture weburl %}/People/{{include.person.id}}/index.html{% endcapture %}
+{% capture pubflag %}/People/{{include.person.id}}/published{% endcapture %}
 
-{% assign webpage = false %}
 {% for file in site.static_files %}
-{% if file.path == weburl %}
+{% if file.path == pubflag %}
 <li>{{weburl}}</li>
-  {% assign webpage = true %}
+  {% capture weburl %}People/{{include.person.id}}/{% endcapture %}
   {% break %}
 {% endif %}
 {% endfor %}
 
 <li>{{webpage}}</li>
 
-<li>{% if webpage %}<a href="{{weburl}}">{% endif %}{{ include.person.title }} {{ include.person.name }}{% if webpage %}</a>{% endif %},
+<li>{% if weburl %}<a href="{{weburl}}">{% endif %}{{ include.person.title }} {{ include.person.name }}{% if weburl %}</a>{% endif %},
   {{ include.person.position }},
   {% if include.person.end %}
   {{ include.person.start }} - {{ include.person.end }}; now at {{ include.person.nowat }}.
