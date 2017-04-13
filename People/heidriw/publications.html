@@ -1,0 +1,66 @@
+---
+layout: default
+title: Wolfgang Heidrich -- Publications
+---
+
+<h1>Publications</h1>
+<h3>Wolfgang Heidrich</h3>
+
+{% assign years = (1993..2017) | reverse %}
+
+<div style="text-align:center;">
+<div style="display:inline-block;text-align:left;width:85%">
+<h4>Years:</h4>
+<nav>
+  <ul>
+    {% for year in years %}
+    <li><a href=#{{year}}>{{year}}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+</div>
+</div>
+
+<br>
+<br>
+
+{% for year in years %}
+{% include publicationlist.html name="W. Heidrich" minYear=year maxYear=year %}
+<br><br>
+{% endfor %}
+
+
+<!--
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th style="width:110px;"></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+{% for pub in site.data.publications %}
+{% if pub.title and pub.authors and pub.venue and pub.year %}
+    <tr>
+      <td style="vertical-align:middle;text-align:center;"> <img src="{{pub.image}}" width=100 height=100>
+      <td style="vertical-align:top;text-align:left;line-height:1;">
+        <pub-authors> {{ pub.authors | join: ', ' }}: </pub-authors><br>
+        {% if pub.pdf %}
+          <pub-title> <a href="{{ pub.pdf }}">{{ pub.title }}</a></pub-title><br>
+        {% else %}
+          <pub-title>{{ pub.title }}</pub-title><br>
+        {% endif %}        
+        <pub-normal> {{ pub.venue }}, {{ pub.year }} </pub-normal><br>
+        {% if pub.project %}
+          <pub-normal><a href="{{ pub.project }}">Project page</a></pub-normal><br>
+        {% endif %}
+        {% if pub.note %}
+          <pub-normal> ({{ pub.note }}) </pub-normal>
+        {% endif %}
+      </td>
+    </tr>
+{% endif %}
+{% endfor %}    
+  </tbody>
+</table>
+-->
