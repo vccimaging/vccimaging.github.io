@@ -1,13 +1,5 @@
 <!-- format an entry for a single lab member -->
 
 {% capture weburl %}/People/{{include.person.id}}/index.html{% endcapture %}
-{% for file = in site.static_files %}
-{% if file.path == weburl %}
-  {% assign webpage = "true" %}
-  {% break %}
-{% endif %}
-{% endfor %}
-
-
 <li> {{weburl}}: {{webpage}}</li>
 
