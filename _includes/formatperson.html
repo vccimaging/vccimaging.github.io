@@ -3,11 +3,14 @@
 {% capture pubflag %}/People/{{include.person.id}}/published{% endcapture %}
 
 {% for file in site.static_files %}
+{% assign weburl = null %}
 {% if file.path == pubflag %}
   {% capture weburl %}People/{{include.person.id}}/{% endcapture %}
   {% break %}
 {% endif %}
 {% endfor %}
+
+<li>{{pubflag}}: {{weburl}}</li>
 
 <li>{% if weburl %}<a href="{{weburl}}">{% endif %}{{ include.person.title }} {{ include.person.name }}{% if weburl %}</a>{% endif %},
   {{ include.person.position }},
