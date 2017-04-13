@@ -15,73 +15,86 @@
 
 # active members (sorted by last name)
 
-- name: Moetaz Abbas
+- id:
+  name: Moetaz Abbas
   pubname: M. Abbas
   position: Research Engineer
   start: 2016
 
-- name: Mashael Alghamdi
+- id:
+  name: Mashael Alghamdi
   pubname: M. Alghamdi
   position: Ph.D Student
   start: 2014
 
-- name: Ibrahim Alsomalmi
+- id:
+  name: Ibrahim Alsomalmi
   pubname: I. Alsomalmi
   title: Dr.
   position: Post Doc
   start: 2016
 
-- name: Mohamed Aly
+- id:
+  name: Mohamed Aly
   pubname: M. Aly
   title: Dr.
   position: Research Scientist
   start: 2014
 
-- name: Hadi Amata
+- id:
+  name: Hadi Amata
   pubname: H. Amata
   title: Dr.
   position: Research Scientist
   start: 2014
 
-- name: Biswarup Chaudhury
+- id:
+  name: Biswarup Chaudhury
   pubname: B. Chaudhury
   title: Dr.
   position: Research Scientist
   start: 2014
 
-- name: Xiong Dun
+- id:
+  name: Xiong Dun
   pubname: X. Dun
   title: Dr.
   position: Post Doc
   start: 2016
 
-- name: Ramzi Idoughi
+- id:
+  name: Ramzi Idoughi
   pubname: R. Idoughi
   title: Dr.
   position: Post Doc
   start: 2016
 
-- name: Muxingzhi Li
+- id:
+  name: Muxingzhi Li
   pubname: M. Li
   position: Ph.D Student
   start: 2015
 
-- name: Congli Wang
+- id:
+  name: Congli Wang
   pubname: C. Wang
   position: Ph.D Student
   start: 2015
 
-- name: Yuanhao Wang
+- id:
+  name: Yuanhao Wang
   pubname: Y. Wang
   position: Ph.D. Student
   start: 2016
 
-- name: Qilin Sun
+- id:
+  name: Qilin Sun
   pubname: Q. Sun
   position: Ph.D Student
   start: 2015
 
-- name: Jinhui Xiong
+- id:
+  name: Jinhui Xiong
   pubname: J. Xiong
   position: Ph.D Student
   start: 2015
@@ -90,7 +103,8 @@
 
 # alumni (sorted by last name)
 
-- name: Qiang Fu
+- id:
+  name: Qiang Fu
   pubname: Q. Fu
   title: Dr.
   position: Research Scientist
@@ -98,7 +112,8 @@
   end: 2016
   nowat: Shanghai tech
 
-- name: Robin Swanson
+- id:
+  name: Robin Swanson
   pubname: R. Swanson
   title:
   position: MS Student
