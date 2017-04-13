@@ -5,7 +5,8 @@
 
 # group leader (always first!)
 
-- name: Wolfgang Heidrich
+- id: heidriw
+  name: Wolfgang Heidrich
   pubname: W. Heidrich
   title: Prof. Dr.
   position: Professor&Director
