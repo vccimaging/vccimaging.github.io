@@ -1,6 +1,16 @@
 <!-- format an entry for a single lab member -->
 
-<li>{{ include.person.title }} {{ include.person.name }},
+{% capture weburl %}"/People/{{include.person.id}}/index.html"{% endcapture %}
+{% assign webpage = false %}
+{% for file = in site.static_files %}
+{% if file.path == weburl %}
+  {% assign webpage = true %}
+  {% break %}
+{% endif %}
+{% endfor %}
+
+
+<li>{% if webpage %}<a href="{{weburl}}">{% endif %}{{ include.person.title }} {{ include.person.name }}{% if webpage %}</a>{% endif %},
   {{ include.person.position }},
   {% if include.person.end %}
   {{ include.person.start }} - {{ include.person.end }}; now at {{ include.person.nowat }}.
