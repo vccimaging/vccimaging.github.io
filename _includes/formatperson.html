@@ -10,8 +10,6 @@
 {% endif %}
 {% endfor %}
 
-<li>{{pubflag}}: {{weburl}}</li>
-
 <li>{% if weburl %}<a href="{{weburl}}">{% endif %}{{ include.person.title }} {{ include.person.name }}{% if weburl %}</a>{% endif %},
   {{ include.person.position }},
   {% if include.person.end %}
