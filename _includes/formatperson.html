@@ -5,10 +5,13 @@
 {% assign webpage = false %}
 {% for file in site.static_files %}
 {% if file.path == weburl %}
+<li>{{weburl}}</li>
   {% assign webpage = true %}
   {% break %}
 {% endif %}
 {% endfor %}
+
+<li>{{webpage}}</li>
 
 <li>{% if webpage %}<a href="{{weburl}}">{% endif %}{{ include.person.title }} {{ include.person.name }}{% if webpage %}</a>{% endif %},
   {{ include.person.position }},
