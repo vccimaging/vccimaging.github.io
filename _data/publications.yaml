@@ -252,6 +252,7 @@
   number: 2
   pages: 113--127
   month: November
+  pdf: "https://link.springer.com/article/10.1007/s11263-013-0652-x"
 
 - id: Heide2014ISM
   authors:
@@ -334,18 +335,6 @@
   volume: 22
   number: 12
   pages: 14981-14992
-
-- id: Heide2014CMA
-  authors:
-    - F. Heide
-    - M. Hullin
-    - M. Rouf
-    - B. Labitzke
-    - A. Kolb
-    - W. Heidrich
-  title: Computational Methods for Aberration Correction in Simple Lens Imaging
-  venue: SPIE Newsroom
-  year: 2014
 
 
 
