@@ -239,6 +239,7 @@
   number: 6
   pages: 231.1--231.12
   month: December
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2014/FlexISP/"
 
 - id: Wetzstein2014CSP
   authors:
@@ -253,6 +254,7 @@
   pages: 113--127
   month: November
   pdf: "https://link.springer.com/article/10.1007/s11263-013-0652-x"
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/LFBOS/index.html"
 
 - id: Heide2014ISM
   authors:
@@ -267,6 +269,7 @@
   volume: 22
   number: 21
   pages: 26338--26350
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2014/SparseCodingToF/"
 
 - id: Gregson2014FCS
   authors:
@@ -281,6 +284,7 @@
   number: 3
   pages: 139.1--139.10
   month: August
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2014/FromCaptureToSimulation/"
 
 - id: OToole2014TFP
   authors:
@@ -297,6 +301,7 @@
   number: 3
   pages: 87.1--87.11
   month: August
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2014/TemporalProbing/"
 
 - id: Heide2014ACS
   authors:
@@ -308,6 +313,7 @@
   title: A Compressive Superresolution Display
   venue: Computational Optical Sensing and Imaging COSI
   year: 2014
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2014/MultiModeDisplay/"
 
 - id: Heide2014DM3
   authors:
@@ -321,6 +327,7 @@
   pages: 8 pages
   month: June
   note: oral paper
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2014/DiffuseMirrors/"
 
 - id: Heide2014CMM
   authors:
@@ -335,6 +342,7 @@
   volume: 22
   number: 12
   pages: 14981-14992
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2014/MultiModeDisplay/"
 
 
 
@@ -351,6 +359,7 @@
   number: 3
   pages: 45.1--45.9
   month: July
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2013/TransientPMD/"
 
 - id: Heide2013AIS
   authors:
@@ -365,6 +374,7 @@
   number: 3
   pages: 132.1--132.11
   month: July
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2013/AdaptiveImageSynthesis/"
 
 - id: Gregson2013SD
   authors:
@@ -376,6 +386,7 @@
   venue: CVPR
   year: 2013
   pages: 8 pages
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2013/StochasticDeconvolution/"
 
 - id: Iffa2013WFD
   authors:
@@ -401,6 +412,7 @@
   number: 5
   pages: 149.1--149.10
   month: September
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2013/SimpleLensImaging/"
 
 - id: Wetzstein2013OPM
   authors:
@@ -414,6 +426,7 @@
   number: 2
   pages: 384--400
   month: January
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2010/TheoryOfPlenopticMultiplexing/"
 
 
 
@@ -431,6 +444,7 @@
   number: 3
   pages: 52.1--52.10
   month: August
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2012/StochasticTomography/"
 
 - id: Iffa2012LFO
   authors:
@@ -451,6 +465,7 @@
   venue: ProCams
   pages: 7--14
   year: 2012
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2012/GradientDomainColorRestoration/"
 
 - id: Hullin2012PO
   authors:
@@ -461,6 +476,7 @@
   venue: EGSR
   year: 2012
   pages: 1375--1383
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2012/PolynomialOptics/"
 
 - id: Trentacoste2012SPC
   authors:
@@ -472,6 +488,7 @@
   venue: Eurographics
   pages: 555-564
   year: 2012
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2012/Countershading/"
 
 - id: Atcheson2012NPA
   authors:
@@ -481,6 +498,7 @@
   venue: VISAPP
   year: 2012
   pages: 247-254
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2012/NonParametricCorrespondences/"
 
 - id: Lanman2012BPB
   authors:
@@ -509,6 +527,7 @@
   number: 5
   pages: 158.1--158.12
   month: December
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/DisplacementInterpolation"
 
 - id: Lanman2011PFD
   authors:
@@ -554,6 +573,7 @@
   number: 3
   pages: 95.1--95.12
   month: August
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/Wetzstein_SIG2011_Layered3D/"
 
 - id: Mantiuk2011CVM
   authors:
@@ -568,6 +588,7 @@
   number: 3
   pages: 40.1--40.14
   month: August
+  url: "http://www.cs.ubc.ca/nest/imager/tr/2011/Mantiuk_HDR-VDP-2/"
 
 - id: Lau2011CCS
   authors:
@@ -578,6 +599,7 @@
   venue: ICCV
   year: 2011
   pages: 1172-1179
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/ClusterBasedColorSpaceOptimizations/"
 
 - id: Wetzstein2011RSL
   authors:
@@ -588,6 +610,7 @@
   venue: ICCV
   year: 2011
   pages: 1180-1186
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/RefractiveShapeFromLightFieldDistortion/"
 
 - id: Cecchetto2011PID
   authors:
@@ -597,6 +620,7 @@
   venue: Vision Modeling and Visualization
   pages: 8 pages
   year: 2011
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/ProbabilisticInverseDynamics"
 
 - id: Rouf2011GEH
   authors:
@@ -610,6 +634,7 @@
   year: 2011
   pages: 289--296
   note: Oral paper
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/GlareEncodingHDR/"
 
 - id: Trentacoste2011BAI
   authors:
@@ -620,6 +645,7 @@
   venue: Eurographics
   pages: 573--582
   year: 2011
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/BlurAwareDownsize/"
 
 - id: Wetzstein2011HHS
   authors:
@@ -631,6 +657,7 @@
   year: 2011
   pages: 1--8
   note: Best Paper Award
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2011/LFBOS/index.html"
 
 
 - id: Hoskinson2010LRH
@@ -646,6 +673,7 @@
   number: 4
   pages: 165.1--165.10
   month: December
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2010/Hoskinson_SigAsia2010_LightReallocation/"
 
 - id: Bradley2010HRP
   authors:
@@ -660,6 +688,7 @@
   number: 3
   pages: 41.1--41.10
   month: July
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2010/Bradley_SIG2010_FaceCapture/"
 
 - id: Atcheson2010CHP
   authors:
@@ -670,6 +699,7 @@
   venue: Vision Modeling and Visualization
   pages: 8 pages
   year: 2010
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2010/Atcheson_VMV2010_CALTag/"
 
 - id: Ihrke2010TPM
   authors:
@@ -681,6 +711,7 @@
   year: 2010
   pages: 483--490
   note: oral paper
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2010/TheoryOfPlenopticMultiplexing/"
 
 - id: Wetzstein2010SSF
   authors:
@@ -691,6 +722,7 @@
   venue: CVPR
   year: 2010
   pages: 545--552
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2010/SensorSaturationFourierMultiplexedImaging/"
 
 - id: Popa2010GCS
   authors:
@@ -703,6 +735,7 @@
   venue: Symposium on Geometry Processing
   year: 2010
   pages: 1633--1642
+  url: "http://graphics.ethz.ch/publications/papers/paperPop10.php"
 
 - id: Mai2010OTM
   authors:
@@ -760,6 +793,7 @@
   volume: 29
   number: 6
   pages: 1934-1944
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2009/OpticalImageProcessing/"
 
 - id: Ghosh2010BIA
   authors:
@@ -773,7 +807,7 @@
   volume: 90
   number: 2
   pages: 183--197
-
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2007/BRDFAcquisition"
 
 
 - id: Berger2009T4R
@@ -787,6 +821,7 @@
   venue: Vision Modeling and Visualization VMV
   pages: 1--8
   year: 2009
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2008/GasCapture/"
 
 - id: Rempel2009VVW
   authors:
@@ -798,7 +833,8 @@
   venue: Applied Perception in Graphics and Visualization APGV
   year: 2009
   pages: 45--52
-
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2009/Rempel_Pref_Ambient/"
+  
 - id: Mantiuk2009DCN
   authors:
     - R. Mantiuk
@@ -808,6 +844,7 @@
   venue: Applied Perception in Graphics and Visualization APGV
   year: 2009
   pages: 53--58
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2009/Mantiuk_Night_Viewing/"
 
 - id: Ihrke2009TRE
   authors:
@@ -819,6 +856,7 @@
   title: Tomographic Reconstruction and Efficient Rendering of Refractive Gas Flows
   venue: Imaging Measurement Methods for Flow Analysis
   year: 2009
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2008/GasCapture/"
 
 - id: Bradley2009SRS
   authors:
@@ -831,6 +869,7 @@
   pages: 1--8
   year: 2009
   note: Best Paper Award second prize
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2009/Bradley-PROCAMS-2009/"
 
 - id: Mantiuk2009CCT
   authors:
@@ -842,7 +881,8 @@
   venue: Computer Graphics Forum (Proc. Eurographics)
   pages: 193--202
   year: 2009
-
+  url: "http://zgk.wi.ps.pl/color_correction/"
+  
 - id: Popa2009WCG
   authors:
     - T. Popa
@@ -856,6 +896,7 @@
   venue: Computer Graphics Forum (Proc. Eurographics)
   pages: 427--435
   year: 2009
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2009/WrinklingCapturedGarments"
 
 - id: Mantiuk2009VHD
   authors:
@@ -883,6 +924,7 @@
   number: 3
   pages: 467--476
   month: March
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2008/Atcheson_BOS_EiF"
 
 - id: Atcheson2008TRC
   authors:
@@ -900,6 +942,7 @@
   number: 4
   pages: 132.1--132.9
   month: December
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2008/GasCapture"
 
 - id: Bradley2008MGC
   authors:
@@ -915,6 +958,7 @@
   number: 3
   pages: 99.1--99.9
   month: July
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2008/MarkerlessGarmentCapture"
 
 - id: Bradley2008AMV
   authors:
@@ -925,6 +969,7 @@
   venue: CVPR
   pages: 8 pages
   year: 2008
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2008/Bradley_AccurateMultiView_CVPR"
 
 
 
@@ -959,6 +1004,7 @@
   number: 3
   pages: 39.1--39.6
   month: July
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2007/Rempel_Ldr2Hdr"
 
 - id: Ghosh2007BAB
   authors:
@@ -971,6 +1017,7 @@
   pages: 8 pages
   year: 2007
   note: Marr Prize Honorable Mention
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2007/BRDFAcquisition"
 
 - id: Seetzen2007SCH
   authors:
@@ -1023,7 +1070,8 @@
   venue: Pacific Graphics
   year: 2006
   pages: 693--701
-
+  url: "http://www.cs.ubc.ca/~heidrich/Projects/SamplingDirectIllumination/"
+  
 - id: Ghosh2006SSE
   authors:
     - A. Ghosh
@@ -1033,6 +1081,7 @@
   venue: EGSR
   year: 2006
   pages: 115--126
+  url: "http://www.cs.ubc.ca/~heidrich/Projects/SamplingDirectIllumination/"
 
 - id: Trifonov2006TRT
   authors:
@@ -1043,6 +1092,7 @@
   venue: EGSR
   year: 2006
   pages: 51--60
+  url: "http://www.cs.ubc.ca/~heidrich/Projects/Tomography/"
 
 - id: Seetzen2006GCB
   authors:
@@ -1070,6 +1120,7 @@
   year: 2005
   month: June
   pages: 243--252
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2005/ActiveLighting"
 
 - id: Burke2005BIS
   authors:
@@ -1081,6 +1132,7 @@
   year: 2005
   month: June
   pages: 147--156
+  url: "http://www.cs.ubc.ca/~heidrich/Projects/SamplingDirectIllumination/"
 
 - id: Ghosh2005VRH
   authors:
@@ -1119,7 +1171,8 @@
   venue: ACM Trans. Graphics (Proc. SIGGRAPH)
   year: 2004
   month: August
-  pages: 760--768 
+  pages: 760--768
+  url: "http://www.cs.ubc.ca/labs/imager/tr/2004/Seetzen_2004_HDR"
 
 - id: Wang2004DIV
   authors:
