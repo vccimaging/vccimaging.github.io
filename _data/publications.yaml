@@ -838,20 +838,20 @@
   pages: 43--53
   month: June
 
-- id: Atcheson2009EOF
+
+
+- id: Atcheson2008EOF
   authors:
     - B. Atcheson
     - W. Heidrich
     - I. Ihrke
   title: An Evaluation of Optical Flow Algorithms for Background Oriented Schlieren Imaging
   venue: Experiments in Fluids
-  year: 2009
+  year: 2008
   volume: 46
   number: 3
   pages: 467--476
   month: March
-
-
 
 - id: Atcheson2008TRC
   authors:
@@ -1299,8 +1299,8 @@
 
 - id: Secord2002FPD
   authors:
-    - A Secord
-    - W Heidrich
+    - A. Secord
+    - W. Heidrich
     - L. Streit
   title: Fast Primitive Distribution for Illustration
   venue: Eurographics Workshop on Rendering
@@ -1318,6 +1318,8 @@
   month: May
   pages: 672--687
 
+
+
 - id: Lensch2001SAT
   authors:
     - H. Lensch
@@ -1330,8 +1332,7 @@
   pages: 245--262
   month: July
   year: 2001
-
-
+  pdf: http://dx.doi.org/10.1006/gmod.2001.0554
 
 - id: Vazquez2001VSU
   authors:
@@ -1671,16 +1672,16 @@
   month: April
   pages: 68--75
 
-- id: Heidrich1997FUD
+
+
+- id: Heidrich1996FUD
   authors:
     - W. Heidrich
     - R. Bartels
     - G. Labahn
   title: Fitting Uncertain Data with NURBS
   venue: Curves and Surfaces with Applications in CAGD
-  year: 1997
-
-
+  year: 1996
 
 - id: Heidrich1996HAR
   authors:
@@ -1690,6 +1691,8 @@
   month: November
   pages: 191--198
   year: 1996
+  pdf: Heidrich1995AGT/Heidrich1995IMP.pdf
+  thumbnail: Heidrich1995AGT/thumb.jpg
 
 
 
