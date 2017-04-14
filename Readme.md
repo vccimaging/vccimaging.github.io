@@ -17,28 +17,31 @@ Publications are kept in a YAML database in ```_data/publications.yaml```. This 
   title: My Title
   venue: Some journal or conference
   year: 2016
-  image: <URL for a 100x100 thumbnail>
+  thumbnail: <URL for a 100x100 thumbnail>
   pdf: <URL for a PDF of the publication>
-  project: <URL for a project directory>
+  url: <URL for a project directory>
 ```
 
-At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list.
+At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list. **Note:** any data value (e.g. title or url) containign a colon (':') must be enclosed in double quotes.
 
-The ```UniqueID``` is a unique identifier for each paper (Something like ```<Author><year><project acronym>```) that will later be used for automatically creating links to images and PDFs etc. Each publication may have additional fields (e.g. ```volume```, ```number``` etc.). These are currently ignored but may be used in the future for purposes like automatic generation of BibTeX entries. 
+The ```UniqueID``` is a unique identifier for each paper (Something like ```<Author><year><project acronym>```) that is used to automatically create links to thumbnail images and PDFs if the following files exist:
+
+- ```<UniqueID>/thumb.jpg```: thumbnail image
+- ```<UniqueID>/<UniqueID>.pdf```: PDF of the article
+- ```<UniqueID>/published```: project page linked to ```<UniqueID>/index.html```
+
+
+Each publication may have additional fields (e.g. ```volume```, ```number``` etc.). These are currently ignored but may be used in the future for purposes like automatic generation of BibTeX entries. 
 
 
 ### To Do:
 
 - Projects:
   - directory structure for projects
-  - naming convention for thumbnails, pdfs
   - template for projects
   - automatic bibtex generation?
-- Publications:
-  - implicitly use thumbnails, pdfs from project directories
 - People:
   - directory structure for home pages
-  - YAML file for people
   - template / example page for a home page
     - image
     - bio

@@ -37,8 +37,8 @@
           <pub-title>{{ pub.title }}</pub-title><br>
         {% endif %}        
         <pub-normal> {{ pub.venue }}, {{ pub.year }} </pub-normal><br>
-        {% if pub.project %}
-          <pub-normal><a href="{{ pub.project }}">Project page</a></pub-normal><br>
+        {% if pub.url %}
+          <pub-normal><a href="{{ pub.url }}">Project page</a></pub-normal><br>
         {% endif %}
         {% if pub.note %}
           <pub-normal> ({{ pub.note }}) </pub-normal>
