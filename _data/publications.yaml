@@ -1691,8 +1691,8 @@
   month: November
   pages: 191--198
   year: 1996
-  pdf: /Publications/Heidrich1995AGT/Heidrich1995IMP.pdf
-  thumbnail: /Publications/Heidrich1995AGT/thumb.jpg
+  pdf: /Publications/Heidrich1995IMP/Heidrich1996HAR.pdf
+  thumbnail: /Publications/Heidrich1995IMP/thumb.jpg
 
 
 
@@ -1708,7 +1708,7 @@
   year: 1995
 
 - id: Heidrich1995AGT
-  authors:
+  Authors:
     - W. Heidrich
     - Ph. Slusallek
   title: Automatic Generation of Tcl Bindings for C and C++ Libraries
