@@ -1,5 +1,35 @@
 ---
 
+- id: Xiong2017RPIV
+  authors:
+    - J. Xiong
+    - R. Idoughi
+    - A. Aguirre-Pablo
+    - A. Aljedaani
+    - X. Dun
+    - Q. Fu
+    - S. Thoroddsen
+    - W. Heidrich
+  title: Rainbow Particle Imaging Velocimetry for Dense 3D Fluid Velocity Imaging
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2017
+  note: coming soon
+
+- id: Su2017DVD
+  authors:
+    - S. Su
+    - M. Delbracio
+    - J. Wang
+    - G. Sapiro
+    - W. Heidrich
+    - O. Wang
+  title: Deep Video Deblurring
+  venue: CVPR
+  year: 2017
+  note: spotlight presentation
+
+
+
 - id: Heide2016EDO
   authors:
     - F. Heide
@@ -13,6 +43,17 @@
   pages: 10 pages
   number: 33543
   month: September
+
+- id: Xiao2016LHO
+  authors:
+    - L. Xiao
+    - J. Wang
+    - W. Heidrich
+    - M. Hirsch
+  title: Learning High-Order Filters for Efficient Blind Deconvolution of Document Photographs
+  venue: ECCV
+  year: 2016
+  note: spotlight presentation
 
 - id: Peng2016TDA
   authors:
