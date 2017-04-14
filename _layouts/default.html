@@ -6,7 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
+		{% if image %}
+		<img align=right src="{{image}}" width=width height=height>
+		{% else %}
 		<img align=right src="/Images/kaust.png" width=150 height=150>
+		{% endif %}
 		
 		<nav>
     		<ul>
