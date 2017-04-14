@@ -25,7 +25,7 @@
   volume: 35
   number: 4
   month: July
-  pages: 311--3111
+  pages: 31.1--31.11
 
 - id: Shrestha2016CIP
   authors:
@@ -39,7 +39,7 @@
   volume: 35
   number: 4
   month: July
-  pages: 331--3312
+  pages: 33.1--33.12
 
 - id: Heide2016PEI
   authors:
@@ -55,7 +55,7 @@
   volume: 35
   number: 4
   month: July
-  pages: 841--8415
+  pages: 84.1--84.15
 
 - id: Su2016MCU
   authors:
@@ -83,7 +83,7 @@
   number: 3
   month: June
   year: 2016
-  pages: 241--2411
+  pages: 24.1--24.11
 
 
 - id: Peng2015CIU
@@ -196,7 +196,7 @@
   year: 2014
   volume: 33
   number: 6
-  pages: 2311--23112
+  pages: 231.1--231.12
   month: December
 
 - id: Wetzstein2014CSP
@@ -237,7 +237,7 @@
   year: 2014
   volume: 33
   number: 3
-  pages: 1391--13910
+  pages: 139.1--139.10
   month: August
 
 - id: OToole2014TFP
@@ -253,7 +253,7 @@
   year: 2014
   volume: 33
   number: 3
-  pages: 871--8711
+  pages: 87.1--87.11
   month: August
 
 - id: Heide2014ACS
@@ -319,7 +319,7 @@
   year: 2013
   volume: 32
   number: 3
-  pages: 451--459
+  pages: 45.1--45.9
   month: July
 
 - id: Heide2013AIS
@@ -333,7 +333,7 @@
   year: 2013
   volume: 32
   number: 3
-  pages: 1321--13211
+  pages: 132.1--132.11
   month: July
 
 - id: Gregson2013SD
@@ -369,7 +369,7 @@
   year: 2013
   volume: 32
   number: 5
-  pages: 1491--14910
+  pages: 149.1--149.10
   month: September
 
 - id: Wetzstein2013OPM
@@ -399,7 +399,7 @@
   year: 2012
   volume: 31
   number: 3
-  pages: 521--5210
+  pages: 52.1--52.10
   month: August
 
 - id: Iffa2012LFO
@@ -477,7 +477,7 @@
   year: 2011
   volume: 30
   number: 5
-  pages: 1581--15812
+  pages: 158.1--158.12
   month: December
 
 - id: Lanman2011PFD
@@ -492,7 +492,7 @@
   year: 2011
   volume: 30
   number: 5
-  pages: 1861--18610
+  pages: 186.1--186.10
   month: December
 
 - id: Mai2011OTM-TIP
@@ -521,7 +521,7 @@
   year: 2011
   volume: 30
   number: 3
-  pages: 951--9512
+  pages: 95.1--95.12
   month: August
 
 - id: Mantiuk2011CVM
@@ -535,7 +535,7 @@
   year: 2011
   volume: 30
   number: 3
-  pages: 401--4014
+  pages: 40.1--40.14
   month: August
 
 - id: Lau2011CCS
@@ -613,7 +613,7 @@
   year: 2010
   volume: 29
   number: 4
-  pages: 1651--16510
+  pages: 165.1--165.10
   month: December
 
 - id: Bradley2010HRP
@@ -627,7 +627,7 @@
   year: 2010
   volume: 29
   number: 3
-  pages: 411--4110
+  pages: 41.1--41.10
   month: July
 
 - id: Atcheson2010CHP
@@ -725,7 +725,7 @@
     - D. Luebke
   title: Optical Image Processing Using Light Modulation Displays
   venue: Computer Graphics Forum
-  year: 2009
+  year: 2010
   volume: 29
   number: 6
   pages: 1934-1944
@@ -738,7 +738,7 @@
     - M. O'Toole
   title: A Basis Illumination Approach to BRDF Measurement
   venue: ICCV
-  year: 2009
+  year: 2010
   volume: 90
   number: 2
   pages: 183--197
@@ -777,6 +777,17 @@
   venue: Applied Perception in Graphics and Visualization APGV
   year: 2009
   pages: 53--58
+
+- id: Ihrke2009TRE
+  authors:
+    - I. Ihrke
+    - K. Berger
+    - B. Atcheson
+    - M. Magnor
+    - W. Heidrich
+  title: Tomographic Reconstruction and Efficient Rendering of Refractive Gas Flows
+  venue: Imaging Measurement Methods for Flow Analysis
+  year: 2009
 
 - id: Bradley2009SRS
   authors:
@@ -856,7 +867,7 @@
   year: 2008
   volume: 27
   number: 4
-  pages: 1321--1329
+  pages: 132.1--132.9
   month: December
 
 - id: Bradley2008MGC
@@ -871,7 +882,7 @@
   year: 2008
   volume: 27
   number: 3
-  pages: 991--999
+  pages: 99.1--99.9
   month: July
 
 - id: Bradley2008AMV
@@ -915,7 +926,7 @@
   year: 2007
   volume: 26
   number: 3
-  pages: 391--396
+  pages: 39.1--39.6
   month: July
 
 - id: Ghosh2007BAB
@@ -1254,6 +1265,15 @@
   month: September
   pages: 565--574
 
+- id: Bakay2002RAG
+  authors:
+    - B. Bakay
+    - P. Lalonde
+    - W. Heidrich
+  title: Real-Time Animated Grass
+  venue: Eurographics short paper
+  year: 2002
+
 - id: McAllister2002ERS
   authors:
     - D. McAllister
@@ -1324,6 +1344,15 @@
   year: 2001
   month: November
   pages: 273--280
+
+- id: Heidrich2001IDG
+  authors:
+    - W. Heidrich
+  title: Interactive Display of Global Illumination Solutions for Non-Diffuse Environments - A Survey
+  venue: Computer Graphics Forum
+  year: 2001
+  month: November
+  pages: 225--243
 
 - id: Goesele2001CCH
   authors:
