@@ -5,6 +5,12 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
+	{% if page.background-image %}
+	<style>
+	  body
+	  {background-image:url({{page.background-image}});background-position:bottom left;background-repeat:no-repeat;background-size:contain;background-attachment:fixed;}
+	</style>
+	{% endif %}
 	<body>
 		{% if page.image %}
 		<img align=right src="{{page.image}}" width=page.width height=page.height>
@@ -17,6 +23,7 @@
         		<li><a href="/">Home</a></li>
 			<li><a href="/people.html">People</a></li>
 			<li><a href="/publications.html">Publications</a></li>
+                        <li><a href="/joinus.html">Join Us</a></li>
 			<li style="float:right"><a href=http://www.kaust.edu.sa>KAUST</a></li>
 			<li style="float:right"><a href=http://vcc.kaust.edu.sa>VCC</a></li>
     		</ul>
