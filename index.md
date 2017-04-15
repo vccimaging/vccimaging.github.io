@@ -4,7 +4,7 @@ title: Computational Imaging Group
 ---
 
 # Computational Imaging Group
-## at the KAUST Visual Computng Center
+## at the KAUST Visual Computing Center
 
 Todo: static image or slide show
 
