@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{page.title}}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body style="background-image:url(/Images/background-AlHaytham.jpg);background-poition:bottom;background-repeat:no-repeat;background-size:contain;background-attachment:fixed;">
+		{% if page.image %}
+		<img align=right src="{{page.image}}" width=page.width height=page.height>
+		{% else %}
+		<img align=right src="/Images/kaust.png" width=150 height=150>
+		{% endif %}
+		
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+			<li><a href="/people.html">People</a></li>
+			<li><a href="/publications.html">Publications</a></li>
+			<li style="float:right"><a href=http://www.kaust.edu.sa>KAUST</a></li>
+			<li style="float:right"><a href=http://vcc.kaust.edu.sa>VCC</a></li>
+    		</ul>
+		</nav>
+
+		<content>
+		{{ content }}
+		</content>
+			
+		<footer>
+    		<ul>
+        Computational Imaging Group @ KAUST Visual Computing Center
+			</ul>
+		</footer>
+	</body>
+</html>
