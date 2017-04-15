@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Computational Imaging Group -- Join Us
-background-image: background-AlHaytham.jpg
+background-image: /Images/background-AlHaytham.jpg
 ---
 
 # Join Us
