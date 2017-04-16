@@ -26,7 +26,7 @@ The ```UniqueID``` is something like the KAUST login ID. It is used for automati
 
 - ```/People/<UniqueID>```: directory containing the home page and all related files
 - ```/People/<UniqueID>/index.{html,md}```: start page for the home page in HTML or markdown format
-- ```/People/<UniqueID>/published```: if this file exists, the the home page is published by generatign a link from the group page
+- ```/People/<UniqueID>/published```: if this file exists, the the home page is published by generating a link from the group page
 
 
 ### Publications
@@ -47,7 +47,7 @@ Publications are kept in a YAML database in ```_data/publications.yaml```. This 
   url: <URL for a project directory>
 ```
 
-At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list. **Note:** any data value (e.g. title or url) containign a colon (':') must be enclosed in double quotes.
+At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list. **Note:** any data value (e.g. title or url) containing a colon (':') must be enclosed in double quotes.
 
 The ```UniqueID``` is a unique identifier for each paper (Something like ```<Author><year><project acronym>```) that is used to automatically create links to thumbnail images and PDFs if the following files exist:
 
