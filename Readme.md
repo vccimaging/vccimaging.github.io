@@ -65,10 +65,7 @@ Each publication may have additional fields (e.g. ```volume```, ```number``` etc
   - directory structure for projects
   - template for projects
   - automatic bibtex generation?
-- People:
-  - directory structure for home pages
-  - template / example page for a home page
-    - image
-    - bio
-    - short list of publications
-    - 
+- General:
+  - image spinner for a bunch of the group pages
+  - image backgrounds (?), possibly some vintage optics and computing images
+
