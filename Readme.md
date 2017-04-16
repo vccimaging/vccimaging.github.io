@@ -4,6 +4,31 @@ These are the group web pages for the computational imaging group at KAUST VCC.
 
 The structure is to use Jekyll to create static web pages for people, publications, and projects.
 
+### People
+
+People records are kept in a YAML database in ```_data/people.yaml```, with entries as follows:
+
+```
+- id: UniqueID
+  name: Full Name
+  pubname: F. Name
+  title: <academic title>
+  position: <position at KAUST>
+  start: <year of joining KAUST>
+  end: <last year at KAUST>
+```
+
+The ```title``` can be empty; examples for ```position``` are "Research Scientist" or "Ph.D student". ```end``` should only be added once a person has left the university -- the person will then be listed as an alumni.
+
+It is important that the ```pubname``` is spelled exactly as the name in the publication databases, otherwise automatic generation of publication lists will be incomplete.
+
+The ```UniqueID``` is something like the KAUST login ID. It is used for automatically linking the home directory. The relevant files are:
+
+- ```/People/<UniqueID>```: directory containing the home page and all related files
+- ```/People/<UniqueID>/index.{html,md}```: start page for the home page in HTML or markdown format
+- ```/People/<UniqueID>/published```: if this file exists, the the home page is published by generatign a link from the group page
+
+
 ### Publications
 
 Publications are kept in a YAML database in ```_data/publications.yaml```. This file consists of entries of the following format:
@@ -26,9 +51,9 @@ At least ```authors```, ```title```, ```venue```, and ```year``` must be present
 
 The ```UniqueID``` is a unique identifier for each paper (Something like ```<Author><year><project acronym>```) that is used to automatically create links to thumbnail images and PDFs if the following files exist:
 
-- ```<UniqueID>/thumb.jpg```: thumbnail image
-- ```<UniqueID>/<UniqueID>.pdf```: PDF of the article
-- ```<UniqueID>/published```: project page linked to ```<UniqueID>/index.html```
+- ```/Publications/<UniqueID>/thumb.jpg```: thumbnail image
+- ```/Publications/<UniqueID>/<UniqueID>.pdf```: PDF of the article
+- ```/Publications/<UniqueID>/published```: project page linked to ```<UniqueID>/index.html```
 
 
 Each publication may have additional fields (e.g. ```volume```, ```number``` etc.). These are currently ignored but may be used in the future for purposes like automatic generation of BibTeX entries. 
