@@ -72,3 +72,6 @@ table {
     table-layout: fixed;
     width: 100%;
 }
+#banner-slide {
+    margin: 0 auto
+}
