@@ -17,10 +17,11 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #15A091;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #FAB210;
 }
 content {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
