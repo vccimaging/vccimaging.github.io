@@ -2,12 +2,18 @@
 <html>
 	<head>
 		<title>{{page.title}}</title>
+		<!-- bjqs.css slider styles -->
+		<link rel="stylesheet" type="text/css" href="/css/bjqs.css">
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<!-- load jQuery and the plugin -->
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="/js/bjqs-1.3.min.js"></script>
+
 	</head>
 	<body style="background-image:url(/Images/background-AlHaytham.jpg);background-position:bottom;background-repeat:no-repeat;background-size:contain;background-attachment:fixed;">
 		{% if page.image %}
-		<img align=right src="{{page.image}}" width=page.width height=page.height>
+		<img align=right src="{{page.image}}" width={{page.width}} height={{page.height}}>
 		{% else %}
 		<img align=right src="/Images/kaust.png" width=150 height=150>
 		{% endif %}
