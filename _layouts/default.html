@@ -12,7 +12,7 @@
 	{% endif %}
 	<body>
 		{% if page.image %}
-		<img align=right src="{{page.image}}" width=page.width height=page.height>
+		<img align=right src="{{page.image}}" width={{page.width}} height={{page.height}}>
 		{% else %}
 		<img align=right src="/Images/kaust.png" width=150 height=150>
 		{% endif %}
