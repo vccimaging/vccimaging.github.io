@@ -2,11 +2,9 @@
 <div>
   <div id="banner-slide">
     <ul class="bjqs">
-      {% for file in site.static_files %}
-      {% if file contains include.directory %}
+      {% for file in site.static_files %}{% if file.path contains include.directory %}
       <li><img src="{{file.path}}"></li>
-      {% endif %}
-      {% endfor %}
+      {% endif %}{% endfor %}
     </ul>
   </div>
   
