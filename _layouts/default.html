@@ -1,41 +1,48 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>{{page.title}}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	{% if page.background-image %}
-	<style>
-	  body {background-image:url({{page.background-image}});background-position:bottom left;background-repeat:no-repeat;background-size:contain;background-attachment:fixed;}
-	</style>
-	{% endif %}
-	<body>
-		{% if page.image %}
-		<img align=right src="{{page.image}}" width={{page.width}} height={{page.height}}>
-		{% else %}
-		<img align=right src="/Images/kaust.png" width=150 height=150>
-		{% endif %}
-		
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-			<li><a href="/people.html">People</a></li>
-			<li><a href="/publications.html">Publications</a></li>
-                        <li><a href="/joinus.html">Join Us</a></li>
-			<li style="float:right"><a href=http://www.kaust.edu.sa>KAUST</a></li>
-			<li style="float:right"><a href=http://vcc.kaust.edu.sa>VCC</a></li>
-    		</ul>
-		</nav>
-
-		<content>
-		{{ content }}
-		</content>
-			
-		<footer>
-    		<ul>
+  <head>
+    <title>{{page.title}}</title>
+    {% if page.spinner %}
+    <!-- bjqs.css slider styles -->
+    <link rel="stylesheet" type="text/css" href="/css/bjqs.css">
+    <!-- load jQuery and the plugin -->
+    <script src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="/js/bjqs-1.3.min.js"></script>    
+    {% endif %}
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+  {% if page.background-image %}
+  <style>
+    body {background-image:url({{page.background-image}});background-position:bottom left;background-repeat:no-repeat;background-size:contain;background-attachment:fixed;}
+  </style>
+  {% endif %}
+  <body>
+    {% if page.image %}
+    <img align=right src="{{page.image}}" width={{page.width}} height={{page.height}}>
+    {% else %}
+    <img align=right src="/Images/kaust.png" width=150 height=150>
+    {% endif %}
+    
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+	<li><a href="/people.html">People</a></li>
+	<li><a href="/publications.html">Publications</a></li>
+        <li><a href="/joinus.html">Join Us</a></li>
+	<li style="float:right"><a href=http://www.kaust.edu.sa>KAUST</a></li>
+	<li style="float:right"><a href=http://vcc.kaust.edu.sa>VCC</a></li>
+      </ul>
+    </nav>
+    
+    <content>
+      {{ content }}
+    </content>
+    
+    <footer>
+      <ul>
         Computational Imaging Group @ KAUST Visual Computing Center
-			</ul>
-		</footer>
-	</body>
+      </ul>
+    </footer>
+  </body>
 </html>

@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Computational Imaging Group
+spinner: true
 ---
 
 # Computational Imaging Group
 ## at the KAUST Visual Computing Center
 
-Todo: static image or slide show
+{% include spinner directory="/Images/MainSpinner" width=800 height=900 %}
+
 
 #### Overview
 

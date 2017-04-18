@@ -1,0 +1,27 @@
+<!-- image spinner code -->
+<div>
+  <div id="banner-slide">
+    <ul class="bjqs">
+      {% for file in site.static_files %}
+      {% if file contains include.directory %}
+      <li><img src="{{file.path}}"></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <script>
+    jQuery(document).ready(function($) {
+    $('#banner-slide').bjqs({ 
+    animtype      : 'slide',
+    animspeed     : 10000,
+    nexttext      : "&#9654;",
+    prevtext      : "&#9664;",
+    height        : {{include.height}},
+    width         : {{include.width}},
+    responsive    : true,
+    randomstart   : true
+    });
+    });
+  </script>
+</div>
