@@ -7,7 +7,7 @@ spinner: true
 # Computational Imaging Group
 ## at the KAUST Visual Computing Center
 
-{% include spinner.html directory="/Images/MainSpinner" width=800 height=900 %}
+{% include spinner.html directory="/Images/MainSpinner" width=800 height=450 %}
 
 
 #### Overview
