@@ -8,9 +8,8 @@ title: Computational Imaging Group
 {% assign published="" %}
 {% assign thumbnails="" | split: "|" %}
 {% for file in site.static_files %}
-  {% if file.name== "published" %}
-  {% capture published %}{{published}} {{file.path}}{% endcapture %}
-  {% endif %}
+  {% if file.name== "published" %}{% capture published %}{{published}} {{file.path}}{% endcapture %}{% endif %}
+  {% if file.name== "thumb.jpg" %}{% capture thumbnails %}{{thumbails | push: file.path}}{% endcapture %}{% endif %}
 {% endfor %}
 <ul>
   <li>Published: {{published}}</li>
