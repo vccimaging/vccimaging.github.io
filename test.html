@@ -8,7 +8,7 @@ title: Computational Imaging Group
 {% assign pi= site.data.people | where: "id","heidriw" %}
 {% include peoplelist.html people=pi %}
 
-{% assign active= site.data.people | shift | where: "end",null %}
+{% assign active= site.data.people | shift %}
 {% include peoplelist.html people=active %}
 
 {% assign pdfs= site.static_files | where: "extname",".pdf" | map: 'path' %}
