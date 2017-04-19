@@ -1,7 +1,5 @@
 
 # database of people in the VCC imaging group
-# (please manually sort by second name within each group)
-
 
 # group leader (always first!)
 
@@ -13,7 +11,7 @@
   start: 2014
 
 
-# active members (sorted by last name)
+# active members (arbitrary order)
 
 - id:
   name: Moetaz Abbas
@@ -84,7 +82,7 @@
 - id:
   name: Yuanhao Wang
   pubname: Y. Wang
-  position: Ph.D. Student
+  position: MS/Ph.D. Student
   start: 2016
 
 - id:
@@ -101,7 +99,7 @@
 
 
 
-# alumni (sorted by last name)
+# alumni
 
 - id:
   name: Qiang Fu
