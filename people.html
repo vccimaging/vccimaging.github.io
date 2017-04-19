@@ -6,3 +6,16 @@ title: VCC Imaging Group -- People
 <h1>People</h1>
 <h3>Computational Imaging Group</h3>
 
+
+<h4>Group Leader and Principal Investigator</h4>
+{% assign pi= site.data.people | where: "id","heidriw" %}
+{% include peoplelist.html people=pi active=true %}
+
+
+<h4>Active Members</h4>
+{% assign members= site.data.people | shift | sort: 'name' %}
+{% include peoplelist.html people=members active=true %}
+
+<h4>Alumni</h4>
+{% include peoplelist.html people=members active=false %}
+
