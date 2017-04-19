@@ -4,7 +4,8 @@
 
 <ul>
   {% for person in include.people %}
-  <li>{% if published contains person.id %}<a href="/People/{{person.id}}/">{{person.title}} {{person.name}}</a>,
+  {% capture pubflag $}/People/{{person.id}}/published{% endcapture %}
+  <li>{% if published contains pubflag %}<a href="/People/{{person.id}}/">{{person.title}} {{person.name}}</a>,
   {% else %}{{person.title}} {{person.name}}{% endif %},
   {{ person.position }},
   {% if person.end %}{{ person.start }} - {{ person.end }}; now at {{ person.nowat }}.
