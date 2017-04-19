@@ -5,6 +5,9 @@ title: Computational Imaging Group
 
 <h1> Some test code</h1>
 
+{% assign people= site.data.people | where: "id","heidriw" %}
+{{people | map: 'name' | join ','}};
+
 {% assign pdfs= site.static_files | where: "extname",".pdf" | map: 'path' %}
 {% assign published= site.static_files | where: "name","published" | map: 'path' %}
 {% assign thumbnails= site.static_files | where: "name","thumb.jpg" | map: 'path' %}
