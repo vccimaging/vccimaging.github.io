@@ -9,12 +9,11 @@ title: Computational Imaging Group
 {% assign thumbnails="a|b" | split: "|" %}
 {% for file in site.static_files %}
   {% if file.name== "published" %}{% capture published %}{{published}} {{file.path}}{% endcapture %}{% endif %}
-  {% if file.name== "thumb.jpg" %}{% capture thumbnails %}{{thumbails | push:file.path}}{% endcapture %}a{% endif %}
+  {% if file.name== "thumb.jpg" %}{% capture thumbnails %}{{thumbnails | push:file.path}}{% endcapture %}{% endif %}
 {% endfor %}
 <ul>
   <li>Published: {{published}}</li>
   <li>Thumbnails: {{thumbnails}}</li>
-  <li>{% assign test="a|b|c" | split:"|" %}{{test | push:published}}
 </ul>   
 
   {% if published contains "/People/heidriw/published" %}<h2>Success!</h2>{% endif %}
