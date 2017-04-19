@@ -1,0 +1,14 @@
+<!-- format an entry for a list of lab members -->
+
+{% assign published= site.static_files | where: "name","published" | map: 'path' %}
+
+<ul>
+  {% for person in include.people %}
+  <li>{% if published contains person.id %}<a href="/People/{{person.id}}/">{{person.title}} {{person.name}}</a>,
+  {% else %}{{person.title}} {{person.name}} {% endif %},
+  {{ person.position }},
+  {% if person.end %}{{ person.start }} - {{ person.end }}; now at {{ person.nowat }}.
+  {% else %}since {{ person.start }}.{% endif %}</li>
+  {% endfor %}
+</ul>
+

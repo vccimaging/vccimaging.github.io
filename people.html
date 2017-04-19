@@ -7,24 +7,16 @@ title: VCC Imaging Group -- People
 <h3>Computational Imaging Group</h3>
 
 <h4>Group Leader and Principal Investigator</h4>
-<ul>
-  {% for person in site.data.people %}{% if forloop.first %}
-  {% include formatperson.html person=person %}{% break %}
-  {% endif %}{% endfor %}
-</ul>
+{% include peoplelist.html people= site.data.people | where 'id','heidriw' %}
 
 <h4>Active Members</h4>
-<ul>
-  {% for person in site.data.people %}{% unless forloop.first or person.end %}
-  {% include formatperson.html person=person %}
-  {% endunless %}{% endfor %}
-</ul>
+{% include peoplelist.html people= site.data.people | where 'end',null | sort 'name' %}
 
-
+{% comment %}
 <h4>Alumni</h4>
 <ul>
   {% for person in site.data.people %}{% if person.end %}
   {% include formatperson.html person=person %}
   {% endif %}{% endfor %}
 </ul>
-  
+{% endcomment %}
