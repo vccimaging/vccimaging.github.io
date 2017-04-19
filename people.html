@@ -9,10 +9,10 @@ title: VCC Imaging Group -- People
 <h4>Group Leader and Principal Investigator</h4>
 {% include peoplelist.html people= site.data.people | where 'id','heidriw' %}
 
+{% comment %}
 <h4>Active Members</h4>
 {% include peoplelist.html people= site.data.people | where 'end',null | sort 'name' %}
 
-{% comment %}
 <h4>Alumni</h4>
 <ul>
   {% for person in site.data.people %}{% if person.end %}
