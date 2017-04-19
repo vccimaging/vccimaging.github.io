@@ -4,7 +4,7 @@
 
 <ul>
   {% for person in include.people %}
-  {% capture pubflag $}/People/{{person.id}}/published{% endcapture %}
+  {% capture pubflag %}/People/{{person.id}}/published{% endcapture %}
   <li>{% if published contains pubflag %}<a href="/People/{{person.id}}/">{{person.title}} {{person.name}}</a>,
   {% else %}{{person.title}} {{person.name}}{% endif %},
   {{ person.position }},
