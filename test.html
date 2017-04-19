@@ -9,9 +9,9 @@ title: Computational Imaging Group
 {% assign pdfs="" %}
 {% assign published="" %}
 {% for file in site.static_files %}
-  {% if file.extname== "pdf" %}{% assign pdfs= pdfs | append: " " | append: file.name %}
-  {% elsif file.name== "thumb.jpg" %}{% capture published %}{{published}} {{file.path}}{% endcapture %}
-  {% elsif file.name== "published" %}{% assign published= published | append: " " | append: file.name %}{% endif %}
+  {% if file.extname== "pdf" %}{% capture pdfs %}{{pdfs}} {{file.name}}{% endcapture %}
+  {% elsif file.name== "thumb.jpg" %}{% capture thumbnails %}{{thumbnails}} {{file.path}}{% endcapture %}
+  {% elsif file.name== "published" %}{% capture published %}{{publsihed}} {{file.name}}{% endcapture %}{% endif %}
 {% endfor %}
 <ul>
   <li>PDFs: {{pdfs}}</li>
