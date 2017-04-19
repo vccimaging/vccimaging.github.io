@@ -6,6 +6,10 @@
   {% capture yearText %}{{include.minYear}}-{{include.maxYear}}{% endcapture %}
 {% endif %}
 
+{% assign pdfs= site.static_files | where: "extname",".pdf" | map: 'path' %}
+{% assign published= site.static_files | where: "name","published" | map: 'path' %}
+{% assign thumbnails= site.static_files | where: "name","thumb.jpg" | map: 'path' %}
+
 <table style="border:1px solid #d5d5d5;" id="{{yearText}}">
   <thead>
     <tr>
@@ -21,12 +25,8 @@
 {% if include.maxYear== null or include.maxYear >= pub.year %}
 {% capture pdfpath %}/Publications/{{pub.id}}/{{pub.id}}.pdf{% endcapture %}
 {% capture thumbpath %}/Publications/{{pub.id}}/thumb.jpg{% endcapture %}
-    {% assign pdfurl = pub.pdf %}
-    {% assign thumburl = pub.thumbnail %}
-    {% for file in site.static_files %}
-    {% if file.path == pdfpath %}{% assign pdfurl = pdfpath %}{% endif %}
-    {% if file.path == thumbpath %}{% assign thumburl = thumbpath %}{% endif %}
-    {% endfor %}
+{% if pdfs contains pdfpath %}{% assign pdfurl = pdfpath %}{% else %}{% assign pdfurl = pub.pdf %}{% endif %}
+{% if thumbnails contains thumbpath %}{% assign thumburl = thumbpath %}{% else %}{% assign thumburl = pub.thumbnail %}{% endif %}
     <tr>
       <td style="vertical-align:middle;text-align:center;"> <img src="{{thumburl}}" width=100 height=100>
       <td style="vertical-align:top;text-align:left;line-height:1;">
