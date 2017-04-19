@@ -14,7 +14,7 @@ title: Computational Imaging Group
 <ul>
   <li>Published: {{published}}</li>
   <li>Thumbnails: {{thumbnails}}</li>
-  <li>{% assigne test="a|b|c" | split:"|" %}{{test | push:published}}
+  <li>{% assign test="a|b|c" | split:"|" %}{{test | push:published}}
 </ul>   
 
   {% if published contains "/People/heidriw/published" %}<h2>Success!</h2>{% endif %}
