@@ -8,7 +8,7 @@ title: Computational Imaging Group
 {% assign published="" | split ',' %}
 {% for file in site.static.files %}
   {% if file.name== "published" %}
-  {% assign published=published | push: file.path %}
+  {% capture published %}{{published | push: file.path}}{% endcapture %}
   {% endif %}
 {% endfor %}
 <ul>
