@@ -5,11 +5,17 @@ title: Computational Imaging Group
 
 <h1> Some test code</h1>
 
+<h4>Group Leader and Principal Investigator</h4>
 {% assign pi= site.data.people | where: "id","heidriw" %}
 {% include peoplelist.html people=pi %}
 
-{% assign active= site.data.people | shift %}
-{% include peoplelist.html people=active %}
+
+<h4>Active Members</h4>
+{% assign members= site.data.people | shift | sort: 'name' %}
+{% include peoplelist.html people=members active=true %}
+
+<h4>Alumni</h4>
+{% include peoplelist.html people=members active=false %}
 
 {% assign pdfs= site.static_files | where: "extname",".pdf" | map: 'path' %}
 {% assign published= site.static_files | where: "name","published" | map: 'path' %}
