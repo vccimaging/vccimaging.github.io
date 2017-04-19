@@ -11,7 +11,7 @@ title: Computational Imaging Group
 {% for file in site.static_files %}
   {% if file.extname== ".pdf" %}{% capture pdfs %}{{pdfs}} {{file.name}}{% endcapture %}
   {% elsif file.name== "thumb.jpg" %}{% capture thumbnails %}{{thumbnails}} {{file.path}}{% endcapture %}
-  {% elsif file.name== "published" %}{% capture published %}{{published}} {{file.name}}{% endcapture %}{% endif %}
+  {% elsif file.name== "published" %}{% capture published %}{{published}} {{file.path}}{% endcapture %}{% endif %}
 {% endfor %}
 <ul>
   <li>PDFs: {{pdfs}}</li>
