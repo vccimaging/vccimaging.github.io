@@ -5,35 +5,16 @@ title: Computational Imaging Group
 
 <h1> Some test code</h1>
 
-<div>
-  <!--  Outer wrapper for presentation only, this can be anything you like -->
-  <div id="banner-slide">
-    <!-- start Basic Jquery Slider -->
-    <ul class="bjqs">
-      <li><img src="/Images/kaust.png" title="KAUST logo"></li>
-      <li><img src="/Images/background-AlHaytham.jpg" title="AlHaytham camera obscura"></li>
-      <li><img src="/People/heidriw/heidrich.jpg" title="mugshot"></li>
-    </ul>
-    <!-- end Basic jQuery Slider -->
-  </div>
-  <!-- End outer wrapper -->
+{% assign published="" | split ',' %}
+{% for file in site.static.files %}
+  {% if file.name== "published" %}
+  {% assign published=published | push: file.path %}
+  {% endif %}
+{% endfor %}
+<ul>
+  <li>Published: {{published}}</li>
+<ul>   
 
-  <!-- attach the plug-in to the slider parent element and adjust the settings as required -->
-  <script>
-    jQuery(document).ready(function($) {
-    $('#banner-slide').bjqs({ 
-    animtype      : 'slide',
-    animspeed     : 10000,
-    nexttext      : "&#9654;",
-    prevtext      : "&#9664;",
-    height        : 320,
-    width         : 620,
-    responsive    : true,
-    randomstart   : true
-    });
-  });
-  </script>
-</div>
 
 <ul>
 {% for file in site.static_files %}
@@ -43,19 +24,4 @@ title: Computational Imaging Group
 
 {% include publicationlist.html minYear=2014 %}
 
-<!--
-<ul>
-{% for year in (1996..2017) | reverse %}
-<li>{{ year }}</li>
-{% endfor %}
-</ul>
--->
-
-  <!--
-<ul>
-{% for pub in site.data.publications %}
-<li> {{ pub }}</li>
-{% endfor %}
-</ul>
--->
 
