@@ -6,17 +6,3 @@ title: VCC Imaging Group -- People
 <h1>People</h1>
 <h3>Computational Imaging Group</h3>
 
-{% comment %}
-<h4>Group Leader and Principal Investigator</h4>
-{% include peoplelist.html people= site.data.people | where 'id','heidriw' %}
-
-<h4>Active Members</h4>
-{% include peoplelist.html people= site.data.people | where 'end',null | sort 'name' %}
-
-<h4>Alumni</h4>
-<ul>
-  {% for person in site.data.people %}{% if person.end %}
-  {% include formatperson.html person=person %}
-  {% endif %}{% endfor %}
-</ul>
-{% endcomment %}
