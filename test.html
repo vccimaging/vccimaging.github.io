@@ -5,13 +5,16 @@ title: Computational Imaging Group
 
 <h1> Some test code</h1>
 
+{% assign thumbnails="" %}
+{% assign pdfs="" %}
 {% assign published="" %}
-{% assign thumbnails="a|b" | split: "|" %}
 {% for file in site.static_files %}
-  {% if file.name== "thumb.jpg" %}{% capture published %}{{published}} {{file.path}}{% endcapture %}{% endif %}
-  {% if file.name== "thumb.jpg" %}{{thumbnails | push:file.path}}{% endif %}
+  {% if file.extname== "pdf" %}{% assign pdfs= pdfs | append: " " | append: file.name %}
+  {% elsif file.name== "thumb.jpg" %}{% capture published %}{{published}} {{file.path}}{% endcapture %}
+  {% elsif file.name== "published" %}{% assign published= published | append: " " | append: file.name %}{% endif %}
 {% endfor %}
 <ul>
+  <li>PDFs: {{pdfs}}</li>
   <li>Published: {{published}}</li>
   <li>Thumbnails: {{thumbnails}}</li>
 </ul>   
