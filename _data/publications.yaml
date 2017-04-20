@@ -28,6 +28,16 @@
   year: 2017
   note: spotlight presentation
 
+- id: Damberg2017LightSteering
+  authors:
+    - G. Damberg
+    - R. Boitard
+    - A. Ballestad
+    - W. Heidrich
+  title: Light Steering Projection Systems and Attributes for HDR Displays
+  venue: SID Digest
+  year: 2017
+
 
 
 - id: Heide2016EDO
