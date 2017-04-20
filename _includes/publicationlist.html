@@ -26,8 +26,10 @@
 {% capture projdir %}/Publications/{{pub.id}}{% endcapture %}
 {% capture pdfpath %}{{projdir}}/{{pub.id}}.pdf{% endcapture %}
 {% capture thumbpath %}{{projdir}}/thumb.jpg{% endcapture %}
+{% capture publpath %}{{projdir}}/published{% endcapture %}
 {% if pdfs contains pdfpath %}{% assign pdfurl = pdfpath %}{% else %}{% assign pdfurl = pub.pdf %}{% endif %}
 {% if thumbnails contains thumbpath %}{% assign thumburl = thumbpath %}{% else %}{% assign thumburl = pub.thumbnail %}{% endif %}
+{% if pub.url %}{% assign puburl=pub.url %}{% elsif published contains publpath %}{% assign puburl=projdir %}{% else %}{% assign puburl=null %}{% endif %}
     <tr>
       <td style="vertical-align:middle;text-align:center;"> <img src="{{thumburl}}" width=100 height=100>
       <td style="vertical-align:top;text-align:left;line-height:1;">
@@ -37,9 +39,9 @@
         {% else %}
           <pub-title>{{ pub.title }}</pub-title><br>
         {% endif %}        
-        <pub-normal> {{ pub.venue }}, {{ pub.year }} </pub-normal><br>
-        {% if pub.url %}<pub-normal><a href="{{ pub.url }}">Project page</a></pub-normal><br>
-        {% elsif published contains projdir %}<pub-normal><a href="{{ projdir }}">Project page</a></pub-normal><br>
+          <pub-normal> {{ pub.venue }}, {{ pub.year }} </pub-normal><br>
+	{% if puburl %}  
+          <pub-normal><a href="{{ puburl }}">Project page</a></pub-normal><br>
 	{% endif %}
         {% if pub.note %}
           <pub-normal> ({{ pub.note }}) </pub-normal>
