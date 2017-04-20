@@ -23,8 +23,9 @@
 {% if include.name== null or pub.authors contains include.name %}
 {% if include.minYear== null or pub.year >= include.minYear %}
 {% if include.maxYear== null or include.maxYear >= pub.year %}
-{% capture pdfpath %}/Publications/{{pub.id}}/{{pub.id}}.pdf{% endcapture %}
-{% capture thumbpath %}/Publications/{{pub.id}}/thumb.jpg{% endcapture %}
+{% capture projdir %}/Publications/{{pub.id}}{% endcapture %}
+{% capture pdfpath %}{{projdir}}/{{pub.id}}.pdf{% endcapture %}
+{% capture thumbpath %}{{projdir}}/thumb.jpg{% endcapture %}
 {% if pdfs contains pdfpath %}{% assign pdfurl = pdfpath %}{% else %}{% assign pdfurl = pub.pdf %}{% endif %}
 {% if thumbnails contains thumbpath %}{% assign thumburl = thumbpath %}{% else %}{% assign thumburl = pub.thumbnail %}{% endif %}
     <tr>
@@ -37,9 +38,9 @@
           <pub-title>{{ pub.title }}</pub-title><br>
         {% endif %}        
         <pub-normal> {{ pub.venue }}, {{ pub.year }} </pub-normal><br>
-        {% if pub.url %}
-          <pub-normal><a href="{{ pub.url }}">Project page</a></pub-normal><br>
-        {% endif %}
+        {% if pub.url %}<pub-normal><a href="{{ pub.url }}">Project page</a></pub-normal><br>
+        {% elsif published contains projdir %}<pub-normal><a href="{{ projdir }}">Project page</a></pub-normal><br>
+	{% endif %}
         {% if pub.note %}
           <pub-normal> ({{ pub.note }}) </pub-normal>
         {% endif %}
