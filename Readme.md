@@ -64,8 +64,12 @@ Each publication may have additional fields (e.g. ```volume```, ```number``` etc
 - Projects:
   - directory structure for projects
   - template for projects
+  - way to highlight projects, not just pubs?
   - automatic bibtex generation?
 - General:
+  - main spinner: project photos
   - image spinner for a bunch of the group pages
   - image backgrounds (?), possibly some vintage optics and computing images
+  - group logo?
+  - news items in side bar
 
