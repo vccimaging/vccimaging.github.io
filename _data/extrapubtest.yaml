@@ -1,0 +1,11 @@
+---
+
+- id: testid
+  authors:
+    - W. Heidrich
+  title: Just a Test
+  venue: Nowhere
+  year: 2017
+
+
+...
