@@ -9,6 +9,7 @@
 {% assign pdfs= site.static_files | where: "extname",".pdf" | map: 'path' %}
 {% assign published= site.static_files | where: "name","published" | map: 'path' %}
 {% assign thumbnails= site.static_files | where: "name","thumb.jpg" | map: 'path' %}
+{% assign publist site.data.publications | concat: include.extrapubs %}
 
 <table style="border:1px solid #d5d5d5;" id="{{yearText}}">
   <thead>
@@ -18,7 +19,7 @@
     </tr>
   </thead>
   <tbody>
-{% for pub in site.data.publications %}
+{% for pub in publist %}
 {% if pub.title and pub.authors and pub.venue and pub.year %}
 {% if include.name== null or pub.authors contains include.name %}
 {% if include.minYear== null or pub.year >= include.minYear %}
