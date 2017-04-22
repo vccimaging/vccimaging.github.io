@@ -30,6 +30,15 @@ Satis est tibi in te, satis in legibus, satis in mediocribus amicitiis praesidii
 <h4>Alumni</h4>
 {% include peoplelist.html people=members active=false %}
 
+<ul>
+  {% for pub in site.data.extrapubtest %}<li>{{pub.id}}</li>{% endfor %}
+</ul>
+
+{% assign dbg= site.data.people | concat: site.data.extrapubtest %}
+<ol>
+  {% for pub in dbg %}<li>{{pub.id}}</li>{% endfor %}
+</ol>
+
 
 {% include publicationlist.html name="W. Heidrich" minYear=2016 extrapubs=site.data.extrapubtest %}
 
