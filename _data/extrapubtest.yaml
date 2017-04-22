@@ -1,3 +1,5 @@
+---
+
 - id: testid
   authors:
     - W. Heidrich
@@ -5,3 +7,4 @@
   venue: Nowhere
   year: 2017
 
+...
