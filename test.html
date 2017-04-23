@@ -34,7 +34,7 @@ Satis est tibi in te, satis in legibus, satis in mediocribus amicitiis praesidii
   {% for pub in site.data.extrapubtest %}<li>{{pub.id}}</li>{% endfor %}
 </ul>
 
-{% assign dbg= site.data.people | concatArray: site.data.extrapubtest %}
+{% assign dbg= site.data.people | concatArrays: site.data.extrapubtest %}
 {{ site.data.extrapubtest | size }}, {{ dbg | size }}
 <ol>
   {% for pub in dbg %}<li>{{pub.id}}</li>{% endfor %}
