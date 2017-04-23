@@ -32,7 +32,7 @@ Satis est tibi in te, satis in legibus, satis in mediocribus amicitiis praesidii
 
 {% assign a= "first|second|third" | split: "|" %}
 {% assign b= "fourth|fifth|sixth" | split: "|" %}
-{% capture c %c}{{ a | concat: b }}{% endcapture %}
+{% capture c %}{{ a | concat: b }}{% endcapture %}
 
 <ul>
   <li>{{a}}</li>
