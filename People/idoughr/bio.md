@@ -1,1 +1,3 @@
-
+Ramzi IDOUGHI joined King Abdullah University of Science and Technology (KAUST) in 2016 as Postdoctoral fellow at Visual Computing Center (VCC), working with Professor Wolfgang Heidrich. He is a member of Computational Imaging Group.
+Dr. Ramzi IDOUGHI received his Ph.D. in 2015, from ONERA (the French Aerospace Lab) and the University of Toulouse, ISAE (Toulouse, France).
+His research interests lie in signal and image processing, inverse problems and optimization for applied physics issues. Currently, he is principally working on a new approach (Rainbow Particle Imaging Velocimetry) for dense 3D fluid velocity imaging. Moreover, he is involved on a project on improving the quality of captured OCT (Optical Coherence Tomography) data.
