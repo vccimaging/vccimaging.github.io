@@ -30,6 +30,16 @@ Satis est tibi in te, satis in legibus, satis in mediocribus amicitiis praesidii
 <h4>Alumni</h4>
 {% include peoplelist.html people=members active=false %}
 
+{$ assign a= "first|second|third" | split "|" %}
+{$ assign b= "fourth|fifth|sixth" | split "|" %}
+{% assign c= a | concat: b %}
+
+<ul>
+  <li>{{a}}</li>
+  <li>{{b}}</li>
+  <li>{{c}}</li>
+</ul>
+  
 <ul>
   {% for pub in site.data.extrapubtest %}<li>{{pub.id}}</li>{% endfor %}
 </ul>
