@@ -32,24 +32,14 @@ Satis est tibi in te, satis in legibus, satis in mediocribus amicitiis praesidii
 
 {% assign a= "first|second|third" | split: "|" %}
 {% assign b= "fourth|fifth|sixth" | split: "|" %}
-{% capture c %}{{ a | concat: b }}{% endcapture %}
+{% capture c %}{{ a | myconcat: b }}{% endcapture %}
 
 <ul>
   <li>{{a}}</li>
   <li>{{b}}</li>
   <li>{{c}}</li>
 </ul>
-  
-<ul>
-  {% for pub in site.data.extrapubtest %}<li>{{pub.id}}</li>{% endfor %}
-</ul>
-
-{% assign dbg= site.data.people | myconcat: site.data.extrapubtest %}
-{{ site.data.extrapubtest | size }}, {{ dbg | size }}
-<ol>
-  {% for pub in dbg %}<li>{{pub.id}}</li>{% endfor %}
-</ol>
 
 
-{% include publicationlist.html name="W. Heidrich" minYear=2016 extrapubs=site.data.extrapubtest %}
+{% include publicationlist.html name="W. Heidrich" minYear=2016 publist=site.data.extrapubtest %}
 
