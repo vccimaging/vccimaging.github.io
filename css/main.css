@@ -75,3 +75,15 @@ table {
 #banner-slide {
     margin: 0 auto
 }
+#sidebar {
+    width: 160px;
+    max-width: 25%;
+    float:right;
+    height:100%;
+    display:block;
+}
+#main-body {
+    display:block;
+    border:1px solid red;
+    width:calc(100%-160px);
+}
