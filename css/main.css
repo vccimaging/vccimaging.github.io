@@ -84,6 +84,7 @@ table {
 }
 #main-body {
     display:block;
+    float: left;
     border:1px solid red;
     width:calc(100%-160px);
 }
