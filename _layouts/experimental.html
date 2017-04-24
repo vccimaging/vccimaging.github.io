@@ -21,7 +21,7 @@
 
     <div style="background-color:white;margin:auto;max-width:1200px;overflow-y:hidden;max-height:100%;">
       
-      <div style="width:160px;max-width:25%;float:right;height:100%;display:block">
+      <div id="sidebar">
 	{% if page.image %}
 	<img align=right src="{{page.image}}" width={{page.width}} height={{page.height}}>
 	{% else %}
@@ -38,7 +38,7 @@
 	{% endif %}
       </div>
 
-      <div style="display:block;border:1px solid red;width:calc(100%-160px);">
+      <div id="main-body">
 	<nav>
 	  <ul>
             <li><a href="/">Home</a></li>
