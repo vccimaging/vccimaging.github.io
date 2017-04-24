@@ -10,11 +10,6 @@ news: true
 {% assign pi= site.data.people | where: "id","heidriw" %}
 {% include peoplelist.html people=pi active=true %}
 
-
-<h4>Active Members</h4>
-{% assign members= site.data.people | shift | sort: 'name' %}
-{% include peoplelist.html people=members active=true %}
-
 <h4>Alumni</h4>
 {% include peoplelist.html people=members active=false %}
 
