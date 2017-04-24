@@ -7,7 +7,7 @@ module Jekyll
   module ConcatArrays
 
     # copied from https://github.com/Shopify/liquid/blob/v4.0.0.rc3/lib/liquid/standardfilters.rb
-    def concat(input, array)
+    def myconcat(input, array)
       unless array.respond_to?(:to_ary)
         raise ArgumentError.new("concat filter requires an array argument")
       end
