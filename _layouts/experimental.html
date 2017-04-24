@@ -28,7 +28,7 @@
 	<img align=right src="/Images/kaust.png" width=150 height=150>
 	{% endif %}
 
-	{% if include.news %}
+	{% if page.news %}
 	<br><br>
 
 	<b>News:</b>
@@ -52,10 +52,11 @@
 	
 	<content>
 	  {{ content }}
+	  <br>
 	</content>
       </div>
     </div>
-    
+
     <footer>
       <ul>
         Computational Imaging Group @ KAUST Visual Computing Center
