@@ -4,4 +4,5 @@ KAUST is a fascinating global university/town. The community at KAUST is represe
 
 I did my PhD at [Oxford University](http://www.ox.ac.uk), master's degree at the [University of Waterloo](https://uwaterloo.ca), and bachelor's degree at [KFUPM](http://www.kfupm.edu.sa/default.aspx). I worked as an electrical engineer at [Saudi Aramco](http://www.saudiaramco.com/en/home.html) and did my co-op at [Ericsson](https://www.ericsson.com). My current research focuses on both theoretical and experimental analysis of time-of-flight imaging in the photon counting regime.
 
-<script type="text/javascript" src="//rf.revolvermaps.com/0/0/3.js?i=5ptn7p9jgs5&amp;b=0&amp;s=14&amp;m=0&amp;cl=ffffff&amp;co=ffffff&amp;cd=ffffff&amp;v0=0&amp;v1=0&amp;r=1" async="async"></script>
+
+<a href="https://www.revolvermaps.com/?target=enlarge&amp;i=5cz8cxu81mg"><img src="//rf.revolvermaps.com/w/3/s/a/0/14/0/ffffff/ffffff/ffffff/5cz8cxu81mg.png" alt="Stats" style="border:0;"></a>
