@@ -10,6 +10,36 @@ news: true
 {% assign pi= site.data.people | where: "id","heidriw" %}
 {% include peoplelist.html people=pi active=true %}
 
+{% assign members= site.data.people | shift | sort: 'name' %}
+
+<div style="float:right">
+  <div id="photo-slide">
+    <ul class="bjqs">
+      {% for person in members %}
+      {% capture imgfile %}/People/{{person.id}}/{{person.id}}.jpg{% endcapture %}
+      {% for file in site.static_files %}{% if file.path contains imgfile %}
+      <li><img src="{{file.path}}" title={{person.pubname}}></li>
+      {% endif %}{% endfor %}{% endfor %}
+    </ul>
+  </div>
+  
+  <script>
+    jQuery(document).ready(function($) {
+    $('#photo-slide').bjqs({ 
+    animtype      : 'slide',
+    animspeed     : 10000,
+    showcontrols  : false,
+    width         : 150,
+    responsive    : true,
+    randomstart   : true
+    });
+    });
+  </script>    
+</div>
+
+<h4>Active Members</h4>
+{% include peoplelist.html people=members active=true %}
+
 <h4>Alumni</h4>
 {% include peoplelist.html people=members active=false %}
 
