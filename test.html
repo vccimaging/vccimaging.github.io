@@ -14,7 +14,7 @@ spinner: true
 {% assign members= site.data.people | shift | sort: 'name' %}
 
 <div style="float:right">
-  <div id="photo-slide">
+  <div id="banner-slide">
     <ul class="bjqs">
       {% for person in members %}
       {% capture jpgfile %}/People/{{person.id}}/{{person.id}}.jpg{% endcapture %}
@@ -29,7 +29,7 @@ spinner: true
   
   <script>
     jQuery(document).ready(function($) {
-    $('#photo-slide').bjqs({ 
+    $('#banner-slide').bjqs({ 
     animtype      : 'slide',
     animspeed     : 10000,
     nexttext      : "&#9654;",
