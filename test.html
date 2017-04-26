@@ -2,6 +2,7 @@
 layout: experimental
 title: Computational Imaging Group
 news: true
+spinner: true
 ---
 
 <h1> Some test code</h1>
@@ -18,7 +19,7 @@ news: true
       {% for person in members %}
       {% capture imgfile %}/People/{{person.id}}/{{person.id}}.jpg{% endcapture %}
       {% for file in site.static_files %}{% if file.path contains imgfile %}
-      <li><img src="{{file.path}}" title={{person.pubname}}></li>
+      <li><img src="{{file.path}}" title="{{person.pubname}}"></li>
       {% endif %}{% endfor %}{% endfor %}
     </ul>
   </div>
