@@ -13,7 +13,7 @@ spinner: true
 
 {% assign members= site.data.people | shift | sort: 'name' %}
 
-<div style="float:right">
+<div style>
   <div id="banner-slide">
     <ul class="bjqs">
       {% for person in members %}
@@ -34,8 +34,8 @@ spinner: true
     animspeed     : 10000,
     nexttext      : "&#9654;",
     prevtext      : "&#9664;",
-    height        : 200,
-    width         : 150,
+    height        : 600,
+    width         : 450,
     responsive    : true,
     randomstart   : true
     });
