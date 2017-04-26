@@ -20,9 +20,9 @@ spinner: true
       {% capture jpgfile %}/People/{{person.id}}/{{person.id}}.jpg{% endcapture %}
       {% capture pngfile %}/People/{{person.id}}/{{person.id}}.png{% endcapture %}
       {% for file in site.static_files %}{% if file.path== jpgfile %}
-      <li><img src="{{jpgfile}}" title="{{person.pubname}}"></li>
+      <li><img src="{{jpgfile}}" /></li>
       {% elsif file.path== pngfile %}
-      <li><img src="{{pngfile}}" title="{{person.pubname}}"></li>
+      <li><img src="{{pngfile}}" /></li>
       {% endif %}{% endfor %}{% endfor %}
     </ul>
   </div>
