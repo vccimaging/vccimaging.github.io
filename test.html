@@ -17,9 +17,12 @@ spinner: true
   <div id="photo-slide">
     <ul class="bjqs">
       {% for person in members %}
-      {% capture imgfile %}/People/{{person.id}}/{{person.id}}.jpg{% endcapture %}
-      {% for file in site.static_files %}{% if file.path contains imgfile %}
-      <li><img src="{{file.path}}" title="{{person.pubname}}"></li>
+      {% capture jpgfile %}/People/{{person.id}}/{{person.id}}.jpg{% endcapture %}
+      {% capture pngfile %}/People/{{person.id}}/{{person.id}}.png{% endcapture %}
+      {% for file in site.static_files %}{% if file.path contains jpgfile %}
+      <li><img src="{{jpgfile}}" title="{{person.pubname}}"></li>
+      {% elsif file.path contains pngfile %}
+      <li><img src="{{pngfile}}" title="{{person.pubname}}"></li>
       {% endif %}{% endfor %}{% endfor %}
     </ul>
   </div>
