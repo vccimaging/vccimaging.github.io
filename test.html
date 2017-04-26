@@ -19,9 +19,9 @@ spinner: true
       {% for person in members %}
       {% capture jpgfile %}/People/{{person.id}}/{{person.id}}.jpg{% endcapture %}
       {% capture pngfile %}/People/{{person.id}}/{{person.id}}.png{% endcapture %}
-      {% for file in site.static_files %}{% if file.path contains jpgfile %}
+      {% for file in site.static_files %}{% if file.path== jpgfile %}
       <li><img src="{{jpgfile}}" title="{{person.pubname}}"></li>
-      {% elsif file.path contains pngfile %}
+      {% elsif file.path== pngfile %}
       <li><img src="{{pngfile}}" title="{{person.pubname}}"></li>
       {% endif %}{% endfor %}{% endfor %}
     </ul>
