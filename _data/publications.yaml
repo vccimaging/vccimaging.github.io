@@ -139,6 +139,17 @@
   month: June
   url: http://www.cs.ubc.ca/labs/imager/tr/2016/MaterialClassificationToF/
 
+- id: Cossairt2016ICCP
+  authors:
+    - O. Cossairt
+    - J. Yu
+    - W. Heidrich
+    - (eds.)
+  title: Proceedings of the International Conference of Computational Photography 2016
+  venue: IEEE
+  year: 2016
+  pdf: "http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7486620"
+
 - id: Damberg2016HBH
   authors:
     - G. Damberg
