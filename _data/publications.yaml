@@ -909,7 +909,6 @@
   venue: Computer Graphics Forum (Proc. Eurographics)
   pages: 193--202
   year: 2009
-  url: "http://zgk.wi.ps.pl/color_correction/"
   
 - id: Popa2009WCG
   authors:
@@ -1289,7 +1288,7 @@
 
 - id: Vazquez2003AVS
   authors:
-    - P.-P. Vazquez
+    - P.-P. Vázquez
     - M. Feixas
     - M. Sbert
     - W. Heidrich
@@ -1399,7 +1398,7 @@
 
 - id: Vazquez2002IBM
   authors:
-    - P.-P. Vazquez
+    - P.-P. Vázquez
     - M. Feixas
     - M. Sbert
     - W. Heidrich
@@ -1448,7 +1447,7 @@
 
 - id: Vazquez2001VSU
   authors:
-    - P.-P. Vazquez
+    - P.-P. Vázquez
     - M. Feixas
     - M. Sbert
     - W. Heidrich
@@ -1585,7 +1584,7 @@
 - id: Kautz2000UAP
   authors:
     - J. Kautz
-    - P.-P. Vazquez
+    - P.-P. Vázquez
     - W. Heidrich
     - H.-P. Seidel
   title: A Unified Approach to Prefiltered Environment Maps
@@ -1678,7 +1677,7 @@
 - id: Heidrich1999WRL
   authors:
     - W. Heidrich
-    - H. Kuck
+    - H. Kück
     - H. Schirmacher
     - H.-P. Seidel
   title: A Warping-based Refinement of Lumigraphs
@@ -1761,7 +1760,7 @@
 
 - id: Roettger1998RTG
   authors:
-    - S. Rottger
+    - S. Röttger
     - W. Heidrich
     - Ph. Slusallek
     - H.-P. Seidel
