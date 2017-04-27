@@ -66,6 +66,7 @@
   pages: 10 pages
   number: 33543
   month: September
+  pdf: https://www.nature.com/articles/srep33543
 
 - id: Xiao2016LHO
   authors:
@@ -104,6 +105,7 @@
   number: 4
   month: July
   pages: 33.1--33.12
+  url: http://www.computationalimaging.org/publications/multi-camera-time-of-flight-systems/
 
 - id: Heide2016PEI
   authors:
@@ -135,6 +137,7 @@
   year: 2016
   pages: 9 pages
   month: June
+  url: http://www.cs.ubc.ca/labs/imager/tr/2016/MaterialClassificationToF/
 
 - id: Damberg2016HBH
   authors:
