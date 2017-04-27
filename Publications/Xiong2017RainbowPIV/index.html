@@ -1,25 +1,26 @@
 ---
 layout: default
 ---
-<div class="centered">
+<div class="centered", width=960px>
     
-<h3> Rainbow Particle Imaging Velocimetry for Dense 3D Fluid Velocity Imaging </h3>
+<h3> Rainbow Particle Imaging Velocimetry <br>
+    for Dense 3D Fluid Velocity Imaging </h3>
 
 <a href="http://vccimaging.org/People/xiongj/">Jinhui Xiong</a>
 
 <br>
 
-accepted to ACM Transactions on Graphics (Proc. SIGGRAPH), 2017 <br>
+Accepted to ACM Transactions on Graphics (Proc. SIGGRAPH), 2017 <br>
 
 ___________________________________________________________________________ <br>
-Abstract    Paper <br>
+Abstract    Paper  <br>
 ___________________________________________________________________________ <br>
 
 <img src="teaser.jpg" style="width:636px;height:153px;"> <br>
 Using a rainbow color-coded PIV setup in combination with a hybrid diffractive/refractive camera optics(left) we can encode 3D particle positions in
 fluid flows into a single camera image, while keeping all particles in focus simultaneously (center). From a sequence of such images, the 3D particle positions
 and the dense fluid vector field can be reconstructed using an optimization-based approach. The vector field is represented as a regular grid covering the
-entire flow volume, and can be visualized by showing the path lines of new (synthetic) particles (right). <br><br><br>
+entire flow volume, and can be visualized by showing the path lines of new (synthetic) particles (right). <br><br>
   
   
 <h4> Abstract </h4>
@@ -37,6 +38,10 @@ For reconstruction, we derive an image formation model for recovering
 stationary 3D particle positions. 3D velocity estimation is achieved with a
 variant of 3D optical flow that accounts for both physical constraints as well
 as the rainbow image formation model. We evaluate our method with both
-simulations and an experimental prototype setup.
+simulations and an experimental prototype setup. <br><br>
+    
+{% capture projdir %}/Publications/{{Xiong2017RainbowPIV}}{% endcapture %}
+{% capture pdfpath %}{{projdir}}/{{pub.id}}.pdf{% endcapture %}
+<a href="{{ pdfpath }}">paper</a><br>
 
 </div>
