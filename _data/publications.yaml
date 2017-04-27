@@ -13,7 +13,9 @@
   title: Rainbow Particle Imaging Velocimetry for Dense 3D Fluid Velocity Imaging
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2017
-  note: coming soon
+  volume: 36
+  number: 4
+  pages: 36.1--36.14
 
 - id: Su2017DVD
   authors:
