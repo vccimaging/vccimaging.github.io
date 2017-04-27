@@ -73,6 +73,10 @@ table {
     table-layout: fixed;
     width: 100%;
 }
+div.projectPage {
+   width:1000px;
+   margin:0 auto;
+}
 #banner-slide {
     margin: 0 auto
 }
