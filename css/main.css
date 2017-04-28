@@ -81,8 +81,6 @@ img {
     max-width: 100%;
 }
 div.projectPage {
-   width: 85%;
-   max-width: 1000px;
    margin:0 auto;
    text-align:justify;
 }
