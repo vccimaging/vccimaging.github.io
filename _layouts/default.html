@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
   <head>
     <title>{{page.title}}</title>
     {% if page.spinner %}
