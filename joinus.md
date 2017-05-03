@@ -15,7 +15,7 @@ We are constantly seeking new students and research staff to join the Computatio
 
 - Computer Science, with a focus on vision, imaging, graphics, machine learning, numerical optimization.
 - Optical Engineering, with am emphasis on design of imaging optics or diffractive optics.
-- Electrical Engineering, in particular electronic design at frequencies of 100 MHz-1GHz, or experience with camera hardware.
+- Electrical Engineering, in particular electronic design at frequencies of 100 MHz-1GHz, or experience with building camera hardware.
 - Applied Mathematics, with expertise in numerical methods and optimization, statistics/machine learning, and strong programming skills.
 
 
@@ -32,9 +32,9 @@ If you are interested in an internship, please contact [Prof. Wolfgang Heidrich]
 
 KAUST offers degree programs at the PhD, MS/PhD, and MS level. Of particular interest for the Computational Imaging Group are the degrees in the [CEMSE division](https://cemse.kaust.edu.sa/Academics/Pages/Study%20Programs.aspx).
 
-**Important:** all applications must be made through the official [application web page](https://kaust.hobsons.co.uk/emtinterestpage.aspx?ip=inquire), and need to be submitted within the application deadlines. That said, if you intend to join the Computational Imaging Group, you should also send a mail with your materials to [Prof. Wolfgang Heidrich](/People/heidriw) by email.
+**Important:** all applications must be made through the official [application web page](https://kaust.hobsons.co.uk/emtinterestpage.aspx?ip=inquire), and need to be submitted within the application deadlines. That said, if you intend to join the Computational Imaging Group, you should also send an introductory email with your materials to [Prof. Wolfgang Heidrich](/People/heidriw).
 
-Beyond the formal requirements for KAUST admissions, to join the group we require very good programming and math skills as well as demonstrated coursework and other experience in some of the research topics listed above. Prior research publications are mandatory for direct admission into the PhD program.
+Beyond the formal requirements for KAUST admissions, to join the group we require very good programming and math skills as well as demonstrated coursework and other experience in some of the research topics listed above. Prior research publications are required for direct admission into the PhD program.
 
 The KAUST admissions process is highly competitive, and even if all the above minimal criteria are satisfied, admission into the program is not guaranteed.
 
