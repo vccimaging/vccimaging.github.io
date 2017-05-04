@@ -164,6 +164,16 @@
   pages: 24.1--24.11
 
 
+- id: Zang2016ICT
+  authors:
+    - G. Zang
+  title: Industrial Computed Tomography using Proximal Algorithm
+  venue: KAUST Master Thesis
+  year: 2016
+  pages: 65 pages
+  pdf: http://repository.kaust.edu.sa/kaust/handle/10754/605208
+  
+  
 - id: Peng2015CIU
   authors:
     - Y. Peng
