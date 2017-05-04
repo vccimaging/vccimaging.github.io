@@ -40,7 +40,14 @@
   venue: SID Digest
   year: 2017
 
-
+- id: Li2017OCT
+  authors:
+    - M. Li
+  title: Multiple Scattering Model for Optical Coherence Tomography with Rytov Approximation
+  venue: KAUST Master Thesis
+  year: 2017
+  pages: 68 pages
+  pdf: "http://repository.kaust.edu.sa/kaust/handle/10754/623270"
 
 - id: Heidrich2016SAProceedings
   authors:
