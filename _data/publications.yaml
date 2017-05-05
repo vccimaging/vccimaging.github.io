@@ -170,7 +170,6 @@
   year: 2016
   pages: 24.1--24.11
 
-
 - id: Zang2016ICT
   authors:
     - G. Zang
@@ -179,6 +178,16 @@
   year: 2016
   pages: 65 pages
   pdf: http://repository.kaust.edu.sa/kaust/handle/10754/605208
+  
+  - id: Wang2016CSHWS
+  authors:
+    - C. Wang
+  title: Coded Shack-Hartmann Wavefront Sensor
+  venue: KAUST Master Thesis
+  month: December
+  year: 2016
+  pages: 55 pages
+  pdf: http://repository.kaust.edu.sa/kaust/handle/10754/621951
   
   
 - id: Peng2015CIU
