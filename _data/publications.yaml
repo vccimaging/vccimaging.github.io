@@ -179,7 +179,7 @@
   pages: 65 pages
   pdf: http://repository.kaust.edu.sa/kaust/handle/10754/605208
   
-  - id: Wang2016CSHWS
+- id: Wang2016CSHWS
   authors:
     - C. Wang
   title: Coded Shack-Hartmann Wavefront Sensor
