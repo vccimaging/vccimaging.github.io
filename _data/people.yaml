@@ -102,18 +102,15 @@
   pubname: G. Zang
   position: Ph.D Student
   start: 2014
-
-
-# alumni
-
+  
 - id:
   name: Qiang Fu
   pubname: Q. Fu
   title: Dr.
   position: Research Scientist
-  start: 2014
-  end: 2016
-  nowat: Shanghai tech
+  start: 2017
+
+# alumni
 
 - id:
   name: Robin Swanson
