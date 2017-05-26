@@ -1,5 +1,15 @@
 ---
 
+- id: Wang2017CWS
+  authors:
+    - C. Wang
+    - X. Dun
+    - Q. Fu
+    - W. Heidrich
+  title: Ultra-High Resolution Coded Wavefront Sensor
+  venue: Optics Express
+  year: 2017
+
 - id: Xiong2017RainbowPIV
   authors:
     - J. Xiong
