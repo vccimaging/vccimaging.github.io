@@ -1,19 +1,14 @@
 ---
 
-- id: Wang2017CWS
+- id: Sun2017ChromAber
   authors:
-    - C. Wang
-    - X. Dun
-    - Q. Fu
+    - T. Sun
+    - Y. Peng
     - W. Heidrich
-  title: Ultra-High Resolution Coded Wavefront Sensor
-  venue: Optics Express
+  title: Revisiting Cross-channel Information Transfer for Chromatic Aberration Correction
+  venue: ICCV
   year: 2017
-  volume: 25
-  number: 12
-  pages: 13736--13746
-  pdf: "https://www.osapublishing.org/oe/abstract.cfm?uri=oe-25-12-13736"
-
+  
 - id: Xiong2017RainbowPIV
   authors:
     - J. Xiong
@@ -43,6 +38,20 @@
   venue: CVPR
   year: 2017
   note: spotlight presentation
+
+- id: Wang2017CWS
+  authors:
+    - C. Wang
+    - X. Dun
+    - Q. Fu
+    - W. Heidrich
+  title: Ultra-High Resolution Coded Wavefront Sensor
+  venue: Optics Express
+  year: 2017
+  volume: 25
+  number: 12
+  pages: 13736--13746
+  pdf: "https://www.osapublishing.org/oe/abstract.cfm?uri=oe-25-12-13736"
 
 - id: Damberg2017LightSteering
   authors:
