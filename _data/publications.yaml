@@ -1,4 +1,14 @@
 ---
+- id: Bis2017CCSC
+  authors:
+    - B. Choudhury
+    - R. Swanson
+    - F. Heide
+    - G. Wetzstein
+    - W. Heidrich
+  title: Consensus Convolutional Sparse Coding
+  venue: ICCV
+  year: 2017
 
 - id: Sun2017ChromAber
   authors:
