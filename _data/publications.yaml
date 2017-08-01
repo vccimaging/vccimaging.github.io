@@ -19,6 +19,16 @@
   venue: ICCV
   year: 2017
   
+- id: Li2017OCTD
+  authors:
+    - M. Li
+    - R. Idoughi
+    - B. Choudhury
+    - W. Heidrich
+  title: Statistical model for OCT image denoising
+  venue: Biomedical Optics Express
+  year: 2017
+  
 - id: Xiong2017RainbowPIV
   authors:
     - J. Xiong
