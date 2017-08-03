@@ -1,0 +1,30 @@
+---
+layout: default
+title: Biswarup Choudhury -- Publications
+---
+
+<h1>Publications</h1>
+<h3>Biswarup Choudhury</h3>
+
+{% assign years = (1993..2017) | reverse %}
+
+<div style="text-align:center;">
+<div style="display:inline-block;text-align:left;width:85%">
+<h4>Years:</h4>
+<nav>
+  <ul>
+    {% for year in years %}
+    <li><a href=#{{year}}>{{year}}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+</div>
+</div>
+
+<br>
+<br>
+
+{% for year in years %}
+{% include publicationlist.html name="B. Choudhury" minYear=year maxYear=year %}
+<br><br>
+{% endfor %}
