@@ -1,5 +1,25 @@
 ---
 
+- id: Sun2018CompressiveSPADArray
+  authors:
+    - Q. Sun
+    - X. Dun
+    - Y. Peng
+    - W. Heidrich
+  title: Depth and Transient Imaging with Compressive SPAD Array Cameras
+  venue: CVPR
+  year: 2018
+  
+- id: Su2018EndToEndTOF
+  authors:
+    - S. Su
+    - F. Heide
+    - G. Wetzstein
+    - W. Heidrich
+  title: Deep End-to-End Time-of-Flight Imaging
+  venue: CVPR
+  year: 2018
+  
 - id: Peng2017MixMatchHolography
   authors:
     - Y. Peng
