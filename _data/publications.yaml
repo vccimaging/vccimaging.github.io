@@ -20,6 +20,30 @@
   venue: CVPR
   year: 2018
   
+- id: Xiong2018ReconfigurableRainbowPIV
+  title: Reconfigurable Rainbow PIV for 3D Flow Measurement
+  authors:
+    - J. Xiong
+    - R. Idoughi
+    - Q. Fu
+    - W. Heidrich
+  venue: ICCP
+  year: 2018
+
+- id: Peng2018FocalSweep
+  title: Focal Sweep Imaging with Multi-focal Diffractive Optics
+  authors:
+    - Y. Peng
+    - X. Dun
+    - Q. Sun
+    - F. Heide
+    - G. Wetzstein
+    - W. Heidrich
+  venue: ICCP
+  year: 2018
+
+
+  
 - id: Peng2017MixMatchHolography
   authors:
     - Y. Peng
