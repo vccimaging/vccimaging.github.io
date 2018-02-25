@@ -9,6 +9,7 @@
   title: Depth and Transient Imaging with Compressive SPAD Array Cameras
   venue: CVPR
   year: 2018
+  note: (accepted, coming soon)
   
 - id: Su2018EndToEndTOF
   authors:
@@ -19,7 +20,8 @@
   title: Deep End-to-End Time-of-Flight Imaging
   venue: CVPR
   year: 2018
-  
+  note: (accepted, coming soon)
+
 - id: Xiong2018ReconfigurableRainbowPIV
   title: Reconfigurable Rainbow PIV for 3D Flow Measurement
   authors:
@@ -29,6 +31,8 @@
     - W. Heidrich
   venue: ICCP
   year: 2018
+  thumb: /Publications/Xiong2017RainbowPIV/thumb.jpg
+  note: (accepted, coming soon)  
 
 - id: Peng2018FocalSweep
   title: Focal Sweep Imaging with Multi-focal Diffractive Optics
@@ -41,6 +45,7 @@
     - W. Heidrich
   venue: ICCP
   year: 2018
+  note: (accepted, coming soon)
 
 
   
