@@ -26,13 +26,12 @@
   title: Reconfigurable Rainbow PIV for 3D Flow Measurement
   authors:
     - J. Xiong
-    - R. Idoughi
     - Q. Fu
+    - R. Idoughi
     - W. Heidrich
   venue: ICCP
   year: 2018
-  thumbnail: /Publications/Xiong2017RainbowPIV/thumb.jpg
-  note: accepted, coming soon  
+  note: accepted
 
 - id: Peng2018FocalSweep
   title: Focal Sweep Imaging with Multi-focal Diffractive Optics
