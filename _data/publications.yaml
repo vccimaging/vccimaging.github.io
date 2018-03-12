@@ -10,6 +10,8 @@
   venue: CVPR
   year: 2018
   note: accepted, coming soon
+  thumbnail: /Publications/Sun2018CompressiveSPADArray/mainfigure.png
+  url: /Publications/Sun2018CompressiveSPADArray/
   
 - id: Su2018EndToEndTOF
   authors:
