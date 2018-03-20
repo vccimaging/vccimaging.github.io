@@ -1,13 +1,106 @@
----
-layout: default
----
-<div class="projectPage">
+<!DOCTYPE html>
+<html>
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-98293807-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+
+
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
     
-<h3> Focal Sweep Imaging with Multi-focal Diffractive Optics </h3>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+  
+  <body>
+    
+    <img align=right src="images/kaust.png" width=150 height=150>
+    
+    
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+	<li><a href="/people.html">People</a></li>
+	<li><a href="/publications.html">Publications</a></li>
+        <li><a href="/joinus.html">Join Us</a></li>
+	<li style="float:right"><a href=http://www.kaust.edu.sa>KAUST</a></li>
+	<li style="float:right"><a href=http://vcc.kaust.edu.sa>VCC</a></li>
+      </ul>
+    </nav>
+    
+    <content>
+      <div class="projectPage">
+    
+<h3> Focal Sweep Imaging with Multi-focal Diffractive Optics <span style="height: 1.5em"></span></h3>
 
-<a href="https://www.cs.ubc.ca/~evanpeng/">Yifan Peng</a>, <a href=/People/dunx>Xiong Dun</a>, <a href=/People/sunq>Qilin Sun</a>
-<a href="http://stanford.edu/~fheide/">Felix Heide</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
 
-<br> Accepted to the IEEE International Conference on Computational Photography, 2018 <br>
+<a href="http://www.cs.ubc.ca/~evanpeng/">Yifan (Evan) Peng</a>,
+<a href="/People/dunx/">Xiong Dun</a>,
+<a href="/People/sunq/">Qilin Sun</a>, 
+<a href="http://stanford.edu/~fheide/">Felix Heide</a>,
+<a href="/People/heidriw/">Wolfgang Heidrich</a>
+	      
+<br> A project collaborated with UBC, accepted to IEEE International Conference on Computational Photography 2018 <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="teaser.png" width="100%"> <br>
+<!-- 
+<img src="images/compare_synthetic/2.png" width="24%"/> 
+<img src="images/compare_synthetic/9.png" width="24%"/> 
+<img src="images/compare_synthetic/17.png" width="24%"/> 
+<img src="images/compare_synthetic/22.png" width="24%"/>  <br>
+
+<img src="images/compare_real/diffractive1.png" width="24%"/> 
+<img src="images/compare_real/diffractive3.png" width="24%"/> 
+<img src="images/compare_real/refractive1.png" width="24%"/> 
+<img src="images/compare_real/refractive3.png" width="24%"/>  <br> -->
+
+<p><font size=4>Cropped regions of real world results. Top: degraded inputs; Bottom: reconstruction results using deconvolution
+with TV and cross-channel regularizations. For experimental convenience, we capture a depth range from 1.5m to 3.5m for
+the left two scenes and from 2m to 8m for the right scene with a sweep distance of 0.5mm.</p>
+<br>
+  
+<h4 id="abstract">Abstract</h4>
+  Depth-dependent defocus results in a limited depth-of-field in consumer-level cameras. Computational imaging  provides alternative solutions to resolve all-in-focus images with the assistance of designed optics and algorithms.
+  In this work, we extend the concept of focal sweep from refractive optics to diffractive optics, where we fuse multiple focal powers onto one single element. 
+  In contrast to state-of-the-art sweep models, ours can generate better-conditioned point spread function (PSF) distributions along the expected depth range with drastically shortened (40%) sweep distance. 
+  Further by encoding axially asymmetric PSFs subject to color channels, and then sharing sharp information across channels, we preserve details as well as color fidelity. We prototype two diffractive imaging systems 
+  that work in the monochromatic and RGB color domain. Experimental results indicate that the depth-of-field can be significantly extended with fewer artifacts remaining after the deconvolution.
+<br><br>
+
+<h4 id="paper">Paper</h4>
+<!-- <h4 id="paper">Paper</h4> -->
+    <pre class="tab">Paper: <a href="Peng2018FocalSweep.pdf">[Peng2018FocalSweep.pdf (~2.2MB)]</a> </pre>  
+	
+<br>
+<br>
+All images are &copy IEEE 2018, reproduced here by permission of IEEE for your personal use. Not for redistribution.
 
 </div>
+
+    </content>
+    
+    <footer>
+      <ul>
+        Computational Imaging Group @ KAUST Visual Computing Center
+      </ul>
+    </footer>
+  </body>
+</html>
+
