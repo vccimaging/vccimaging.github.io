@@ -11,7 +11,7 @@
   title: Space-time Tomography for Continuously Deforming Objects
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2018
-  note: conditionally accepted
+  note: conditionally accepted, coming soon
 
 - id: Wang2018AdaptiveOptics
   authors:
@@ -22,7 +22,7 @@
   title: "Megapixel Adaptive Optics: Towards Correcting Large-scale Distortions in Computational Cameras"
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2018
-  note: conditionally accepted
+  note: conditionally accepted, coming soon
 
 - id: Sitzmann2018EndToEndOptics
   authors:
@@ -37,7 +37,7 @@
   title: End-to-end Optimization of Optics and Image Processing for Achromatic Extended Depth of Field and Super-resolution Imaging
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2018
-  note: conditionally accepted
+  note: conditionally accepted, coming soon
 
 - id: Auzinger2018NanoStructuralColor
   authors:
@@ -47,7 +47,7 @@
   title: Computational Design of Nanostructural Color for Additive Manufacturing
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2018
-  note: conditionally accepted
+  note: conditionally accepted, coming soon
 
 - id: Sun2018CompressiveSPADArray
   authors:
@@ -71,7 +71,6 @@
   title: Deep End-to-End Time-of-Flight Imaging
   venue: CVPR
   year: 2018
-  note: accepted, coming soon
 
 - id: Xiong2018ReconfigurableRainbowPIV
   title: Reconfigurable Rainbow PIV for 3D Flow Measurement
