@@ -3,11 +3,59 @@ layout: default
 ---
 <div class="projectPage">
     
-<h3> Deep End-to-End Time-of-Flight Imaging </h3>
+<h3>Deep End-to-End Time-of-Flight Imaging</h3>
 
-<a href="https://www.cs.ubc.ca/~shuochsu/">Shuochen Su</a>, <a href="http://stanford.edu/~fheide/">Felix Heide</a>,
-<a href="https://stanford.edu/~gordonwz/">Gordon Wetzstein</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+<a href="http://www.cs.ubc.ca/~shuochsu/">Qilin Sun</a>, <a href="http://stanford.edu/~fheide/">Felix Heide</a>, <a href=https://www.cs.ubc.ca/~evanpeng/>Yifan Peng</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
 
 <br> Accepted to IEEE/CVF Conference on Computer Vision and Patern Recognition (CVPR), 2018 <br>
+
+</div>
+
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#Res">Resources</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+    
+<!--
+<img src="mainfigure.png" alt="main" height="450" width="1000"> <br>
+Schematic of our compressive transient imaging system. 
+    <br><br>
+    -->
+  
+<h4 id="abstract">Abstract</h4>
+ We present an end-to-end image processing framework for
+   time-of-flight (ToF) cameras. Existing ToF image processing
+   pipelines consist of a sequence of operations including modulated
+   exposures, denoising, phase unwrapping and multipath interference
+   correction. While this cascaded modular design offers several
+   benefits, such as closed-form solutions and power-efficient
+   processing, it also suffers from error accumulation and information
+   loss as each module can only observe the output from its direct
+   predecessor, resulting in erroneous depth estimates. We depart from a
+   conventional pipeline model and propose a deep convolutional neural
+   network architecture that recovers scene depth directly from
+   dual-frequency, raw ToF correlation measurements. To train this
+   network, we simulate ToF images for a variety of scenes using a
+   time-resolved renderer, devise depth-specific losses, and apply
+   normalization and augmentation strategies to generalize this model
+   to real captures. We demonstrate that the proposed network can
+   efficiently exploit the spatio-temporal structures of ToF
+   frequency measurements, and validate the performance of the joint
+   multipath removal, denoising and phase unwrapping method on a wide
+   range of challenging scenes.
+ 
+ <br><br>
+
+	
+<h4 id="Res">Resources </h4>
+    <pre class="tab">Paper: <a href="Su2018EndToEndTOF.pdf">[Su2018EndToEndTOF.pdf (~4.2MB)]</a> </pre>  
+    <pre class="tab">Supplement: <a href="Su2018EndToEndTOF-supp.pdf">[Su2018EndToEndTOF-supp.pdf (~11.4MB)]</a> </pre>  
+  
+    
+
+All images are © IEEE Xplore, reproduced here by permission of IEEE Xplore for your personal use. Not for redistribution.
 
 </div>
