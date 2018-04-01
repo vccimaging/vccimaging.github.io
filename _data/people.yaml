@@ -39,13 +39,6 @@
   position: Research Scientist
   start: 2014
 
-- id: choudhb
-  name: Biswarup Choudhury
-  pubname: B. Choudhury
-  title: Dr.
-  position: Research Scientist
-  start: 2014
-
 - id: dunx
   name: Xiong Dun
   pubname: X. Dun
@@ -108,8 +101,17 @@
   pubname: K. Abu-Jbara
   position: Ph.D Student
   start: 2015
+
   
 # alumni
+
+- id: choudhb
+  name: Biswarup Choudhury
+  pubname: B. Choudhury
+  title: Dr.
+  position: Research Scientist
+  start: 2014
+  end: 2018
 
 - id: alym
   name: Mohamed Aly
