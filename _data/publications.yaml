@@ -1,5 +1,54 @@
 ---
 
+- id: Zang2018Space-time
+  authors:
+    - G. Zang
+    - R. Idoughi
+    - R. Tao
+    - G. Lubineau
+    - P. Wonka
+    - W. Heidrich
+  title: Space-time Tomography for Continuously Deforming Objects
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2018
+  note: conditionally accepted
+
+- id: Wang2018AdaptiveOptics
+  authors:
+    - C. Wang
+    - Q. Fu
+    - X. Dun
+    - W. Heidrich
+  title: "Megapixel Adaptive Optics: Towards Correcting Large-scale Distortions in Computational Cameras"
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2018
+  note: conditionally accepted
+
+- id: Sitzmann2018EndToEndOptics
+  authors:
+    - V. Zitzmann
+    - S. Diamond
+    - Y. Peng
+    - X. Dun
+    - S. Boyd
+    - W. Heidrich
+    - F. Heide
+    - G. Wetzstein
+  title: End-to-end Optimization of Optics and Image Processing for Achromatic Extended Depth of Field and Super-resolution Imaging
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2018
+  note: conditionally accepted
+
+- id: Auzinger2018NanoStructuralColor
+  authors:
+    - T. Auzinger
+    - W. Heidrich
+    - B. Bickel
+  title: Computational Design of Nanostructural Color for Additive Manufacturing
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2018
+  note: conditionally accepted
+
 - id: Sun2018CompressiveSPADArray
   authors:
     - Q. Sun
