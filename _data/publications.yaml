@@ -47,7 +47,7 @@
   title: End-to-end Optimization of Optics and Image Processing for Achromatic Extended Depth of Field and Super-resolution Imaging
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2018
-  note: conditionally accepted, coming soon
+  url: "http://www.computationalimaging.org/publications/end-to-end-optimization-of-optics-and-image-processing-for-achromatic-extended-depth-of-field-and-super-resolution-imaging/"
 
 - id: Auzinger2018NanoStructuralColor
   authors:
@@ -57,7 +57,7 @@
   title: Computational Design of Nanostructural Color for Additive Manufacturing
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2018
-  note: conditionally accepted, coming soon
+  url: "http://visualcomputing.ist.ac.at/publications/2018/StructCol/"
 
 - id: Sun2018CompressiveSPADArray
   authors:
