@@ -1,5 +1,18 @@
 ---
 
+- id: Zang2018SuperResolutionCT
+  authors:
+    - G. Zang
+    - R. Idoughi
+    - M. Aly
+    - P. Wonka
+    - W. Heidrich
+  title: Super-Resolution and Sparse View CT Reconstruction
+  venue: ECCV
+  year: 2018
+  thumbnail: /Publications/Zang2018SuperResolutionCT/thumb.jpg
+  note: accepted, coming soon
+  
 - id: Xiao2018TransferLearning
   authors:
     - L. Xiao
