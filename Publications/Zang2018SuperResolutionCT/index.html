@@ -5,7 +5,7 @@ layout: default
     
 <h2> Super-Resolution and Sparse View <br> CT Reconstruction </h2>
 
-<a href="/People/zangg/">Guangming Zang</a>, <a href="/People/idoughr/">Ramzi Idoughi</a>, <a href="/People/alym/">Mohamed Aly</a>, <a href="http://peterwonka.net/">Peter Wonka</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+<a href="/People/zangg/">Guangming Zang</a>, <a href="/People/alym/">Mohamed Aly</a>, <a href="/People/idoughr/">Ramzi Idoughi</a>, <a href="http://peterwonka.net/">Peter Wonka</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
 
 <br> Accepted to ECCV, 2018 <br>
 
@@ -16,25 +16,27 @@ layout: default
 </ul>
 <hr size="4", color="black", width="100%">
     
-<img src="teaser.png" width="100%"/> <br>
+<img src="teaser_new.png" width="100%"/> <br>
 Five datasets with thin 2D (a-c) and 1D (d-e) structures embedded in 3D volumes. Top row: scanned objects. Middle row: representative projection images. Bottom row: rendering results of volumes reconstructed by our method.<br><br>
     
 <h3 id="abstract">Abstract</h3>
-We present a flexible framework for robust computed tomography (CT)reconstruction with a specific emphasis on recovering thin
-1D and 2D manifolds embedded in 3D volumes. To reconstruct such
-structures at resolutions below the Nyquist limit of the CT image
-sensor, we devise a new 3D structure tensor prior, which can be
-incorporated as a regularizer into more traditional proximal
-optimization methods for CT reconstruction. As a second, smaller
-contribution, we also show that when using such a proximal
-reconstruction framework, it is beneficial to employ the Simultaneous
-Algebraic Reconstruction Technique (SART) instead of the commonly used
-Conjugate Gradient (CG) method in the solution of the data term
-proximal operator. We show empirically that using SART provides better
-reconstruction results in sparse-view settings using fewer projection
-images. We provide extensive experimental results for both
-contributions on both simulated and real data. Moreover, our code will
-also be made publicly available.
+We present a flexible framework for robust computed tomography (CT)
+reconstruction with a specific emphasis on recovering thin 1D and 2D
+manifolds embedded in 3D volumes. To reconstruct such structures at
+resolutions below the Nyquist limit of the CT image sensor, we devise
+a new 3D structure tensor prior, which can be incorporated as a
+regularizer into more traditional proximal optimization methods for CT
+reconstruction. As a second, smaller contribution, we also show that
+when using such a proximal reconstruction framework, it is beneficial
+to employ the Simultaneous Algebraic Reconstruction Technique (SART)
+instead of the commonly used Conjugate Gradient (CG) method in the
+solution of the data term proximal operator. We show empirically that
+CG often does not converge to the global optimum for tomography
+problem even though the underlying problem is convex. We demonstrate
+that using SART provides better reconstruction results in sparse-view
+settings using fewer projection images. We provide extensive
+experimental results for both contributions on both simulated and real
+data. Moreover, our code will also be made publicly available.
 
 <pre class="tab">Paper  <a href="XXX">[coming soon]</a> </pre> <pre class="tab">Supplementary <a href="XXX">[coming soon]</a> </pre> <br>    
     
