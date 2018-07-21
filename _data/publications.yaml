@@ -3,8 +3,8 @@
 - id: Zang2018SuperResolutionCT
   authors:
     - G. Zang
-    - R. Idoughi
     - M. Aly
+    - R. Idoughi
     - P. Wonka
     - W. Heidrich
   title: Super-Resolution and Sparse View CT Reconstruction
