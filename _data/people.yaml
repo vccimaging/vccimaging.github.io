@@ -25,13 +25,6 @@
   position: Ph.D Student
   start: 2014
 
-- id: ialsolami
-  name: Ibrahim Alsolami
-  pubname: I. Alsolami
-  title: Dr.
-  position: Post Doc
-  start: 2016
-
 - id: amatah
   name: Hadi Amata
   pubname: H. Amata
@@ -109,6 +102,14 @@
   start: 2016
   
 # alumni
+
+- id: ialsolami
+  name: Ibrahim Alsolami
+  pubname: I. Alsolami
+  title: Dr.
+  position: Post Doc
+  start: 2016
+  end: 2018
 
 - id: choudhb
   name: Biswarup Choudhury
