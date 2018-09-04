@@ -3,7 +3,7 @@ layout: default
 title: Simeng Qiu -- Home Page
 image: Simeng.png
 width: 150
-height: 200
+height: 195
 ---
 
 <h1>Simeng Qiu<h1>
