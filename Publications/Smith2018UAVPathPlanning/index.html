@@ -5,7 +5,7 @@ layout: default
     
 <h2> Aerial Path Planning for Urban Scene Reconstruction:<br> A Continuous Optimization Method and Benchmark </h2>
 
-<!--<a href="/People/zangg/">Guangming Zang</a>, <a href="/People/alym/">Mohamed Aly</a>, <a href="/People/idoughr/">Ramzi Idoughi</a>, <a href="http://peterwonka.net/">Peter Wonka</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>-->
+<a href="https://vcc.kaust.edu.sa/Pages/Smith_2.aspx">Neil Smith</a>, <a href="">Nils Moehrle</a>, <a href="https://www.gcc.tu-darmstadt.de/home/we/michael_goesele/index.en.jsp">Michael Goesele</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
 
 <br> SIGGRAPH ASIA, 2018 <br>
 
@@ -17,11 +17,35 @@ layout: default
 <hr size="4", color="black", width="100%">
     
 <img src="teaser.png" width="100%"/> <br>
-TBA<br><br>
     
 <h3 id="abstract">Abstract</h3>
-TBA
+Small unmanned aerial vehicles (UAVs) are ideal capturing devices for
+high-resolution urban 3D reconstructions using multi-view stereo. Nevertheless, practical
+considerations such as safety usually mean that access to the scan
+target is often only available for a short amount of time, especially
+in urban environments. It therefore becomes crucial to perform both
+view and path planning to minimize flight time while ensuring complete
+and accurate reconstructions.
 
-<!--<pre class="tab">Paper  <a href="Zang2018SuperResolutionCT.pdf">[Full text (~7.9MB)]</a> </pre> <pre class="tab">Supplementary <a href="Zang2018SuperResolutionCT-supp.pdf">[supplement file (~3.31MB)]</a> </pre> <br>   --> 
+In this work, we address the challenge of automatic view and path
+planning for UAV-based aerial imaging with the goal of urban
+reconstruction from multi-view stereo. To this end, we develop a novel
+continuous optimization approach using heuristics for multi-view
+stereo reconstruction quality and apply it to the problem of path
+planning. Even for large scan areas, our method generates paths in
+only a few minutes, and is therefore ideally suited for deployment in
+the field.
+
+To evaluate our method, we introduce and describe a detailed
+benchmark dataset for UAV path planning in urban environments which
+can also be used to evaluate future research efforts on this
+topic. Using this dataset and both synthetic and real data, we
+demonstrate survey-grade urban reconstructions with ground resolutions
+of 1\,cm or better on large areas (30,000 m^2). 
+<br>
+<h3 id="paper">Paper and Supplemental Materials</h3>
+<pre class="tab">Paper  <a href="Smith2018UAVPathPlanning.pdf">[Full text (~12.84MB)]</a> </pre> 
+<pre class="tab">Supplementary <a href="Smith2018UAVPathPlanning_supp.pdf">[supplement file (~16.14MB)]</a> </pre>
+<pre class="tab">Code and Benchmark <a href="">[Coming Soon!]</a> </pre>
     
 </div>
