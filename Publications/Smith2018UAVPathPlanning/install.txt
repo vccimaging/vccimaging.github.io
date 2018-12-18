@@ -1,0 +1,28 @@
+git clone https://github.com/simonfuhrmann/mve.git
+cd mve
+make -j8
+cd ..
+git clone https://github.com/nmoehrle/uavmvs.git
+git checkout develop
+git submodule init
+git submodule update
+cd ..
+git clone https://github.com/nmoehrle/premake-core.git
+cd premake-core/
+git checkout toolset-nvcc
+git submodule init
+git submodule update
+make -f Bootstrap.mak linux
+bin/release/premake5 
+bin/release/premake5 gmake
+cd ..
+git clone https://github.com/nmoehrle/mvs-texturing.git
+git clone https://github.com/simonfuhrmann/mve.git
+cd uavmvs/
+../premake-core/bin/release/premake5 gmake
+sudo apt-get install libglfw3-dev
+sudo apt-get install libeigen3-dev
+sudo apt-get install nvidia-cuda-toolkit
+Install cuda_8.0.61_375.26_linux-run --Current build will only compile with this version, make sure path points to nvcc
+cd build/
+make  --set to Release
