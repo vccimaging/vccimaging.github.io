@@ -3,9 +3,6 @@ cd mve
 make -j8
 cd ..
 git clone https://github.com/nmoehrle/uavmvs.git
-git checkout develop
-git submodule init
-git submodule update
 cd ..
 git clone https://github.com/nmoehrle/premake-core.git
 cd premake-core/
