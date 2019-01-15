@@ -1,5 +1,20 @@
 ---
 
+- id: Aguire-Pablo2019SingleCameraPTV
+  authors:
+    - A. A. Aguirre-Pablo
+    - A. B. Aljedaani
+    - J. Xiong
+    - R. Idoughi
+    - W. Heidrich
+    - S. T. Thoroddsen
+  title: Single-camera 3D PTV using particle intensities and structured light
+  venue: Experiments in Fluids
+  year: 2019
+  volume: 60
+  issue: 2
+  note: coming soon
+
 - id: Smith2018UAVPathPlanning
   authors:
     - N. Smith
@@ -205,7 +220,7 @@
     - A. Aljedaani
     - X. Dun
     - Q. Fu
-    - S. Thoroddsen
+    - S. T. Thoroddsen
     - W. Heidrich
   title: Rainbow Particle Imaging Velocimetry for Dense 3D Fluid Velocity Imaging
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
