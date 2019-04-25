@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="projectPage">
+    
+<h2>  A novel technique for measuring 3D soot volume fraction <br> and
+velocity fields at high-speeds in a turbulent flame</h2>
+<a href="https://ccrc.kaust.edu.sa/Pages/bennett.aspx"> Anthony Bennett</a>,
+<a href="/People/zangg/">Guangming Zang</a>,
+<a href="/People/idoughr/">Ramzi Idoughi</a>,
+<a href="/People/heidriw/">Wolfgang Heidrich</a>
+<a href="https://hpcomb.kaust.edu.sa/Pages/William-Roberts.aspx">William L. Roberts</a>
+<a href="">Scott Skeen</a>
+
+<br> OSA, Optics Letters 2019 (under reviewing) <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#results">Main results</a></li>
+<li><a href="#paper">Paper and Supplementary</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+    
+<img src="setup.png" width="100%"/> <br>
+Set up: Extinction imaging and planar laser induced incandescence setup (PLII). The extinction setup consists of a pulsed LED going through 2 Fresnel lenses and a diffuser captured by an SA-Z fast camera. PLII was captured using an ICCD camera.  <br><br>
+    
+<h3 id="abstract">Abstract</h3>
+Soot is a natural byproduct of incomplete combustion and is detrimental to human health and the environment. 
+Previous experiments in simple canonical flames typically provide point or 2D measurements to support the development of improved soot models. 
+In this letter, we introduce a new diagnostic able to obtain instantaneous 3D soot volume fraction and with the potential to obtain instantaneous 3D velocity fields in a turbulent flame. 
+To achieve these results, extinction images were simultaneously acquired at three angles around the flame. 
+A specialized space-time tomographic method was used to reconstruct 3D velocity fields and 3D extinction coefficients. 
+From the local extinction coefficients, local soot volume fraction can be derived. 
+The reconstructed soot fields were compared to a single shot planar laser-induced incandescence (PLII) image of the soot field synchronized with the final extinction measurement. 
+Qualitative results between the image slice corresponding to the PLII shot were in good agreement with the corresponding tomographic reconstruction slice. 
+
+
+<h3 id="results">Main results</h3>
+
+<img src="results.png" width="80%"/> <br> 
+Input 2d video (left) and reconstructed results (right) <br> <br> 
+<img src="result2.png" width="80%"/> <br> 
+(a) 2D extinction images (DBIEI) obtained at 0°, 45°, and 90° with the simultaneous LII image obtained at 117°. 
+(b) 3d reconstruction of the extinction images with K multiplied by 100, and Velocity profile of the flame with units of pixels/frame. <br> <br> 
+
+<img src="result3.png" width="50%"/> <br>
+(Left image) Normalized LII image taken at 117°. (Right image) Normalized tomographic reconstruction image slice at 117°.<br> <br>
+<pre class="tab">Paper  <a href="XXXX.pdf">[Coming soon]</a>   
+<pre class="tab">Related Project  <a href="https://vccimaging.org/Publications/Zang2018Space-time/">[Related Project]</a> </pre> <br><br>
+   
+</div>
