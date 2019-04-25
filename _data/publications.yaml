@@ -1,5 +1,18 @@
 ---
-
+- id: Zang2019WarpAndProject
+  authors:
+    - G. Zang
+    - R. Idoughi
+    - R. Tao
+    - G. Lubineau
+    - P. Wonka
+    - W. Heidrich
+  title: Warp-and-Project Tomography for Rapidly Deforming Objects
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2019
+  thumbnail: /Publications/Zang2019WarpAndProject/thumb.jpg
+  note: coming soon
+  
 - id: Aguire-Pablo2019SingleCameraPTV
   authors:
     - A. A. Aguirre-Pablo
