@@ -42,9 +42,34 @@ We validate our method with extensive experiments using both synthetic
 and real data from a range of different application scenarios.<br><br>
     
 <h3 id="results">Main results</h3>
+<h4>Hydro-gel balls</h4>
+3D rendering of water absorption by Hydro-gel balls, with a slice comparison of the ST-tomography approach (lower left) and our method (upper
+right).<br> 
+<img src="bubble.png" width="100%"/> <br> <br>
 
+<h4>Compression of the copper foam</h4>
+(a-b): The height (in mm) of the copper foam before and after the
+compression process, respectively. The total displacement during the compression
+is 3.77mm, uniformly distributed over 192 scans. 60 projections
+are obtained for each scan. (c): the states of the foam after 192 scans. (d)
+The Micro-CT setup for the in-situ compressions of the foam. (e):Algorithm comparison for the compression of copper foam. First
+row: results from different reconstruction methods compared to the ground
+truth; Second row: the absolute error for time frame 150. The dynamic range
+of density values is (0, 4600).<br> 
+<img src="foam.png" width="100%"/> <br> <br>
 
-
+<h4>Capillarity effect in porous rock</h4>
+Reconstruction results for the porous rock dataset. Images (a) and
+(c) represent respectively the rock before and after the scan. Some representative
+CT projections are given in (b). The rendering results in (d) show the
+absorption of liquid over time.<br> 
+<img src="rock.png" width="100%"/> <br> <br>
+	
+<h4>Pills dissolved in water</h4>
+Pills dissolving in water. This is our fastest dataset with only 30
+projections captured in 3 minutes.<br> 
+<img src="pills.png" width="100%"/> <br> <br>
+	
 <h3 id="paper">Paper and video</h3>
 
 <pre class="tab">Paper <a href="Zang2019WarpAndProject.pdf">[Coming soon]</a> </pre> 
@@ -60,6 +85,7 @@ and real data from a range of different application scenarios.<br><br>
 <h3 id="citation">Citation</h3>
 
 <pre>
+
   @article{zang2019warp,
   title={Warp-and-Project Tomography for Rapidly Deforming Objects},
   author={Zang, Guangming and Idoughi, Ramzi and Tao, Ran and Lubineau, Gilles and Wonka, Peter and Heidrich, Wolfgang},
@@ -67,8 +93,8 @@ and real data from a range of different application scenarios.<br><br>
   volume={38},
   number={4},
   year={2019},
-  publisher={ACM}
-} 
+  publisher={ACM} 
+  
 </pre>
    
     
