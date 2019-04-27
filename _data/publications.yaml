@@ -25,6 +25,18 @@
   year: 2019
   thumbnail: /Publications/Zang2019soot/thumb.jpg  
 
+- id: Fortunato2019CakeLayer
+  authors:
+    - L. Fortunato
+    - M. Li
+    - T. Cheng
+    - ZU. Rehman
+    - W. Heidrich
+    - TO. Leiknes
+  title: "Cake layer characterization in Activated Sludge Membrane Bioreactors: Real-time analysis"
+  venue: Journal of Membrane Science
+  year: 2019
+
 - id: Aguire-Pablo2019SingleCameraPTV
   authors:
     - A. A. Aguirre-Pablo
