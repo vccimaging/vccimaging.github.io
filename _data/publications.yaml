@@ -12,6 +12,19 @@
   year: 2019
   thumbnail: /Publications/Zang2019WarpAndProject/thumb.jpg
   
+- id: Jeon2019CompactHyperspectral
+  authors:
+    - D. Jeon
+    - S.-H. Baek
+    - S. Yi
+    - Q. Fu
+    - X. Dun
+    - W. Heidrich
+    - M. H. Kim
+  title: Compact Snapshot Hyperspectral Imaging with Diffracted Rotation
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2019
+  
 - id: Zang2019soot
   authors:
     - A. Bennett
