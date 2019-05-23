@@ -25,18 +25,18 @@
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2019
   
-- id: Zang2019soot
-  authors:
-    - A. Bennett
-    - G. Zang
-    - R. Idoughi
-    - W. Heidrich
-    - W. L. Roberts
-    - S. Skeen
-  title: Soot volume fraction and velocity fields at high-speeds in a turbulent flame
-  venue: OSA, Optics Letters (submission)
-  year: 2019
-  thumbnail: /Publications/Zang2019soot/thumb.jpg  
+#- id: Zang2019soot
+#  authors:
+#    - A. Bennett
+#    - G. Zang
+#    - R. Idoughi
+#    - W. Heidrich
+#    - W. L. Roberts
+#    - S. Skeen
+#  title: Soot volume fraction and velocity fields at high-speeds in a turbulent flame
+#  venue: OSA, Optics Letters (submission)
+#  year: 2019
+#  thumbnail: /Publications/Zang2019soot/thumb.jpg  
 
 - id: Fortunato2019CakeLayer
   authors:
