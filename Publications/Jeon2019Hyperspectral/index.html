@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="projectPage">
+    
+<h3> Compact Snapshot Hyperspectral Imaging with Diffracted Rotation</h3>
+
+<a href="http://vclab.kaist.ac.kr/sjjeon/index.html">Daniel S. Jeon</a>, <a href="https://sites.google.com/view/shbaek/">Seung-Hwan Baek</a>, <a href="http://vclab.kaist.ac.kr/syyi/index.html">Shinyoung Yi</a>, <a href="/People/fuq/">Qiang Fu</a>, <a href="/People/dunx/">Xiong Dun</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>, <a href="http://vclab.kaist.ac.kr/minhkim/index.html">Min H. Kim</a>
+
+<br> Accepted to ACM Transactions on Graphics (Proc. SIGGRAPH), 2019 <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper and Supplement</a></li>
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="teaser.jpg" width="100%"/> <br>
+We propose a compact, diffraction-based snapshot hyperspectral imaging method with a novel diffractive optical element attached to a conventional, bare image sensor. Our method replaces the common optical elements in hyperspectral imaging (prism, coded mask, relay and imaging lenses) with a single optical element. Our single DOE-based camera is coupled with a data-driven spectral reconstruction method that can restore faithful spectral information from spectrally-varying point spread functions. (a) Our fabricated DOE (inset) and a DSLR camera, installed with the DOE for spectral imaging. (b) Reconstructed hyperspectral image from real input. (c) Spectrally-varying PSFs measured per wavelength. (d) Corresponding captured spectral channels. (e) Spectral plots of two patches from the captured ColorChecker, compared to the ground truth.<br><br>
+    
+<h4 id="abstract">Abstract</h4>
+<p>Traditional snapshot hyperspectral imaging systems include various optical elements: a dispersive optical element (prism), a coded aperture, several relay lenses, and an imaging lens, resulting in an impractically large form factor. We seek an alternative, minimal form factor of snapshot spectral imaging based on recent advances in diffractive optical technology. We there- upon present a compact, diffraction-based snapshot hyperspectral imaging method, using only a novel diffractive optical element (DOE) in front of a conventional, bare image sensor. Our diffractive imaging method replaces the common optical elements in hyperspectral imaging with a single optical element. To this end, we tackle two main challenges: First, the traditional diffractive lenses are not suitable for color imaging under incoherent illu- mination due to severe chromatic aberration because the size of the point spread function (PSF) changes depending on the wavelength. By leveraging this wavelength-dependent property alternatively for hyperspectral imag- ing, we introduce a novel DOE design that generates an anisotropic shape of the spectrally-varying PSF. The PSF size remains virtually unchanged, but instead the PSF shape rotates as the wavelength of light changes. Sec- ond, since there is no dispersive element and no coded aperture mask, the ill-posedness of spectral reconstruction increases significantly. Thus, we pro- pose an end-to-end network solution based on the unrolled architecture of an optimization procedure with a spatial-spectral prior, specifically designed for deconvolution-based spectral reconstruction. Finally, we demonstrate hyperspectral imaging with a fabricated DOE attached to a conventional DSLR sensor. Results show that our method compares well with other state- of-the-art hyperspectral imaging methods in terms of spectral accuracy and spatial resolution, while our compact, diffraction-based spectral imaging method uses only a single optical element on a bare image sensor.</p> <br><br>
+
+<h4 id="paper">Paper</h4>
+<pre class="tab">paper <a href="Jeon2019Hyperspectral">[Jeon2019Hyperspectral.pdf (~13.0MB)]</a></pre>
+<pre class="tab">supplementary material <a href="Jeon2019Hyperspectral_supp.pdf">[Jeon2019Hyperspectral_supp.pdf (~58.0MB)]</a></pre><br>
+
+All images are © ACM 2019, reproduced here by permission of ACM for your personal use. Not for redistribution.
+
+<h4 id="citation">Citation</h4>
+<pre>
+  @Article{HyperspectralDOE:SIG:2019,
+  author  = {Daniel S. Jeon and Seung-Hwan Baek and Shinyoung Yi and Qiang Fu 
+             and Xiong Dun and Wolfgang Heidrich and Min H. Kim},
+  title   = {Compact Snapshot Hyperspectral Imaging with Diffracted Rotation},
+  journal = {ACM Transactions on Graphics (Proc. SIGGRAPH 2019)},
+  year    = {2019},
+  volume  = {38},
+  number  = {4},
+  pages   = {117:1--13},
+  doi     = "10.1145/3306346.3322946",
+  url     = "https://doi.org/10.1145/3306346.3322946",
+  }
+</pre>
+</div>
