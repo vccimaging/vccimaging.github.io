@@ -1,0 +1,172 @@
+---
+layout: default
+---
+<div class="projectPage">
+    
+<h2> Hierarchical and View-invariant Light Field Segmentation
+by Maximizing Entropy Rate on 4D Ray Graphs </h2>
+
+<a href="/People/lir/">Rui Li</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> Accepted to ACM Transactions on Graphics (Proc. SIGGRAPH Asia), 2019 <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#model">Light Field Segmentation Model</a></li>
+<li><a href="#opt">Large-scale Hierarchical Submodular Optimization</a></li>
+<li><a href="#exp">Experiments</a></li>   
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+    
+<img src="teaser.png" width="100%" align="middle"/> <br>
+Our light field segmentation method facilities segmentation
+of fine structures in light fields with complex occlusions and
+difficult textures. Here we show from left to right: two source
+light fields, the achieved segmentation, mean color regions, and
+object selection (which requires additional user input). We also
+show the EPIs for different horizontal and vertical slices. <br><br>
+    
+<h3 id="abstract">Abstract</h3>
+Image segmentation is an important first step of many image
+processing, computer graphics, and computer vision pipelines. Unfortunately, it remains difficult to automatically and robustly segment cluttered scenes, or scenes in which multiple objects have similar color and texture. In these scenarios, light fields offer much richer cues that can be used efficiently to drastically improve the quality and robustness of segmentations.<br>
+In this paper we introduce a new light field segmentation method that respects texture appearance, depth consistency, as well as occlusion, and creates well-shaped segments that are robust under view point changes. Furthermore, our segmentation is hierarchical, i.e. with a single optimization, a whole hierarchy of segmentations with different numbers of regions is available. All this is achieved with a submodular objective function that allows for efficient greedy optimization. Finally, we introduce a new tree-array type data structure, i.e. a disjoint tree, to efficiently perform submodular optimization on very large graphs. This approach is of interest beyond our specific application of light field segmentation.<br>
+We demonstrate the efficacy of our method on a number of synthetic and real data sets, and show how the obtained segmentations can be used for applications in image processing and graphics.<br>
+
+<h3 id="model">Light Field Segmentation Model</h3>
+Like 2D image segmentation methods, light field segmentation should produce clusters with consistent colors and textures. The clusters should be well shaped, and of similar size. In addition, however, we can define several additional desired properties that are specific to light field segmentation and can be used to obtain superior results:
+<ol>
+<li>Depth-Awareness: the method should be able to separate objects
+  with similar appearance according to scene depth.</li>
+<li>Occlusion-Awareness: clusters should have sharp edges at
+  occlusion boundaries.</li>
+<li>View Consistency: the clusters should be stable and consistent
+  under changes in view points.</li>
+</ol>
+
+Our segmentation method maximizes an objective function of the form
+<br>
+<img src="main_model.png" width="40%" align="middle"/><br>
+where A is an occlusion and depth aware appearance term, V encourages view consistency, C regularizes the spatial shape, and S encourages similarly sized clusters.
+
+<h3 id="opt">Large-scale Hierarchical Submodular Optimization</h3>
+Performing standard submodular optimization on a light field graph will lead to a large-scale submodular optimization problem. Currently available light field data will generate graphs with up to 1e9 edges, while 2D images only have ~1e7 edges due to the more densely connected graph structure in 4D vs 2D.  We develop several strategies to deal with large-scale optimization problems involving submodular functions. These include a disjoint tree as a hierarchical way of re-generating a specific number of regions, as well as a cache system to efficiently search, modify, merge large-scale trees. These innovations will be useful for other large-scale submodular optimization problems including for videos and volumes.
+<img src="figure_disjoint_tree_2.png" width="100%"/> <br>
+
+<h3 id="exp">Experiments</h3>
+<img src="exp_fig1.png" width="80%" align="middle"/><br>
+<img src="exp_fig2.png" width="80%" align="middle"/><br>
+<img src="exp_fig3.png" width="80%" align="middle"/><br>
+
+
+<h4> Quantitative comparison results for our dataset.</h4>
+<table>
+  <tr>
+    <td><img src=".\quant\vcc\ASA.png" alt="1" width="100%"/></td>
+    <td><img src=".\quant\vcc\BR.png" alt="1" width="100%"/></td>
+    <td><img src=".\quant\vcc\SS.png" alt="1" width="100%"/></td>
+    <td><img src=".\quant\vcc\UE.png" alt="1" width="100%"/></td>
+  </tr>
+</table>
+
+<h3>Visual Comparison with State-of-the-arts</h3>
+<p>We visualize contour results for several popular segmentation method and 4D light field segmentation. We provide a extra visual comparison with state-of-the-art 2D segmenatation method and light field segmentation method, including SLIC[1], LFSP[2], Super-Ray[3]. Our proposed method shows much better stability and segmentation performance when comparing with those privious methods.</p> 
+<table>
+<tr>
+  <th>Original</th>
+  <th>LFSP</th>
+  <th>Super-Ray</th>
+  <th>Our Proposed Method</th>
+</tr>
+<tr>
+  <td><img src=".\original\flower-1.gif" alt="1" width="90%"/></td>
+  <td><img src=".\lfsp\vcc\flower-1_100_contouor.gif" alt="1" width="90%"/></td>
+  <td><img src=".\hog17\vcc\flower-1_40_100_contouor.gif" alt="1" width="90%"/></td>
+  <td><img src=".\our\vcc\flower-1_100_contouor.gif" alt="1" width="90%"/></td>
+</tr>
+<tr>
+  <td><img src=".\original\flower-2.gif" alt="1" width="90%"/></td>
+  <td><img src=".\lfsp\vcc\flower-2_100_contouor.gif" alt="1" width="90%"/></td>
+  <td><img src=".\hog17\vcc\flower-2_40_100_contouor.gif" alt="1" width="90%"/></td>
+  <td><img src=".\our\vcc\flower-2_100_contouor.gif" alt="1" width="90%"/></td>
+</tr>
+
+<tr>
+  <td><img src=".\original\grid-3.gif" alt="1" width="90%"/></td>
+  <td><img src=".\lfsp\vcc\grid-3_100_contouor.gif" alt="1" width="90%"/></td>
+  <td><img src=".\hog17\vcc\grid-3_40_100_contouor.gif" alt="1" width="90%"/></td>
+  <td><img src=".\our\vcc\grid-3_100_contouor.gif" alt="1" width="90%"/></td>
+</tr>
+<tr>
+  <td><img src=".\original\grid-4.gif" alt="1" width="90%"/></td>
+  <td><img src=".\lfsp\vcc\grid-4_100_contouor.gif" alt="1" width="90%"/></td>
+  <td><img src=".\hog17\vcc\grid-4_40_100_contouor.gif" alt="1" width="90%"/></td>
+  <td><img src=".\our\vcc\grid-4_100_contouor.gif" alt="1" width="90%"/></td>
+</tr>
+</table>
+<p>
+</p>
+
+<h3>Additional visual results on our dataset</h3>
+<p>
+  We visualize our method on three ways: contour, random color for each region and mean color for segmentations.  
+</p>
+<table>
+  <tr>
+    <th>Original</th>
+    <th>Contour</th>
+    <th>Random Color</th>
+    <th>Mean Color</th>
+  </tr>
+  <tr>
+    <td><img src=".\original\bike-1.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\IMG_0010_100_contouor.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\IMG_0010_100_rand.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\IMG_0010_100_mean.gif" alt="1" width="90%"/></td>
+  </tr>
+  <tr>
+    <td><img src=".\original\IMG_0014.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\IMG_0014_100_contouor.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\IMG_0014_100_rand.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\IMG_0014_100_mean.gif" alt="1" width="90%"/></td>
+  </tr>
+  <tr>
+    <td><img src=".\original\flower-9.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\flower-9_50_contouor.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\flower-9_50_rand.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\flower-9_50_mean.gif" alt="1" width="90%"/></td>
+  </tr>
+  <tr>
+    <td><img src=".\original\flower-11.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\flower-11_100_contouor.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\flower-11_100_rand.gif" alt="1" width="90%"/></td>
+    <td><img src=".\our\vcc\flower-11_100_mean.gif" alt="1" width="90%"/></td>
+  </tr>
+</table> 
+
+<h3 id="data">Code and dataset</h3>
+ <pre class="tab">Dataset <a href="XXX">[Coming soon]</a> </pre> 
+ <pre class="tab">Source Code <a href="XXX">[Coming soon]</a> </pre>   
+ <pre class="tab">Supplement <a href="XXX">[Coming soon]</a> </pre>   
+ <pre class="tab">Latex <a href="XXX">[Coming soon]</a> </pre>   
+ <pre class="tab">PDF <a href="XXX">[Coming soon]</a> </pre>  
+ <pre class="tab">MP4 <a href="XXX">[Coming soon]</a> </pre>
+    
+<h3 id="citation">Citation</h3>
+<pre>
+  @article{lirsiggraphasia2019,
+  title={Hierarchical and View-invariant Light Field Segmentation by Maximizing Entropy Rate on 4D Ray Graphs},
+  author={Li, Rui and Heidrich, Wolfgang},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={XX},
+  number={XX},
+  year={2019},
+  publisher={ACM} 
+  }
+</pre>
+   
+    
+
+    
+</div>
