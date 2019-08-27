@@ -37,12 +37,17 @@ reconstruct the HDR image. Comparison results show that our method outperforms s
 
 <h4 id="results">Main results</h4>
 <img src="results1.png" width="80%"/><br> 
-(a) 2D extinction images (DBIEI) obtained at 0°, 45°, and 90° with the simultaneous LII image obtained at 117°. 
-(b) 3d reconstruction of the extinction images with K multiplied by 100, and Velocity profile of the flame with units of pixels/frame. <br> <br> 
+Simulation results for two scenes. Left is the tone-mapped HDR images for our results. Zoom-in images show the comparison with the ground
+truth images. The HDR-VDP2 results show that the overall visual differences are suppressed. The log$_2 \left( \text{luminance} \right)$ 
+maps indicate our method can achieve more than 16 stops in dynamic range.<br> <br> 
 <img src="results2.png" width="80%"/> <br> 
-Input 2d video (left) obtained at 0°, 45°, and 90° with the simultaneous LII image obtained at 117°, and reconstructed results (right) <br> <br> 
-<img src="result3.png" width="50%"/> <br>
-(Left image) Normalized LII image taken at 117°. (Right image) Normalized tomographic reconstruction image slice at 117°.<br> <br>
+Simulation HDR reconstruction comparison with conventional iTMO algorithm using HDR-VDP-2. Note how our approach reconstructs real scene
+information. Conversely, iTMO algorithms are \enquote{inventing} information in saturated and underexposed regions instead of
+reconstructing what was actually there. <br> <br> 
+<img src="result3.png" width="80%"/> <br>
+Experimental results with our prototype. Left are raw Bayer images from the camera. The reconstructed HDR images (tone-mapped) are shown
+with zoom-in details for both low and high exposures indicating the dynamic range. Right are the log$_2\left( \text{luminance} \right)$
+maps showing the stop scales <br> <br>
 
 <h4 id="paper">Paper and Video</h4>
 <pre class="tab">paper          <a href="alghamdi2019HDR.pdf">[alghamdi2019HDR.pdf (13.9MB)]</a> 
