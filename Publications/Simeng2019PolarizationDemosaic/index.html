@@ -36,44 +36,33 @@ demonstrate the performance of the methods on a new high-resolution color polari
 results show that the proposed reconstruction and analysis tools offer an effective solution to polarization imaging.<br><br>
     
 <h3 id="results">Main results</h3>
-<h4>Hydro-gel balls</h4>
-3D rendering of water absorption by Hydro-gel balls, with a slice comparison of the ST-tomography approach (lower left) and our method (upper
-right).<br> 
-<img src="bubble.png" width="100%"/> <br> <br>
+<h4>Monochromatic Polarization Demosaicking</h4>
+Two exemplary scenes in our dataset. The upper part is a ball scene with unpolar- ized background illumination, and the low part is a containers scene with polarized background illumination. The reconstruction quality is presented in PSNR for all the methods for comparison.<br> 
+<img src="Monochrome.png" width="100%"/> <br> <br>
 
-<h4>Compression of the copper foam</h4>
-(a-b): The height (in mm) of the copper foam before and after the
-compression process, respectively. The total displacement during the compression
-is 3.77mm, uniformly distributed over 192 scans. 60 projections
-are obtained for each scan. (c): the states of the foam after 192 scans. (d)
-The Micro-CT setup for the in-situ compressions of the foam. (e):Algorithm comparison for the compression of copper foam. First
-row: results from different reconstruction methods compared to the ground
-truth; Second row: the absolute error for time frame 150. The dynamic range
-of density values is (0, 4600).<br> 
-<img src="foam.png" width="100%"/> <br> <br>
+<h4>Color Polarization Demosaicking</h4>
+Comparison of optimization based methods with different priors. From left to right are the ground truth (GT) data, TV prior, TV on both 1st and 2nd order derivatives (TV+2d), Huber penalty on 1st derivatives, Huber penalty on both 1st and 2nd order derivatives (Huber+2d), Huber penalty on 1st and 2nd order derivatives combined with BM3D prior (BM3D), 
+	and Huber penalty on 1st and 2nd order derivatives combined with BM3D, cross-color channel prior (BM3D+CC). The proposed Huber penalty with 1st and 2nd derivatives outperforms other priors for all the three polarization components.<br> 
+<img src="Color.png" width="100%"/> <br> <br>
 
-<h4>Capillarity effect in porous rock</h4>
-Reconstruction results for the porous rock dataset. Images (a) and
-(c) represent respectively the rock before and after the scan. Some representative
-CT projections are given in (b). The rendering results in (d) show the
-absorption of liquid over time.<br> 
-<img src="rock.png" width="80%"/> <br> <br>
+<h4>Experimental Results</h4>
+Experimental results for both monochrome (left) and color (right) polarization cameras with the proposed reconstruction algo- rithm. We show reconstruction results of Itot, DoLP, and AoLP for two arbitrarily captured real scenes.<br> 
+<img src="experiment.png" width="80%"/> <br> <br>
 	
-<h4>Pills dissolved in water</h4>
-Pills dissolving in water. This is our fastest dataset with only 30
-projections captured in 3 minutes.<br> 
-<img src="pills.png" width="75%"/> <br> <br>
+<h4>Polarization Image Dataset </h4>
+Gallery of our polarization image dataset. Only intensity components are shown here.<br> 
+<img src="gallery.png" width="75%"/> <br> <br>
 	
 <h3 id="paper">Paper and video</h3>
 
-<pre class="tab">Paper <a href="Zang2019WarpAndProject.pdf">[Zang2019WarpAndProject.pdf ~14.9 MB]</a> </pre> 
+<pre class="tab">Paper <a href="Simeng2019PolarizationDemosaic.pdf">[Simeng2019PolarizationDemosaic.pdf ~14.7 MB]</a> </pre> 
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/str9z7FXjM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="853" height="480" src="xxxx" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
                 <br><br>    
 
 <h3 id="data">Code and dataset</h3>
- <pre class="tab">Dataset <a href="XXX">[Coming soon]</a> </pre> 
+ <pre class="tab">Dataset <a href="https://repository.kaust.edu.sa/handle/10754/631914"></a> </pre> 
  <pre class="tab">Source Code <a href="XXX">[Coming soon]</a> </pre>       
     
 <h3 id="citation">Dataset Citation</h3>
