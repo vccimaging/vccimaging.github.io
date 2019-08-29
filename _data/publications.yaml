@@ -8,7 +8,16 @@
   year: 2019
   thumbnail: /Publications/Rui2019LFSeg/thumb.png
   
-
+- id: alghamdi2019HDR
+  authors:
+    - M. Alghamdi
+    - Q. Fu
+    - A. Thabet
+    - W. Heidrich
+  title: Reconfigurable HDR]{Reconfigurable Snapshot HDR Imaging Using Coded Masks and Inception Network
+  venue: 24th International Symposium on Vision, Modeling and Visualization (VMV 2019).
+  year: 2019
+    
 - id: Zang2019WarpAndProject
   authors:
     - G. Zang
