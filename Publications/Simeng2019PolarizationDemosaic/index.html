@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<div class="projectPage">
+    
+<h2> Polarization Demosaicking for Monochrome and <br> Color Polarization Focal Plane Arrays </h2>
+
+<a href="/People/simeng/">Simeng Qiu</a>, <a href="/People/fuq/">Qiang Fu</a>, <a href="/People/wangc/">Congli Wang</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> Accepted to the 24th International Symposium on Vision, Modeling and Visualization (VMV 2019) <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#results">Main results</a></li>
+<li><a href="#paper">Paper and supplementary</a></li>
+<li><a href="#data">Code and dataset</a></li>   
+<li><a href="#citation">Dataset Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+    
+<img src="teaser.png" width="100%"/> <br>
+Left (a)-(d): Monochrome polarization demosaicking results for total intensity, DoLP, AoLP and visualization with unpolarized
+illumination. Right (e)-(h): Color polarization demosaicking results for total intensity, DoLP, AoLP and visualization with polarized illumination.
+Our proposed algorithm outperforms state of the art for both monochrome and color polarization focal plane arrays. <br><br>
+    
+<h3 id="abstract">Abstract</h3>
+Division-of-focal-plane (DoFP) polarization image sensors allow for snapshot imaging of linear polarization effects with inexpensive
+and straightforward setups. However, conventional interpolation based image reconstruction methods for such sensors
+produce unreliable and noisy estimates of quantities such as degree of linear polarization (DoLP) or angle of linear polarization
+(AoLP).<br>
+In this paper, we propose a polarization demosaicking algorithm by inverting the polarization image formation
+model for both monochrome and color DoFP cameras. Compared to previous interpolation methods, our approach can significantly
+reduce noise induced artifacts and drastically increase the accuracy in estimating polarization states. We evaluate and
+demonstrate the performance of the methods on a new high-resolution color polarization dataset. Simulation and experimental
+results show that the proposed reconstruction and analysis tools offer an effective solution to polarization imaging.<br><br>
+    
+<h3 id="results">Main results</h3>
+<h4>Hydro-gel balls</h4>
+3D rendering of water absorption by Hydro-gel balls, with a slice comparison of the ST-tomography approach (lower left) and our method (upper
+right).<br> 
+<img src="bubble.png" width="100%"/> <br> <br>
+
+<h4>Compression of the copper foam</h4>
+(a-b): The height (in mm) of the copper foam before and after the
+compression process, respectively. The total displacement during the compression
+is 3.77mm, uniformly distributed over 192 scans. 60 projections
+are obtained for each scan. (c): the states of the foam after 192 scans. (d)
+The Micro-CT setup for the in-situ compressions of the foam. (e):Algorithm comparison for the compression of copper foam. First
+row: results from different reconstruction methods compared to the ground
+truth; Second row: the absolute error for time frame 150. The dynamic range
+of density values is (0, 4600).<br> 
+<img src="foam.png" width="100%"/> <br> <br>
+
+<h4>Capillarity effect in porous rock</h4>
+Reconstruction results for the porous rock dataset. Images (a) and
+(c) represent respectively the rock before and after the scan. Some representative
+CT projections are given in (b). The rendering results in (d) show the
+absorption of liquid over time.<br> 
+<img src="rock.png" width="80%"/> <br> <br>
+	
+<h4>Pills dissolved in water</h4>
+Pills dissolving in water. This is our fastest dataset with only 30
+projections captured in 3 minutes.<br> 
+<img src="pills.png" width="75%"/> <br> <br>
+	
+<h3 id="paper">Paper and video</h3>
+
+<pre class="tab">Paper <a href="Zang2019WarpAndProject.pdf">[Zang2019WarpAndProject.pdf ~14.9 MB]</a> </pre> 
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/str9z7FXjM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+                <br><br>    
+
+<h3 id="data">Code and dataset</h3>
+ <pre class="tab">Dataset <a href="XXX">[Coming soon]</a> </pre> 
+ <pre class="tab">Source Code <a href="XXX">[Coming soon]</a> </pre>       
+    
+<h3 id="citation">Dataset Citation</h3>
+<pre>
+@misc{polardata2019,
+  author = {Qiu, Simeng and Fu, Qiang and Wang, Congli and Heidrich, Wolfgang},
+  title = {{Polarization Image Dataset}},
+  year = {2019}, 
+  note = "[Online; accessed 18-April-2019]"
+}
+  
+</pre>
+   
+    
+
+    
+</div>
