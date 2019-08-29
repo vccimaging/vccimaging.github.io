@@ -1,4 +1,14 @@
 ---
+- id: Rui2019LFSeg
+  authors:
+    - R. Li
+    - W. Heidrich
+  title: Hierarchical and View-invariant Light Field Segmentation by Maximizing Entropy Rate on 4D Ray Graphs
+  venue: Proc. SIGGRAPH Asia
+  year: 2019
+  thumbnail: /Publications/Rui2019LFSeg/thumb.png
+  
+
 - id: Zang2019WarpAndProject
   authors:
     - G. Zang
