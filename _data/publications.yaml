@@ -1,4 +1,15 @@
 ---
+- id: Simeng2019PolarizationDemosaic
+  authors:
+    - S. Qiu
+    - Q. Fu
+    - C. Wang
+    - W. Heidrich
+  title: Polarization Demosaicking for Monochrome and Color Polarization Focal Plane Arrays
+  venue: 24th International Symposium on Vision, Modeling and Visualization (VMV 2019)
+  year: 2019
+  thumbnail: /Publications/Simeng2019PolarizationDemosaic/thumb.png
+  
 - id: Rui2019LFSeg
   authors:
     - R. Li
