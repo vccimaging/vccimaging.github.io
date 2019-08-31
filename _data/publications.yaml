@@ -1,4 +1,14 @@
 ---
+- id: Xiong2019StochasticCSC
+  authors:
+    - J. Xiong
+    - P. Richtarik
+    - W. Heidrich
+  title: Stochastic Convolutional Sparse Coding
+  venue: International Symposium on Vision, Modeling and Visualization, 2019
+  year: 2019
+  thumbnail: /Publications/Xiong2019StochasticCSC/thumb.png
+
 - id: Simeng2019PolarizationDemosaic
   authors:
     - S. Qiu
