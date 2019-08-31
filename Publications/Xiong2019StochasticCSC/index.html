@@ -16,16 +16,16 @@ Peter Richtárik</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
 </ul>
 <hr size="4", color="black", width="100%">
     
-<img src="teaser.jpg" style="width:640px;height:320px;"> <br>
+<img src="teaser.jpg" style="width:640px;height:640px;"> <br>
 Top: Filters learned from large-scale datasets by our method (SOCSC) and the comparable online method. Bottom:
-10 256X256 testing images and their corresponding reconstruction quality in the image inpainting application. (a) The under-complete dictionary (11X11X100) learned by comparison method; (b) The under-complete dictionary (11X11X100) learned by SOCSC. (c) The over-
-complete dictionary (11X11X400) learned by SOCSC. These under-complete dictionaries, mainly composed of Gabor-like filters, can be seen as a subset of the represented over-complete dictionary, which contains a number of extra low contrast image features. <br><br>
+10 256 X 256 testing images and their corresponding reconstruction quality in the image inpainting application. (a) The under-complete dictionary (11 X 11 X 100) learned by comparison method; (b) The under-complete dictionary (11 X 11 X 100) learned by SOCSC. (c) The over-
+complete dictionary (11 X 11 X 400) learned by SOCSC. These under-complete dictionaries, mainly composed of Gabor-like filters, can be seen as a subset of the represented over-complete dictionary, which contains a number of extra low contrast image features. <br><br>
     
 <h4 id="abstract">Abstract</h4>
 State-of-the-art methods for Convolutional Sparse Coding usually employ Fourier-domain solvers in order to speed up the convolution operators. However, this approach is not without shortcomings. For example, Fourier-domain representations im-
 plicitly assume circular boundary conditions and make it hard to fully exploit the sparsity of the problem as well as the small
 spatial support of the filters.
-
+<br><br>
 In this work, we propose a novel stochastic spatial-domain solver, in which a randomized subsampling strategy is introduced
 during the learning sparse codes. Afterwards, we extend the proposed strategy in conjunction with online learning, scaling the
 CSC model up to very large sample sizes. In both cases, we show experimentally that the proposed subsampling strategy, with
