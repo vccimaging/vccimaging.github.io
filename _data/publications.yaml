@@ -1,4 +1,13 @@
 ---
+
+- id: Rui2019LFSeg
+  authors:
+    - R. Li
+    - W. Heidrich
+  title: Hierarchical and View-invariant Light Field Segmentation by Maximizing Entropy Rate on 4D Ray Graphs
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
+  year: 2019
+ 
 - id: Xiong2019StochasticCSC
   authors:
     - J. Xiong
@@ -7,7 +16,6 @@
   title: Stochastic Convolutional Sparse Coding
   venue: International Symposium on Vision, Modeling and Visualization
   year: 2019
-  thumbnail: /Publications/Xiong2019StochasticCSC/thumb.png
 
 - id: Simeng2019PolarizationDemosaic
   authors:
@@ -18,17 +26,7 @@
   title: Polarization Demosaicking for Monochrome and Color Polarization Focal Plane Arrays
   venue: 24th International Symposium on Vision, Modeling and Visualization (VMV 2019)
   year: 2019
-  thumbnail: /Publications/Simeng2019PolarizationDemosaic/thumb.png
-  
-- id: Rui2019LFSeg
-  authors:
-    - R. Li
-    - W. Heidrich
-  title: Hierarchical and View-invariant Light Field Segmentation by Maximizing Entropy Rate on 4D Ray Graphs
-  venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
-  year: 2019
-  thumbnail: /Publications/Rui2019LFSeg/thumb.png
-  
+   
 - id: alghamdi2019HDR
   authors:
     - M. Alghamdi
@@ -50,7 +48,6 @@
   title: Warp-and-Project Tomography for Rapidly Deforming Objects
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2019
-  thumbnail: /Publications/Zang2019WarpAndProject/thumb.jpg
   
 - id: Jeon2019Hyperspectral
   authors:
