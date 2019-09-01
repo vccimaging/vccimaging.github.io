@@ -8,6 +8,18 @@
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
   year: 2019
  
+- id: Peng2019LargeFOVDOE
+  authors:
+    - E. Peng
+    - Q. Sun
+    - X. Dun
+    - G. Wetzstein
+    - W. Heidrich
+    - F. Heide
+  title: Learned Large Field-of-View Imaging With Thin-Plate Optics
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
+  year: 2019
+ 
 - id: Xiong2019StochasticCSC
   authors:
     - J. Xiong
