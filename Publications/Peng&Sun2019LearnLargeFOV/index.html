@@ -33,7 +33,7 @@ However, these systems only achieve reasonable image quality by limiting
 the field of view (FOV) to a few degrees -- effectively ignoring severe 
 off-axis aberrations with blur sizes of multiple hundred pixels. 
 
-\rev{In this paper, we propose a lens design and learned reconstruction 
+In this paper, we propose a lens design and learned reconstruction 
 architecture that lift this limitation and provide an order of magnitude 
 increase in field of view using only a single thin-plate lens element. 
 Specifically, we design a lens to produce spatially shift-invariant point 
@@ -43,13 +43,13 @@ of a peak and and a low-pass component, which provides residual contrast
 instead of a small spot size as in traditional lens designs. To perform 
 the reconstruction, we
 train a deep network on captured data from a display lab setup, eliminating 
-the need for manual acquisition of training data in the field.}
+the need for manual acquisition of training data in the field.
 We assess the proposed method in simulation and experimentally with a 
-prototype camera system. \rev{We compare our system against existing 
+prototype camera system. We compare our system against existing 
 single-element designs, including an aspherical lens and a pinhole, and 
-we compare against a complex multi-element lens,} validating high-quality 
-large field-of-view (i.e. 53$^{\circ}$) imaging performance using only a 
-single thin-plate element. %Notably, we demonstrate superior. <br><br>
+we compare against a complex multi-element lens, validating high-quality 
+large field-of-view (i.e. 53 degree) imaging performance using only a 
+single thin-plate element.  <br><br>
 
 
 	
@@ -61,4 +61,15 @@ single thin-plate element. %Notably, we demonstrate superior. <br><br>
     <pre class="tab">Code&Data will be available on github: <a href="">[Pending Soon]</a> </pre> 
 All images are &copy ACM 2019, reproduced here by permission of ACM for your personal use. Not for redistribution.
 
+
+<h3 id="citation">Citation</h3>
+<pre>
+  @inproceedings{Peng_Sun2019LearnLargeFOV,
+  title={Learned Large Field-of-View Imaging With Thin-Plate Optics},
+  author={Peng, Yifan and Sun, Qilin and Dun, Xiong and Wetzstein, Gordon and Heidrich, Wolfgang},
+  booktitle={ACM Transactions on Graphics (Proc. SIGGRAPH Asia)},
+  year={2019},
+  publisher={ACM} 
+  }
+</pre>
 </div>
