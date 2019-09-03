@@ -10,7 +10,7 @@
 {% assign published= site.static_files | where: "name","published" | map: 'path' %}
 {% assign thumbnails= site.static_files | where: "name","thumb.jpg" | map: 'path' %}
 {% if include.publist %}{% assign publist = include.publist %}{% else %}{% assign publist= site.data.publications %}{% endif %}
-{% assign jointfirstauthorname= include.name + "*" %}
+{% assign jointfirstauthorname= include.name | append: '*' %}
 
 <table style="border:1px solid #d5d5d5;" id="{{yearText}}">
   <thead>
