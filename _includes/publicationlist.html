@@ -10,6 +10,7 @@
 {% assign published= site.static_files | where: "name","published" | map: 'path' %}
 {% assign thumbnails= site.static_files | where: "name","thumb.jpg" | map: 'path' %}
 {% if include.publist %}{% assign publist = include.publist %}{% else %}{% assign publist= site.data.publications %}{% endif %}
+{% assign jointfirstauthorname= include.name + "*" %}
 
 <table style="border:1px solid #d5d5d5;" id="{{yearText}}">
   <thead>
@@ -21,7 +22,7 @@
   <tbody>
 {% for pub in publist %}
 {% if pub.title and pub.authors and pub.venue and pub.year %}
-{% if include.name== null or pub.authors contains include.name %}
+{% if include.name== null or pub.authors contains include.name or pub.authors contains jointfirstauthorname %}
 {% if include.minYear== null or pub.year >= include.minYear %}
 {% if include.maxYear== null or include.maxYear >= pub.year %}
 {% capture projdir %}/Publications/{{pub.id}}{% endcapture %}
