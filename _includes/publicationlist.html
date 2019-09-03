@@ -11,6 +11,7 @@
 {% assign thumbnails= site.static_files | where: "name","thumb.jpg" | map: 'path' %}
 {% if include.publist %}{% assign publist = include.publist %}{% else %}{% assign publist= site.data.publications %}{% endif %}
 {% assign jointfirstauthorname= include.name | append: '*' %}
+Joint first name: {{jointfirstauthorname}}
 
 <table style="border:1px solid #d5d5d5;" id="{{yearText}}">
   <thead>
