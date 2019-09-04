@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h3> Stochastic Convolutional Sparse Coding </h3>
+
+<a href="/People/xiongj/">Jinhui Xiong</a>, <a href="https://richtarik.org/"> 	
+Peter Richtárik</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> The International Symposium on Vision, Modeling, and Visualization, 2019 <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+    
+<img src="teaser.jpg" style="width:640px;height:540px;"> <br>
+Top: Filters learned from large-scale datasets by our method (SOCSC) and the comparable online method. Bottom:
+10 256 X 256 testing images and their corresponding reconstruction quality in the image inpainting application. (a) The under-complete dictionary (11 X 11 X 100) learned by comparison method; (b) The under-complete dictionary (11 X 11 X 100) learned by SOCSC. (c) The over-
+complete dictionary (11 X 11 X 400) learned by SOCSC. These under-complete dictionaries, mainly composed of Gabor-like filters, can be seen as a subset of the represented over-complete dictionary, which contains a number of extra low contrast image features. <br><br>
+    
+<h4 id="abstract">Abstract</h4>
+State-of-the-art methods for Convolutional Sparse Coding usually employ Fourier-domain solvers in order to speed up the convolution operators. However, this approach is not without shortcomings. For example, Fourier-domain representations im-
+plicitly assume circular boundary conditions and make it hard to fully exploit the sparsity of the problem as well as the small
+spatial support of the filters.
+<br><br>
+In this work, we propose a novel stochastic spatial-domain solver, in which a randomized subsampling strategy is introduced
+during the learning sparse codes. Afterwards, we extend the proposed strategy in conjunction with online learning, scaling the
+CSC model up to very large sample sizes. In both cases, we show experimentally that the proposed subsampling strategy, with
+a reasonable selection of the subsampling rate, outperforms the state-of-the-art frequency-domain solvers in terms of execution
+time without losing the learning quality. Finally, we evaluate the effectiveness of the over-complete dictionary learned from
+large-scale datasets, which demonstrates an improved sparse representation of the natural images on account of more abundant
+learned image features. <br><br>
+
+<h4 id="paper">Paper</h4>
+<pre class="tab">paper          <a href="Xiong2019StochasticCSC.pdf">[Xiong2019StochasticCSC.pdf (5.0MB)]</a>
+<pre class="tab">supplement     <a href="Xiong2019StochasticCSC_supplement.pdf">[Xiong2019StochasticCSC_supplement.pdf (2.3MB)]</a> 
+<pre class="tab">code           <a href="https://github.com/vccimaging/Stochastic-Convolutional-Sparse-Coding">[https://github.com/vccimaging/Stochastic-Convolutional-Sparse-Coding]</a></pre> <br>
+
+</div>
+</div>

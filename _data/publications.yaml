@@ -1,4 +1,5 @@
 ---
+
 - id: Rui2019LFSeg
   authors:
     - R. Li
@@ -6,9 +7,48 @@
   title: Hierarchical and View-invariant Light Field Segmentation by Maximizing Entropy Rate on 4D Ray Graphs
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
   year: 2019
-  thumbnail: /Publications/Rui2019LFSeg/thumb.png
-  
+ 
+- id: Peng&Sun2019LearnLargeFOV
+  authors:
+    - Y. Peng*
+    - Q. Sun*
+    - X. Dun*
+    - G. Wetzstein
+    - W. Heidrich
+    - F. Heide
+  title: Learned Large Field-of-View Imaging With Thin-Plate Optics
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
+  year: 2019
+ 
+- id: Xiong2019StochasticCSC
+  authors:
+    - J. Xiong
+    - P. Richtarik
+    - W. Heidrich
+  title: Stochastic Convolutional Sparse Coding
+  venue: International Symposium on Vision, Modeling and Visualization
+  year: 2019
 
+- id: Simeng2019PolarizationDemosaic
+  authors:
+    - S. Qiu
+    - Q. Fu
+    - C. Wang
+    - W. Heidrich
+  title: Polarization Demosaicking for Monochrome and Color Polarization Focal Plane Arrays
+  venue: International Symposium on Vision, Modeling and Visualization
+  year: 2019
+   
+- id: alghamdi2019HDR
+  authors:
+    - M. Alghamdi
+    - Q. Fu
+    - A. Thabet
+    - W. Heidrich
+  title: Reconfigurable Snapshot HDR Imaging Using Coded Masks and Inception Network
+  venue: 24th International Symposium on Vision, Modeling and Visualization (VMV 2019)
+  year: 2019
+    
 - id: Zang2019WarpAndProject
   authors:
     - G. Zang
@@ -20,7 +60,6 @@
   title: Warp-and-Project Tomography for Rapidly Deforming Objects
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2019
-  thumbnail: /Publications/Zang2019WarpAndProject/thumb.jpg
   
 - id: Jeon2019Hyperspectral
   authors:

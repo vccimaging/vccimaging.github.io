@@ -49,6 +49,8 @@ Publications are kept in a YAML database in ```_data/publications.yaml```. This 
 
 At least ```authors```, ```title```, ```venue```, and ```year``` must be present for a publication to show up in a publication list. **Note:** any data value (e.g. title or url) containing a colon (':') must be enclosed in double quotes.
 
+Note that that the strings in the author list must match exactly the ```pubname``` entries in the people database (see above). However, it is possible to add an asterisk ```*``` to the end of the name (without space!) to indicate joint first authorship.
+
 The ```UniqueID``` is a unique identifier for each paper (Something like ```<Author><year><project acronym>```) that is used to automatically create links to thumbnail images and PDFs if the following files exist:
 
 - ```/Publications/<UniqueID>/thumb.jpg```: thumbnail image

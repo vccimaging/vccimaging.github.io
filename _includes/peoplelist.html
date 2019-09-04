@@ -8,7 +8,7 @@
   {% if include.active and person.end== null %}
   <li>{% if published contains pubflag %}<a href="/People/{{person.id}}/">{{person.title}} {{person.name}}</a>,{% else %}{{person.title}} {{person.name}},{% endif %} {{ person.position }}, since {{ person.start }}.</li>
   {% elsif include.active== false and person.end %}
-  <li>{% if published contains pubflag %}<a href="/People/{{person.id}}/">{{person.title}} {{person.name}}</a>,{% else %}{{person.title}} {{person.name}},{% endif %} {{ person.position }}, {{ person.start }} - {{ person.end }}; now at {{ person.nowat }}.</li>{% endif %}
+  <li>{% if published contains pubflag %}<a href="/People/{{person.id}}/">{{person.title}} {{person.name}}</a>,{% else %}{{person.title}} {{person.name}},{% endif %} {{ person.position }}, {{ person.start }} - {{ person.end }}{% if person.nowat %}; now at {{ person.nowat }}{% endif %}.</li>{% endif %}
   {% endfor %}
 </ul>
 
