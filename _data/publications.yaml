@@ -46,7 +46,16 @@
     - A. Thabet
     - W. Heidrich
   title: Reconfigurable Snapshot HDR Imaging Using Coded Masks and Inception Network
-  venue: 24th International Symposium on Vision, Modeling and Visualization (VMV 2019)
+  venue: International Symposium on Vision, Modeling and Visualization
+  year: 2019
+    
+- id: Li2019DualCamera
+  authors:
+    - M. Li*
+    - P. Tu*
+    - W. Heidrich
+  title: Robust Joint Image Reconstruction from Color and Monochrome Cameras 
+  venue: British Machine Vision Conference (BMVC)
   year: 2019
     
 - id: Zang2019WarpAndProject
