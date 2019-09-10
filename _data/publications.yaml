@@ -1,5 +1,15 @@
 ---
 
+- id: Wang2019QPM
+  authors:
+    - C. Wang
+    - Q. Fu
+    - X. Dun
+    - W. Heidrich
+  title: Quantitative Phase and Intensity Microscopy Using Snapshot White Light Wavefront Sensing
+  venue: Scientific Reports
+  year: 2019
+
 - id: Rui2019LFSeg
   authors:
     - R. Li
