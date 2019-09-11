@@ -30,6 +30,15 @@
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
   year: 2019
  
+- id: Alsolami2019SPADDiffPhot
+  authors:
+    - I. Alsolami
+    - W. Heidrich
+  title: "Imaging with SPADs and DMDs: Seeing through Diffraction-Photons"
+  venue: IEEE Transactions on Image Processing
+  year: 2019
+  note: accepted, coming soon
+ 
 - id: Xiong2019StochasticCSC
   authors:
     - J. Xiong
