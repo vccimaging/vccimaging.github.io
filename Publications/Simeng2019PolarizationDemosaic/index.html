@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="projectPage">
     
-<h2> Polarization Demosaicking for Monochrome and <br> Color Polarization Focal Plane Arrays </h2>
+<h4> Polarization Demosaicking for Monochrome and Color Polarization Focal Plane Arrays </h4>
 
 <a href="/People/simeng/">Simeng Qiu</a>, <a href="/People/fuq/">Qiang Fu</a>, <a href="/People/wangc/">Congli Wang</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
 
@@ -37,13 +37,18 @@ results show that the proposed reconstruction and analysis tools offer an effect
     
 <h3 id="results">Main results</h3>
 <h4>Monochromatic Polarization Demosaicking</h4>
-Two exemplary scenes in our dataset. The upper part is a ball scene with unpolar- ized background illumination, and the low part is a containers scene with polarized background illumination. The reconstruction quality is presented in PSNR for all the methods for comparison.<br> 
-<img src="Monochrome.png" width="100%"/> <br> <br>
+Two exemplary scenes from our dataset. The upper part is a ball scene with unpolarized background illumination, and the second part is a containers scene with polarized background illumination. The reconstruction quality is presented in PSNR for all the methods comparison.<br> 
+
+<img src="mono1.png" width="80%" align="middle"/><br> <br>
+<img src="mono2.png" width="80%" align="middle"/><br> <br>
+
 
 <h4>Color Polarization Demosaicking</h4>
-Comparison of optimization based methods with different priors. From left to right are the ground truth (GT) data, TV prior, TV on both 1st and 2nd order derivatives (TV+2d), Huber penalty on 1st derivatives, Huber penalty on both 1st and 2nd order derivatives (Huber+2d), Huber penalty on 1st and 2nd order derivatives combined with BM3D prior (BM3D), 
-	and Huber penalty on 1st and 2nd order derivatives combined with BM3D, cross-color channel prior (BM3D+CC). The proposed Huber penalty with 1st and 2nd derivatives outperforms other priors for all the three polarization components.<br> 
-<img src="Color.png" width="100%"/> <br> <br>
+This is a comparison of optimization based methods with different priors. From left to right are the ground truth (GT) data, Total variation (TV) prior, TV on both 1st and 2nd order derivatives (TV+2d), 
+Huber penalty on 1st derivatives, Huber penalty on both 1st and 2nd order derivatives (Huber+2d), Huber penalty with BM3D prior (Huber+2d+BM3D), and Huber penalty combined with BM3D, cross-color channel prior (Huber+2d+BM3D+CC). Our proposed Huber penalty with 1st and 2nd derivatives outperforms other priors for all the three polarization components.<br> 
+<img src="color1.png" width="80%" align="middle"/><br> <br>
+<img src="color2.png" width="80%" align="middle"/><br> <br>
+
 
 <h4>Experimental Results</h4>
 Experimental results for both monochrome (left) and color (right) polarization cameras with the proposed reconstruction algo- rithm. We show reconstruction results of Itot, DoLP, and AoLP for two arbitrarily captured real scenes.<br> 
@@ -60,7 +65,7 @@ To the best of our knowledge, existing polarization image datasets are monochrom
 
 <pre class="tab">Supplementary Information <a href="Simeng2019PolarizationDemosaicSupplement.pdf">[Simeng2019PolarizationDemosaic_Supplement.pdf ~14.5 MB]</a> </pre>
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/dF2tVk_fGb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dF2tVk_fGb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	
                 <br><br>    
 
