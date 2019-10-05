@@ -247,7 +247,7 @@
     - N. Thuerey
   title: Coupled Fluid Density and Motion from Single Views
   venue: Symposium on Computer Animation
-  note: Best Paper Award
+  award: Best Paper Award
   year: 2018
   url: "https://ge.in.tum.de/publications/2018-cgf-eckert/"
 
@@ -1075,7 +1075,7 @@
   venue: Int. Conf. on Computational Photography
   year: 2011
   pages: 1--8
-  note: Best Paper Award
+  award: Best Paper Award
   url: "http://www.cs.ubc.ca/labs/imager/tr/2011/LFBOS/index.html"
 
 
@@ -1287,7 +1287,7 @@
   venue: ProCams
   pages: 1--8
   year: 2009
-  note: Best Paper Award second prize
+  award: Best Paper Award second prize
   url: "http://www.cs.ubc.ca/labs/imager/tr/2009/Bradley-PROCAMS-2009/"
 
 - id: Mantiuk2009CCT
@@ -1434,7 +1434,7 @@
   venue: ICCV
   pages: 8 pages
   year: 2007
-  note: Marr Prize Honorable Mention
+  award: Marr Prize Honorable Mention
   url: "http://www.cs.ubc.ca/labs/imager/tr/2007/BRDFAcquisition"
 
 - id: Seetzen2007SCH
@@ -1478,7 +1478,7 @@
   venue: Computer Graphics Forum (Proc. Eurographics)
   year: 2006
   pages: 399--406
-  note: Gunter Enderle Award and Best Student Paper Award
+  award: Gunter Enderle Award and Best Student Paper Award
 
 - id: Ghosh2006UCV
   authors:
