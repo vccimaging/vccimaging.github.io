@@ -52,6 +52,9 @@
         {% if pub.note %}
           <pub-normal> ({{ pub.note }}) </pub-normal>
         {% endif %}
+        {% if pub.award %}
+          <pub-award> ({{ pub.award }}) </pub-normal>
+        {% endif %}
       </td>
     </tr>
 {% endif %}
