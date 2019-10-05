@@ -44,7 +44,14 @@ pub-normal {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 90%;
     line-height:1.2em;
-}    
+}
+pub-award {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-weight: bold;
+    font-size: 90%;
+    line-height:1.2em;
+    color: #FAB210;
+}
 p {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #333;
