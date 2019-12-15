@@ -1,4 +1,37 @@
 ---
+
+- id: 
+  authors:
+    - Q. Sun
+    - J. Zang
+    - X. Dun
+    - B. Ghanem
+    - Y. Peng
+    - W. Heidrich
+  title: End-to-End Learned, Optically Coded Super-resolution SPAD Camera
+  venue: ACM Transactions on Graphics
+  year: 2020
+  note: (coming soon)
+
+- id: Alsolami2019SPADDiffPhot
+  authors:
+    - I. Alsolami
+    - W. Heidrich
+  title: "Imaging with SPADs and DMDs: Seeing through Diffraction-Photons"
+  venue: IEEE Transactions on Image Processing
+  year: 2020
+ 
+
+- id: Wang2019QPM
+  authors:
+    - C. Wang
+    - Q. Fu
+    - X. Dun
+    - W. Heidrich
+  title: Quantitative Phase and Intensity Microscopy Using Snapshot White Light Wavefront Sensing
+  venue: Scientific Reports
+  year: 2019
+
 - id: Viallefont-Robinet2019SandySiteCharacterization
   authors:
     - F. Viallefont-Robinet
@@ -13,16 +46,6 @@
     - T. Riviere
   title: "Contribution to sandy site characterization: spectro-directional signature, grain size distribution and mineralogy extracted from sand samples"
   venue: Remote Sensing
-  year: 2019
-
-- id: Wang2019QPM
-  authors:
-    - C. Wang
-    - Q. Fu
-    - X. Dun
-    - W. Heidrich
-  title: Quantitative Phase and Intensity Microscopy Using Snapshot White Light Wavefront Sensing
-  venue: Scientific Reports
   year: 2019
 
 - id: Rui2019LFSeg
@@ -43,14 +66,6 @@
     - F. Heide
   title: Learned Large Field-of-View Imaging With Thin-Plate Optics
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH Asia)
-  year: 2019
- 
-- id: Alsolami2019SPADDiffPhot
-  authors:
-    - I. Alsolami
-    - W. Heidrich
-  title: "Imaging with SPADs and DMDs: Seeing through Diffraction-Photons"
-  venue: IEEE Transactions on Image Processing
   year: 2019
  
 - id: Xiong2019StochasticCSC
