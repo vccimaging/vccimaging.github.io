@@ -1,6 +1,6 @@
 ---
 
-- id: 
+- id: Sun2019SingleShotSPAD
   authors:
     - Q. Sun
     - J. Zang
@@ -11,7 +11,6 @@
   title: End-to-End Learned, Optically Coded Super-resolution SPAD Camera
   venue: ACM Transactions on Graphics
   year: 2020
-  note: coming soon
 
 - id: Alsolami2019SPADDiffPhot
   authors:
