@@ -13,14 +13,8 @@
 
 # active members (arbitrary order)
 
-- id: Moetaz
-  name: Moetaz Abbas
-  pubname: M. Abbas
-  position: Research Engineer
-  start: 2016
-
 - id: malghamdi
-  name: Mashael Alghamdi
+  name: Masheal Alghamdi
   pubname: M. Alghamdi
   position: Ph.D Student
   start: 2014
@@ -110,6 +104,13 @@
  
 # alumni
 
+- id: Moetaz
+  name: Moetaz Abbas
+  pubname: M. Abbas
+  position: Research Engineer
+  start: 2016
+  end: 2019
+
 - id: dunx
   name: Xiong Dun
   pubname: X. Dun
@@ -117,6 +118,7 @@
   position: Post Doc
   start: 2016
   end: 2019
+  nowat: Tongji University
 
 - id: lim
   name: Muxingzi Li
