@@ -1,5 +1,18 @@
 ---
 
+- id: Wang2020TWS
+  authors:
+    - C. Wang
+    - Q. Fu
+    - X. Dun
+    - W. Heidrich
+  title: Modeling Classical Wavefront Sensors
+  venue: Optics Express
+  year: 2020
+  volume: 28
+  number: 4
+  pages: 5273--5287
+
 - id: Sun2019SingleShotSPAD
   authors:
     - Q. Sun
