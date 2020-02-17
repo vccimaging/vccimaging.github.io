@@ -1,5 +1,11 @@
 ---
-
+- id: Zang2020Thesis
+  authors:
+    - G. Zang
+  title: Space-Time Tomographic Reconstruction of Deforming Objects
+  venue: Ph.D. thesis
+  year: 2020
+  
 - id: Wang2020TWS
   authors:
     - C. Wang
