@@ -1,4 +1,36 @@
 ---
+- id: Zang2020TomoFluid
+  authors:
+    - G. Zang
+    - R. Idoughi
+    - C. Wang
+    - A. Bennett
+    - J. Du
+    - S. Skeen
+    - W. Roberts
+    - P. Wonka
+    - W. Heidrich 
+  title: "TomoFluid: Reconstructing Dynamic Fluid from Sparse View Videos"
+  venue: CVPR
+  year: 2020
+  note: coming soon
+
+- id: Zang2020Spray
+  authors:
+    - J. Du*
+    - G. Zang*
+    - B. Mohan
+    - R. Idoughi
+    - J. Sim
+    - T. Fang 
+    - P. Wonka 
+    - W. Heidrich
+    - W. Roberts
+  title: Study of Spray Structure from Non-flash to Flash Boiling Conditions with Space-time Tomography
+  venue: International Symposium on Combustion
+  year: 2020
+  note: coming soon
+
 - id: Zang2020Thesis
   authors:
     - G. Zang
