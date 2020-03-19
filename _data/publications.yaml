@@ -1,4 +1,18 @@
 ---
+
+- id: Yuqi2020HighFrameRate
+  authors:
+    - Y. Li
+    - M. Qi
+    - R. Gulve
+    - M. Wei
+    - R. Genov
+    - K. Kutulakos
+    - W. Heidrich
+  title: End-to-End Video Compressive Sensing Using Anderson-Accelerated Unrolled Networks
+  venue: ICCP
+  year: 2020
+
 - id: Zang2020TomoFluid
   authors:
     - G. Zang
