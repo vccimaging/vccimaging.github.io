@@ -1,5 +1,17 @@
 ---
 
+- id: Sun2020LearningRank1HDR
+  authors:
+    - Q. Sun
+    - E. Tseng
+    - Q. Fu
+    - W. Heidrich
+    - F. Heide
+  title: Learning Rank-1 Diffractive Optics for Single-shot High Dynamic Range Imaging
+  venue: CVPR
+  note: oral paper
+  year: 2020
+
 - id: Yuqi2020HighFrameRate
   authors:
     - Y. Li
