@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<div class="projectPage">
+    
+<h2> TomoFluid: Reconstructing Dynamic Fluid from Sparse View Videos </h2>
+
+<a href="/People/zangg/">Guangming Zang</a>, 
+<a href="/People/idoughr/">Ramzi Idoughi</a>, 
+<a href="/People/wangc/">Congli Wang</a>, 
+<a href="https://ccrc.kaust.edu.sa/Pages/bennett.aspx">Anthony Bennett</a>, 
+<a href="https://ccrc.kaust.edu.sa/Pages/Du.aspx">Jianguo Du</a>, 
+<a href="https://www.linkedin.com/in/scott-skeen-2a35801b/">Scott Skeen</a>, 
+<a href="https://hpcomb.kaust.edu.sa/Pages/William-Roberts.aspx">William Roberts</a>, 
+<a href="http://peterwonka.net/">Peter Wonka</a>, 
+<a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020 <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#results">Main results</a></li>
+<li><a href="#paper">Paper and video</a></li>
+<li><a href="#data">Code and dataset</a></li>   
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+    
+<img src="Pipeline.png" width="100%"/> <br>
+Overview of the architecture of our framework. <br><br>
+    
+<h3 id="abstract">Abstract</h3>
+Visible light tomography is a promising and increasingly popular technique for fluid imaging. However, the use of a sparse number of viewpoints in the capturing setups makes the reconstruction of fluid flows very challenging. In this paper, we present a state-of-the-art 4D tomographic reconstruction framework that integrates several regularizers into a multi-scale matrix free optimization algorithm. In addition to existing regularizers, we propose two new regularizers for improved results: a regularizer based on view interpolation of projected images and a regularizer to encourage reprojection consistency. We demonstrate our method with extensive experiments on both simulated and real data.<br><br>
+    
+<h3 id="results">Main results</h3>
+<h4>4D Soot Imaging of the turbulent flame</h4>
+Extinction imaging and planar laser induced incandescence
+setup (LII)<br> 
+<img src="fig2.png" width="70%"/> <br> 
+
+Reconstructed results for a highly turbulent flame.<br> 
+<img src="fig3.png" width="70%"/> <br><br>
+
+<h4>4D Imaging of a Mixing Fluid Process</h4>
+(a) The set up for capturing fluid images with two views.
+(b) One captured image from the setup (c) Our reconstruction at
+different time frames and viewing angles. (d) Slice comparison
+between Zang et al. [53] and our method for two different time
+frames.<br> 
+<img src="fig4.png" width="70%"/> <br> <br>
+
+<h4>4D Imaging of a Fuel Injection Process</h4>
+(a) The set up for capturing spray images. (b) Captured
+images at two time frames (left) and estimated flow field illustrated
+with streamlines. (c) Reconstruction results for SAD regularized
+method [21], Zang et al. [53], and Ours. First and second row of
+(c) represents respectively reconstructed slice and the volume.<br> 
+<img src="fig5.png" width="70%"/> <br> <br>
+	
+
+	
+<h3 id="paper">Paper and video</h3>
+
+<pre class="tab">Paper <a href="Zang2020TomoFluid.pdf">[Zang2020TomoFluid.pdf ~8.8 MB]</a> </pre> 
+<pre class="tab">Supplement <a href="Zang2020TomoFluid_supp.pdf">[Zang2020TomoFluid_supp.pdf(~13.5 MB)]</a> </pre> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rWVJ9ieal3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+                <br><br>    
+
+<h3 id="data">Code and dataset</h3>  
+ <pre class="tab">Source code  <a href="https://github.com/gmzang/TomoFluid">[Github  (coming soon)]</a> </pre> <br>  
+ <pre class="tab">Dataset  <a href="https://github.com/gmzang/TomoFluid">[Dataset (coming soon)]</a> </pre> <br>  
+	
+<h3 id="citation">Citation</h3>
+<pre>
+@InProceedings{zang2020tomofluid, 
+      title={TomoFluid: Reconstructing Dynamic Fluid from Sparse View Videos}, 
+      author={Zang, Guangming and Idoughi, Ramzi and Wang, Congli and Bennett, Anthony and Du, Jianguo and Skeen, Scott and Roberts, William and Wonka, Peter and Heidrich, Wolfgang},  
+      booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+      year = {2020},
+      publisher={IEEE}
+      }
+</pre>
+   
+    
+
+    
+</div>
