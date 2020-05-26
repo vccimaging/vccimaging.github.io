@@ -1,0 +1,7 @@
+@article{Sun2020LearningRank1HDR,
+title={Learning Rank-1 Diffractive Optics for Single-shot High Dynamic Range Imaging},
+author={Sun, Qilin and Tseng, Ethan and Fu, Qiang and Heidrich, Wolfgang and Heide, Felix},
+journal={IEEE CVPR},
+year={2020},
+publisher={IEEE}
+}
