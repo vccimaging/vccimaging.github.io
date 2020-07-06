@@ -1,4 +1,14 @@
 ---
+- id: Rui2020Reflection
+  authors:
+    - R. Li*
+    - S. Qiu*
+    - G. Zang    
+    - W. Heidrich
+  title: Reflection Separation via Multi-bounce Polarization State Tracing
+  venue: ECCV
+  year: 2020
+
 
 - id: Sun2020LearningRank1HDR
   authors:
