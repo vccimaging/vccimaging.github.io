@@ -1,4 +1,13 @@
 ---
+- id: Wang2020StereoEventPTV
+  authors:
+    - Y. Wang
+    - R. Idoughi
+    - W. Heidrich 
+  title: Stereo Event-based Particle Tracking Velocimetry for 3D Fluid Flow Reconstruction
+  venue: ECCV
+  year: 2020
+
 - id: Rui2020Reflection
   authors:
     - R. Li*
