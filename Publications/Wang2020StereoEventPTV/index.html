@@ -12,21 +12,37 @@ layout: default
 <hr size="4", color="black", width="100%">
 <ul>
 <li><a href="#abstract">Abstract</a></li>
+<li><a href="#setup">Experimental Setup</a></li>
+<li><a href="#results">Main Results</a></li>
 <li><a href="#paper">Paper, code and video</a></li>
 </ul>
 <hr size="4", color="black", width="100%">
     
-
+<img src="framework.png" width="100%"/> <br>
+Overview of the architecture of our framework. <br><br>
     
 <h3 id="abstract">Abstract</h3>
 Existing Particle Imaging Velocimetry techniques require the use of high-speed cameras to reconstruct time-resolved fluid flows. These cameras provide high-resolution images at high frame rates, which generates bandwidth and memory issues. By capturing only changes in the brightness with a very low latency and at low data rate, event-based cameras have the ability to tackle such issues. In this paper, we present a new framework that retrieves dense 3D measurements of the fluid velocity field using a pair of event-based cameras. First, we track particles inside the two event sequences in order to estimate their 2D velocity in the two sequences of images. A stereo-matching step is then performed to retrieve their 3D positions. These intermediate outputs are incorporated into an optimization framework that also includes physically plausible regularizers, in order to retrieve the 3D velocity field. Extensive experiments on both simulated and real data demonstrate the efficacy of our approach.
  
+<h3> Experimental Setup </h3>    
+Our experimental setup used for the event-based fuild imaging. <br>
+<img src="setup.png" width="100%"/> <br>
 
+    
+<h3 id="results">Main Results</h3>
+
+Stiring speed set to 2.5 for the magnetic stirring rod(Model: Stuart CB162)
+<img src="vortex2_5_3_1.png" width="100%"/> <br>
+
+Fast vertical injection    
+<img src="injection_1.png" width="100%"/> <br>
+    
+    
 <h3 id="paper">Paper, code and video</h3>
 <pre class="tab">Paper <a href="Wang2020StereoEventPTV.pdf">[Wang2020StereoEventPTV.pdf (~6.5MB)]</a> </pre> 
 <pre class="tab">Supplement [Coming soon] </pre> 
 <pre class="tab">All dataset and results [Coming soon] </pre> 
-<pre class="tab">Source code  [Coming soon] </pre> <br>
+<pre class="tab">Source code  <a href="https://github.com/vccimaging/StereoEventPTV"> </pre> <br>
 <br>
 
 </div>
