@@ -1,12 +1,12 @@
 ---
-id: Xiong2020SuperDepthRainbowPIV
+- id: Xiong2020SuperDepthRainbowPIV
   authors:
     - J. Xiong
     - A. Aguirre-Pablo
     - R. Idoughi
     - S. T. Thoroddsen
     - W. Heidrich
-  title: RainbowPIV with improved depth resolution—design and comparative study with TomoPIV
+  title: RainbowPIV with improved depth resolution — design and comparative study with TomoPIV
   venue: Measurement Science and Technology
   year: 2020
 
