@@ -1,4 +1,27 @@
 ---
+
+- id: Marois2020GeminiPlanetImager
+  authors:
+    - C. Marois
+    - B. Gerard
+    - O. Lardière
+    - A. Anthony
+    - C. Bradley
+    - J. Dunn
+    - Q. Fu
+    - T. Hardy
+    - W. Heidrich
+    - G. Herriot
+    - E. Nielsen
+    - S. Sivanandam
+    - D. Sivransky
+    - S. Thibault
+    - W. Thompson
+    - J.-P. Véran
+  title: Upgrading the Gemini Planet Imager calibration unit with a photon counting focal plane wavefront sensor
+  venue: SPIE Proceedings Volume 11448, Adaptive Optics Systems VII
+  year: 2020
+  
 - id: Xiong2020SuperDepthRainbowPIV
   authors:
     - J. Xiong
