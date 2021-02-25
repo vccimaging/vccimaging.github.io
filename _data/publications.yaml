@@ -1,5 +1,24 @@
 ---
 
+- id: Chen2021TCI
+  authors:
+    - N. Chen
+    - C. Wang
+    - W. Heidrich
+  title: Holographic 3D particle imaging with model-based network
+  venue: IEEE Transaction on Computational Imaging
+  year: 2021
+
+
+- id: Chen2020DH
+  authors:
+    - N. Chen*
+    - Y. Li*
+    - W. Heidrich
+  title: Physics-based HoloNet for three-dimensional imaging
+  venue: 3D Image Acquisition and Display - Technology, Perception and Applications
+  year: 2020
+  
 - id: Marois2020GeminiPlanetImager
   authors:
     - C. Marois
