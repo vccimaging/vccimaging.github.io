@@ -1,5 +1,16 @@
 ---
 
+- id: Simeng2021Demosaic
+  authors:
+    - S. Qiu
+    - Q. Fu
+    - C. Wang
+    - W. Heidrich
+  title: Linear Polarization Demosaicking for Monochrome and Color Polarization Focal Plane Arrays
+  venue: Computer Graphics Forum
+  year: 2021
+  
+  
 - id: Chen2021TCI
   authors:
     - N. Chen
