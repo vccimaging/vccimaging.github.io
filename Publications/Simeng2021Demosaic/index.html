@@ -13,6 +13,7 @@ layout: default
 <ul>
 <li><a href="#abstract">Abstract</a></li>
 <li><a href="#results">Main results</a></li>
+<li><a href="#visualization">Visualization</a></li>
 <li><a href="#paper">Paper and supplementary</a></li>
 <li><a href="#data">Code and dataset</a></li>   
 <li><a href="#citation">Citation</a></li>
@@ -39,20 +40,23 @@ results show that the proposed reconstruction and analysis tools offer an effect
 <h4>Monochromatic Polarization Demosaicking</h4>
 Two exemplary scenes from our dataset. The upper part is a ball scene with unpolarized background illumination, and the second part is a containers scene with polarized background illumination. The reconstruction quality is presented in PSNR for all the methods comparison.<br> 
 
-<img src="mono1.png" width="80%" align="middle"/><br> 
-<img src="mono2.png" width="80%" align="middle"/><br> 
-
+<img src="mono1.png" width="70%" align="middle"/><br> 
+<img src="mono2.png" width="70%" align="middle"/><br> 
+<img src="monoresults.png" width="70%" align="middle"/><br> 
 
 <h4>Color Polarization Demosaicking</h4>
 This is a comparison of optimization based methods with different priors. From left to right are the ground truth (GT) data, Total variation (TV) prior, TV on both 1st and 2nd order derivatives (TV+2d), 
 Huber penalty on 1st derivatives, Huber penalty on both 1st and 2nd order derivatives (Huber+2d), Huber penalty with BM3D prior (Huber+2d+BM3D), and Huber penalty combined with BM3D, cross-color channel prior (Huber+2d+BM3D+CC). Our proposed Huber penalty with 1st and 2nd derivatives outperforms other priors for all the three polarization components.<br> 
-<img src="color1.png" width="80%" align="middle"/><br> 
-<img src="color2.png" width="80%" align="middle"/><br> 
+<img src="color1.png" width="70%" align="middle"/><br> 
+<img src="color2.png" width="70%" align="middle"/><br> 
+<img src="colorresults.png" width="70%" align="middle"/><br> 
 
-
+<h4>Visualization Results</h4>	
+<iframe src="visuzlization1.pdf" width="70%" align="middle"/></iframe><br> 
+	
 <h4>Experimental Results</h4>
 Experimental results for both monochrome (left) and color (right) polarization cameras with the proposed reconstruction algo- rithm. We show reconstruction results of Itot, DoLP, and AoLP for two arbitrarily captured real scenes.<br> 
-<img src="experiment.png" width="75%"/> <br> <br>
+<iframe src="igure6.pdf"></iframe><br> <br>
 	
 <h4>Polarization Image Dataset </h4>
 
