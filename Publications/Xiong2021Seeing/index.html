@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h2> Seeing in Extra Darkness Using a Deep-Red Flash </h2>
+
+<a href="https://jhxiong.github.io/">Jinhui Xiong*</a>, <a href="https://jianwang-cmu.github.io/">Jian Wang*</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>, <a href="http://www.cs.columbia.edu/~nayar/">Shree Nayar</a>
+<br>CVPR 2021 (Oral)<br>
+  
+<hr size="4", color="black", width="100%">
+<img src="teaser.png" width="100%"/> <br>
+Top left: Human vision uses cones and rods for the perception of light. Photopic vision is associated with cones, 
+occurring at bright-light conditions (over 3 cd/m^2). Scotopic vision is associated with rods, occurring at dim-light conditions (below
+10^{-3} cd/m^2). At intermediate light levels, both rods and cones are active, which is called mesopic vision. Bottom left: We propose to use deep-red (e.g. 660 nm)
+light as flash for low-light imaging in mesopic light levels. This new flash can be introduced into smartphones with a
+minor adjustment. Middle: The eye spectral sensitivity in a dimly lit environment (0.01 cd/m^2) and the relative responses of R, G and B color channels of the
+camera we used, as well as the emissions spectrum of the red LED flash. Under dim lighting, rod vision dominates, yet the rods are nearly insensible to deep-red light. 
+Meanwhile, our LED flash can be sensed by the camera especially in the red and green channels. Right: Inputs to our videography pipeline are 
+a sequence of no-flash and flash frames, and the outputs are denoised and would yield temporally stable videos with no frame rate loss.
+  
+<h4 id="abstract">Abstract</h4>
+We propose a new flash technique for low-light imaging, using deep-red light as an illuminating source. 
+Our main observation is that in a dim environment, the human eye mainly uses rods for the perception of light, 
+which are not sensitive to wavelengths longer than 620 nm, yet the camera sensor still has spectral response. 
+We propose a novel modulation strategy when training a modern CNN model for guided image filtering, 
+fusing a noisy RGB frame and a flash frame. This fusion network is further extended for video reconstruction. 
+We have built a prototype with minor hardware adjustments and tested the new flash technique on a variety of static and dynamic scenes. 
+The experimental results demonstrate that our method produces compelling reconstructions, even in extra dim conditions.
+  
+<h4 id="paper">Paper</h4>
+<pre class="tab">paper <a href="Xiong2021Seeing.pdf">[SeeingInExtraDarkness.pdf (12.2MB)]</a></pre>
+<pre class="tab">code  <a href="https://github.com/vccimaging/Deep-Red-Flash">[https://github.com/vccimaging/Deep-Red-Flash]</a></pre> <br>
