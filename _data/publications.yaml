@@ -1,5 +1,16 @@
 ---
 
+- id: Xiong2021Seeing
+  authors:
+    - J. Xiong*
+    - J. Wang*
+    - W. Heidrich
+    - S. Nayar
+  title: Seeing in Extra Darkness Using a Deep-Red Flash
+  venue: CVPR
+  note: Oral
+  year: 2021
+
 - id: Simeng2021Demosaic
   authors:
     - S. Qiu
