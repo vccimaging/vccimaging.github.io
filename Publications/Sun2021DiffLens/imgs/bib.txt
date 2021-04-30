@@ -1,0 +1,9 @@
+@article{Sun2021DiffLens,
+  title={End-to-End Complex Lens Design with Differentiable Ray Tracing},
+  author={Sun, Qilin and Wang, Congli and Qiang, Fu and Xiong, Dun and Wolfgang, Heidrich},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={40},
+  number={4},
+  year={2021},
+  publisher={ACM}
+}

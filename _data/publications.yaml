@@ -1,5 +1,17 @@
 ---
 
+
+- id: Sun2021DiffLens
+  authors:
+    - Q. Sun
+    - C. Wang
+    - Q. Fu
+    - X. Dun
+    - W. Heidrich
+  title: End-to-End Complex Lens Design with Differentiable Ray-Tracing
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2021
+  
 - id: Chen2021LPOR
   authors:
     - N. Chen*
