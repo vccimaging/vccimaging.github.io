@@ -1,5 +1,12 @@
 ---
-
+- id: Xiong2021MovingWater
+  authors:
+    - J. Xiong
+    - W. Heidrich
+  title: In-the-Wild Single Camera 3D Reconstruction Through Moving Water Surfaces
+  venue: ICCV
+  note: Oral
+  year: 2021
 
 - id: Sun2021DiffLens
   authors:
