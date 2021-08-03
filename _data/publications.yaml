@@ -7,7 +7,8 @@
   venue: ICCV
   note: Oral
   year: 2021
-  
+ 
+ 
 - id: Zang2021IntraTomo 
   authors:
     - G. Zang
@@ -18,6 +19,29 @@
   title: "IntraTomo: Self-supervised Learning-based Tomography via Sinogram Synthesis and Prediction"
   venue: ICCV
   year: 2021
+ 
+ 
+- id: Li2021MSIllum
+  authors:
+    - Y. Li
+    - Q. Fu
+    - W. Heidrich
+  title: "Multispectral illumination estimation using deep unrolling network"
+  venue: ICCV
+  year: 2021
+ 
+ 
+- id: Baek2021HSDepth
+  authors:
+    - S.-H. Baek
+    - H. Ikoma
+    - D. Jeon
+    - Y. Li
+    - W. Heidrich
+  title: "Single-shot Hyperspectral-Depth Imaging with Learned Diffractive Optics"
+  venue: ICCV
+  year: 2021
+  
   
 - id: Sun2021DiffLens
   authors:
@@ -40,6 +64,18 @@
   year: 2021
 
 
+- id: Chugunov2021MaskTOF
+  authors:
+    - i. Chugunov
+    - S.-H. Baek
+    - Q. Fu
+    - W. Heidrich
+    - F. Heide
+  title: "Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging"
+  venue: CVPR
+  year: 2021
+
+
 - id: Xiong2021Seeing
   authors:
     - J. Xiong*
@@ -50,6 +86,7 @@
   venue: CVPR
   note: Oral
   year: 2021
+
 
 
 - id: Simeng2021Demosaic
