@@ -38,6 +38,8 @@
     - D. Jeon
     - Y. Li
     - W. Heidrich
+    - G. Wetzstein
+    - M. H. Kim
   title: "Single-shot Hyperspectral-Depth Imaging with Learned Diffractive Optics"
   venue: ICCV
   year: 2021
@@ -64,18 +66,6 @@
   year: 2021
 
 
-- id: Chugunov2021MaskTOF
-  authors:
-    - i. Chugunov
-    - S.-H. Baek
-    - Q. Fu
-    - W. Heidrich
-    - F. Heide
-  title: "Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging"
-  venue: CVPR
-  year: 2021
-
-
 - id: Xiong2021Seeing
   authors:
     - J. Xiong*
@@ -85,6 +75,18 @@
   title: Seeing in Extra Darkness Using a Deep-Red Flash
   venue: CVPR
   note: Oral
+  year: 2021
+
+
+- id: Chugunov2021MaskTOF
+  authors:
+    - I. Chugunov
+    - S.-H. Baek
+    - Q. Fu
+    - W. Heidrich
+    - F. Heide
+  title: "Mask-ToF: Learning Microlens Masks for Flying Pixel Correction in Time-of-Flight Imaging"
+  venue: CVPR
   year: 2021
 
 
