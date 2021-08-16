@@ -1,4 +1,33 @@
 ---
+- id: Wang2021DiffDeflectometry
+  authors:
+    - C. Wang
+    - N. Chen
+    - W. Heidrich
+  title: Towards self-calibrated lens metrology by differentiable refractive deflectometry
+  venue: Optics Express
+  year: 2021
+
+
+- id: Wang2021DesignBackprop
+  authors:
+    - C. Wang
+    - N. Chen
+    - W. Heidrich
+  title: Lens design optimization by back-propagation
+  venue: OSA Optical Design and Fabrication Congress
+  year: 2021
+  award: Best Student Paper Award
+
+
+- id: Wang2021Dissertation
+  authors:
+    - C. Wang
+  title: "Computational Wavefront Sensing: Theory, Practice, and Applications"
+  venue: Ph.D. Thesis
+  year: 2021
+  
+
 - id: Xiong2021MovingWater
   authors:
     - J. Xiong
@@ -61,7 +90,7 @@
     - N. Chen*
     - C. Wang*
     - W. Heidrich
-  title: Snapshot space-time holographic three-dimensional particletracking velocimetry
+  title: Snapshot space-time holographic three-dimensional particle tracking velocimetry
   venue: Laser and Photonics Reviews
   year: 2021
 
