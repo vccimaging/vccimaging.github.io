@@ -9,6 +9,16 @@
   year: 2021
 
 
+- id: Chen2021DH
+  authors:
+    - N. Chen
+    - C. Wang    
+    - W. Heidrich
+  title: Space-time optical imaging framework - Holographic particle tracking velocimetry
+  venue: OSA Imaging Congress - Digital Holography & 3D Imaging, W4B.4
+  year: 2021
+
+
 - id: Wang2021DesignBackprop
   authors:
     - C. Wang
