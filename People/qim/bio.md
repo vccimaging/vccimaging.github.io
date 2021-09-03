@@ -1,2 +1,2 @@
   Miao Qi is an Electrical Engineering PhD student at Visual Computing Center, King Abdullah University of Science and Technology (KAUST), working with Professor Wolfgang Heidrich. He is a member of Computational Imaging Group.
-  He obtain his master degree from Peking University. Before joining the KAUST, he spend 3 months in Univeristy Zaragoza,Spain doing about non-line-of-singht imaging and work with Professor Diego Gutierrez.
+  He obtain his master degree from Peking University Shenzhen. Before joining the KAUST, he spend 3 months in Univeristy Zaragoza,Spain doing about non-line-of-singht imaging and work with Professor Diego Gutierrez.
