@@ -1,1 +1,86 @@
+---
+layout: default
+---
+<div class="projectPage">
+    
+<h3> Transfer Deep Learning for Reconfigurable Snapshot HDR Imaging Using Coded Masks</h3>
+
+<a href="/People/malghamdi/">Masheal Alghamdi</a>, <a href="/People/fuq/"> Qiang Fu</a>, Ali Thabet, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br>  Accepted to the Computer Graphics Forum, 2021.<br>
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#results">Main results</a></li>
+<li><a href="#paper">Paper</a></li>
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+    
+<img src="teaser.png" style="width:940px;height:208px;"> <br>
+Overview of the proposed HDR imaging system. In hardware a binary optical mask is placed near the image sensor to achieve spatially
+varying exposures (top left). In reconstruction we first devise a casual one-time calibration network to accurately estimate the mask
+(bottom left), and then input the raw noisy color filter array (CFA) image and estimated mask to our HDR reconstruction network to obtain
+the final HDR image. The HDR-VDP-2 visibility probability maps for our result (right-top), blue indicates unperceivable differences,
+which means that our system can recover a high quality HDR image from a single raw LDR image. <br><br>
+  
+<h4 id="abstract">Abstract</h4>
+High dynamic range (HDR) image acquisition from a single image capture, also known as snapshot HDR imaging, is challenging because the bit depths of camera sensors 
+are far from sufficient to cover the full dynamic range of the scene. Existing HDR techniques focus either on algorithmic reconstruction or hardware modification
+to extend the dynamic range. In this paper we propose a joint design for snapshot HDR imaging by devising a spatially varying modulation mask in the hardware and
+building a deep learning algorithm to reconstruct the HDR image. We leverage transfer learning to overcome the lack of sufficiently large HDR datasets available.
+We show how transferring from a different large-scale task (image classification on ImageNet) leads to considerable improvements in HDR reconstruction. We achieve a
+reconfigurable HDR camera design that does not require custom sensors, 
+and instead can be reconfigured between HDR and conventional mode with very simple calibration steps. We demonstrate that the proposed hardware–software 
+solution offers a flexible yet robust way to modulate per-pixel exposures, and the network requires little knowledge of the hardware to faithfully reconstruct the HDR image. Comparison results show that our method outperforms the state of the art in terms of visual perception quality. <br><br>
+
+  
+  <h4 id="contribution">Contribution</h4>
+  This work is an extended version of  <a href="https://vccimaging.org/Publications/alghamdi2019HDR/">[AFTH19]</a>. The original paper proposed a computational imaging solution to 
+  single-shot HDR imaging consisting of minimal modifications of the camera to implement per-pixel exposure, as well as a deep learning algorithm based on
+the inception network to reconstruct HDR images, as shown in Figure 1. 
+Specifically, we explored a variant of the spatially modulated HDR camera design that does not require a custom sensor and can be 
+incorporated into any existing camera, be it a smartphone, a machine vision camera, or a digital SLR. In particular, we envision a scenario where
+the camera can be reconfigured on the fly into HDR mode with by introducing an optical element into the optical stack of the camera.
+To realize these desired properties, we propose a mask that is not attached directly to the surface of the image sensor, 
+as in the case of Assorted Pixels [NM00, NB03], but is instead placed at a small standoff distance in front of the sensor. 
+To support dynamic hardware reconfiguration, we explored rapid calibration of the mask, as well as snapshot HDR image reconstruction.
+The main technical contributions of the original paper <a href="https://vccimaging.org/Publications/alghamdi2019HDR/">[AFTH19]</a>
+are (1) an easy-to-implement modulation method that requires minimal hardware modification and a simple self-calibration technique;
+(2) a new HDR reconstruction algorithm built upon an inception network that decodes decent HDR images from the raw Bayer data. 
+We demonstrated both in simulation and with a prototype that the combination of hardware encoding and software decoding leads to a simple yet efficient HDR image
+acquisition system.
+In this extended version, we present a transfer learning framework to solve the HDR reconstruction part. 
+Our motivation comes from the fact that available HDR image datasets are small compared to the typical requirement for training deep neural networks. 
+In the original paper <a href="https://vccimaging.org/Publications/alghamdi2019HDR/">[AFTH19]</a>, we solved this issue by pretraining on a large simulated
+HDR dataset. This pre-training is expensive in terms of both memory and time; experimenting with different network structures will require weeks of pre-training.
+In this paper, we incorporate architectures pre-trained on a different large-scale task and transfer them to our HDR reconstruction. This new approach 
+reduces our processing time substantially. In this ex- tended version, we train our calibration network from scratch on more realistic training data. 
+Specifically, we made two modifications to improve the realism of the calibration training dataset: First, instead of selecting N different HDR images 
+(where there is a high chance that the selection will be for a combination of day/night, indoor/outdoor scenes),
+we select N random patches from a single random image in the training set. 
+The motivation is to simulate capturing N images from the same location but taken from different angles. 
+This allows the network to learn calibration “in the field” directly by the end user of the camera.
+Second, we simulate both a uniform and a low-frequency Gaussian mask, with the later being more similar to the prototype mask statistics.
+Specifically, we propose an encoder–decoder framework, that learns an initial estimation of the HDR image, as well as useful image features.
+We then refine our estimate through residual learn- ing [RFB15]. 
+Our final network can be trained end-to-end. For the encoder, we use a VGG16 [SZ15] network pre-trained on ImageNet.
+With few epochs of training on a small dataset, the network learned to reconstruct high quality results.
+<h4 id="results">Main results</h4>
+<img src="results1.png" width="80%"/><br> 
+Simulation results for two scenes. Left is the tone-mapped HDR images for our results. Zoom-in images show the comparison with the ground
+truth images. The HDR-VDP2 results show that the overall visual differences are suppressed. The log<sub align=right>2</sub>(luminance) 
+maps indicate our method can achieve more than 16 stops in dynamic range.<br> <br> 
+<img src="results2.png" width="80%"/> <br> 
+Visual comparison between original paper results [AFTH19], training an encoder–decoder network without the residual network, and the proposed HDR reconstruction network. HDR-VDP2 results show that the proposed network recovers a bet- ter quality HDR image. Center rows are zoomed crops showing two exposures of the reconstructed HDR image. 
+We can see that our proposed method recovers more accurate colors and details <br> <br> 
+<img src="results3.png" width="80%"/> <br>
+Experimental results with our prototype. Left are raw Bayer images from the camera. The reconstructed HDR images (tone-mapped) are shown
+with zoom-in details for both low and high exposures indicating the dynamic range. Right are the log<sub align=right>2</sub>(luminance)
+maps showing the stop scales. <br> <br>
+
+<h4 id="paper">Paper </h4>
+<pre class="tab">Paper          <a href="alghamdi2021HDR.pdf">[Paper]</a> 
+    
+</div>
 
