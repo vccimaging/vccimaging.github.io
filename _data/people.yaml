@@ -11,12 +11,6 @@
 
 # active members (arbitrary order)
 
-- id: malghamdi
-  name: Masheal Alghamdi
-  pubname: M. Alghamdi
-  position: Ph.D Student
-  start: 2014
-
 - id: amatah
   name: Hadi Amata
   pubname: H. Amata
@@ -37,14 +31,9 @@
   position: Ph.D. Student
   start: 2016
 
-- id: sunq
-  name: Qilin Sun
-  pubname: Q. Sun
-  position: Ph.D Student
-  start: 2015
-
 - id: xiongj
   name: Jinhui Xiong
+  title: Dr.
   pubname: J. Xiong
   position: Ph.D Student
   start: 2015
@@ -63,12 +52,6 @@
   position: Research Scientist
   start: 2017
 
-- id: abujbakf
-  name: Khaled Abujabara
-  pubname: K. Abu-Jbara
-  position: Ph.D Student
-  start: 2015
-
 - id: lir
   name: Rui Li
   pubname: R. Li
@@ -85,13 +68,6 @@
   name: Miao Qi
   pubname: M. Qi
   position: Ph.D Student
-  start: 2019
-
-- id: yuqi
-  name: Yuqi Li
-  pubname: Y. Li
-  title: Dr.
-  position: Post Doc
   start: 2019
 
 - id: chenn
@@ -121,6 +97,22 @@
 
 # alumni
 
+- id: sunq
+  name: Qilin Sun
+  pubname: Q. Sun
+  position: Ph.D Student
+  start: 2015
+  end: 2021
+  nowat: Pointspread Technologies (Founder)
+
+- id: malghamdi
+  name: Masheal Alghamdi
+  pubname: M. Alghamdi
+  position: Ph.D Student
+  start: 2014
+  end: 2021
+  nowat: "King Abdulaziz City for Science and Technology (KACST)"
+
 - id: wangc
   name: Congli Wang
   pubname: C. Wang
@@ -129,6 +121,22 @@
   start: 2015
   end: 2021
   nowat: UC Berkeley
+
+- id: yuqi
+  name: Yuqi Li
+  pubname: Y. Li
+  title: Dr.
+  position: Post Doc
+  start: 2019
+  end: 2020
+  nowat: Ningbo University
+
+- id: abujbakf
+  name: Khaled Abujabara
+  pubname: K. Abu-Jbara
+  position: Ph.D Student
+  start: 2015
+  end: 2020
 
 - id: Moetaz
   name: Moetaz Abbas
