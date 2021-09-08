@@ -101,6 +101,7 @@
   name: Qilin Sun
   pubname: Q. Sun
   position: Ph.D Student
+  title: Dr.
   start: 2015
   end: 2021
   nowat: Pointspread Technologies (Founder)
@@ -169,6 +170,7 @@
   position: Post Doc
   start: 2016
   end: 2018
+  nowat: Okinawa Institute of Science and Technology
 
 - id: choudhb
   name: Biswarup Choudhury
@@ -177,6 +179,7 @@
   position: Research Scientist
   start: 2014
   end: 2018
+  nowat: Imagination Technologies
 
 - id: alym
   name: Mohamed Aly
