@@ -41,6 +41,12 @@
   year: 2021
   award: Best Student Paper Award
 
+- id: Xiong2021Dissertation
+  authors:
+    - J. Xiong
+  title: "Computational Imaging and Its Applications in Fluids"
+  venue: Ph.D. Thesis
+  year: 2021
 
 - id: Wang2021Dissertation
   authors:
