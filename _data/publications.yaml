@@ -1,5 +1,11 @@
 ---
 
+- id: Sun2021Dissertation
+  authors:
+    - Q. Sun
+  title: "End-to-end Optics Design for Computational Cameras"
+  venue: Ph.D. Thesis
+  year: 2021
 
 - id: Qi2021DWFS
   authors:
