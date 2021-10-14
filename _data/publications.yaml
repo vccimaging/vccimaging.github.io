@@ -1,5 +1,16 @@
 ---
 
+- id: AbuJbara2021NLAD
+  authors:
+    - K. AbuJbara
+    - R. Idoughi
+    - W. Heidrich
+  title: "Non-Linear Anisotropic Diffusion for Memory-Efficient Computed Tomography Super-Resolution Reconstruction"
+  venue: 3DV
+  note: oral paper
+  year: 2021
+
+
 - id: Sun2021Dissertation
   authors:
     - Q. Sun
