@@ -1,5 +1,22 @@
 ## Wolfgang Heidrich -- Biography
 
-Wolfgang Heidrich joined King Abdullah University of Science and Technology in 2014 as the Director of the Visual Computing Center and
-a Professor of Computer Science. He is also a Professor (on leave) at the University of British Columbia. Dr. Heidrich received his PhD in
-from the University of Erlangen in 1999, and then worked as a Research Associate in the Computer Graphics Group of the Max-Planck-Institute for Computer Science in Saarbrucken, Germany, before joining UBC in 2000. Dr. Heidrich's research interests lie at the intersection of computer graphics, computer vision, imaging, and optics. His more recent interest is in computational imaging and display, focusing on hardware-software co-design of the next generation of imaging systems, with applications such as High-Dynamic Range imaging, compact computational cameras, hyperspectral cameras, to name just a few. Dr. Heidrich's work on High Dynamic Range Displays served as the basis for the technology behind Brightside Technologies, which was acquired by Dolby in 2007. Dr. Heidrich has served on numerous program committees for top-tier conferences such as Siggraph, Siggraph Asia, Eurographics, EGSR, and recently he chaired the papers program for both Siggraph Asia 2016 and the International Conference of Computational Photography (ICCP) 2016. Dr. Heidrich is the recipient of a 2014 Humboldt Research Award.
+Prof. Wolfgang Heidrich is a Professor of Computer Science and
+Electrical and Computer Engineering in the KAUST Visual Computing
+Center, for which he also served as director from 2012 to 2021.
+Prof. Heidrich joined King Abdullah University of Science and
+Technology (KAUST) in 2014, after 13 years as a faculty member at the
+University of British Columbia. He received his PhD in from the
+University of Erlangen in 1999, and then worked as a Research
+Associate in the Computer Graphics Group of the Max-Planck-Institute
+for Computer Science in Saarbrucken, Germany, before joining UBC in
+2000. Prof. Heidrich's research interests lie at the intersection of
+imaging, optics, computer vision, computer graphics, and inverse
+problems. His more recent interest is in computational imaging,
+focusing on hardware-software co-design of the next generation of
+imaging systems, with applications such as High-Dynamic Range imaging,
+compact computational cameras, hyperspectral cameras, to name just a
+few.  Prof. Heidrich's work on High Dynamic Range Displays served as
+the basis for the technology behind Brightside Technologies, which was
+acquired by Dolby in 2007. Prof. Heidrich is a Fellow of the IEEE and
+Eurographics, and the recipient of a Humboldt Research Award.
+
