@@ -31,13 +31,6 @@
   position: Ph.D. Student
   start: 2016
 
-- id: xiongj
-  name: Jinhui Xiong
-  title: Dr.
-  pubname: J. Xiong
-  position: Ph.D Student
-  start: 2015
-
 - id: zangg
   name: Guangming Zang
   pubname: G. Zang
@@ -96,6 +89,15 @@
   start: 2020
 
 # alumni
+
+- id: xiongj
+  name: Jinhui Xiong
+  title: Dr.
+  pubname: J. Xiong
+  position: Ph.D Student
+  start: 2015
+  end: 2021
+  nowat: Meta (Facebook) Reality Lab
 
 - id: sunq
   name: Qilin Sun
