@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h3> NeAT: Neural Adaptive Tomography </h3>
+  
+<a href="https://www.lgdv.tf.fau.de/person/darius-rueckert/">Darius Rückert</a>, <a href="/People/wangyh/">Yuanhao Wang</a>, <a href="/People/lir/">Rui Li</a>, <a href="/People/idoughr/">Ramzi Idoughi</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+<br />
+
+<br>ACM Transactions on Graphics (Proc. SIGGRAPH), 2022 (Conditionnaly accepted) <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+<li><a href="#data">Code and Dataset</a></li>   
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<h4 id="abstract">Abstract</h4>
+In this paper, we present Neural Adaptive Tomography (NeAT), the first adaptive, hierarchical neural rendering pipeline for multi-view inverse rendering. Through a combination of neural features with an adaptive explicit representation, we achieve reconstruction times far superior to existing neural inverse rendering methods. The adaptive explicit representation improves efficiency by facilitating empty space culling and concentrating samples in complex regions, while the neural features act as a neural regularizer for the 3D reconstruction.<br>
+The NeAT framework is designed specifically for the tomographic setting, which consists only of semi-transparent volumetric scenes instead of opaque objects. In this setting, NeAT outperforms the quality of existing optimization-based tomography solvers while being substantially faster.<br><br><br>
+
+
+<img src="teaser.png" width="60%"/> <br>
+Neural Adaptive Tomography uses a hybrid explicit-implicit neural representation for tomographic image reconstruction. Left: The input is a set of X-ray images, typically with an ill-posed geometric configuration (sparse views or limited angular coverage). Center: NeAT represents the scene as an octree with neural features in each leaf node. This representation lends itself to an efficient differentiable rendering algorithm, presented in this paper. Right: Through neural rendering NeAT can reconstruct the 3D  geometry even for ill-posed configurations, while simultaneously performing geometric and radiometric self-calibration. <br><br><br>
+
+
+<h3 id="paper">Paper</h3>
+<pre class="tab">paper <a href="Ruckert2022NeAT.pdf">[Rückert_2022_NeAT.pdf]</a> </pre>
+
+<h3 id="data">Code and Dataset</h3>  
+ <pre class="tab">Source code  <a href="Ruckert2022NeAT.pdf">[Code  (coming soon)]</a> </pre> <br>  
+ <pre class="tab">Dataset  <a href="https://repository.kaust.edu.sa/handle/10754/676019">[External link]</a> </pre> <br>  
+	
+<h3 id="citation">Citation</h3>
+<pre>
+@article{ruckert2022neat,
+  title={{NeAT}: {N}eural Adaptive Tomography},
+  author={R{\"u}ckert, Darius and Wang, Yuanhao and Li, Rui and Idoughi, Ramzi and Heidrich, Wolfgang},
+  journal={arXiv preprint arXiv:2202.02171},
+  year={2022}
+}
+</pre>  
+
+</div>
