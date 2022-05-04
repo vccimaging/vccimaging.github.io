@@ -11,6 +11,40 @@
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2022
 
+- id:Shi2022Obstructions
+  authors:
+    - Z. Shi
+    - Y. Bahat
+    - S.-H. Baek
+    - Q. Fu
+    - H. Amata
+    - X. Li
+    - P. Chakravarthula
+    - W. Heidrich
+    - F. Heide
+  title: "Seeing Through Obstructions With Diffractive Cloaking"
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2022
+
+- id: Bokhari2022ChromoEnhancer
+  authors:
+    - Y. Bokhari
+    - A. Alhareeri
+    - A. Aljouie
+    - A. Alkhaldi
+    - M. Rasheed
+    - M. Alawwad
+    - R. Alhassnan
+    - S. Saad Samargandy
+    - A. Panahi
+    - W. Heidrich
+    - T. Arodz
+  title: "ChromoEnhancer: An artificial intelligence-based tool to enhance neoplastic karyograms as an aid for effective analysis"
+  venue: Cells
+  year: 2022
+
+
+
 - id: Fu2021EtchFree
   authors:
     - Q. Fu
