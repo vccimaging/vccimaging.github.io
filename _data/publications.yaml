@@ -1,13 +1,13 @@
 ---
 
-# - id: Yang2022AutoLens
-#   authors:
-#     - X. Yang
-#     - Q. Fu
-#     - W. Heidrich
-#   title: "Automatic Lens Design based on Differentiable Ray-tracing"
-#   venue: OSA Imaging and Applid Optics Congress - COSI
-#   year: 2022
+- id: Yang2022AutoLens
+  authors:
+    - X. Yang
+    - Q. Fu
+    - W. Heidrich
+  title: "Automatic Lens Design based on Differentiable Ray-tracing"
+  venue: OSA Imaging and Applid Optics Congress - Computational Optical Sensing and Imaging
+  year: 2022
 
 - id: Ruckert2022NeAT
   authors:
