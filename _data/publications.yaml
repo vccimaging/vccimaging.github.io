@@ -1,14 +1,5 @@
 ---
 
-- id: Yang2022AutoLens
-  authors:
-    - X. Yang
-    - Q. Fu
-    - W. Heidrich
-  title: "Automatic Lens Design based on Differentiable Ray-tracing"
-  venue: OSA Imaging and Applid Optics Congress - Computational Optical Sensing and Imaging
-  year: 2022
-
 - id: Ruckert2022NeAT
   authors:
     - D. Rückert
@@ -35,6 +26,15 @@
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2022
 
+- id: Yang2022AutoLens
+  authors:
+    - X. Yang
+    - Q. Fu
+    - W. Heidrich
+  title: "Automatic Lens Design based on Differentiable Ray-tracing"
+  venue: OSA Imaging and Applid Optics Congress - Computational Optical Sensing and Imaging
+  year: 2022
+
 - id: Bokhari2022ChromoEnhancer
   authors:
     - Y. Bokhari
@@ -51,7 +51,7 @@
   title: "ChromoEnhancer: An artificial intelligence-based tool to enhance neoplastic karyograms as an aid for effective analysis"
   venue: Cells
   year: 2022
-
+  pdf: https://www.mdpi.com/2073-4409/11/14/2244/pdf?version=1658303072
 
 
 - id: Fu2021EtchFree
