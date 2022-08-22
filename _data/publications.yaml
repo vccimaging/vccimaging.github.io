@@ -1,4 +1,12 @@
 ---
+- id: Wang2022JointMotionCorrection
+  authors:
+    - Y. Wang
+    - R. Idoughi
+    - W. Heidrich
+  title: "Joint Motion-Correction and Reconstruction in Cryo-EM Tomography"
+  venue: ICIP
+  year: 2022
 
 - id: Ruckert2022NeAT
   authors:
