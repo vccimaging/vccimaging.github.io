@@ -95,6 +95,13 @@
   position: M.Sc./Ph.D Student
   start: 2022
 
+- id: ming
+  name: Ming Sun
+  pubname: M. Sun
+  title:
+  position: Ph.D Student
+  start: 2022
+  
 # alumni
 
 - id: xiongj
