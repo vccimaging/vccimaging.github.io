@@ -62,6 +62,16 @@
   pdf: https://www.mdpi.com/2073-4409/11/14/2244/pdf?version=1658303072
 
 
+- id: Chen2022Frontiers
+  authors:
+    - N. Chen
+    - C. Wang
+    - W. Heidrich
+  title: Compact Computational Holographic Display (Invited Article)
+  venue: Frontiers in Photonics
+  year: 2022
+
+
 - id: Fu2021EtchFree
   authors:
     - Q. Fu
