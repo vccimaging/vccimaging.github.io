@@ -1,4 +1,18 @@
 ---
+
+- id: QianWang2022RethinkISP
+  authors:
+    - G. Qian*
+    - Y. Wang*
+    - J. Gu
+    - C. Dong
+    - W. Heidrich
+    - B. Ghanem,
+    - J. Ren
+  title: "Rethinking Learning-based Demosaicing, Denoising, and Super-Resolution Pipeline"
+  venue: ICCP
+  year: 2022
+  
 - id: Wang2022JointMotionCorrection
   authors:
     - Y. Wang
