@@ -1,6 +1,18 @@
 ---
 - id: Rui2022NAScenT
   authors:
+    - D. Rückert
+    - Y. Wang
+    - R. Li
+    - R. Idoughi
+    - W. Heidrich
+  title: "NeAT: Neural Adaptive Tomography"
+  venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
+  year: 2022
+
+
+- id: Rui2022NAScenT
+  authors:
     - R. Li
     - D. Rückert
     - Y. Wang
