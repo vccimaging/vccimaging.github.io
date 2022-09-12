@@ -1,0 +1,79 @@
+---
+layout: default
+---
+<div class="projectPage">
+    
+<h2> Neural Adaptive Scene Tracing (NAScenT) </h2>
+
+<a href="/People/lir/">Rui Li</a>,
+<a href="http://lgdv.cs.fau.de/people/card/darius/rueckert/">Darius Rückert</a>,
+<a href="/People/wangyh/">Yuanhao Wang</a>,
+<a href="http://peterwonka.net/">Peter Wonka</a>, 
+<a href="/People/heidriw/">Wolfgang Heidrich</a>,
+<br> VMV 2022 <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#results">Main results</a></li>
+<li><a href="#paper">Paper and supplement</a></li>
+<li><a href="#data">Code and dataset</a></li>   
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+
+
+<img src="Teaser.png" width="100%"/> <br>
+NAScenT jointly optimizes a hybrid explicit-implicit representation consisting of an octree for 3D space partitioning, and structured networks in each active leaf node. Each network maps a spatial coordinate and a direction to a view-independent density and a view-dependent color. NAScenT adaptively allocates more tree nodes to parts of the 3D space with higher scene complexity. Shown here are renderings of novel views from Fruit and Fern. <br><br>
+
+
+<h3 id="abstract">Abstract</h3>
+Neural rendering with implicit neural networks has recently emerged as an attractive proposition for scene reconstruction, achieving excellent quality albeit at high computational cost. While the most recent generation of such methods has made progress on the rendering (inference) times, very little progress has been made on improving the reconstruction (training) times.
+In this work we present Neural Adaptive Scene Tracing (NAScenT ), the first neural rendering method based on directly training a hybrid explicit-implicit neural representation. NAScenT uses a hierarchical octree representation with one neural network per leaf node and combines this representation with a two-stage sampling process that concentrates ray samples where they matter most – near object surfaces. As a result, NAScenT is capable of reconstructing challenging scenes including both large, sparsely populated volumes like UAV captured outdoor environments, as well as small scenes with high geometric complexity. NAScenT outperforms existing neural rendering approaches in terms of both quality and training time. <br><br> 
+
+
+<h3 id="results">Visual Comparison</h3>
+<h4>Figure 1</h4>
+Novel View Comparison on Synthetic Dataset [MST ∗ 20]. We render viewpoints from near to far for visualizing viewpoint change
+and the influence of geometry in rendering.<br> 
+<img src="fig1.png" width="100%"/> <br> 
+
+
+<h4>Figure 2</h4>
+Novel View Comparison on Real Scene Dataset [MST ∗ 20]. We render extrapolated viewpoints that far away from view sampling
+in the training dataset, to show the rendering performance for challenging large viewpoint change.<br> 
+<img src="fig2.png" width="100%"/> <br> 
+
+
+<h4>Figure 3</h4>
+UAV scene reconstruction. We compare our method against NeRF [MST ∗ 20], MipNeRF [BMT ∗ 21].<br> 
+<img src="fig3.png" width="70%"/> <br> 
+
+	
+<h3 id="paper">Paper & Supplement</h3>
+
+<pre class="tab">Paper <a href="Rui2022NAScenT.pdf">[main.pdf]</a> </pre> 
+<pre class="tab">Supplement <a href="Rui2022NAScenT-sub.pdf">[supp.pdf]</a> </pre>  <br><br>    
+
+
+	
+
+<h3 id="data">Code and dataset</h3>  
+ <pre class="tab">Source code  <a href="https://github.com/arthurlirui/neural_scene_reconstruction">[Github  (coming soon)]</a> </pre> <br>  
+ <pre class="tab">Dataset  <a href="https://github.com/arthurlirui/neural_scene_reconstruction">[Dataset (coming soon)]</a> </pre> <br>  
+	
+<h3 id="citation">Citation</h3>
+<pre>
+@InProceedings{Rui2022NAScenT, 
+      title={Neural Adaptive Scene Tracing (NAScenT)}, 
+      author={Li, Rui and Darius Rückert and Yuanhao Wang and Ramzi Idoughi and Heidrich, Wolfgang},  
+      booktitle = {The Symposium on Vision, Modeling, and Visualization (VMV)}, 
+      year = {2022}
+      }
+</pre>
+
+
+
+   
+</div>
