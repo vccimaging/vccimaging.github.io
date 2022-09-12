@@ -32,42 +32,6 @@ Overview of the architecture of our framework. <br><br>
 We propose IntraTomo, a powerful framework that combines the benefits of learning-based and model-based approaches for solving highly ill-posed inverse problems, in the Computed Tomography (CT) context. IntraTomo is composed of two core modules: a novel sinogram prediction module and a geometry refinement module, which are applied iteratively. In the first module, the unknown density field is represented as a continuous and differentiable function, parameterized by a deep neural network. This network is learned, in a self-supervised fashion, from the incomplete or/and degraded input sinogram. After getting estimated through the sinogram prediction module, the density field is consistently refined in the second module using local and non-local geometrical priors.
 With these two core modules, we show that IntraTomo significantly outperforms existing approaches on several ill-posed inverse problems, such as limited angle tomography with a range of 45 degrees, sparse view tomographic reconstruction with as few as eight views, or super-resolution tomography with eight times increased resolution. The experiments on simulated and real data show that our approach can achieve results of unprecedented quality. <br><br> 
 
-
-<h3 id="results">Main results</h3>
-<h4>Ablation studies</h4>
-On top we compare the network with and without Fourier features. The PSNR and SSIM values indicatea significant improvement when using Fourier features.  On the bottom we compare the use of ReLU vs. Swish activation functions.The improvement in PSNR and SSIM values is more modest, butthe visual difference is still very significant.<br> 
-<img src="result_study.png" width="70%"/> <br> 
-
-
-<h4>Sparse view tomography.</h4>
-Sparse view tomographic reconstruction. From top to bottom: reconstruction with 8, 20, 20, and 20  sparse views over 180 degrees, respectively. PSNR(dB) and SSIM are shown for each approach in Table 1. For visibility, we rescaled the input sinogram and assigned different colormaps to different datasets.<br> 
-<img src="result_sparse_1.png" width="70%"/> <br> 
-
-
-<h4>Limited angle tomography.</h4>
-Limited angle tomographic reconstruction, where the input measurements are captured respectively from 45, 45, 60, and 90 limited angles for Sheppe-Logan (the first row), the LoDoPaB-CT dataset (the second row), the Pepper dataset (the third row), and the rose dataset (the last row). PSNR(dB) and SSIM are shown in Table 1 for each approach. For better visualization, we rescaled the input sinogram and assigned different colormaps to different datasets.<br> 
-<img src="result_limited_1.png" width="70%"/> <br> 
-
-
-<h4>Super-resolution tomography.</h4>
-Examples of super-resolution tomography. From left to right:  a IntraTomo trained on low-resolution sinogram with 64 measurements per view is evaluated in high-resolution with 512 measurements (8 $\times$ upsampling), a Lanczos upsampling, and a Bicubic upsampling of low-resolution sinogram with ROF reconstruction [26]. The (PSNR(dB)/ SSIM) measurements are given for each approach on the image.<br> 
-<img src="results_super.png" width="70%"/> <br> 
-
-
-<h4>Reconstruction with CT scans.</h4>
-From left to right: CT reconstruction of a Pepper with 60 limited angles, a rose flower with 90 limited angles, and a Covid19 patient (covid19-A-0000)[29] with 20 sparse views.<br> 
-<img src="result_render.png" width="70%"/> <br> 
-
-
-	
-<h3 id="paper">Paper and supplemen</h3>
-
-<pre class="tab">Paper <a href="Zang2021IntraTomo.pdf">[main.pdf]</a> </pre> 
-<pre class="tab">Supplement <a href="Zang2021IntraTomo-supp.pdf">[supp.pdf]</a> </pre>  <br><br>    
-
-
-	
-
 <h3 id="data">Code and dataset</h3>  
  <pre class="tab">Source code  <a href="https://github.com/gmzang/IntraTomo">[Github  (coming soon)]</a> </pre> <br>  
  <pre class="tab">Dataset  <a href="https://github.com/gmzang/IntraTomo">[Dataset (coming soon)]</a> </pre> <br>  
