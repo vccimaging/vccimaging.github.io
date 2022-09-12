@@ -1,4 +1,14 @@
 ---
+- id: Rui2022NAScenT
+  authors:
+    - R. Li
+    - D. Rückert
+    - Y. Wang
+    - R. Idoughi
+    - W. Heidrich
+  title: "Neural Adaptive Scene Tracing (NAScenT)"
+  venue: VMV
+  year: 2022
 
 - id: QianWang2022RethinkISP
   authors:
