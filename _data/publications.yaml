@@ -1,5 +1,6 @@
 ---
 
+
 - id: Wang2022DiffOptics
   authors:
     - C. Wang
@@ -8,6 +9,17 @@
   title: "dO: A differentiable engine for Deep Lens design of computational imaging systems"
   venue: IEEE Transactions on Computational Imaging
   year: 2022
+
+
+- id: Chen2022OE
+  authors:
+    - N. Chen
+    - C. Wang
+    - W. Heidrich
+  title: HTRSD-Hybrid Taylor Rayleigh-Sommerfeld diffraction
+  venue: Optics Express
+  year: 2022
+
 
 - id: Rui2022NAScenT
   authors:
@@ -19,6 +31,7 @@
   title: "Neural Adaptive Scene Tracing (NAScenT)"
   venue: VMV
   year: 2022
+
 
 - id: QianWang2022RethinkISP
   authors:
@@ -49,7 +62,7 @@
     - R. Li
     - R. Idoughi
     - W. Heidrich
-  title: "NeAT: Neural Adaptive Tomography"
+  title: "NeAT-Neural Adaptive Tomography"
   venue: ACM Transactions on Graphics (Proc. SIGGRAPH)
   year: 2022
 
