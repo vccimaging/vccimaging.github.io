@@ -14,7 +14,7 @@ layout: default
 <li><a href="#paper">Paper</a></li>
 </ul>
 <hr size="4", color="black", width="100%">
-<img src="teaser.jpg" width="80%"/> <br>
+<img src="teaser.png" width="80%"/> <br>
 Figure: Our engine dO models ray tracing in a lens system in a derivative-aware way, this enables ray tracing with back-propagation. To be derivative-aware, all modules must be differentiable so that gradients can be back-propagated from the error metric ϵ(p(θ)) to variable parameters θ. This is achieved by two stages of the reverse-mode AD: the forward and the backward passes. To ensure differentiability and efficiency, a custom ray-surface intersection solver is introduced. Instead of unrolling iterations for forward/backward, only the forward (no AD) is computed to obtain solutions at surfaces fi = 0, and gradients are amended afterwards.
 <br><br>​
 
