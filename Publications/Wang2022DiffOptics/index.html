@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h2> dO: A differentiable engine for Deep Lens design of computational imaging systems </h2>
+
+<a href="/People/wangc/">Congli Wang</a>, <a href="/People/chenn/">Ni Chen</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+<br>IEEE Transactions on Computational Imaging, 2022<br>
+
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+<img src="teaser.jpg" width="80%"/> <br>
+Figure: Our engine dO models ray tracing in a lens system in a derivative-aware way, this enables ray tracing with back-propagation. To be derivative-aware, all modules must be differentiable so that gradients can be back-propagated from the error metric ϵ(p(θ)) to variable parameters θ. This is achieved by two stages of the reverse-mode AD: the forward and the backward passes. To ensure differentiability and efficiency, a custom ray-surface intersection solver is introduced. Instead of unrolling iterations for forward/backward, only the forward (no AD) is computed to obtain solutions at surfaces fi = 0, and gradients are amended afterwards.
+<br><br>​
+
+<h4 id="abstract">Abstract</h4>
+<p>Computational imaging systems algorithmically post-process acquisition images either to reveal physical quantities of interest or to increase image quality, e.g., deblurring. Designing a computational imaging system requires co-design of optics and algorithms, and recently Deep Lens systems have been proposed in which both components are end-to-end designed using data-driven end-to-end training. However, progress on this exciting concept has so far been hampered by the lack of differentiable forward simulations for complex optical design spaces.
+Here, we introduce dO (DiffOptics) to provide derivative insights into the design pipeline to chain variable parameters and their gradients to an error metric through differential ray tracing. However, straightforward back-propagation of many millions of rays requires unaffordable device memory, and is not resolved by prior works. dO alleviates this issue using two customized memory-efficient techniques: differentiable ray-surface intersection and adjoint back-propagation. Broad application examples demonstrate the versatility and flexibility of dO, including classical lens designs in asphere, double-Gauss, and freeform, reverse engineering for metrology, and joint designs of optics-network in computational imaging applications. We believe dO enables a radically new approach to computational imaging system designs and relevant research domains.</p> <br><br>
+<h4 id="paper">Paper</h4>
+<pre class="tab">paper <a href="Wang2022DiffOptics.pdf">[Wang2022DiffOptics.pdf (26.2MB)]</a></pre>
+<pre class="tab">supplementary material <a href="Wang2022DiffOptics_supp.pdf">[Wang2022DiffOptics_supp.pdf (6.3MB)]</a></pre>
+<pre class="tab">code <a href=https://github.com/vccimaging/DiffOptics>[GitHub repository]</a></pre><br>
+</div>
