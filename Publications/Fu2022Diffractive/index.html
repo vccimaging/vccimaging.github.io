@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h2> Diffractive lensless imaging with optimized Voronoi-Fresnel phase </h2>
+
+<a href="/People/fuq/">Qiang Fu</a>, <a href="https://sites.google.com/site/yandongming/dong-ming-yans-homepage">Dong-Ming Yan</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+<br>Optics Express 2022<br>
+
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+<li><a href="#animation">Animation</a></li>
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+<img src="teaser.jpg" width="60%"/> <br>
+Figure 1. Overview of Voronoi-Fresnel lensless imaging. (a) Micrograph of the compound eyes of an Iridomyrmex purpureus (image courtesy of Roberto Keller,
+ANTWEB1008536, from www.antweb.org). (b) The proposed Voronoi-Fresnel lensless camera consists only of a phase element in close proximity to the sensor (distance 𝑡 is a few 𝑚𝑚). The zoom-in illustrates the detailed PSF and Bayer filters. (c) The first-order Fresnel phase function is the building block of the camera. Their center locations are distributed in a quasi-Centroidal Voronoi Tessellation across the 2D plane. (d) The PSF is an array of diffraction limited spots with optimal spatial locations (intensity enhanced for better visualization). (e) MTF (in log scale) is uniform across the Fourier domain. (f) The image reconstruction pipeline converts the uninterpretable raw data (left) to a high quality image (right).
+<br><br>​
+
+<h4 id="abstract">Abstract</h4>
+<p>Lensless cameras are a class of imaging devices that shrink the physical dimensions to the very close vicinity of the image sensor by replacing conventional compound lenses with integrated flat optics and computational algorithms. Here we report a diffractive lensless camera with spatially-coded Voronoi-Fresnel phase to achieve superior image quality. We propose a design principle of maximizing the acquired information in optics to facilitate the computational reconstruction. By introducing an easy-to-optimize Fourier domain metric, Modulation Transfer Function volume (MTFv), which is related to the Strehl ratio, we devise an optimization framework to guide the optimization of the diffractive optical element. The resulting Voronoi-Fresnel phase features an irregular array of quasi-Centroidal Voronoi cells containing a base first-order Fresnel phase function. We demonstrate and verify the imaging performance for photography applications with a prototype Voronoi-Fresnel lensless camera on a 1.6-megapixel image sensor in various illumination conditions. Results show that the proposed design outperforms existing lensless cameras, and could benefit the development of compact imaging systems that work in extreme physical conditions.</p> <br><br>
+
+<h4 id="animation">Animation of the Voronoi-Fresnel phase optimization</h4>
+<p> Animation of the quasi-CVT optimization process for an example Voronoi-Fresnel phase with 23 cells. The distance between the Voronoi-Fresnel phase and image sensor is set at 2 mm. The sensor pixels are 240 x 160, with a pixel pitch of 3.45 microns. The phase resolution is 1.15 microns, making a manufacturable 3x unsampling ratio compared with sensor resolution. To fully characterize the optimization, the process is run for 100 iterations, although the optimal result occurs in the early few iterations. (1) The phase profile at current iteration. (2) The generated PSF (shown in the square-root scale) at current iteration. (3) The MTF (shown in log scale) at current iteration. (4) The current optimal cell distribution with the maximum MTFv. Optimal result preserves both uniform and irregularity of the cells.
+</p> <br>
+<video width="640" height="480" controls>
+  <source src="Voronoi-Fresnel.mp4" type="video/mp4"> 
+</video>
+
+<h4 id="paper">Papers</h4>
+<pre class="tab">Paper <a href="Fu2022Diffractive.pdf">[Fu2022Diffractive.pdf (3.3MB)]</a></pre>
+<pre class="tab">Link <a href=https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-25-45807&id=522199>[Optics Express]</a></pre><br>
+<pre class="tab">Supplemental Document <a href="Fu2021Additive.pdf">[Fu2022Diffractive_supplement.pdf (2.8MB)]</a></pre>
+
+<h3 id="citation">Citation</h3>
+<pre>
+  @article{Fu2022Diffractive,
+  author = {Qiang Fu and Dong-Ming Yan and Wolfgang Heidrich},
+  journal = {Opt. Express},
+  keywords = {Diffractive optical elements; Fourier optics; Image quality; Imaging systems; Lens arrays; Spatial frequency},
+  number = {25},
+  pages = {45807--45823},
+  publisher = {Optica Publishing Group},
+  title = {Diffractive lensless imaging with optimized {Voronoi-Fresnel} phase},
+  volume = {30},
+  month = {Dec},
+  year = {2022},
+  }
+</pre>
+
+
+</div>
