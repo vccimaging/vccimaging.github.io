@@ -1,5 +1,13 @@
 ---
 
+- id: Fu2022Diffractive
+  authors:
+    - Q. Fu
+    - D. Yan
+    - W. Heidrich
+  title: "Diffractive lensless imaging with optimized Voronoi-Fresnel phase"
+  venue: Optics Express
+  year: 2022
 
 - id: Wang2022DiffOptics
   authors:
