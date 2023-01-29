@@ -31,13 +31,6 @@
   position: Ph.D. Student
   start: 2016
 
-- id: zangg
-  name: Guangming Zang
-  pubname: G. Zang
-  title: Dr.  
-  position: Research Engineer
-  start: 2020
-
 - id: fuq
   name: Qiang Fu
   pubname: Q. Fu
@@ -63,20 +56,6 @@
   position: Ph.D Student
   start: 2019
 
-- id: chenn
-  name: Ni Chen
-  pubname: N. Chen
-  title: Dr.
-  position: Researcher
-  start: 2019
-  end: 2022
-  
-- id: reyja
-  name: Julio Rey
-  pubname: J. Rey
-  position: M.Sc./Ph.D Student
-  start: 2020
-  
 - id: xingeyang
   name: Xinge Yang
   pubname: X. Yang
@@ -105,6 +84,32 @@
   
 # alumni
 
+- id: chenn
+  name: Ni Chen
+  pubname: N. Chen
+  title: Dr.
+  position: Researcher
+  start: 2019
+  end: 2022
+  nowat: "University of Arizona (Faculty)"
+
+- id: reyja
+  name: Julio Rey
+  pubname: J. Rey
+  position: M.S. Student
+  start: 2020
+  end: 2021
+  nowat: "KAUST Visual Computing Center (Ph.D Student)"
+  
+- id: zangg
+  name: Guangming Zang
+  pubname: G. Zang
+  title: Dr.  
+  position: Ph.D student, Research Engineer
+  start: 2014
+  end: 2021
+  nowat: "KAUST Visual Computing Center (Research Engineer)"
+
 - id: xiongj
   name: Jinhui Xiong
   title: Dr.
@@ -112,7 +117,7 @@
   position: Ph.D Student
   start: 2015
   end: 2021
-  nowat: Meta (Facebook) Reality Lab
+  nowat: "Meta (Facebook) Reality Lab (Senior Researcher)"
 
 - id: sunq
   name: Qilin Sun
@@ -130,7 +135,7 @@
   title: Dr.
   start: 2014
   end: 2021
-  nowat: "King Abdulaziz City for Science and Technology (KACST)"
+  nowat: "Saudi Data and AI Authority (SDAIA)"
 
 - id: wangc
   name: Congli Wang
@@ -139,7 +144,7 @@
   position: Ph.D Student
   start: 2015
   end: 2021
-  nowat: UC Berkeley
+  nowat: "UC Berkeley (PostDoc)"
 
 - id: yuqi
   name: Yuqi Li
@@ -148,7 +153,7 @@
   position: Post Doc
   start: 2019
   end: 2020
-  nowat: Ningbo University
+  nowat: "Ningbo University (Faculty)"
 
 - id: abujbakf
   name: Khaled Abujabara
@@ -171,15 +176,15 @@
   position: Post Doc
   start: 2016
   end: 2019
-  nowat: Tongji University
+  nowat: "Tongji University (Faculty)"
 
 - id: lim
   name: Muxingzi Li
   pubname: M. Li
-  position: Ph.D Student
+  position: MS student
   start: 2015
   end: 2018
-  nowat: INRIA
+  nowat: "INRIA (Ph.D student)"
 
 - id: ialsolami
   name: Ibrahim Alsolami
@@ -215,4 +220,4 @@
   position: MS Student
   start: 2014
   end: 2015
-  nowat: University of Toronto
+  nowat: "University of Toronto (Ph.D student)"
