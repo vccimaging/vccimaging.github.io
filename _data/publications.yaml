@@ -1,5 +1,16 @@
 ---
 
+- id: Li2023BUSIFusion
+  authors:
+    - J. Li
+    - Y. Li
+    - C. Wang
+    - X. Ye
+    - W. Heidrich
+  title: "BUSIFusion: Blind Unsupervised Single Image Fusion of Hyperspectral and RGB Images"
+  venue: IEEE Transactions on Computational Imaging
+  year: 2023
+
 - id: Fu2022Diffractive
   authors:
     - Q. Fu
