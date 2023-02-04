@@ -1,5 +1,14 @@
 ---
 
+- id: Li2023VR
+  authors:
+    - Y. Li
+    - Q. Fu
+    - W. Heidrich
+  title: "Extended Depth-of-Field Projector using Learned Diffractive Optics"
+  venue: IEEE VR 2023
+  year: 2023
+
 - id: Li2023BUSIFusion
   authors:
     - J. Li
