@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h2> GPU Accelerated 3D Tomographic Reconstruction and Visualization from Noisy Electron Microscopy Tilt-Series </h2>
+
+<a href="https://vccvisualization.org/people/reyramirez/">Julio Rey Ramirez</a>,
+<a href="https://vccvisualization.org/people/rautek/">Peter Rautek</a>,
+<a href="https://cemse.kaust.edu.sa/nanovis/people/person/ciril-bohak-0">Ciril Bohak</a>,											
+<a href="https://cemse.kaust.edu.sa/nanovis/people/person/ondrej-strnad">Ondrej Strnad</a>,
+<a href="http://www.lisailab.com/personal_zheyuanzhang.html">Zheyuan Zhang</a>,
+<a href="http://www.lisailab.com/lisai.html">Sai Li</a>,																		
+<a href="https://cemse.kaust.edu.sa/nanovis/people/person/ivan-viola">Ivan Viola</a>, 
+<a href="https://vccimaging.org/People/heidriw/">Wolfgang Heidrich</a>
+<br>IEEE Transactions on Visualization and Computer Graphics 2022<br>
+
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+<li><a href="#animation">Animation</a></li>
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+<img src="teaser.jpg" width="60%"/> <br>
+Reconstruction of COVID-19 tilt-series using our framework. From left to right, the result after a given number of iterations. The achieved level of denoising allows for direct 3D visualization (volume rendering) of the final volume.
+<br><br>​
+
+<h4 id="abstract">Abstract</h4>
+<p>We present a novel framework for 3D tomographic reconstruction and visualization of tomograms from noisy electron microscopy tilt-series. Our technique takes as an input aligned tilt-series from cryogenic electron microscopy and creates denoised 3D tomograms using a proximal jointly-optimized approach that iteratively performs reconstruction and denoising, relieving the users of the need to select appropriate denoising algorithms in the pre-reconstruction or post-reconstruction steps. The whole process is accelerated by exploiting parallelism on modern GPUs, and the results can be visualized immediately after the reconstruction using volume rendering tools incorporated in the framework. We show that our technique can be used with multiple combinations of reconstruction algorithms and regularizers, thanks to the flexibility provided by proximal algorithms. Additionally, the reconstruction framework is open-source and can be easily extended with additional reconstruction and denoising methods. Furthermore, our approach enables visualization of reconstruction error throughout the iterative process within the reconstructed tomogram and on projection planes of the input tilt-series. We evaluate our approach in comparison with state-of-the-art approaches and additionally show how our error visualization can be used for reconstruction evaluation.</p> <br><br>
+
+<h4 id="animation">Overview of our framework</h4>
+<p> Overview of our framework/
+</p> <br>
+<video width="500px" height="500px" controls="controls"/>   
+	<source src="sup_video.mp4" type="video/mp4"> 
+</video>
+
+<h4 id="paper">Papers</h4>
+<pre class="tab">Paper <a href="ReyRamirez2022TVCG.pdf">[ReyRamirez2022TVCG.pdf (33.5MB)]</a></pre>
+<pre class="tab">Link <a href=https://ieeexplore.ieee.org/document/9992117>[IEEE Transactions on Visualization and Computer Graphics]</a></pre><br>
+<pre class="tab">Supplemental Document <a href="ReyRamirez2022TVCG_sup.pdf">[ReyRamirez2022TVCG_sup.pdf (9.5MB)]</a></pre>
+<pre class="tab">Code <a href="https://github.com/juareyra/Proximal_CryoET/">[Github]</a></pre>
+
+<h3 id="citation">Citation</h3>
+<pre>
+@ARTICLE{9992117,
+  author={Ramirez, Julio Rey and Rautek, Peter and Bohak, Ciril and Strnad, Ondřej and Zhang, Zheyuan and Li, Sai and Viola, Ivan and Heidrich, Wolfgang},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={GPU Accelerated 3D Tomographic Reconstruction and Visualization from Noisy Electron Microscopy Tilt-Series}, 
+  year={2022},
+  pages={1-15},
+  doi={10.1109/TVCG.2022.3230445}}
+</pre>
+
+
+</div>

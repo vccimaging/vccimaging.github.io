@@ -20,6 +20,20 @@
   venue: IEEE Transactions on Computational Imaging
   year: 2023
 
+- id: ReyRamirez2022TVCG
+  authors:
+    - J. Rey Ramirez
+    - P. Rautek
+    - C. Bohak
+    - O. Strnad
+    - Z. Zhang
+    - S. Li
+    - I. Viola
+    - W. Heidrich
+  title: "GPU Accelerated 3D Tomographic Reconstruction and Visualization from Noisy Electron Microscopy Tilt-Series"
+  venue: IEEE Transactions on Visualization and Computer Graphics
+  year: 2022
+
 - id: Fu2022Diffractive
   authors:
     - Q. Fu
