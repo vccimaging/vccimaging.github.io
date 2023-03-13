@@ -1,5 +1,19 @@
 ---
 
+- id: Zhang2023MetaLens
+  authors:
+    - J. Zhang
+    - X. Dun
+    - J. Zhu
+    - Z. Zhang
+    - C. Feng
+    - Z. Wang
+    - W. Heidrich
+    - X. Cheng
+  title: "Large Numerical Aperture Metalens with High Modulation Transfer Function"
+  venue: ACS Photonics
+  year: 2023
+  
 - id: Li2023VR
   authors:
     - Y. Li
