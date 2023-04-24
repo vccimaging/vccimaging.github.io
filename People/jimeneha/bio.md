@@ -1,0 +1,5 @@
+Hector Jimenez is a Ph.D. student in Applied Physics at the Visual Computing Center at the King Abdullah University of Science and Technology (KAUST), where he works with Professor Wolfgang Heidrich as a member of the Computational Imaging Group.
+
+In 2012, he received his bachelor's diploma in Physics with a minor in Mathematics from the Instituto Politecnico Nacional in Mexico. Afterward, he worked at Holomex, a holographic security company in Mexico City, from 2013 to 2021, where he managed the optics lab. He also served as science teacher at Centro de Estudios Científicos y Técnologicos 9 (CECyT 9), a high school belonging to the Instituto Politécnico Nacional, in Mexico City, from 2014 to 2020. In 2020, he earned an MS degree in Physics from the Universidad Autonoma Metropolitana in Mexico City.
+
+Hector joined KAUST in 2020 as a Ph.D. student at the Computational Physics and Material Science Lab (CPMS), focusing his research on simulating the behavior of electrons in atoms under electromagnetic fields. His most recent research interests involve computational imaging, optical design and fabrication, and optimization of end-to-end imaging systems.
