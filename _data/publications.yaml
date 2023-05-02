@@ -1,5 +1,14 @@
 ---
 
+-id: Simeng2023MoireTag
+  authors:
+    - S. Qiu
+    - H. Amata
+    - W. Heidrich
+  title: "MoiréTag: Angular Measurement and Tracking with a Passive Marker"
+  venue: SIGGRAPH
+  year: 2023
+  
 - id: Zhang2023MetaLens
   authors:
     - J. Zhang
