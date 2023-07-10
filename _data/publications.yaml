@@ -1,5 +1,15 @@
 ---
 
+- id: Yang2023AATDfF
+  authors:
+    - X. Yang
+    - Q. Fu
+    - M. Elhoseiny
+    - W. Heidrich
+  title: "Aberration-Aware Depth-from-Focus"
+  venue: ICCP & IEEE TPAMI
+  year: 2023
+
 - id: Simeng2023MoireTag
   authors:
     - S. Qiu

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="projectPage">
+     
+<h3> Aberration-Aware Depth-from-Focus. </h3>
+
+<a href="/People/xingeyang/">Xinge Yang</a>, <a href="/People/fuq/">Qiang Fu</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> ICCP, IEEE TPAMI, 2022.  <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="teaser.jpg" style="width:1800px;height:400px;"> <br>
+<b>Aberration-Aware Training pipeline.</b> (a) all-in-focus RGB images and corresponding depth maps are given as the input. (b) different focus distances are selected to simulate the focal swap process. The PSF network estimates PSF for different object positions and focus distances (orange path). Then the PSF is convolved with the all-in-focus image to get the focal stack (blue path). (c) the DfF network takes the focal stack and focus distances to estimate the depth map (black path). <br><br>
+
+
+<h4 id="abstract">Abstract</h4>
+Computer vision methods for depth estimation usually use simple camera models with idealized optics. For modern machine learning approaches, this creates an issue when attempting to train deep networks with simulated data, especially for focus-sensitive tasks like Depth-from-Focus. In this work, we investigate the domain gap caused by off-axis aberrations that will affect the decision of the best-focused frame in a focal stack. We then explore bridging this domain gap through aberration-aware training (AAT). Our approach involves a lightweight network that models lens aberrations at different positions and focus distances, which is then integrated into the conventional network training pipeline. We evaluate the generality of network models on both synthetic and real-world data. The experimental results demonstrate that the proposed AAT scheme can improve depth estimation accuracy without fine-tuning the model for different datasets. <br><br>
+
+
+<h4 id="link">Links</h4>
+<pre class="tab">Paper                  <a href="Yang2023AATDfF.pdf">[Yang2022AutoLens.pdf]</a> </pre>
+<pre class="tab">Supplementary          <a href="Yang2023AATDfF_supp.pdf">[Yang2022AutoLens.pdf]</a> </pre>
+<pre class="tab">Code (coming soon)     <a href="https://github.com/vccimaging/Aberration-Aware-Depth-from-Focus">[https://github.com/vccimaging/Aberration-Aware-Depth-from-Focus]</a></pre> <br>
+    
+
+</div>
