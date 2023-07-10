@@ -1,5 +1,13 @@
 ---
 
+- id: Qi2023HPIVAD
+  authors:
+    - M. Qi
+    - W. Heidrich
+  title: "Scattering-aware Holographic PIV with Physics-based Motion Priors"
+  venue: ICCP
+  year: 2023
+
 - id: Yang2023AATDfF
   authors:
     - X. Yang
