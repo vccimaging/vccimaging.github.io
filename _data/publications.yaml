@@ -1581,7 +1581,7 @@
   pages: 40.1--40.14
   month: August
   url: "http://www.cs.ubc.ca/nest/imager/tr/2011/Mantiuk_HDR-VDP-2/"
-  note: ACM SIGGRAPH Test of Time Award 2023
+  award: ACM SIGGRAPH Test of Time Award 2023
 
 - id: Lau2011CCS
   authors:
@@ -2165,6 +2165,8 @@
   month: August
   pages: 760--768
   url: "http://www.cs.ubc.ca/labs/imager/tr/2004/Seetzen_2004_HDR"
+  award: Selected for ACM Sigrgaph's Seminal Graphics Papers: Pushing the Boundaries, Volume 2
+
 
 - id: Wang2004DIV
   authors:
