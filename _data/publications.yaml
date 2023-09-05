@@ -1,5 +1,14 @@
 ---
 
+- id:Chen2023DiffHolo
+  authors:
+    - N. Chen
+    - C. Wang
+    - W. Heidrich
+  title: "∂H: Differentiable Holography"
+  venue: "Laser & Photonics Reviews"
+  year: 2023
+
 - id: Hadi2023SPIE
   authors:
     - H. Amata
