@@ -1,5 +1,14 @@
 ---
 
+- id: Wang2023LearningAdaptiveTDF
+  authors:
+    - Y. Wang
+    - R. Idoughi
+    - W. Heidrich
+  title: "Learning Adaptive Tensorial Density Fields for Clean Cryo-EM Reconstruction"
+  venue: NeurIPS
+  year: 2023
+
 - id: Wang2023AdaptiveDiffGrids
   authors:
     - Y. Wang
