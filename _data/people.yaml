@@ -25,30 +25,12 @@
   position: Research Scientist
   start: 2016
 
-- id: wangyh
-  name: Yuanhao Wang
-  pubname: Y. Wang
-  position: Ph.D. Student
-  start: 2016
-
 - id: fuq
   name: Qiang Fu
   pubname: Q. Fu
   title: Dr.
   position: Research Scientist
   start: 2017
-
-- id: lir
-  name: Rui Li
-  pubname: R. Li
-  position: Ph.D Student
-  start: 2016
-
-- id: simeng
-  name: Simeng Qiu
-  pubname: S. Qiu
-  position: Ph.D Student
-  start: 2018
 
 - id: qim
   name: Miao Qi
@@ -97,6 +79,30 @@
   start: 2023
   
 # alumni
+
+- id: simeng
+  name: Simeng Qiu
+  pubname: S. Qiu
+  position: Ph.D Student
+  start: 2018
+  end: 2023
+  nowat: Swansea University (Faculty)
+
+- id: wangyh
+  name: Yuanhao Wang
+  pubname: Y. Wang
+  position: Ph.D. Student
+  start: 2016
+  end: 2023
+  nowat: Washington University in St. Louis (PostDoc)
+
+- id: lir
+  name: Rui Li
+  pubname: R. Li
+  position: Ph.D Student
+  start: 2016
+  end: 2023
+  nowat: Peng Cheng Lab
 
 - id: chenn
   name: Ni Chen
