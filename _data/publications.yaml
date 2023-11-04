@@ -1,5 +1,13 @@
 ---
-
+- id: HadiOE2023
+  authors:
+    - H. Amata
+    - Q. Fu
+    - W. Heidrich
+  title: "Additive fabrication of SiO2-based micro-optics with lag-free depth and reduced roughness"
+  venue: Optics Express
+  year: 2023
+  
 - id: Wang2023LearningAdaptiveTDF
   authors:
     - Y. Wang
