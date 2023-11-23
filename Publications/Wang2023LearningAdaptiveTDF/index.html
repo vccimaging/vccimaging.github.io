@@ -18,6 +18,10 @@ layout: default
 </ul>
 <hr size="4", color="black", width="100%">
 
+<img src="framework.png" width="70%"/> <br>
+Our framework is composed of two steps: During the training step (a) we first update the quadtree structure using downsampled projections. Then, we freeze that structure and update the tensor representation in each node using the original noisy projections. 
+The second step is the volume querying (b), where we uniformly sample the ROI, and use the learned representation to estimate the densities at the selected positions. <br><br>
+
 <h4 id="abstract">Abstract</h4>
 We present a novel learning-based framework for reconstructing 3D structures from tilt-series cryo-Electron Tomography (cryo-ET) data. 
 Cryo-ET is a powerful imaging technique that can achieve near-atomic resolutions. Still, it suffers from challenges such as missing-wedge acquisition, large data size, and high noise levels.
