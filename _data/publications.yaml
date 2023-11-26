@@ -1,4 +1,16 @@
 ---
+- id: Yidan2023OE
+  authors:
+    - Y. Zheng
+    - Q. Fu
+    - H. Amata
+    - P. Chakravarthula
+    - F. Heide
+    - W. Heidrich
+  title: "Hexagonal diffractive optical elements (Coming soon)"
+  venue: Optics Express
+  year: 2023
+  
 - id: Hadi2023OE
   authors:
     - H. Amata
