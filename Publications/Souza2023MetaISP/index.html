@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<div class="projectPage">
+     
+<h3> MetaISP – Exploiting Global Scene Structure for Accurate Multi-Device Color Rendition </h3>
+
+<a href="/People/souzama/">Matheus Souza</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> VMV, 2023 <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="teaser.png" width="60%"> <br>
+
+
+<h4 id="abstract">Abstract</h4>
+Image signal processors (ISPs) are historically grown legacy software systems for reconstructing color images from noisy
+raw sensor measurements. Each smartphone manufacturer has developed its ISPs with its own characteristic heuristics for
+improving the color rendition, for example, skin tones and other visually essential colors. The recent interest in replacing the
+historically grown ISP systems with deep-learned pipelines to match DSLR’s image quality improves structural features in the
+image. However, these works ignore the superior color processing based on semantic scene analysis that distinguishes mobile
+phone ISPs from DSLRs. Here, we present MetaISP, a single model designed to learn how to translate between the color and
+local contrast characteristics of different devices. MetaISP takes the RAW image from device A as input and translates it to RGB
+images that inherit the appearance characteristics of devices A, B, and C. We achieve this result by employing a lightweight
+deep learning technique that conditions its output appearance based on the device of interest. In this approach, we leverage
+novel attention mechanisms inspired by cross-covariance to learn global scene semantics. Additionally, we use the metadata
+that typically accompanies RAW images and estimate scene illuminants when they are unavailable. <br><br>
+
+
+<h4 id="paper">Content</h4>
+<pre class="tab">Paper         <a href="MetaISPSouza.pdf">[MetaISP]</a> </pre>
+<pre class="tab">Supplementary <a href="MetaISPSouza_sup.pdf">[MetaISP Supplementary]</a> </pre>
+<pre class="tab">Code          <a href="https://github.com/vccimaging/MetaISP">[Github Repo]</a></pre>
+<pre class="tab">Dataset       <a href="https://drive.google.com/drive/folders/1tLWlx0LDUjQ9niZje0cfLKt98dx1VEIR?usp=sharing">[Monitor and Real-World]</a></pre> <br>
+
+    
+
+</div>
