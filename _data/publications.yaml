@@ -39,7 +39,15 @@
   title: "Adaptive Differentiable Grids for Cryo-Electron Tomography Reconstruction and Denoising"
   venue: Bioinformatics Advances
   year: 2023
-
+  
+- id: Souza2023MetaISP
+  authors:
+    - M. Souza
+    - W. Heidrich
+  title: "MetaISP – Exploiting Global Scene Structure for AccurateMulti-Device Color Rendition"
+  venue: Vision, Modeling, and Visualization (VMV)
+  year: 2023
+  
 - id: Chen2023DiffHolo
   authors:
     - N. Chen
