@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h3> Adaptive Differentiable Grids for Cryo-Electron Tomography Reconstruction and Denoising </h3>
+  
+<a href="/People/wangyh/">Yuanhao Wang</a>, <a href="/People/idoughr/">Ramzi Idoughi</a>, <a href="https://www.lgdv.tf.fau.de/person/darius-rueckert/">Darius Rückert</a>, <a href="/People/lir/">Rui Li</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+<br />
+
+<br>Bioinformatics Advances <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+<li><a href="#data">Code and Dataset</a></li> 
+<li><a href="#acknowledgement">Acknowledgement</a></li>
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="framework.PNG" width="70%"/> <br>
+Our workflow contained two steps, the first is the training part to generate continuous differentiable density grids, and the second part is to query the
+densities in the Region Of Interest (ROI). <br><br>
+
+<h4 id="abstract">Abstract</h4>
+<b>Motivation:</b> Tilt-series cryo-Electron Tomography is a powerful tool widely used in structural biology to study three-dimensional structures of micro-organisms, macromolecular complexes, etc. Still the reconstruction process remains an arduous task due to several challenges: The missing-wedge acquisition, sample misalignment and motion, the need to process large data, and especially a low signal-to-noise ratio (SNR). <br>
+<b>Results:</b> Inspired by the recently introduced neural representations, we propose an adaptive learned-based representation of the density field of the captured sample. This representation consists of an octree structure, where each node represents a 3D density grid optimized from the captured projections during the training process. This optimization is performed using a loss that combines a differentiable image formation model with different regularization terms: total variation, boundary consistency, and a cross-nodes non-local constraint. The final reconstruction is obtained by interpolating the learned density grid at the desired voxel positions.<br>
+The evaluation of our approach using captured data of viruses and cells shows that our proposed representation is well-adapted to handle missing-wedges, and improves the SNR of the reconstructed tomogram. The reconstruction quality is highly improved in comparison to the state-of-the-art methods, while using the lowest computing time footprint.<br>
+<br><br><br>
+
+<h3 id="paper">Paper</h3>
+<pre class="tab">Paper <a href="Wang2023AdaptiveDiffGrids.pdf">[Wang2023AdaptiveDiffGrids.pdf (~23.2MB)]</a> </pre>
+<pre class="tab">Supplement <a href="Wang2023AdaptiveDiffGrids_supp.pdf">[Wang2023AdaptiveDiffGrids_supp.pdf (~20.6MB)]</a> </pre>
+
+<h3 id="data">Code and Datasets</h3>  
+ <pre class="tab">Source code shared on <a href="https://github.com/yuanhaowang1213/adaptivediffgrid_ex">[Github]</a> </pre> <br>  
+ <pre class="tab">Datasets from the <a href="https://www.ebi.ac.uk/empiar/">[EMPIAR (the Electron Microscopy Public Image Archive)]</a> </pre> <br>  
+
+<h3 id="acknowledgement">Acknowledgement</h3>
+This work was supported by King Abdullah University of Science and Technology as part of VCC Center Competitive Funding.
+	
+<h3 id="citation">Citation</h3>
+<pre>
+@article{wang2023adaptive,
+  title={Adaptive Differentiable Grids for Cryo-Electron Tomography Reconstruction and Denoising},
+  author={Wang, Yuanhao and Idoughi, Ramzi and R{\"u}ckert, Darius and Li, Rui and Heidrich, Wolfgang},
+  journal={Bioinformatics Advances},
+  pages={vbad131},
+  year={2023},
+  publisher={Oxford University Press}
+}
+</pre>  
+
+</div>

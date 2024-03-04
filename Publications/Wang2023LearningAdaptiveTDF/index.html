@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h3> Learning Adaptive Tensorial Density Fields for <i>Clean</i> Cryo-EM Reconstruction </h3>
+  
+<a href="/People/wangyh/">Yuanhao Wang</a>, <a href="/People/idoughr/">Ramzi Idoughi</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+<br />
+
+<br>NeurIPS (Poster)<br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+<li><a href="#data">Code and Dataset</a></li>   
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="framework.png" width="70%"/> <br>
+Our framework is composed of two steps: During the training step (a) we first update the quadtree structure using downsampled projections. Then, we freeze that structure and update the tensor representation in each node using the original noisy projections. 
+The second step is the volume querying (b), where we uniformly sample the ROI, and use the learned representation to estimate the densities at the selected positions. <br><br>
+
+<h4 id="abstract">Abstract</h4>
+We present a novel learning-based framework for reconstructing 3D structures from tilt-series cryo-Electron Tomography (cryo-ET) data. 
+Cryo-ET is a powerful imaging technique that can achieve near-atomic resolutions. Still, it suffers from challenges such as missing-wedge acquisition, large data size, and high noise levels.
+Our framework addresses these challenges by using an adaptive tensorial-based representation for the 3D density field of the scanned sample. 
+First, we optimize a quadtree structure to partition the volume of interest. Then, we learn a vector-matrix factorization of the tensor representing the density field in each node. 
+Moreover, we use a loss function that combines a differentiable tomographic formation model with three regularization terms: total variation, boundary consistency constraint, and an isotropic Fourier prior. 
+Our framework allows us to query the density at any location using the learned representation and obtain a high-quality 3D tomogram. 
+We demonstrate the superiority of our framework over existing methods using synthetic and real data. 
+Thus, our framework boosts the quality of the reconstruction while reducing the computation time and the memory footprint. 
+The code is available at <a href="https://github.com/yuanhaowang1213/adaptivetensordf">https://github.com/yuanhaowang1213/adaptivetensordf</a>.<br>
+<br><br><br>
+
+<h3 id="paper">Paper</h3>
+<pre class="tab">Paper <a href="Wang2023LearningAdaptiveTDF.pdf">[Wang2023LearningAdaptiveTDF.pdf (~21.8MB)]</a> </pre>
+<pre class="tab">Supplement <a href="https://openreview.net/attachment?id=r7g9nFsulw&name=supplementary_material">[Wang2023LearningAdaptiveTDF_supp.pdf (~37.9MB)]</a> </pre>
+
+<h3 id="data">Code and Datasets</h3>  
+ <pre class="tab">Source code shared on <a href="https://github.com/yuanhaowang1213/adaptivetensordf">[Github]</a> </pre> <br>  
+ <pre class="tab">Datasets from the <a href="https://www.ebi.ac.uk/empiar/">[EMPIAR (the Electron Microscopy Public Image Archive)]</a> </pre> <br>  
+
+<h3 id="acknowledgement">Acknowledgement</h3>
+This work was supported by King Abdullah University of Science and Technology as part of VCC Center Competitive Funding.
+	
+<h3 id="citation">Citation</h3>
+<pre>
+@inproceedings{wang2023learning,
+	title={Learning Adaptive Tensorial Density Fields for Clean Cryo-{ET} Reconstruction},
+	author={Yuanhao Wang and Ramzi Idoughi and Wolfgang Heidrich},
+	booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+	year={2023},
+	url={https://openreview.net/forum?id=r7g9nFsulw}
+}
+</pre> 
+
+</div>
+

@@ -57,6 +57,7 @@ The ```UniqueID``` is a unique identifier for each paper (Something like ```<Aut
 - ```/Publications/<UniqueID>/<UniqueID>.pdf```: PDF of the article
 - ```/Publications/<UniqueID>/published```: project page linked to ```<UniqueID>/index.html```
 
+**Important**: please make sure to resize the tumbnail images to 100x100, otherwise loading the publication pages can take too long!
 
 Each publication may have additional fields (e.g. ```volume```, ```number``` etc.). These are currently ignored but may be used in the future for purposes like automatic generation of BibTeX entries. 
 

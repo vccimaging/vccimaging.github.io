@@ -25,30 +25,12 @@
   position: Research Scientist
   start: 2016
 
-- id: wangyh
-  name: Yuanhao Wang
-  pubname: Y. Wang
-  position: Ph.D. Student
-  start: 2016
-
 - id: fuq
   name: Qiang Fu
   pubname: Q. Fu
   title: Dr.
   position: Research Scientist
   start: 2017
-
-- id: lir
-  name: Rui Li
-  pubname: R. Li
-  position: Ph.D Student
-  start: 2016
-
-- id: simeng
-  name: Simeng Qiu
-  pubname: S. Qiu
-  position: Ph.D Student
-  start: 2018
 
 - id: qim
   name: Miao Qi
@@ -89,7 +71,62 @@
   position: Ph.D Student
   start: 2023
   
+- id: smao
+  name: Shi Mao
+  pubname: S. Mao
+  title:
+  position: Ph.D Student
+  start: 2023
+
+- id: ynmishra
+  name: Yogeshwar N. Mishra
+  pubname: Yogeshwar N. Mishra
+  title: Dr.
+  position: Research Scientist
+  start: 2023
+
+- id: kangk
+  name: Kaizhang Kang
+  pubname: K. Kang
+  title: Dr.
+  position: Postdoctoral Researcher
+  start: 2023
+
+- id: kxwei
+  name: Kaixuan Wei
+  pubname: K. Wei
+  title: 
+  position: Ph.D Student
+  start: 2024
+  
 # alumni
+
+- id: simeng
+  name: Simeng Qiu
+  title: Dr.
+  pubname: S. Qiu
+  position: Ph.D Student
+  start: 2018
+  end: 2023
+  nowat: Swansea University (Faculty)
+
+- id: wangyh
+  name: Yuanhao Wang
+  title: Dr.
+  pubname: Y. Wang
+  position: Ph.D. Student
+  start: 2016
+  end: 2023
+  nowat: Washington University in St. Louis (PostDoc)
+
+- id: lir
+  name: Rui Li
+  title: Dr.
+  pubname: R. Li
+  position: Ph.D Student
+  start: 2016
+  end: 2023
+  nowat: Peng Cheng Lab
 
 - id: chenn
   name: Ni Chen

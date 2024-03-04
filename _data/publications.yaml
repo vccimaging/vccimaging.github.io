@@ -1,4 +1,78 @@
 ---
+- id: Yidan2023OE
+  authors:
+    - Y. Zheng
+    - Q. Fu
+    - H. Amata
+    - P. Chakravarthula
+    - F. Heide
+    - W. Heidrich
+  title: "Hexagonal diffractive optical elements"
+  venue: Optics Express
+  year: 2023
+  
+- id: Hadi2023OE
+  authors:
+    - H. Amata
+    - Q. Fu
+    - W. Heidrich
+  title: "Additive fabrication of SiO2-based micro-optics with lag-free depth and reduced roughness"
+  venue: Optics Express
+  year: 2023
+  
+- id: Wang2023LearningAdaptiveTDF
+  authors:
+    - Y. Wang
+    - R. Idoughi
+    - W. Heidrich
+  title: "Learning Adaptive Tensorial Density Fields for Clean Cryo-EM Reconstruction"
+  venue: NeurIPS
+  year: 2023
+
+- id: Wang2023AdaptiveDiffGrids
+  authors:
+    - Y. Wang
+    - R. Idoughi
+    - D. Rückert
+    - R. Li
+    - W. Heidrich
+  title: "Adaptive Differentiable Grids for Cryo-Electron Tomography Reconstruction and Denoising"
+  venue: Bioinformatics Advances
+  year: 2023
+  
+- id: Souza2023MetaISP
+  authors:
+    - M. Souza
+    - W. Heidrich
+  title: "MetaISP – Exploiting Global Scene Structure for Accurate Multi-Device Color Rendition"
+  venue: Vision, Modeling, and Visualization (VMV)
+  year: 2023
+  
+- id: Chen2023DiffHolo
+  authors:
+    - N. Chen
+    - C. Wang
+    - W. Heidrich
+  title: "∂H: Differentiable Holography"
+  venue: "Laser & Photonics Reviews"
+  year: 2023
+
+- id: Hadi2023SPIE
+  authors:
+    - H. Amata
+    - Q. Fu
+    - W. Heidrich
+  title: "Additive diffractive optical elements fabrication by PECVD deposition of SiO2 and lift-off process"
+  venue: Proc. SPIE 12624, Digital Optical Technologies
+  year: 2023
+
+- id: Qi2023HPIVAD
+  authors:
+    - M. Qi
+    - W. Heidrich
+  title: "Scattering-aware Holographic PIV with Physics-based Motion Priors"
+  venue: ICCP
+  year: 2023
 
 - id: Yang2023AATDfF
   authors:
@@ -1564,6 +1638,7 @@
   pages: 40.1--40.14
   month: August
   url: "http://www.cs.ubc.ca/nest/imager/tr/2011/Mantiuk_HDR-VDP-2/"
+  award: ACM SIGGRAPH Test of Time Award 2023
 
 - id: Lau2011CCS
   authors:
@@ -2147,6 +2222,8 @@
   month: August
   pages: 760--768
   url: "http://www.cs.ubc.ca/labs/imager/tr/2004/Seetzen_2004_HDR"
+  award: "Selected for ACM Siggraph's Seminal Graphics Papers: Pushing the Boundaries, Volume 2"
+
 
 - id: Wang2004DIV
   authors:
