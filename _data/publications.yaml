@@ -1,4 +1,22 @@
 ---
+
+- id: Tseng2024Etendue
+  authors:
+    - E. Tseng
+    - G. Kuo
+    - S.-H. Baek
+    - N. Matsuda
+    - A. Maimone
+    - F. Schiffers
+    - P. Chakravarthula
+    - Q. Fu
+    - W. Heidrich
+    - D. Lanman
+    - F. Heide
+  title: "Neural étendue expander for ultra-wide-angle high-fidelity holographic display"
+  venue: Nature Communications
+  year: 2024
+
 - id: Yidan2023OE
   authors:
     - Y. Zheng
