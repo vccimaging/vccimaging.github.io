@@ -1,5 +1,20 @@
 ---
 
+- id: Shi2024SplitAperture
+  authors:
+    - Z. Shi
+    - I. Chugunov
+    - M. Bijelic
+    - G. Côté
+    - J. Yeom
+    - Q. Fu
+    - H. Amata
+    - W. Heidrich
+    - F. Heide
+  title: "Split-Aperture 2-in-1 Computational Cameras"
+  venue: "ACM Trans. Graphics (Proc. SIGGRAPH)"
+  year: 2024
+
 - id: Tseng2024Etendue
   authors:
     - E. Tseng
