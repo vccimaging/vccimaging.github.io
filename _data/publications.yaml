@@ -1,14 +1,5 @@
 ---
 
-- id: Yang2024Curriculum
-  authors:
-    - X. Yang
-    - Q. Fu
-    - W. Heidrich
-  title: "Curriculum learning for ab initio deep learned refractive optics"
-  venue: "Nature Communications"
-  year: 2024
-
 - id: Shi2024SplitAperture
   authors:
     - Z. Shi
