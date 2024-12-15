@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="projectPage">
+     
+<h3> Curriculum Learning for ab initio Deep Learned Refractive Optics. </h3>
+
+<a href="/People/xingeyang/">Xinge Yang</a>, <a href="/People/fuq/">Qiang Fu</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> Nature Communications, 2024.  <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="teaser.jpg" width="100%"> <br>
+<b>Curriculum learning for automated lens design.</b> <b>a</b> We utilize a differentiable ray-tracing approach to simulate the sensor captured image of an object image. This sensor capture can then be input into a downstream deep network for image reconstruction. During the forward image simulation (black arrows), we track the gradient of each optical parameter. We can subsequently back-propagate (blue arrows) the errors from either the simulated image for classical optical design, or from the network output for end-to-end optical design. The end-to-end optical design jointly optimizes the optical lens and the image reconstruction network. Classical lens design methods often face issues such as local minima and degenerate optical structures, including self-intersections, requiring appropriate starting points and consistent human intervention. We introduce a curriculum learning strategy that encompasses: a curriculum path (gray dashed arrow in a), optical regularization (b), and a re-weighting mask (c). <b>b</b> The optical regularization term presents lens from degenerate structures during the optimization. <c>c</c> The re-weighting mask dynamically directs attention towards problematic regions of simulated images during each epoch, compelling the optimization process to escape local minima. This curriculum learning strategy aims to automate the design of complex optical lenses from scratch, for both classical and computational lenses. <d>d</d> An example of this automated classical lens design using the curriculum learning strategy. The lens design process initiates from a flat structure, gradually elevating the design complexity until it meets the final design specifications. Detailed evaluations can be found in Table 1 and Supplementary Note 4.1. The cat image was photographed by Xinge Yang (CC BY 2.0). <br><br>
+
+
+<h4 id="abstract">Abstract</h4>
+Deep optical optimization has recently emerged as a new paradigm for designing computational imaging systems using only the output image as the objective. However, it has been limited to either simple optical systems consisting of a single element such as a diffractive optical element or metalens, or the fine-tuning of compound lenses from good initial designs. Here we present a DeepLens design method based on curriculum learning, which is able to learn optical designs of compound lenses ab initio from randomly initialized surfaces without human intervention, therefore overcoming the need for a good initial design. We demonstrate the effectiveness of our approach by fully automatically designing both classical imaging lenses and a large field-of-view extended depth-of-field computational lens in a cellphone-style form factor, with highly aspheric surfaces and a short back focal length.<br><br>
+
+
+<h4 id="paper">Paper</h4>
+<pre class="tab">Paper                  <a href="Yang2024DeepLens.pdf">[Yang2024DeepLens.pdf (~3MB)]</a> </pre>
+<pre class="tab">Supplementary          <a href="Yang2024DeepLens_supp.pdf">[Yang2024DeepLens_supp.pdf (~60MB)]</a> </pre>
+<pre class="tab">Code                   <a href="https://github.com/vccimaging/DeepLens">[https://github.com/vccimaging/DeepLens]</a></pre> <br>
+    
+
+</div>
