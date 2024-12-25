@@ -32,11 +32,6 @@
   position: Research Scientist
   start: 2017
 
-- id: qim
-  name: Miao Qi
-  pubname: M. Qi
-  position: Ph.D Student
-  start: 2019
 
 - id: xingeyang
   name: Xinge Yang
@@ -100,6 +95,15 @@
   start: 2024
   
 # alumni
+
+- id: qim
+  name: Miao Qi
+  pubname: M. Qi
+  position: Ph.D Student
+  start: 2019
+  end: 2023
+
+
 
 - id: simeng
   name: Simeng Qiu
