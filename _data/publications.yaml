@@ -1,11 +1,22 @@
 ---
 
+- id: Ming2024DynamicFP
+  authors:
+    - M. Sun
+    - K. Wang
+    - Y. N. Mishra
+    - S. Qiu
+    - W. Heidrich
+  title: "Dynamic Fourier Ptychography via Space-Time Optimization"
+  venue: Optica Imaging Congress (Computational Optical Sensing and Imaging 2024)
+  year: 2024 
+
 - id: Ming2024STFP
   authors:
-    - S. Ming
-    - W. Kunyi
-    - M. Yogeshwar
-    - Q. Simeng
+    - M. Sun
+    - K. Wang
+    - Y. N. Mishra
+    - S. Qiu
     - W. Heidrich
   title: "Space-time Fourier ptychography for in vivo quantitative phase imaging"
   venue: Optica
