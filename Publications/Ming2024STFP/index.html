@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="projectPage">
+     
+<h3> Space-time Fourier ptychography for in vivo quantitative phase imaging. </h3>
+
+<a href="/People/ming/">Ming Sun</a>, <a href="https://scholar.google.com/citations?user=D4xDAlUAAAAJ&hl=en/">Kunyi Wang</a>, <a href="/People/ynmishra/">Yogeshwar Nath Mishra</a>, <a href="/People/simeng/">Simeng Qiu</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> Optica, 2024. <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="teaser.png" width="100%"> <br>
+<b>Principle of Space-time Fourier Ptychography (ST-FP).</b> (a) Schematic of ST-FP setup, including multiplexed LED illumination and the pathway through lenses to the sensor,
+            captures the dynamics of living organisms. (b) To address rapid deformations between successive frames, 
+            a novel reconstruction approach utilizes warping to approximate intermediate frame states. For each time stamp, 
+            raw data <b>b<sub>t</sub></b> is captured under multiplexed illumination. Utilizing motion fields 
+            <b>-v<sub>t-1</sub></b> and <b>v<sub>t</sub></b>, backward and forward warping are applied to estimate 
+            <b>o<sub>t-1</sub></b> and <b>o<sub>t+1</sub></b>, respectively. This approach effectively aggregates phase 
+            and amplitude information across time, resulting in increased reconstruction accuracy and resolution. 
+            This method aligns each captured raw frame with its temporal stamp, allowing for the reconstruction of 
+            objects even with significant motion, as opposed to the traditional scheme that requires negligible object movement.<br><br>
+
+<h4 id="abstract">Abstract</h4>
+Quantitative phase imaging of living biological specimens is
+challenging due to their continuous movement and complex
+behavior. Here, we introduce Space-time Fourier ptychography (ST-FP),
+which combines a fast Fourier ptychography (FP) model based on
+compressive sensing with novel space-time motion priors for joint
+reconstruction of quantitative phase, intensity, and motion fields
+across consecutive frames. Using the same input data as compressed
+sensing FP, ST-FP increases the space-bandwidth-time product of the
+reconstructed complex image sequences while leveraging redundant
+temporal information to achieve robust reconstruction performance.
+The efficacy of this approach is demonstrated across various
+applications, particularly in observing living microorganisms
+undergoing rapid morphological changes and reconstructing amplitude
+and phase targets in motion. The improved phase retrieval capability
+of ST-FP enables digital refocusing, facilitating comprehensive
+three-dimensional analysis of microorganisms. This advancement paves
+the way for enhanced visualization of cellular processes,
+developmental biology studies, and investigations into life mechanics
+at the microscopic level. <br><br>
+
+<h4 id="paper">Paper</h4>
+<pre class="tab">Paper                  <a href="Ming_STFP_2024.pdf">[Ming_STFP_2024.pdf]</a> </pre>
+<pre class="tab">Supplementary          <a href="Ming_STFP_2024_supp.pdf">[Ming_STFP_2024_supp.pdf]</a> </pre>
+<pre class="tab"> More details          <a href="https://mingsun-kaust.github.io/ST-FP-Project-Page/">[https://mingsun-kaust.github.io/ST-FP-Project-Page/]</a></pre> <br>
+
+  
+</div>
