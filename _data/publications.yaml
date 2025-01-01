@@ -1,5 +1,16 @@
 ---
 
+- id: Ming2024STFP
+  authors:
+    - S. Ming
+    - W. Kunyi
+    - M. Yogeshwar
+    - Q. Simeng
+    - W. Heidrich
+  title: "Space-time Fourier ptychography for in vivo quantitative phase imaging"
+  venue: Optica
+  year: 2024 
+  
 - id: Yang2024HybridLens
   authors:
     - X. Yang
