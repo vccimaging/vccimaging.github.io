@@ -1,5 +1,13 @@
 ---
-
+- id: Hadi2024OpFab
+  authors:
+    - H. Amata
+    - Q. Fu
+    - W. Heidrich
+  title: "Comparative Performance Analysis of Multi-level Diffractive Lens and Lens Fabricated by Grayscale Lithography and Soft-imprinting"
+  venue: Optica Imaging Congress (Imaging Systems and Applications)
+  year: 2024 
+  
 - id: Ming2024DynamicFP
   authors:
     - M. Sun
