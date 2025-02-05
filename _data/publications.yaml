@@ -1,4 +1,13 @@
 ---
+- id: Jimenez2024E2EFLuidic
+  authors:
+    - H. A. Jimenez-Romero
+    - X. Yang
+    - W. Heidrich
+  title: "End-to-end Optimization of Fluidic Lenses"
+  venue: Siggraph Asia conference track
+  year: 2024
+  
 - id: Hadi2024OpFab
   authors:
     - H. Amata
