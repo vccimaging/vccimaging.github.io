@@ -1,8 +1,11 @@
 ---
 - id: Jimenez2024E2EFLuidic
   authors:
+    - N. Mulun
     - H. A. Jimenez-Romero
     - X. Yang
+    - J. Klein
+    - D. Michels
     - W. Heidrich
   title: "End-to-end Optimization of Fluidic Lenses"
   venue: Siggraph Asia conference track
