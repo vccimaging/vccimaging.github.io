@@ -1,4 +1,17 @@
 ---
+
+- id: Dave2025NeST
+  authors:
+    - A. Dave*
+    - T. Zhang*
+    - A. Young
+    - R. Raskar
+    - W. Heidrich
+    - A. Veeraraghavan
+  title: "NeST: Neural Stress Tensor Tomography by Leveraging 3D Photoelasticity
+  venue: ACM Transactions on Graphics
+  year: 2025
+
 - id: Jimenez2024E2EFLuidic
   authors:
     - N. Mulun*
@@ -8,7 +21,7 @@
     - D. Michels
     - W. Heidrich
   title: "End-to-end Optimization of Fluidic Lenses"
-  venue: SIGGRAPH Asia conference track
+  venue: SIGGRAPH Asia
   year: 2024
   
 - id: Hadi2024OpFab
