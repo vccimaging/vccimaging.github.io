@@ -12,6 +12,18 @@
   venue: ACM Transactions on Graphics
   year: 2025
 
+- id: Yang2024HybridLens
+  authors:
+    - X. Yang
+    - M. Souza
+    - K. Wang
+    - P. Chakravarthula
+    - Q. Fu
+    - W. Heidrich
+  title: "End-to-End Hybrid Refractive-Diffractive Lens Design with Differentiable Ray-Wave Model"
+  venue: SIGGRAPH Asia
+  year: 2024 
+
 - id: Jimenez2024E2EFLuidic
   authors:
     - N. Mulun*
@@ -63,18 +75,6 @@
     - W. Heidrich
   title: "Space-time Fourier ptychography for in vivo quantitative phase imaging"
   venue: Optica
-  year: 2024 
-  
-- id: Yang2024HybridLens
-  authors:
-    - X. Yang
-    - M. Souza
-    - K. Wang
-    - P. Chakravarthula
-    - Q. Fu
-    - W. Heidrich
-  title: "End-to-End Hybrid Refractive-Diffractive Lens Design with Differentiable Ray-Wave Model"
-  venue: SIGGRAPH ASIA conference track
   year: 2024 
 
 - id: Yang2024DeepLens
