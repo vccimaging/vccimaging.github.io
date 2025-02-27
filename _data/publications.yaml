@@ -1,5 +1,29 @@
 ---
 
+- id: Souza2025LSI
+  authors:
+  - M. Souza
+  - Y. Zheng
+  - K. Kang
+  - Y. Mishra
+  - Q. Fu
+  - W. Heidrich
+  title: "Latent Space Imaging"
+  venue: CVPR
+  year: 2025
+
+- id: Liu2025LearnedStereo
+  authors:
+  - L. Yuhui
+  - L. Ou
+  - Q. Fu
+  - H. Amata
+  - W. Heidrich
+  - Y. Peng
+  title: "Learned Binocular-Encoding Optics for RGBD Imaging Using Joint Stereo and Focus Cues"
+  venue: CVPR
+  year: 2025
+
 - id: Dave2025NeST
   authors:
     - A. Dave*
