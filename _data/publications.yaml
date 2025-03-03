@@ -24,6 +24,21 @@
   venue: CVPR
   year: 2025
 
+- id: Kazim2025CWQPI
+  authors:
+  - S. Kazim
+  - F. Strasser
+  - M. Løvmo
+  - A. Nehrych
+  - S. Moser
+  - M. Ziemczonok
+  - W. Heidrich
+  - I. Ihrke
+  - M. Ritsch-Marte
+  title: "Performance Validation of Coded Wavefront Sensing for Quantitative Phase Imaging of Static and Dynamic Specimens Using Digital Holographic Microscopy"
+  venue: International Symposium on Computational Sensing
+  year: 2025
+
 - id: Dave2025NeST
   authors:
     - A. Dave*
