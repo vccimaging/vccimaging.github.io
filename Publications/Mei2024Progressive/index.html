@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<div class="projectPage">
+<h2> Progressive Self-Supervised Learning for CASSI Computational Spectral Cameras </h2>
+
+Xiaoyin Mei, <a href="/People/yuqi/">Yuqi Li</a>, <a href="/People/fuq/">Qiang Fu</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+<br>IEEE Transactions on Computational Imaging 2024<br>
+
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+<li><a href="#citation">Citation</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+<img src="teaser.jpg" width="60%"/> <br>
+Figure 1. Schematic illustration of different deep learning-based techniques for compressive spectral imaging. (A) Deep neural networks that learn to map images from the measurements domain to the image domain via end-to-end supervised learning. (B)Generator networks that generate HSIs from random noise vectors by using deep image prior. (C) Our progressive training with the structured prior of INR and embedded feature of spectral cluster-centroid for self-supervised learning. MSA is fed with the positional encoded tensor of spatial coordinates and the output tensor of the denoising module SCCD as inputs and generates the intensity of reconstructed HSI as output.
+<br><br>​
+
+<h4 id="abstract">Abstract</h4>
+<p>Compressive spectral imaging (CSI) is a technique used to capture high-dimensional hyperspectral images (HSIs) with a few multiplexed measurements, thereby reducing data acquisition costs and complexity. However, existing CSI methods often rely on end-to-end learning from training sets, which may struggle to generalize well to unseen scenes and phenomena. In this paper, we present a progressive self-supervised method specifically tailored for coded aperture snapshot spectral imaging (CASSI). Our proposed method enables HSI reconstruction solely from the measurements, without requiring any ground truth spectral data. To achieve this, we integrate positional encoding and spectral cluster-centroid features within a novel progressive training framework. Additionally, we employ an attention mechanism and a multi-scale architecture to enhance the robustness and accuracy of HSI reconstruction. Through extensive experiments on both synthetic and real datasets, we validate the effectiveness of our method. Our results demonstrate significantly superior performance compared to state-of-the-art self-supervised CASSI methods, while utilizing fewer parameters and consuming less memory. Furthermore, our proposed approach showcases competitive performance in terms of reconstruction quality when compared to state-of-the-art supervised methods.</p> <br><br>
+
+<h4 id="paper">Papers</h4>
+<pre class="tab">Paper <a href="Mei2024Progressive.pdf">[Mei2024Progressive.pdf (5.4MB)]</a></pre>
+<pre class="tab">Link <a href=https://ieeexplore.ieee.org/abstract/document/10684080>[IEEE Transactions on Computational Imaging]</a></pre><br>
+<pre class="tab">Code <a href="https://github.com/ccccddd1/ceinr">[Github]</a></pre>
+
+<h3 id="citation">Citation</h3>
+<pre>
+@article{mei2024progressive,
+  title={Progressive Self-supervised Learning for {CASSI} Computational Spectral Cameras},
+  author={Mei, Xiaoyin and Li, Yuqi and Fu, Qiang and Heidrich, Wolfgang},
+  journal={IEEE Transactions on Computational Imaging},
+  year={2024},
+  publisher={IEEE}
+}
+</pre>
+
+
+</div>
