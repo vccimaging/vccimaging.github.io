@@ -63,16 +63,6 @@
   venue: SIGGRAPH Asia
   year: 2024 
 
-- id: Mei2024Progressive
-  authors:
-    - X. Mei
-    - Y. Li
-    - Q. Fu
-    - W. Heidrich
-  title: "Progressive Self-Supervised Learning for CASSI Computational Spectral Cameras"
-  venue: TEEE Transactions on Computational Imaging
-  year: 2024 
-
 - id: Jimenez2024E2EFLuidic
   authors:
     - N. Mulun*
@@ -84,6 +74,16 @@
   title: "End-to-end Optimization of Fluidic Lenses"
   venue: SIGGRAPH Asia
   year: 2024
+
+- id: Mei2024Progressive
+  authors:
+    - X. Mei
+    - Y. Li
+    - Q. Fu
+    - W. Heidrich
+  title: "Progressive Self-Supervised Learning for CASSI Computational Spectral Cameras"
+  venue: TEEE Transactions on Computational Imaging
+  year: 2024 
   
 - id: Hadi2024OpFab
   authors:
