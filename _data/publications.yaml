@@ -1,5 +1,20 @@
 ---
 
+- id: Sun2025CollabFilter
+  authors:
+  - J. Sun
+  - K. Wei
+  - T. Eboli
+  - C. Wang
+  - C. Zheng
+  - Z. Zhou
+  - A. Majumdar
+  - W. Heidrich
+  - F. Heide
+  title: "Collaborative On-Sensor Array Cameras"
+  venue: "ACM Trans. Graphics (Proc. SIGGRAPH)"
+  year: 2025
+
 - id: Souza2025LSI
   authors:
   - M. Souza
@@ -25,6 +40,21 @@
   note: oral paper
   year: 2025
 
+- id: Kazim2025CWS
+  authors:
+  - S. Kazim
+  - F. Strasser
+  - M. Løvmo
+  - A. Nehrych
+  - S. Moser
+  - M. Ziemczonok
+  - W. Heidrich
+  - I. Ihrke
+  - M. Ritsch-Marte
+  title: "Coded wavefront sensing for video-rate quantitative phase imaging and tomography: validation with digital holographic microscopy"
+  venue: Optics Express
+  year: 2025
+  
 - id: Kazim2025CWQPI
   authors:
   - S. Kazim
