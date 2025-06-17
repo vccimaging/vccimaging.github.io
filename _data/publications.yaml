@@ -82,6 +82,26 @@
   venue: ACM Transactions on Graphics
   year: 2025
 
+- id: Romero2025BIS
+  authors:
+    - J. Romero
+    - W. Heidrich
+    - M. Ravasi
+  title: "B-IntraSeismic: Uncertainty quantification in seismic inversion via implicit neural representations"
+  venue: EAGE Annual Conference & Exhibition
+  year: 2025
+
+- id: Romero2025strains
+  authors:
+    - J. Romero
+    - W. Heidrich
+    - L. Casasanta
+    - V. Akcelik
+    - M. Ravasi
+  title: "High-resolution seismic time-strain estimation"
+  venue: EAGE Annual Conference & Exhibition
+  year: 2025          
+
 - id: Yang2024HybridLens
   authors:
     - X. Yang
