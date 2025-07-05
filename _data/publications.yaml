@@ -15,6 +15,19 @@
   venue: "ACM Trans. Graphics (Proc. SIGGRAPH)"
   year: 2025
 
+- id: Wei2025LearnedOffApertureDOE
+  authors:
+  - H. Wei
+  - X. Liu
+  - Y. Liu
+  - Q. Fu
+  - W. Heidrich
+  - E. Lam
+  - Y. Peng
+  title: "Learned Off-aperture Encoding for Wide Field-of-view RGBD Imaging"
+  venue: "ICCP & IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+  year: 2025
+
 - id: Souza2025LSI
   authors:
   - M. Souza
