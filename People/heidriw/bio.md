@@ -1,21 +1,3 @@
 # Wolfgang Heidrich -- Biography
 
-Wolfgang Heidrich is a Professor of Computer Science and Electrical
-and Computer Engineering at King Abdullah University of Science and
-Technology (KAUST), where he also served as the Director of the
-Visual Computing Center from 2014 to 2021. Prof. Heidrich joined KAUST
-in 2014, after 13 years as a faculty member at the University of
-British Columbia. He received his PhD in from the University of
-Erlangen in 1999, and then worked as a Research Associate in the
-Computer Graphics Group of the Max-Planck-Institute for Computer
-Science in Saarbrucken, Germany, before joining UBC in
-2000. Prof. Heidrich's research interests lie at the intersection of
-imaging, optics, computer vision, computer graphics, and inverse
-problems. His more recent interest is in computational imaging,
-focusing on hardware-software co-design of the next generation of
-imaging systems, with applications such as High-Dynamic Range imaging,
-compact computational cameras, hyperspectral cameras, to name just a
-few. Prof. Heidrich is a Fellow of the National Academy of Inventors,
-IEEE, Optica, AAIA, and Eurographics, and the recipient of a Humboldt
-Research Award as well as the ACM SIGGRAPH Computer Graphics
-Achievement Award.
+Wolfgang Heidrich is a Professor of Computer Science and Electrical and Computer Engineering at King Abdullah University of Science and Technology (KAUST), where he also served as the Director of the Visual Computing Center from 2014 to 2021. Prof. Heidrich joined KAUST in 2014, after 13 years as a faculty member at the University of British Columbia. He received his PhD in from the University of Erlangen in 1999, and then worked as a Research Associate in the Computer Graphics Group of the Max-Planck-Institute for Computer Science in Saarbrucken, Germany, before joining UBC in 2000. Prof. Heidrich's research interests lie at the intersection of imaging, optics, computer vision, computer graphics, and inverse problems. His more recent interest is in computational imaging, focusing on hardware-software co-design of the next generation of imaging systems, with applications such as High-Dynamic Range imaging, compact computational cameras, hyperspectral cameras, to name just a few. Prof. Heidrich is a Fellow of the National Academy of Inventors, IEEE, Optica, AAIA, and Eurographics, and the recipient of a Humboldt Research Award as well as the ACM SIGGRAPH Computer Graphics Achievement Award.
