@@ -1,5 +1,14 @@
 ---
 
+- id: Romero2025BIS_journal
+  authors:
+    - J. Romero
+    - W. Heidrich
+    - M. Ravasi
+  title: "Bayesian seismic inversion with implicit neural representations"
+  venue: Geophysical Journal International
+  year: 2025  
+
 - id: Sun2025CollabFilter
   authors:
   - J. Sun
