@@ -199,6 +199,18 @@
   venue: Optica
   year: 2024 
 
+- id: Ming2025STFP
+  authors:
+    - M. Sun
+    - K. Kang
+    - Y. N. Mishra
+    - X. Yang
+    - H. Amata
+    - W. Heidrich
+  title: "High-throughput space-time Fourier ptychography for motile microorganisms"
+  venue: Optics Express
+  year: 2025
+
 - id: Yang2024DeepLens
   authors:
     - X. Yang
