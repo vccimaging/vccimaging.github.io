@@ -9,6 +9,19 @@
   venue: "ACM Trans. Graphics (Proc. SIGGRAPH Asia)"
   year: 2025
 
+- Zeng2025BRDF
+  authors:
+    - Y. Zeng
+    - K. Choi
+    - H. Amata
+    - K. Kang
+    - W. Heidrich
+    - H. Wu
+    - M. Kim
+  title: "Designing and Fabricating Color BRDFs with Differentiable Wave Optics"
+  venue: "ACM Trans. Graphics (Proc. SIGGRAPH Asia)"
+  year: 2025
+
 - id: Ming2025STFP
   authors:
     - M. Sun
