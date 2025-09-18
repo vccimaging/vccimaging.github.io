@@ -9,7 +9,7 @@
   venue: "ACM Trans. Graphics (Proc. SIGGRAPH Asia)"
   year: 2025
 
-- Zeng2025BRDF
+- id: Zeng2025BRDF
   authors:
     - Y. Zeng
     - K. Choi
