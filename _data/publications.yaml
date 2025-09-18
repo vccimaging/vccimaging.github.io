@@ -1,5 +1,14 @@
 ---
 
+- id: Mao2025FoveaStack
+  authors:
+    - S. Mao
+    - Y. N. Mishra
+    - W. Heidrich
+  title: "Fovea Stacking: Imaging with Dynamic Localized Aberration Correction"
+  venue: "ACM Trans. Graphics (Proc. SIGGRAPH Asia)"
+  year: 2025
+
 - id: Ming2025STFP
   authors:
     - M. Sun
