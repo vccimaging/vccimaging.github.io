@@ -1,5 +1,19 @@
 ---
 
+- id: Wei2025LAFA
+  authors:
+    - K. Wei*
+    - H. A. Jimenez Romero*
+    - H. Amata*
+    - J. Sun
+    - Q. Fu
+    - F. Heide
+    - W. Heidrich
+  title: "Large-Area Fabrication-Aware Computational Diffractive Optics"
+  venue: "ACM Trans. Graphics (Proc. SIGGRAPH Asia)"
+  year: 2025
+
+
 - id: Mao2025FoveaStack
   authors:
     - S. Mao
