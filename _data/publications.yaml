@@ -1,5 +1,17 @@
 ---
 
+- id: Fu2025Limitations
+  authors:
+    - Q. Fu*
+    - M. Souza*
+    - E. Choi
+    - S. Shin
+    - S. Baek
+    - W. Heidrich
+  title: "Limitations of Data-Driven Spectral Reconstruction: An Optics-Aware Analysis"
+  venue: "IEEE Transactions on Computational Imaging"
+  year: 2025
+
 - id: Wei2025LAFA
   authors:
     - K. Wei*
