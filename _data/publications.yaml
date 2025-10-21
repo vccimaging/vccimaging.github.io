@@ -1,5 +1,17 @@
 ---
 
+- id: Yang2025DefocusDeblur
+  authors:
+    - X. Yang
+    - C. Nguyen
+    - W. Wang
+    - K. Kang
+    - W. Heidrich
+    - X. Li
+  title: "Efficient Depth- and Spatially-Varying Image Simulation for Defocus Deblur"
+  venue: "ICCV Workshop"
+  year: 2025
+
 - id: Fu2025Limitations
   authors:
     - Q. Fu*
