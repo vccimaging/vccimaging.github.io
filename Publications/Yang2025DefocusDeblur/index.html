@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="projectPage">
+     
+<h3> Efficient Depth- and Spatially-Varying Image Simulation for Defocus Deblur </h3>
+
+<a href="/People/xingeyang/">Xinge Yang</a>, <a href="https://www.linkedin.com/in/chuong-nguyen-528338b0/">Chuong Nguyen</a>, <a href="https://www.linkedin.com/in/wenbin-wang-09782a75">Wenbin Wang</a>, <a href="/People/kangk/">Kaizhang Kang</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>, <a href="https://www.linkedin.com/in/xiaoxingli">Xiaoxing Li</a>
+
+<br> ICCV Workshop 2025.  <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="teaser.png" width="100%"> <br>
+Our method efficiently simulates depth-dependent defocus and spatially varying optical aberrations for training deep learning models that generalize effectively from low resolution synthetic images to high resolution (12MP) real-world images across diverse scenes. <br><br>
+
+
+<h4 id="abstract">Abstract</h4>
+Modern cameras with large apertures often suffer from a shallow depth of field, resulting in blurry images of objects outside the focal plane. This limitation is particularly problematic for fixed-focus cameras, such as those used in smart glasses, where adding autofocus mechanisms is challenging due to form factor and power constraints. Due to unmatched optical aberrations and defocus properties unique to each camera system, deep learning models trained on existing open-source datasets often face domain gaps and do not perform well in real-world settings. In this paper, we propose an efficient and scalable dataset synthesis approach that does not rely on fine-tuning with real-world data. Our method simultaneously models depth-dependent defocus and spatially varying optical aberrations, addressing both computational complexity and the scarcity of high-quality RGB-D datasets. Experimental results demonstrate that a network trained on our low resolution synthetic images generalizes effectively to high resolution (12MP) real-world images across diverse scenes.<br><br>
+
+
+<h4 id="paper">Paper</h4>
+<pre class="tab">Paper                  <a href="Yang2025DefocusDeblur.pdf">[Yang2025DefocusDeblur.pdf]</a> </pre>
+<pre class="tab">Supplementary          <a href="Yang2025DefocusDeblur_supp.pdf">[Yang2025DefocusDeblur_supp.pdf]</a> </pre>
+<pre class="tab">Code                   <a href="https://github.com/vccimaging/DeepLens">[https://github.com/vccimaging/DeepLens]</a></pre> <br>
+    
+
+</div>
