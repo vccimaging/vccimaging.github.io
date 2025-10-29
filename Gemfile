@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'jekyll', '~> 3.9.0'
+gem 'jekyll-sitemap'
+gem 'jekyll-theme-slate'
+gem 'kramdown-parser-gfm'
+gem 'csv'
+gem 'logger'
+gem 'webrick'
+gem 'base64'
+gem 'bigdecimal'

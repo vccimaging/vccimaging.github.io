@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="Large-Area Fabrication-Aware Computational Diffractive Optics">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description"
+    content="The design to manufacturing gap and the inability to optimize large-area devices significantly limit the adoption of learned optical systems. We introduce a fabrication-aware, distributed optimization framework closing these gaps.">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords"
+    content="Computational Optics; Computational Imaging; Computational Display; Computational Fabrication; Computational Lithography">
+  <!-- TODO: List all authors -->
+  <meta name="author"
+    content="Kaixuan Wei, Hector A. Jimenez-Romero, Hadi Amata, Jipeng Sun, Qiang Fu, Felix Heide, Wolfgang Heidrich">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="Large-Area Fabrication-Aware Computational Diffractive Optics">
+  <meta name="citation_author" content="Wei et al.">
+  <!-- <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST"> -->
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_conference_title" content="SIGGRAPH Asia 2025">
+
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>Large-Area Fabrication-Aware Computational Diffractive Optics</title>
+
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+  <link rel="apple-touch-icon" href="./images/favicon.ico">
+
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="./css/bulma-carousel.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="./css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <!-- Use Font Awesome from CDN instead of local files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Add img-comparison-slider CSS -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="./css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./css/bulma-slider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="./js/bulma-carousel.min.js"></script>
+  <script defer src="./js/bulma-slider.min.js"></script>
+  <!-- Add img-comparison-slider JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"></script>
+  <script defer src="./js/index.js"></script>
+
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/./images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/./images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- <!== More Works Dropdown ==>
+  <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
+      <i class="fas fa-flask"></i>
+      More Works
+      <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>More Works from Our Lab</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="works-list">
+        <!== TODO: Replace with your lab's related works ==>
+        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+          <div class="work-info">
+            <!== TODO: Replace with actual paper title ==>
+            <h5>Paper Title 1</h5>
+            <!== TODO: Replace with brief description ==>
+            <p>Brief description of the work and its main contribution.</p>
+            <!== TODO: Replace with venue and year ==>
+            <span class="work-venue">Conference/Journal 2024</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <!== TODO: Add more related works or remove extra items ==>
+        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 2</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 3</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div> -->
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <!-- TODO: Replace with your paper title -->
+              <h1 class="title is-1 publication-title">Large-Area Fabrication-Aware Computational Diffractive Optics
+              </h1>
+              <div class="is-size-5 publication-authors">
+                <!-- TODO: Replace with your paper authors and their personal links -->
+                <span class="author-block">
+                  <a href="https://kxwei.net/" target="_blank">Kaixuan Wei</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://vccimaging.org/People/jimeneha/" target="_blank">Hector A.
+                    Jimenez-Romero</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://vccimaging.org/People/amatah/" target="_blank">Hadi Amata</a><sup>1</sup>,</span>
+                </span>
+                <span class="author-block">
+                  <a href="https://jipengsun.github.io/" target="_blank">Jipeng Sun</a><sup>2</sup>,</span>
+                </span>
+                <span class="author-block">
+                  <a href="https://fuqiangx.github.io/" target="_blank">Qiang Fu</a><sup>1</sup>,</span>
+                </span>
+                <span class="author-block">
+                  <a href="https://www.cs.princeton.edu/~fheide/" target="_blank">Felix Heide</a><sup>2</sup>,</span>
+                </span>
+                <span class="author-block">
+                  <a href="https://vccimaging.org/People/heidriw/" target="_blank">Wolfgang Heidrich</a><sup>1</sup>
+                </span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <!-- TODO: Replace with your institution and conference/journal info -->
+                <span class="author-block"><sup>1</sup>KAUST &nbsp;&nbsp;&nbsp; <sup>2</sup>Princeton University
+                  <br>ACM Transactions on Graphics (Proc. SIGGRAPH Asia), 2025</span>
+                <!-- TODO: Remove this line if no equal contribution -->
+                <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <!-- TODO: Update with your arXiv paper ID -->
+                  <span class="link-block">
+                    <a href="./Wei2025LAFA.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                  <!-- TODO: Add your supplementary material PDF or remove this section -->
+                  <span class="link-block">
+                    <a href="./Wei2025LAFA_Suppl.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://github.com/Vandermode/LAFA" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
+                  </span>
+
+                  <!-- TODO: Update with your arXiv paper ID -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/abs/2505.22313" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Teaser video-->
+    <section class="hero teaser">
+      <div class="container is-max-desktop">
+        <div class="hero-body">
+          <h2 class="subtitle has-text-left">
+            <b>TL;DR:</b> The design to manufacturing gap and the inability to optimize large-area devices significantly
+            limit the adoption of learned diffractive optical systems. We introduce an end-to-end, fabrication-aware,
+            distributed optimization framework closing these gaps.
+          </h2>
+          <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+            <!-- TODO: Add your video file path here -->
+            <source src="./videos/teaser_video.mov" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- End teaser video -->
+
+    <!-- Paper abstract -->
+    <section class="section hero is-light">
+      <div class="container">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <!-- TODO: Replace with your paper abstract -->
+              <p>
+                Differentiable optics, as an emerging paradigm that jointly optimizes optics and (optional) image
+                processing algorithms, has made innovative optical designs possible across a broad range of
+                applications. Many of these systems utilize diffractive optical components (DOEs) for holography, PSF
+                engineering, or wavefront shaping. Existing approaches have, however, mostly remained limited to
+                laboratory prototypes, owing to a large quality gap between simulation and manufactured devices. We aim
+                at lifting the <b>fundamental technical barriers to the practical use of learned diffractive optical
+                  systems</b>. To this end, we propose <b>a fabrication-aware design pipeline for diffractive optics
+                  fabricated by direct-write grayscale lithography followed by nano-imprinting replication</b>, which is
+                directly suited for inexpensive mass production of large area designs. We propose a super-resolved
+                neural lithography model that can accurately predict the 3D geometry generated by the fabrication
+                process. This model can be seamlessly integrated into existing differentiable optics frameworks,
+                enabling fabrication-aware, end-to-end optimization of computational optical systems. To tackle the
+                computational challenges, we also devise <b>tensor-parallel</b> compute framework centered on
+                <b>distributing large-scale FFT</b> computation across many GPUs. As such, we demonstrate large scale
+                diffractive optics designs up to <b>32.16 mm × 21.44 mm</b>, simulated on grids of up to <b>128,640 by
+                  85,760</b> feature points. We find adequate agreement between simulation and fabricated prototypes for
+                applications such as holography and PSF engineering. We also achieve high image quality from an imaging
+                system comprised only of a single DOE, with images processed only by a Wiener filter utilizing the
+                simulation PSF. We believe our findings lift the fabrication limitations for real-world applications of
+                diffractive optics and differentiable optical design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End paper abstract -->
+
+
+    <section class="hero is-small">
+      <div class="container">
+        <div class="hero-body">
+          <div class="has-text-centered">
+            <h2 class="title is-3">Physical Origins of Design-to-Manufacturing Gap</h2>
+          </div>
+          <h2 class="has-text-left">
+            <!-- We illustrate the proposed image formation model for computational diffractive optics.  -->
+            Step-by-Step Illustration of the Fabrication Pipeline. We depict the direct-write grayscale lithography followed by
+            nano-imprinting replication, a process employed today for mass production of large-area devices.
+            Due to the sophisticated photolithography process, 3-D optical proximity effects as well as the complex
+            photochemical interaction render significant deviations from design to manufacturing.
+          </h2>
+          <video poster="" id="tree" autoplay muted loop height="100%" preload="metadata">
+                      <!-- TODO: Add your video file path here -->
+                      <source src=" ./videos/gs_lithogrpahy_noborders_cropped.mov" type="video/mp4">
+          </video>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+
+    <!-- video-->
+    <section class="hero is-small">
+      <div class="container">
+        <div class="hero-body">
+          <div class="has-text-centered">
+            <h2 class="title is-3">Fabrication-Aware End-to-End Design of Diffractive Optical Systems</h2>
+          </div>
+          <h2 class="has-text-left">
+            <!-- We illustrate the proposed image formation model for computational diffractive optics.  -->
+            Fabrication-Aware Image Formation Model. Unlike most existing works that largely ignore the manufacturing
+            process and assume the designed DOE can be fabricated as it is,
+            We model the sophisticated fabrication process, the significant deviations from design to manufacturing with
+            a neural lithography model, enabling joint optical design and
+            fabrication correction end-to-end.
+          </h2>
+          <!-- TODO: Replace with your video -->
+          <video poster="" id="tree" autoplay muted loop height="100%" preload="metadata">
+            <!-- TODO: Add your video file path here -->
+            <source src="./videos/method_overview_1.mp4" type="video/mp4">
+          </video>
+          <!-- TODO: Replace with your video description -->
+        </div>
+      </div>
+    </section>
+    <!-- End video -->
+
+
+    <!-- video-->
+    <section class="hero is-small">
+      <div class="container">
+        <div class="hero-body">
+          <div class="has-text-centered">
+            <h2 class="title is-3">Distributed Computing Framework for Large-scale Wave Optics Simulation</h2>
+          </div>
+          <h2 class="has-text-left"></h2>
+          Generalized Single Program Multiple Data (GSPMD)-based Distributed Computing Framework tailored for large-area
+          fabrication-aware diffractive optics. We illustrate the distributed
+          computation of the proposed distributed-memory FFT (top-left) and the spatial-partitioning convolution
+          (bottom-left) leveraging tensor parallelism. The (GPU) processors can
+          be arranged into a multi-dimensional mesh to enable arbitrary combinations of hybrid data and tensor
+          parallelism. The tensor-parallel compute framework allows us to design large-area DOE at an
+          unprecedented scale, breaking the memory bottleneck of existing differentiable optics frameworks.
+
+          </h2>
+
+          <video poster="" id="tree" autoplay muted loop height="100%" preload="metadata">
+            <!-- TODO: Add your video file path here -->
+            <source src="./videos/distributed_framework_2.mp4" type="video/mp4">
+          </video>
+          <!-- TODO: Replace with your video description -->
+        </div>
+      </div>
+    </section>
+    <!-- End video -->
+
+
+
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container">
+          <div class="has-text-centered">
+            <h2 class="title is-3">Results in Computational Holographic Display</h2>
+          </div>
+          <h2 class="has-text-left"></h2>
+          Experimental and Synthetic Assessments of Proposed Fabrication-Aware Method. Both the conventional and the
+          fabrication-aware designs yield high-quality holograms in simulation.
+          However, the experimental hologram produced by the conventional designs suffers from severe speckle artifacts,
+          while the fabricated DOE designed through our approach generates almost speckle-free, high-resolution coherent
+          hologram close to the simulation, without any additional optical filtering.
+          </h2>
+        </div>
+        <div class="container is-max-widescreen">
+          <div class="columns is-vcentered">
+            <!-- Left Column - Image -->
+            <div class="column is-half">
+              <div class="has-text-centered">
+                <img-comparison-slider>
+                  <figure slot="first" class="before">
+                    <img width="100%" src="./images/sim_nearest10x.png">
+                    <figcaption>Simulation</figcaption>
+                  </figure>
+                  <figure slot="second" class="after">
+                    <img width="100%" src="./images/exp_nearest10x.png">
+                    <figcaption>Experimental</figcaption>
+                  </figure>
+                </img-comparison-slider>
+
+                <h2 class="subtitle">
+                  Conventional Design
+                </h2>
+              </div>
+            </div>
+
+            <div class="column is-half">
+              <div class="has-text-centered">
+                <img-comparison-slider>
+                  <figure slot="first" class="before">
+                    <img width="100%" src="./images/sim_neural10x.png">
+                    <figcaption>Simulation</figcaption>
+                  </figure>
+                  <figure slot="second" class="after">
+                    <img width="100%" src="./images/exp_neural10x.png">
+                    <figcaption>Experimental</figcaption>
+                  </figure>
+                </img-comparison-slider>
+
+                <h2 class="subtitle">
+                  Fabrication-Aware Design
+                </h2>
+              </div>
+            </div>
+
+            <!-- Right Column - Text Content -->
+            <!-- <div class="column is-two-third">
+          <div class="content">
+            <h1 class="title">Your Research Title</h1>
+            <p>Your detailed research description goes here. Explain your findings, methodology, and conclusions in this section.</p>
+            <p>Add more paragraphs as needed to fully describe your research results and their implications.</p>
+          
+          </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Image carousel -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container">
+
+          <div class="has-text-centered">
+            <h2 class="title is-3">Results in Single-DOE Broadband Color Imaging</h2>
+          </div>
+          <h2 class="has-text-left"></h2>
+          Experimental Validation of Fabrication-aware Broadband DOE for Imaging. We capture diverse indoor and outdoor
+          scenes with both
+          conventional DOE and proposed fabrication-aware DOE. We conduct a Wiener filtering using simulated PSF on the
+          experimental captured scenes.
+          Our proposed fabrication-aware design yields high-fidelity results, while the conventional design results in
+          images with severe chromatic aberration, ringing
+          artifacts, and elevated noise.
+          </h2>
+
+          <div id="results-carousel" class="carousel results-carousel">
+
+            <div class="item">
+
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 01/2Nearest.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 01/isp_nearest.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Conventional Design
+                  </h2>
+                </div>
+
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 01/3Neural.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 01/isp_neural.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Fabrication-Aware Design
+                  </h2>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="item">
+
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 03/2Nearest.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 03/isp_nearest.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Conventional Design
+                  </h2>
+                </div>
+
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 03/3Neural.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 03/isp_neural.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Fabrication-Aware Design
+                  </h2>
+                </div>
+
+              </div>
+            </div>
+
+
+            <div class="item">
+
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 12/2Nearest.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 12/isp_nearest.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Conventional Design
+                  </h2>
+                </div>
+
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 12/3Neural.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 12/isp_neural.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Fabrication-Aware Design
+                  </h2>
+                </div>
+
+              </div>
+            </div>        
+
+            <div class="item">
+
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 13/2Nearest.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 13/isp_nearest.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Conventional Design
+                  </h2>
+                </div>
+
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 13/3Neural.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 13/isp_neural.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Fabrication-Aware Design
+                  </h2>
+                </div>
+
+              </div>
+            </div>            
+
+            <div class="item">
+
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 14/2Nearest.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 14/isp_nearest.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Conventional Design
+                  </h2>
+                </div>
+
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 14/3Neural.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 14/isp_neural.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Fabrication-Aware Design
+                  </h2>
+                </div>
+
+              </div>
+            </div>            
+
+            <div class="item">
+
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 16/2Nearest.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 16/isp_nearest.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Conventional Design
+                  </h2>
+                </div>
+
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 16/3Neural.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 16/isp_neural.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Fabrication-Aware Design
+                  </h2>
+                </div>
+
+              </div>
+            </div>            
+
+
+            <div class="item">
+
+              <div class="columns is-vcentered">
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 19/2Nearest.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 19/isp_nearest.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Conventional Design
+                  </h2>
+                </div>
+
+                <div class="column is-half">
+
+                  <img-comparison-slider>
+                    <figure slot="first" class="before">
+                      <img src="./images/imaging/scene 19/3Neural.JPG">
+                    </figure>
+                    <figure slot="second" class="after">
+                      <img src="./images/imaging/scene 19/isp_neural.png">
+                    </figure>
+                  </img-comparison-slider>
+                  <h2 class="subtitle has-text-centered">
+                    Fabrication-Aware Design
+                  </h2>
+                </div>
+
+              </div>
+            </div>            
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!-- End image carousel -->
+
+
+    <!-- <!== video==>
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="has-text-centered">
+        <h2 class="title is-3">Physical Origins of Design-to-Manufacturing Gap</h2>
+      </div>
+      <!== TODO: Replace with your video ==>
+      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+        <!== TODO: Add your video file path here ==>
+        <source src="./videos/carousel1.mp4" type="video/mp4">
+      </video>
+      <!== TODO: Replace with your video description ==>
+      <h2 class="subtitle has-text-left"></h2>
+        Experimental demonstrations of the diffractive optical elements (DOE) designed by our proposed fabrication-aware optimization framework for applications in computational holographic display and single-DOE broadband imaging.
+        
+      </h2>
+    </div>
+  </div>
+</section>
+<!== End video ==> -->
+
+
+    <!-- video-->
+    <!-- <section class="hero is-small is-light">
+      <div class="container is-max-widescreen">
+        <div class="hero-body">
+          <div class="has-text-centered">
+            <h2 class="title is-3">Real-life Experimental Demonstrations</h2>
+          </div>
+          <h2 class="subtitle has-text-left">
+            Experimental demonstrations of the diffractive optical elements (DOE) designed by our proposed
+            fabrication-aware optimization framework for applications in computational holographic display and
+            single-DOE broadband imaging.
+          </h2>
+          <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+            <source src="./videos/demo_video.mov" type="video/mp4">
+          </video>
+
+        </div>
+      </div>
+    </section> -->
+    <!-- End video -->
+
+
+    <!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-widescreen">
+      <!-- Paper video. -->
+          <div class="has-text-centered">
+      <h2 class="title is-3">Real-life Experimental Demonstrations</h2>
+          </div>
+          <h2 class="subtitle has-text-left">
+            Experimental demonstrations of the diffractive optical elements (DOE) designed by our proposed
+            fabrication-aware optimization framework for applications in computational holographic display and
+            single-DOE broadband imaging.
+          </h2>      
+          
+          <div class="publication-video">
+            <iframe width="560" height="555" src="https://www.youtube.com/embed/6fkNQyZfrmY?si=R8vi0hHaDeYi5_0f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115379632410303&bvid=BV1qF46zfEeE&cid=33106299089&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe> -->
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+    <!-- <!== Paper poster ==>
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <!== TODO: Replace with your poster PDF ==>
+      <iframe  src="./pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!==End paper poster ==> -->
+
+
+
+    <!--BibTex citation -->
+    <section class="section" id="BibTeX">
+      <div class="container is-max-widescreen content">
+        <div class="bibtex-header">
+          <h2 class="title">BibTeX</h2>
+          <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+            <i class="fas fa-copy"></i>
+            <span class="copy-text">Copy</span>
+          </button>
+        </div>
+        <pre id="bibtex-code">
+        <code>@article{Wei2025LAFA,
+          author    = {Kaixuan Wei and Hector A. Jimenez-Romero and Hadi Amata and Jipeng Sun and Qiang Fu and Felix Heide and Wolfgang Heidrich},
+          title     = {Large-Area Fabrication-aware Computational Diffractive Optics},
+          journal   = {ACM Transactions on Graphics (TOG)},
+          year      = {2025},
+          volume    = {44},
+          number    = {6},
+          articleno = {243},
+          month     = {dec},
+          doi       = {10.1145/3763358},
+          publisher = {ACM}
+        }</code></pre>
+      </div>
+    </section>
+    <!--End BibTex citation -->
+
+
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="content">
+
+              <p>
+                This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                  target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                  href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+                <!-- You are free to borrow the source code of this website, we just ask that you link back to this page in the footer.  -->
+                <br> This website is licensed under a <a rel="license"
+                  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                  Commons Attribution-ShareAlike 4.0 International License</a>.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Statcounter tracking code -->
+
+    <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
