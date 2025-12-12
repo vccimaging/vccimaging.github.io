@@ -1,29 +1,5 @@
 ---
 
-- id: Yang2025DefocusDeblur
-  authors:
-    - X. Yang
-    - C. Nguyen
-    - W. Wang
-    - K. Kang
-    - W. Heidrich
-    - X. Li
-  title: "Efficient Depth- and Spatially-Varying Image Simulation for Defocus Deblur"
-  venue: "ICCV Workshop"
-  year: 2025
-
-- id: Fu2025Limitations
-  authors:
-    - Q. Fu*
-    - M. Souza*
-    - E. Choi
-    - S. Shin
-    - S. Baek
-    - W. Heidrich
-  title: "Limitations of Data-Driven Spectral Reconstruction: An Optics-Aware Analysis"
-  venue: "IEEE Transactions on Computational Imaging"
-  year: 2025
-
 - id: Wei2025LAFA
   authors:
     - K. Wei*
@@ -60,6 +36,30 @@
     - M. Kim
   title: "Designing and Fabricating Color BRDFs with Differentiable Wave Optics"
   venue: "ACM Trans. Graphics (Proc. SIGGRAPH Asia)"
+  year: 2025
+
+- id: Yang2025DefocusDeblur
+  authors:
+    - X. Yang
+    - C. Nguyen
+    - W. Wang
+    - K. Kang
+    - W. Heidrich
+    - X. Li
+  title: "Efficient Depth- and Spatially-Varying Image Simulation for Defocus Deblur"
+  venue: "ICCV Workshop"
+  year: 2025
+
+- id: Fu2025Limitations
+  authors:
+    - Q. Fu*
+    - M. Souza*
+    - E. Choi
+    - S. Shin
+    - S. Baek
+    - W. Heidrich
+  title: "Limitations of Data-Driven Spectral Reconstruction: An Optics-Aware Analysis"
+  venue: "IEEE Transactions on Computational Imaging"
   year: 2025
 
 - id: Ming2025STFP
