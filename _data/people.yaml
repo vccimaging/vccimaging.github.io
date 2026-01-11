@@ -18,20 +18,12 @@
   position: Research Scientist
   start: 2014
 
-- id: idoughr
-  name: Ramzi Idoughi
-  pubname: R. Idoughi
-  title: Dr.
-  position: Research Scientist
-  start: 2016
-
 - id: fuq
   name: Qiang Fu
   pubname: Q. Fu
   title: Dr.
-  position: Research Scientist
+  position: Senior Research Scientist
   start: 2017
-
 
 - id: xingeyang
   name: Xinge Yang
@@ -73,13 +65,6 @@
   position: Ph.D Student
   start: 2023
 
-- id: ynmishra
-  name: Yogeshwar N. Mishra
-  pubname: Yogeshwar N. Mishra
-  title: Dr.
-  position: Research Scientist
-  start: 2023
-
 - id: kangk
   name: Kaizhang Kang
   pubname: K. Kang
@@ -103,6 +88,24 @@
   
 # alumni
 
+- id: ynmishra
+  name: Yogeshwar N. Mishra
+  pubname: Yogeshwar N. Mishra
+  title: Dr.
+  position: Research Scientist
+  start: 2023
+  end: 2025
+  nowat: IIT Jodhpur (Faculty)
+
+- id: idoughr
+  name: Ramzi Idoughi
+  pubname: R. Idoughi
+  title: Dr.
+  position: Research Scientist
+  start: 2016
+  end: 2024
+  nowat: KAUST (Research Scientist)
+
 - id: qim
   name: Miao Qi
   title: Dr.
@@ -110,8 +113,7 @@
   position: Ph.D Student
   start: 2019
   end: 2024
-
-
+  nowat: Guangzhou Railway Polytechnic University (Faculty)
 
 - id: simeng
   name: Simeng Qiu
@@ -138,7 +140,7 @@
   position: Ph.D Student
   start: 2016
   end: 2023
-  nowat: Peng Cheng Lab
+  nowat: Peng Cheng Lab (Research Scientist)
 
 - id: chenn
   name: Ni Chen
