@@ -1,5 +1,15 @@
 ---
 
+- id: Yang2026TaskLens
+  authors:
+    - X. Yang
+    - Y. Nie
+    - Q. Fu
+    - W. Heidrich
+  title: "Task-driven Lens Design"
+  venue: "Optics Express"
+  year: 2026
+
 - id: Wei2025LAFA
   authors:
     - K. Wei*

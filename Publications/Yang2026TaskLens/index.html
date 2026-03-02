@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="projectPage">
+     
+<h3> Task-driven Lens Design </h3>
+
+<a href="/People/xingeyang/">Xinge Yang</a>, Y. Nie, <a href="/People/fuq/">Qiang Fu</a>, <a href="/People/heidriw/">Wolfgang Heidrich</a>
+
+<br> Optics Express 2026.  <br>
+
+<hr size="4", color="black", width="100%">
+<ul>
+<li><a href="#abstract">Abstract</a></li>
+<li><a href="#paper">Paper</a></li>
+</ul>
+<hr size="4", color="black", width="100%">
+
+<img src="teaser.png" width="100%"> <br>
+The task-driven lens design pipeline begins by calculating the PSF via differentiable ray tracing. This PSF is then convolved with input images to simulate camera captures. A well-trained computer vision network (e.g., for image classification) evaluates the final output error and backpropagates the loss function to optimize lens parameters. Unlike classical lens design, which minimizes optical aberrations, task-driven lens design prioritizes capturing image features that are most effective for downstream computer vision networks. After optimization, the designed TaskLens better preserves image structure details even in the presence of optical aberrations, leading to improved performance on the target computer vision task. In contrast, an ImagingLens, designed to produce clear captures, is more susceptible to performance degradation from optical aberrations, potentially resulting in misclassification. <br><br>
+
+
+<h4 id="abstract">Abstract</h4>
+Classical lens design minimizes optical aberrations to produce sharp images, but is typically decoupled from downstream computer vision tasks. Existing end-to-end optical design learns optical encoding through joint optimization, but often suffers from an unstable training process. We propose task-driven lens design, a new optimization philosophy for joint optics-network systems. We freeze the pretrained vision model and optimize only the lens so that the image formation better fits the model's feature preferences. This network-frozen setting yields a low-dimensional and stable optimization process, enabling lens design from scratch without human intervention, thereby exploring a broader design space. Multiple computer vision experiments show that TaskLenses outperform classical ImagingLenses with the same or even fewer elements. Our analysis reveals that the learned optics exhibit long-tailed point spread functions, better preserving preferred structural cues when aberrations cannot be fully corrected. These results highlight task-driven design as a practical route for optical lenses that are compatible with modern vision models, and also inspire new optical design objectives beyond traditional aberration minimization.
+
+<br><br>
+
+
+<h4 id="paper">Paper</h4>
+<pre class="tab">Paper                  <a href="Yang2026TaskLens.pdf">[Yang2026TaskLens.pdf]</a> </pre>
+<pre class="tab">Supplementary          <a href="Yang2026TaskLens_supp.pdf">[Yang2026TaskLens_supp.pdf]</a> </pre>
+<br>
+    
+
+</div>
