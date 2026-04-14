@@ -1,5 +1,33 @@
 ---
 
+- id: Zhang2026DoubleHelix
+  authors:
+    - B. Zhang
+    - S. Guo
+    - L. Tang
+    - Y. Chen
+    - L. Glandorf
+    - E. Jessen
+    - X. Chang
+    - T. Jin
+    - M. Reiss
+    - S. Lyu
+    - Q. Fu
+    - H. Amata
+    - W. Heidrich
+    - C. Glück
+    - D. Schillinger
+    - B. Weber
+    - X.L. Deán-Ben
+    - W. Wang
+    - X. Dun
+    - D. Razansky
+    - Z. Chen
+    - Q. Zhou
+  title: "Double-helix optical point spread function enables real-time mesoscopic 3D functional microangiography in the living mouse brain and skull"
+  venue: "Nature Communications"
+  year: 2026
+
 - id: Yang2026TaskLens
   authors:
     - X. Yang
