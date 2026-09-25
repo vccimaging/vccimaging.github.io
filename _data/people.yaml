@@ -25,12 +25,6 @@
   position: Senior Research Scientist
   start: 2017
 
-- id: xingeyang
-  name: Xinge Yang
-  pubname: X. Yang
-  position: M.Sc./Ph.D Student
-  start: 2020
-  
 - id: souzama
   name: Matheus Souza
   pubname: M. Souza
@@ -87,6 +81,15 @@
   start: 2023  
   
 # alumni
+
+- id: xingeyang
+  name: Xinge Yang
+  pubname: X. Yang
+  title: Dr.
+  position: M.Sc./Ph.D Student
+  start: 2020
+  end: 2026
+  nowat: OpenAI (Member of Technical Staff)
 
 - id: ynmishra
   name: Yogeshwar N. Mishra
