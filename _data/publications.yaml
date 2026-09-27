@@ -1,4 +1,15 @@
 ---
+- id: Yidan2026Gaze
+  authors:
+    - Y. Zheng*
+    - M. Souza*
+    - K. Kang
+    - Q. Fu
+    - H. Amata
+    - H. Wolfgang
+  title: "Low Latency Gaze Tracking via Latent Optical Sensing"
+  venue: "Siggraph Asia"
+  year: 2026
 
 - id: Zhang2026DoubleHelix
   authors:
