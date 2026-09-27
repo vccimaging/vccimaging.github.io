@@ -31,6 +31,20 @@
   venue: Limnology and Oceanography Letters
   year: 2026
 
+- id: Romero2026BayesInversion
+  authors:
+    - J. Romero
+    - R. Hanea
+    - L. Hustoft
+    - X. Luo
+    - S. Riordan
+    - A. Adedamola
+    - W. Heidrich
+    - M. Ravasi
+  title: "Bayesian Seismic Inversion Meets History Matching: Rock Facies Modeling for CO2 Storage with 4D Seismic Constraints"
+  venue: Society of Petroleum Engineers Journal
+  year: 2026
+
 - id: Zhang2026DoubleHelix
   authors:
     - B. Zhang
