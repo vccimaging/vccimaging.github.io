@@ -11,6 +11,26 @@
   venue: "Siggraph Asia"
   year: 2026
 
+- id: Romero2026Strinprox
+  authors:
+    - J. Romero
+    - W. Heidrich
+    - L. Casasanta
+    - V. Akcelik
+    - R. Hanea
+    - M. Ravasi
+  title: "Strainprox: Seismic Time-Strain Inversion with Proximal Solvers"
+  venue: "Society of Exploration Geophysicists"
+  year: 2026
+
+- id: Kang2026CoralSpec
+  authors:
+    - K. Kang
+    - W. Heidrich
+  title: "CoralSpec‐30M: A large‐scale coral spectral dataset covering multiple species, scales, and health conditions"
+  venue: Limnology and Oceanography Letters
+  year: 2026
+
 - id: Zhang2026DoubleHelix
   authors:
     - B. Zhang
